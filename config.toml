@@ -78,7 +78,7 @@ googleAnalytics = "UA-180172546-1"
 
 
 [[menu.main]]
-  identifier = "privacy-policy"
+  identifier = "privacy"
   name = "privacy"
   title = "Privacy Policy"
   url = "/privacy-policy"  

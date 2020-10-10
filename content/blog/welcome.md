@@ -5,7 +5,7 @@ slug: ""
 description: ""
 keywords: []
 draft: false
-tags: []
+tags: [hello-world, online-course, soft-skills]
 math: false
 toc: false
 ---
