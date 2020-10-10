@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://progmot.com/about/</loc>
+    <lastmod>2020-10-10T11:32:03+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://progmot.com/book/</loc>
+    <lastmod>2020-10-10T11:31:57+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://progmot.com/</loc>
+    <lastmod>2020-10-10T11:29:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://progmot.com/blog/</loc>
+    <lastmod>2020-10-10T11:29:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://progmot.com/blog/welcome/</loc>
+    <lastmod>2020-10-10T11:29:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://progmot.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://progmot.com/tags/</loc>
+  </url>
+  
+</urlset>
