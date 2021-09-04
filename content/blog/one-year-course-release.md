@@ -1,4 +1,16 @@
-# Running the first paid online course for a year
+---
+title: "The Five Most Important Persons"
+date: 2021-09-04T09:15:58+02:00
+slug: ""
+description: ""
+keywords: []
+draft: true
+tags: []
+math: false
+toc: false
+---
+
+Running the first paid online course for a year
 
 
 ## Finding a Topic To Talk About
