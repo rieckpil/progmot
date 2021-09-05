@@ -24,13 +24,13 @@ Lean technical setup yet full control over the audience.
 
 Develop a real-world course application. Enhance it with an excellent test suite and talk about it.
 
-And with real-world I mean a sophisitaced application that connects to various infrastructure componenents. This is where it becomes tricky. Everyone can test the `add` method of a `MyCalculator` class. But how to write a end-to-end test that involves a OIDC Login, database access and REST API call to a remote system?
+And with real-world I mean a sophisticated application that connects to various infrastructure componenents. This is where it becomes tricky. Everyone can test the `add` method of a `MyCalculator` class. But how to write a end-to-end test that involves a OIDC Login, database access and REST API call to a remote system?
 
 There isn't much content out there that talks about testing. All those articles that talk about shiny new technology and tools to develop applications rarely touch this topic.
 
 That's not helpful at all. You visit such a article, copy the interesting parts to apply it to your project at work ...
 
-and then, what?
+and now, what?
 
 How do I now test this?
 
@@ -76,7 +76,9 @@ For each course chapter - I'm structuring my courses like Module -> Chapter -> L
 
 Next I opened my IDE and started developing the application and the core.
 
+JUST ... SHIP ... IT
 
+If it's bad, you'll figure it out.
 
 ## Selling the Course Content
 
@@ -100,6 +102,32 @@ Finding the right balance for hard selling. I was (and still am) super convincen
 
 As the sales were low in the beginning.
 
+I still remember the exact feeling when I hit the release button for the first chapter. I left my room, had dinner with my family and checked my phone two hours later.
+
+WTF? There are already 5 sales ...
+
+Man, what a feeling. Someone from somewhere on the globe just bought my course at this early stage. 
+
+## How Long It Takes
+
+In total, the course has now 127 video lessons. All of them vary from 5 to 15 minutes.
+
+I've never used a perfectly written script to record the videos. It as more or less half-freestyle with some notes and the target source code on a second screen.
+
+This approach makes the recordings a little bit longer as there will be misspellings, outside noice.
+
+As a rule of thumb, for a 30 minute video, I've recorded 45 minutes and the editing took me another 45 minutes. That makes it 90minutes of recording and editing work.
+
+This doesn't include any preparation work, coding upfront, which will also at least take the same amount as the video is long.
+
+You do the math.
+
+I used my morning hours to plan the videos and record them. 
+
+Seeing more and more coure participants, this was also a natural motivation to keep going. 
+
+If I would have the end goal of 9hour content in mind and started my journey with the goal to record everything at once, that would have been impossible.
+
 ## Learnings After One Year
 
 Get a first version out as soon as possible
@@ -113,6 +141,10 @@ If you're selling to EU customers, rather pick a merchant of record to sell your
 - Don't expect your course participants to go throug the course immediately. That was one of the interesting findings. I for myself usually always started a course I've bougth right away. That's not the case for everybody. I still see participants that did not even start with lesson one. That's okay - they might start when they have time.
 
 - Affiliate marketing is king. There are tons of bloggers out there that might want some extra money each month to pay their hosting/tooling bills. 
+
+- Have compelling free content around your course topic to attract new leads.
+
+- Small steps, start with the landing page, gather leads and re-iterate
 
 - Support purchase power parity.
 
@@ -129,3 +161,13 @@ Do it increcementally and start with the sales page. If you already have an audi
 ## What I Would Have Made Differently
 
 - Start with PPP from day one
+- Embedd more hands-on exercies and quizzes 
+
+## What's next?
+
+
+
+TODO:
+
+- find out the release dates
+- affiliate links for Vimeo, Quaderno, SendOwl, ThriveThemes
