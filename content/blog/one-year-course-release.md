@@ -171,3 +171,7 @@ TODO:
 
 - find out the release dates
 - affiliate links for Vimeo, Quaderno, SendOwl, ThriveThemes
+- update to latest Hugo
+- check Google Analytics setup
+- basic imprint and privacy policy
+- cool thumbnail
