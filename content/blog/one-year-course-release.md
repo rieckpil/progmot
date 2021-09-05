@@ -12,16 +12,57 @@ toc: false
 
 Running the first paid online course for a year
 
+It's been a year since I've launched my first paid 
+
+Continue reading to learn about my journey, mistakes and things I would have done differently.
+
+DISCLAIMER: All the linked tools are in use and I paid the price to figure out which one fits perfect (for me). I'll get a small cut if you decide to use them. 
+
+Lean technical setup yet full control over the audience.
+
+## The Initial Strategy
+
+Develop a real-world course application. Enhance it with an excellent test suite and talk about it.
+
+And with real-world I mean a sophisitaced application that connects to various infrastructure componenents. This is where it becomes tricky. Everyone can test the `add` method of a `MyCalculator` class. But how to write a end-to-end test that involves a OIDC Login, database access and REST API call to a remote system?
+
+There isn't much content out there that talks about testing. All those articles that talk about shiny new technology and tools to develop applications rarely touch this topic.
+
+That's not helpful at all. You visit such a article, copy the interesting parts to apply it to your project at work ...
+
+and then, what?
+
+How do I now test this?
+
+I strongly believe that as soon as you have the knowledge about the different tools & libraries and recipes at hand, testing become joyful.
+
+It's the HOW that's important here.
+
+Packed with this mission, my plan was to incrementally work on this project.
+
+As I haven't done anything similar before, recording everything upfront would be hell of work. And as testing and agile teaches, you want early feedback. 
+
+Let's see how this journey went out.
 
 ## Finding a Topic To Talk About
 
-I've been writing blog articles for over three years. There wasn't any clear direcation as I wrote about several Java Framework. 
+I've been writing blog articles for over three years. There wasn't any clear direction as I wrote about several Java Framework. 
 
 I had no niche topic yet.
 
 Over the years, I found my niche by blogging more and more about the same topic: testing Spring Boot applications.
 
+After writing `text/plain` for some years, the next natural step is to record a first video. 
+
+I gave it a shot and uploaded a video on YouTube. The audio was suboptimal, but it was a big step out of the comfort zone. I got to know what it takes to record and edit nice-looking videos.
+
 ## Creating The Course Content
+
+I've recored everything on an Ubuntu 20.04 and used the following tools:
+
+For the microphone I was using:
+
+- Link
 
 Perfectionism will kill your progress
 
@@ -33,7 +74,9 @@ The benefit of this approach is that you can have as a many mispellings and just
 
 For each course chapter - I'm structuring my courses like Module -> Chapter -> Lessons - I did some initial brainstorming using a Markdown file. There I pointed out what techniques and recipes I want to teach.
 
-Next I opened my IDE and started developing the application and the corre
+Next I opened my IDE and started developing the application and the core.
+
+
 
 ## Selling the Course Content
 
