@@ -163,7 +163,16 @@ Do it increcementally and start with the sales page. If you already have an audi
 - Start with PPP from day one
   
 
-- Embed more hands-on exercies and quizzes 
+
+- Embed more hands-on exercises and quizzes 
+
+I enjoy learning new techniques and tools by watching online courses. For most of the courses I've worked through I prefer to code along the speaker and immedietly try out things. When it came to exercises, I usually ignored them as they were to simple or somehow already covered by me coding along. That was the main reason to not include any specifc coding task after each lesson. Personal preference and the additional effort to come up with great exercise material.
+
+If you are eager to learn this topic, you'll try to apply the learnings as soon as possible. Otherwise it's shallow learning and if you're not motivated, exercises might also not help much.
+
+Code along in your pace if you prefer. I would have done this somehow differently. One of the best ways to transfer knowledge is to actually apply the learnings.
+
+> Tell me and I forget, teach me and I may remember, involve me and I learn - Benjamin Franklin
 
 
 - Start earlier
@@ -174,7 +183,7 @@ There's so much to learn here.
 
 ## What's next?
 
-In our fast pace development world (fortunately the Java ecosystem is not that fast paceing as JavaScript) content ages and get outdated over the years. New libraries, tools and techniques pop up that make some lessons outdated or not a best practices anymore.
+In our fast pace development world (fortunately the Java ecosystem is not that fast pacing as JavaScript) content ages and get outdated over the years. New libraries, tools and techniques pop up that make some lessons outdated or not a best practices anymore.
 
 That's why I'm constantly trying to be up-to-date. As the testing topic is also the main focus area of my blog that's no problem. Furthermore, projects for clients also ensure it get enough hands-on.
 
