@@ -161,11 +161,36 @@ Do it increcementally and start with the sales page. If you already have an audi
 ## What I Would Have Made Differently
 
 - Start with PPP from day one
-- Embedd more hands-on exercies and quizzes 
+  
+
+- Embed more hands-on exercies and quizzes 
+
+
+- Start earlier
+
+I guess this is a learning we all make after we've accomplished something outside our comfort zone. Seeing how "easy" it was in retrospect, makes us wondering why we did not start earlier.
+
+There's so much to learn here.
 
 ## What's next?
 
+In our fast pace development world (fortunately the Java ecosystem is not that fast paceing as JavaScript) content ages and get outdated over the years. New libraries, tools and techniques pop up that make some lessons outdated or not a best practices anymore.
 
+That's why I'm constantly trying to be up-to-date. As the testing topic is also the main focus area of my blog that's no problem. Furthermore, projects for clients also ensure it get enough hands-on.
+
+Whenver there's something new and worth mentioning, I'll add a new lesson to the course. If there's something otudated or I would do something entierley different, then I'll replace a video.
+
+I also gain more knowledge over time which is worth adding to the course.
+
+Compared to an eBook, keeping an online course up-to-date can be more effort. There's no search in replace functionality for already recorded videos. You have to find the correct spot and then either record a new video or cut the outdated scene. But fortunately, in the area I'm creating content for, there's maturity and stable APIs and libraries. 
+
+As some course participants asked for a `plain/text` version of the online course, to find recipes and techniques more easily, I'm currently in the process of creating an eBook from the online course.
+
+That's also a great way to attract a wider audience as not everybody enjoys learning from courses and rather prefers to read a book on the beach.
+
+Now it's your turn - go for it (and let me know how it worked out)!
+
+Philip
 
 TODO:
 
