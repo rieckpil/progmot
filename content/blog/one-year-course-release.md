@@ -80,10 +80,9 @@ Next I opened my IDE and started developing the application and the core.
 
 JUST ... SHIP ... IT
 
-If it's bad, you'll figure it out.
+If it's bad, you'll figure it out early and can adjust. That's way better than procrastinating or trying to get a pixel-perfect lessons that nobody will watch because the topic is not convincing.
 
 ## Selling the Course Content
-
 
 - Creating the Landing Page
 - Writing engaging salescopy
