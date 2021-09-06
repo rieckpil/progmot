@@ -10,6 +10,8 @@ math: false
 toc: false
 ---
 
+Post Course Launch - Learnings After One Year
+
 Running the first paid online course for a year
 
 It's been a year since I've launched my first paid 
@@ -162,7 +164,7 @@ Do it increcementally and start with the sales page. If you already have an audi
 
 - Start with PPP from day one
   
-
+The only excuse I had back then was that my eCommerce provider did not support something out-of-the-box. After some investigation, it's only required some customization on my end and I had a good-enough solution in place.
 
 - Embed more hands-on exercises and quizzes 
 
@@ -196,6 +198,8 @@ Compared to an eBook, keeping an online course up-to-date can be more effort. Th
 As some course participants asked for a `plain/text` version of the online course, to find recipes and techniques more easily, I'm currently in the process of creating an eBook from the online course.
 
 That's also a great way to attract a wider audience as not everybody enjoys learning from courses and rather prefers to read a book on the beach.
+
+The next online course is also waiting to be created. On top of the Stratospheric eBook (From Zero to Production with Spring Boot and AWS), which I've written together with Tom Hombergs and Björn Wilmsmann, we're creating a course. Equipped with my learnings from this course launch
 
 Now it's your turn - go for it (and let me know how it worked out)!
 
