@@ -66,9 +66,9 @@ For the microphone I was using:
 
 - Link
 
-Perfectionism will kill your progress
+Perfectionism will kill your progress.
 
-Get some first touchpoints with recording video and audio on YouTube.
+Get some first touch points with recording video and audio on YouTube.
 
 For this course I did only record my screen and my voice. No fancy greenscreen setup. This can come.
 
@@ -86,7 +86,7 @@ If it's bad, you'll figure it out early and can adjust. That's way better than p
 
 Having the course idea and some early lessons in place, now it's time to sell the content, isn't it?
 
-I'd actually suggest to create a minimal version of your landing page including some basic salescopy first.
+I'd actually suggest to create a minimal version of your landing page including some basic sales copy first.
 
 This helps to get an early target audience. Even though you don't have your full checkout process in place, put a form for your newsletter on your landing page and tag those subscribers coming from that landing page. These might be your first customers.
 
@@ -103,6 +103,8 @@ I'm using SendOwl for this purpose which is intuitive, simple and fulfill all my
 "Early-Bird" offers. With each new batch of course lessons being uploaded, I slighty increased . If you've joined early you'd get the course for almost the price of an eBook.
 
 - Creating the Landing Page
+
+For the landing page I used Thrive Architect (part of Thrive Suite) which comes with ready-to-use landing page templates.
 
 - Writing engaging sales copy
 
@@ -186,11 +188,11 @@ We live in a world with different purchase power and wages. Buying a course for 
 
 I didn't have this from day one and several visitors asked for it. My main excuse was that my eCommerce setup doesn't support it. 
 
-I've made $ 34.674 in revenue after one year. The margin is also quite high as my only expenses are some hosting fees, marketing costs, and affiliate commissions.
+I've made $ 34.674 in revenue after one year. The margin is also quite high as my only expenses are hosting fees, marketing costs, and affiliate commissions. If I'd slightly reduce my monthly costs for living, I could live from that money. That's a big relief!
 
-The learnings were HUGE. Conversion rate, A/B testing, checkout process, learning how to sell, learning how to advertise, how to work on customer complaints etc.
+The learnings were HUGE. I learned so much about tracking and optimizing conversion rates, A/B testing, checkout process, online marketing learning how to sell, learning how to advertise, how to work on customer complaints etc. This plays back to my job as a software developer
 
-Do it increcementally and start with the sales page. If you already have an audience, show them your plan and ask for their email if they'd like to get updates on it. This will give you a early indicator if there's interest in this topic.
+Do it incrementally and start with the sales page. If you already have an audience, show them your plan and ask for their email if they'd like to get updates on it. This will give you a early indicator if there's interest in this topic.
 
 ## What I Would Have Made Differently
 
