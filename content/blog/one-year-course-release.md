@@ -103,10 +103,12 @@ I'm using SendOwl for this purpose which is intuitive, simple and fulfill all my
 "Early-Bird" offers. With each new batch of course lessons being uploaded, I slighty increased . If you've joined early you'd get the course for almost the price of an eBook.
 
 - Creating the Landing Page
-  
 
-- Writing engaging salescopy
-  
+- Writing engaging sales copy
+
+When it comes to pricing, you'd. I used other courses in my niche as an orientation and wanted to stand out with a premium course on this topic. Nothing in the Udemy price level. 
+
+Later on, I also added more product variations to support a S/M/XL kind-of product variety. The M-product should be your selling target
 
 - Get early testimonials from the ecosystem (other well-known content creator)
 
@@ -114,7 +116,7 @@ Social proof from the ecosystem you're in. Check your Twitter bubble or other co
 
 Include a money-back guarantee. I've made bad experience myself with a money-back guarantee from another content creator in my field.
 
-But whome to sell?
+## Whom to sell the stuff?
 
 Well, selling something to a audience of size zero is.
 
@@ -134,7 +136,7 @@ WTF? There are already 5 sales ...
 
 Man, what a feeling. Someone from somewhere on the globe just bought my course at this early stage. 
 
-## How Long It Takes
+## A Note on Effort
 
 In total, the course has now 127 video lessons. All of them vary from 5 to 15 minutes.
 
@@ -146,7 +148,9 @@ As a rule of thumb, for a 30 minute video, I've recorded 45 minutes and the edit
 
 This doesn't include any preparation work, coding upfront, which will also at least take the same amount as the video is long.
 
-You do the math.
+You do the math. As you'll see later on, the time invest really paid off. 
+
+In the first month or even year you might not get the traction as expected. Don't compare the invested time with your hourly rate or salary. An online course is an asset that'll (hopefully) make money while you sleep. 
 
 I used my morning hours to plan the videos and record them. 
 
@@ -169,6 +173,10 @@ If you're selling to EU customers, rather pick a merchant of record to sell your
 - Affiliate marketing is king. There are tons of bloggers out there that might want some extra money each month to pay their hosting/tooling bills. 
 
 - Have compelling free content around your course topic to attract new leads.
+
+- Luck with the first course
+
+I got lucky that this course hit the needs of an audience. It might have also flopped. That's fine, as long as you're finding this out early in the process.
 
 - Small steps, start with the landing page, gather leads and re-iterate
 
