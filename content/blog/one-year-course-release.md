@@ -84,10 +84,35 @@ If it's bad, you'll figure it out early and can adjust. That's way better than p
 
 ## Selling the Course Content
 
+Having the course idea and some early lessons in place, now it's time to sell the content, isn't it?
+
+I'd actually suggest to create a minimal version of your landing page including some basic salescopy first.
+
+This helps to get an early target audience. Even though you don't have your full checkout process in place, put a form for your newsletter on your landing page and tag those subscribers coming from that landing page. These might be your first customers.
+
+Creating the sales page first also helps to think about the benefits and gains of your course ahead. This gives clarity when you do your detail planning.
+
+And now?
+
+As I'm heavily using the plugin suite of Thrive Theme (costing $277 a year - If you're using WordPress, it's a must-have), using their online course plugin Thrive Apprentice seemed like a natural choice. It uses the WordPress user management for access control and you can connect various eCommerce providers that'll grant access after the purchase via a webhook.
+
+I'm using SendOwl for this purpose which is intuitive, simple and fulfill all my needs (monthly $26 costs)
+
+"Deploy your features with more confidence while joyfulling testing your application due to recipes"
+
+"Early-Bird" offers. With each new batch of course lessons being uploaded, I slighty increased . If you've joined early you'd get the course for almost the price of an eBook.
+
 - Creating the Landing Page
+  
+
 - Writing engaging salescopy
+  
+
 - Get early testimonials from the ecosystem (other well-known content creator)
 
+Social proof from the ecosystem you're in. Check your Twitter bubble or other content creators for your niche. This will add a natural proof for your content. You're new, why should a stranger trust you?
+
+Include a money-back guarantee. I've made bad experience myself with a money-back guarantee from another content creator in my field.
 
 But whome to sell?
 
