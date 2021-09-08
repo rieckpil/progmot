@@ -220,14 +220,16 @@ I guess this is a learning we all make after we've accomplished something outsid
 
 - Spend less on display ads
 
-Well, I did not spent that much on ads on Google, Facebook, Twitter and Facebook but I'd definetly do it differently. While 50% of the money spent was also required to learn how the different advertisment platform works, with the rest I was trying to make sales. I always had this desired picture in place where you have your online course funnel and if you feed with enough visitors, a small percentage will finally convert and you somewhat a perpetuum mobile. You make more money on your course sales than your CPA (Cost per Acquistion) is. While this is defiently achievable, I did not come close to it. What definitely did not work for me was sending cold leads to a $100+ product and expect them to convert. What did work however, is to get some initial leads and move them up the value ladder
+Well, I did not spent that much on ads on Google, Facebook, Twitter and Facebook but I'd definetly do it differently. While 50% of the money spent was also required to learn how the different advertisment platform works, with the rest I was trying to make sales. I always had this desired picture in place where you have your online course funnel and if you feed with enough visitors, a small percentage will finally convert and you somewhat a perpetuum mobile. You make more money on your course sales than your CPA (Cost per Acquistion) is. While this is defiently achievable, I did not come close to it. What definitely did not work for me was sending cold leads to a $100+ product and expect them to convert. What did work however, is to get some initial leads and move them up the value ladder. There are more or less four types of potential course participants:
 
-The potential course participant is not aware that they have a problem (I don't write tests)
-The potential course participant is aware that they have a problem (I try to write tests but fail to get the setup correct and frustrated)
-The potential course participant is aware of you as a content creator (I know that Philip's creating some content about Java and Spring and have read one or two articles from him)
-Being aware that you sell an online course that helps fixing this problem (-> I know that Philip offers the Testing Spring Boot Applications Masterclass, that will help my current testing "problems" -> Ka-Ching $$$)
+1. The potential course participant is not aware that they have a problem (aka. I don't write tests)
+2. The potential course participant is aware that they have a problem (aka. I try to write tests but fail to get the setup correct and am constantly frustrated)
+3. The potential course participant is aware of you as a content creator (aka. I know that Philip is creating some content about Java and Spring and have read one or two articles from him)
+4. Being aware that you sell an online course that helps fixing this problem (aka. I know that Philip offers the Testing Spring Boot Applications Masterclass, that will help me write better tests -> Ka-Ching $$$)
 
-There's so much to learn here.
+- Read more on this topic and connect more to other content creators
+
+You don't have to explore everything on your own. Most of the stuff has already been done by others. Ask them for adivce and help. Ask them what they'd done differently if they'd start from scratch again. Read other and join communities like Blogging For Devs. Get around like-minded people for both tips and motivation.
 
 ## What's next?
 
