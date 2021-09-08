@@ -194,6 +194,10 @@ The learnings were HUGE. I learned so much about tracking and optimizing convers
 
 Do it incrementally and start with the sales page. If you already have an audience, show them your plan and ask for their email if they'd like to get updates on it. This will give you a early indicator if there's interest in this topic.
 
+- Don't try to get everything perfect from day one
+
+It's a lot of topics to handle when selling courses in the internet. You have to ensure the participants have a smooth checkout process, the access is working and your landing page has a reasonable page speed to be accessed all over the world. You can easily get lost in various parts of creating, advertising and selling your content. I usually stop when I have a good enough solution and come back later to the topic. I did not start with the most compelling (and might still have areas of improvements there) sales copy but improved it over time. There's so much do. Start small, and iterate. Don't get frustrated if somethings not working from day one. You can't find the root cause for your not-so-optimal page speed? Give your best and otherwise sleep a night over it. 
+
 ## What I Would Have Made Differently
 
 - Start with PPP from day one
@@ -202,7 +206,7 @@ The only excuse I had back then was that my eCommerce provider did not support s
 
 - Embed more hands-on exercises and quizzes 
 
-I enjoy learning new techniques and tools by watching online courses. For most of the courses I've worked through I prefer to code along the speaker and immedietly try out things. When it came to exercises, I usually ignored them as they were to simple or somehow already covered by me coding along. That was the main reason to not include any specifc coding task after each lesson. Personal preference and the additional effort to come up with great exercise material.
+I enjoy learning new techniques and tools by watching online courses. For most of the courses I've worked through I prefer to code along the speaker and immediately try out things. When it came to exercises, I usually ignored them as they were to simple or somehow already covered by me coding along. That was the main reason to not include any specific coding task after each lesson. Personal preference and the additional effort to come up with great exercise material.
 
 If you are eager to learn this topic, you'll try to apply the learnings as soon as possible. Otherwise it's shallow learning and if you're not motivated, exercises might also not help much.
 
@@ -210,10 +214,18 @@ Code along in your pace if you prefer. I would have done this somehow differentl
 
 > Tell me and I forget, teach me and I may remember, involve me and I learn - Benjamin Franklin
 
-
 - Start earlier
 
-I guess this is a learning we all make after we've accomplished something outside our comfort zone. Seeing how "easy" it was in retrospect, makes us wondering why we did not start earlier.
+I guess this is a learning we all make after we've accomplished something outside our comfort zone. Seeing how "easy" it was in retrospect, makes us wondering why we did not start earlier. Most of my _fear_ when creating content (both text and videos) in the Internet was what will others think when they see it. I never actively showed them my project and let them natuarlly find out. In the end, I don't care at all what they think. As long as I'm having fun doing it and see benefit for a greater audience I'm set. If you would ask me now for advice when the right timing for creating your first article, first YouTube video or online course, the answer would be simple: "Right now".
+
+- Spend less on display ads
+
+Well, I did not spent that much on ads on Google, Facebook, Twitter and Facebook but I'd definetly do it differently. While 50% of the money spent was also required to learn how the different advertisment platform works, with the rest I was trying to make sales. I always had this desired picture in place where you have your online course funnel and if you feed with enough visitors, a small percentage will finally convert and you somewhat a perpetuum mobile. You make more money on your course sales than your CPA (Cost per Acquistion) is. While this is defiently achievable, I did not come close to it. What definitely did not work for me was sending cold leads to a $100+ product and expect them to convert. What did work however, is to get some initial leads and move them up the value ladder
+
+The potential course participant is not aware that they have a problem (I don't write tests)
+The potential course participant is aware that they have a problem (I try to write tests but fail to get the setup correct and frustrated)
+The potential course participant is aware of you as a content creator (I know that Philip's creating some content about Java and Spring and have read one or two articles from him)
+Being aware that you sell an online course that helps fixing this problem (-> I know that Philip offers the Testing Spring Boot Applications Masterclass, that will help my current testing "problems" -> Ka-Ching $$$)
 
 There's so much to learn here.
 
