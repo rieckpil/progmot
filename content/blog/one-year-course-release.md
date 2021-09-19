@@ -190,13 +190,17 @@ If I would have the end goal of 9hour content in mind and started my journey wit
 
 ## Learnings After One Year
 
-Get a first version out as soon as possible
+Get a first version out as soon as possible. This first version doesn't have to be perfect but will let you test your setup end-to-end. This works way better than preparing a "big bang" release and figuring out in the last minute that something with the payment setup is not working.
 
 If you're selling to EU customers, rather pick a merchant of record to sell your stuff. Take some minutes to read about VAT handling of digital goods and you'll thank me later. I'm still handling VAT for myself and the effort is reasonable. Both SendOwl and Quaderno work quite well together.
 
 - Don't try to have the perfect tech setup from day one
 
-- People will ask for a refund, that's fine. I have a refund rate of 1%. Most of those refunds expected a different course structure. 
+This applies to both the technical setup for recording and selling your course. There are many decisions to make and I'd recommend that with a solution that fits your current needs. You can buy a green screen later.
+
+- People will ask for a refund, and that's fine. 
+
+It still remember the first month after the launch of the first version. I was so nervous about the first 30 day period and thought many would ask for a refund. This did not happen. After one year, I have a refund rate of 0.75%. Most of those refunds were due to a different expectation.
 
 - Don't expect your course participants to go throug the course immediately. That was one of the interesting findings. I for myself usually always started a course I've bougth right away. That's not the case for everybody. I still see participants that did not even start with lesson one. That's okay - they might start when they have time.
 
