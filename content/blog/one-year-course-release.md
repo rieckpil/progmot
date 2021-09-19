@@ -14,13 +14,13 @@ Post Course Launch - Learnings After One Year
 
 Running the first paid online course for a year
 
-It's been a year since I've launched my first paid 
+It's been a year since I've launched my first paid online course. There's a lot of things I've learned the long the way and mistakes I've made.
+
+This article gives you an in-depth overview about my technical setup, the way I've planned, recorded, my sales and marketing efforts.
 
 Continue reading to learn about my journey, mistakes and things I would have done differently.
 
 DISCLAIMER: All the linked tools are in use and I paid the price to figure out which one fits perfect (for me). I'll get a small cut if you decide to use them. 
-
-Lean technical setup yet full control over the audience.
 
 ## The Initial Strategy
 
@@ -81,6 +81,34 @@ Next I opened my IDE and started developing the application and the core.
 JUST ... SHIP ... IT
 
 If it's bad, you'll figure it out early and can adjust. That's way better than procrastinating or trying to get a pixel-perfect lessons that nobody will watch because the topic is not convincing.
+
+## The Technical Setup
+
+Lean technical setup yet full control over the audience.
+
+While I've worked through several courses on Udemy and similar platform myself, I encountered soon that these platforms are not the best when it comes to small course creators. While they do some marketing for your course and clearly have a big audience that search for various topics every day, their payment structure is not what I was looking for.
+
+I was looking for an alternative. 
+
+As my blog is running on WordPress and I'm heavily using plugins of the Thrive Suite, I started to investigate their online course plugin: Thrive Apprentice.
+
+With Thrive Apprentice, I could leverage the WordPress user management to have a login area and control access to my course. The visitors also stay on my side and I have full control over the content. 
+
+For Thrive Apprentice you need both a eCommerce Provider and a hosting solution. For the eCommerce provider, I've picked SendOwl as their offerings and pricing are quite reasonable (current plan is $26/month).
+
+Once I've signed up for my SendOwl account, I connected both my Stripe and PayPal account to have the most common payment options.
+
+The workflow to gain access with this setup works as the following: 
+
+1. The potential course participant visits the landing page
+2. Once they click on "Buy Now" they're redirected to a pre-checkout page (on my blog) and have to either create or log in to a course account
+3. They're redirected to a SendOwl checkout page and enter their payment information
+4. SendOwl redirects the user to a "Thank You" page on my blog with further information on how to get started
+5. In the background (and if the user gave consent), they're added to my mailing list (Mailchimp) including order information
+6. Once the order is completed, SendOwl sends a webhook to my WordPress instance and Thrive Apprentice grants access to the purchased course
+7. The user can now work with the course and gets a "Welcome" email delivered to their inbox
+
+The decision for hosting the video course lessons fell to Vimeo. They offer a feature to protect the playback of videos only on allowed hosts. This is a bit more _secure_ compared to uploading the videos to YouTube and making them private. 
 
 ## Selling the Course Content
 
