@@ -10,31 +10,54 @@ math: false
 toc: false
 ---
 
-Post Course Launch - Learnings After One Year
+Learnings From Selling My First Paid Online Course For a Year
 
-Running the first paid online course for a year
+It's been a year since I've launched my first paid online course. There's a lot of things I've learned along the long the way and mistakes I've made. 
 
-It's been a year since I've launched my first paid online course. There's a lot of things I've learned the long the way and mistakes I've made.
+This article gives you an in-depth overview about this journey, my technical setup, the way I've planned, recorded, my sales and marketing efforts.
 
-This article gives you an in-depth overview about my technical setup, the way I've planned, recorded, my sales and marketing efforts.
+Background: On [my main blog](https://rieckpil.de/) I'm creating content about Java, Testing, Spring Boot and AWS. In August 2020, I launched my first paid online course: the Testing Spring Boot Applications Masterclass. This online course is an in-depth resources for deploying Spring Boot applications with more confidence thanks to an excellent test suite. The course discusses various recipes and trips & tricks to test real-world Spring Boot applications.
 
-Continue reading to learn about my journey, mistakes and things I would have done differently.
+DISCLAIMER: Finding out the right tools and software was quite an effort. The marked links (*) are affiliate links. All the linked tools are in use, and I paid the price (mostly time) to figure out which one fits perfect (for me). I get a small cut if you decide to buy them via one of these links.
 
-DISCLAIMER: All the linked tools are in use and I paid the price to figure out which one fits perfect (for me). I'll get a small cut if you decide to use them. 
+Let's get started.
 
 ## The Initial Strategy
 
+I've been writing blog articles for over three years. There wasn't any clear direction as I wrote about several Java Framework.
+
+I had no niche topic yet.
+
+Over the years, I found my niche by blogging more and more about the same topic: testing Spring Boot applications.
+
+After writing `text/plain` for some years, the next natural step is to record a first video.
+
+I gave it a shot and uploaded a video on YouTube. The audio was suboptimal, but it was a big step out of the comfort zone. I got to know what it takes to record and edit nice-looking videos.
+
+A little bit of my blogging history bef
+
+The [first blog article](https://rieckpil.de/summary-of-the-container-conf-2017/) was published in November 2017.
+
+I uploaded my [first video on YouTube](https://www.youtube.com/watch?v=GM5ftYM_W90) in May 2019. 
+
+End of 2019 I also reached the milestone of 100 published articles on my site.
+
+I've been writing articles and creating YouTube videos for quite a range of topics for the Java ecosystem. Many of them where learnings at work or hands-on tutorials that I wish I had access to when I learned a new technology (especially Java EE).
+
+I never started with the intent to create a online course on top of my blogging efforts. In the last two years I discovered my own content niche and focussed more on this instead of serving all Java developers: Testing Spring Boot applications.
+
+The benefit of this niche is that almost nobody talks about testing in their articles. They showcase shiny new features or tools but nearly never tackle the testing part. That's quite frustrating if you want to apply their ideas to your project at work. You copy the relevant sections, making sure it compiles, and are then standing before all wall. 
+
+You know ahead that your colleagues will ask the question as soon as you want to integrate your code changes: "Where are the (damn) tests?".
+
+After creating some articles for this niche, I discovered that there's almost no online course that teaches this topic in a comprehensive manner and using real-world example.
+
+Everyone can test the `add` method of a `MyCalculator` class. But how to write an end-to-end test for a modern frontend that involves a OIDC login, database access and fetching data from REST API in the background?
+
+That was my central 
 Develop a real-world course application. Enhance it with an excellent test suite and talk about it.
 
-And with real-world I mean a sophisticated application that connects to various infrastructure componenents. This is where it becomes tricky. Everyone can test the `add` method of a `MyCalculator` class. But how to write a end-to-end test that involves a OIDC Login, database access and REST API call to a remote system?
-
-There isn't much content out there that talks about testing. All those articles that talk about shiny new technology and tools to develop applications rarely touch this topic.
-
-That's not helpful at all. You visit such a article, copy the interesting parts to apply it to your project at work ...
-
-and now, what?
-
-How do I now test this?
+And with real-world I mean a sophisticated application that connects to various infrastructure components. This is where testing becomes tricky.
 
 I strongly believe that as soon as you have the knowledge about the different tools & libraries and recipes at hand, testing become joyful.
 
@@ -45,18 +68,6 @@ Packed with this mission, my plan was to incrementally work on this project.
 As I haven't done anything similar before, recording everything upfront would be hell of work. And as testing and agile teaches, you want early feedback. 
 
 Let's see how this journey went out.
-
-## Finding a Topic To Talk About
-
-I've been writing blog articles for over three years. There wasn't any clear direction as I wrote about several Java Framework. 
-
-I had no niche topic yet.
-
-Over the years, I found my niche by blogging more and more about the same topic: testing Spring Boot applications.
-
-After writing `text/plain` for some years, the next natural step is to record a first video. 
-
-I gave it a shot and uploaded a video on YouTube. The audio was suboptimal, but it was a big step out of the comfort zone. I got to know what it takes to record and edit nice-looking videos.
 
 ## Creating The Course Content
 
