@@ -26,56 +26,55 @@ Let's get started.
 
 I've been writing blog articles for over three years. There wasn't any clear direction as I wrote about several Java Framework.
 
-I had no niche topic yet.
 
-Over the years, I found my niche by blogging more and more about the same topic: testing Spring Boot applications.
 
-After writing `text/plain` for some years, the next natural step is to record a first video.
+To better understand my journey, let's take a brief look at by content creation history:
 
-I gave it a shot and uploaded a video on YouTube. The audio was suboptimal, but it was a big step out of the comfort zone. I got to know what it takes to record and edit nice-looking videos.
+Back in November 2017, I published the [first blog article](https://rieckpil.de/summary-of-the-container-conf-2017/). While my first articles where quite random, I soon established the habit to constantly write about something. I've been writing articles for quite a range of topics in the Java ecosystem. Many of them where the result of my learnings at work or hands-on tutorials that I wish I had found on Google when I learned a new technology (especially Java EE).
 
-A little bit of my blogging history bef
+At the end of 2019 I also reached the milestone of 100 published articles on my site.
 
-The [first blog article](https://rieckpil.de/summary-of-the-container-conf-2017/) was published in November 2017.
+After writing `text/plain` for some years, I thought the next natural step is to also create video content.
 
-I uploaded my [first video on YouTube](https://www.youtube.com/watch?v=GM5ftYM_W90) in May 2019. 
+I gave it a shot and uploaded a [first video on YouTube](https://www.youtube.com/watch?v=GM5ftYM_W90) in May 2019. The audio quality was bad and the video had black bars as I didn't record 16:9. That didn't matter to me at all as I was happy to leave the comfort zone and have _something_ uploaded. I was quite sure that the quality of every upcoming video will improve anyway.
 
-End of 2019 I also reached the milestone of 100 published articles on my site.
+> Perfection is the enemy of progress
 
-I've been writing articles and creating YouTube videos for quite a range of topics for the Java ecosystem. Many of them where learnings at work or hands-on tutorials that I wish I had access to when I learned a new technology (especially Java EE).
+With these two content platforms (blog & YouTube) in place, I continued creating content for a variety of topics. There wasn't a clear target audience I reached. I usually switched frameworks between the articles and hence wasn't targeting a specific set of Java developers. 
 
-I never started with the intent to create a online course on top of my blogging efforts. In the last two years I discovered my own content niche and focussed more on this instead of serving all Java developers: Testing Spring Boot applications.
+In the last two years I naturally discovered my own content niche. I started focussing more on one specific topic this instead of serving all Java developers: Testing Spring Boot applications.
 
-The benefit of this niche is that almost nobody talks about testing in their articles. They showcase shiny new features or tools but nearly never tackle the testing part. That's quite frustrating if you want to apply their ideas to your project at work. You copy the relevant sections, making sure it compiles, and are then standing before all wall. 
+The benefit of this niche is that almost nobody talks about testing in their articles. They showcase shiny new features or tools but nearly never tackle the testing part. 
 
-You know ahead that your colleagues will ask the question as soon as you want to integrate your code changes: "Where are the (damn) tests?".
+That's quite frustrating if you want to apply their ideas to your project at work. You copy the relevant sections, making sure it compiles, and are then standing before all wall. 
+
+You know ahead that your colleagues will ask as soon as you want to integrate your code changes: "Where are the (damn) tests?".
+
+I never started with the intent to create an online course on top of my blogging efforts. This came somehow naturally.
 
 After creating some articles for this niche, I discovered that there's almost no online course that teaches this topic in a comprehensive manner and using real-world example.
 
 Everyone can test the `add` method of a `MyCalculator` class. But how to write an end-to-end test for a modern frontend that involves a OIDC login, database access and fetching data from REST API in the background?
 
-That was my central 
-Develop a real-world course application. Enhance it with an excellent test suite and talk about it.
+In short, I wanted to develop a real-world course application, enhance it with an excellent test suite and talk about it.
 
 And with real-world I mean a sophisticated application that connects to various infrastructure components. This is where testing becomes tricky.
 
-I strongly believe that as soon as you have the knowledge about the different tools & libraries and recipes at hand, testing become joyful.
+I strongly believe that as soon as you have the knowledge about the different testing tools & libraries and recipes at hand, testing becomes joyful.
 
 It's the HOW that's important here.
 
-Packed with this mission, my plan was to incrementally work on this project.
+Packed with this mission, I was highly motivated to get this project going. As I haven't done anything similar before, recording everything upfront would be hell of work. 
 
-As I haven't done anything similar before, recording everything upfront would be hell of work. And as testing and agile teaches, you want early feedback. 
-
-Let's see how this journey went out.
+That's why I decided to use an iterative approach and incrementally create this course while getting feedback early on. #agileDoneRight
 
 ## Creating The Course Content
 
-I've recored everything on an Ubuntu 20.04 and used the following tools:
+As a first step, I developed the real-world course application up-front. For the application I used React with TypeScript and a Spring Boot Java backend. That should cover many of today's architectures out there.
 
-For the microphone I was using:
+To make the setup more advanced, I added Keycloak (identity provider for OIDC), PostgreSQL to store data, a remote REST API, and an AWS service to the mix. 
 
-- Link
+As a next step, I started to sketch out the different course modules. Throughout the course I want to tackle unit, integration and end-to-end testing. 
 
 Perfectionism will kill your progress.
 
@@ -94,6 +93,12 @@ JUST ... SHIP ... IT
 If it's bad, you'll figure it out early and can adjust. That's way better than procrastinating or trying to get a pixel-perfect lessons that nobody will watch because the topic is not convincing.
 
 ## The Technical Setup
+
+I've recored everything on an Ubuntu 20.04 and used the following tools:
+
+For the microphone I was using:
+
+- Link
 
 Lean technical setup yet full control over the audience.
 
