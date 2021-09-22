@@ -24,15 +24,11 @@ Let's get started.
 
 ## The Initial Strategy
 
-I've been writing blog articles for over three years. There wasn't any clear direction as I wrote about several Java Framework.
-
-
-
 To better understand my journey, let's take a brief look at by content creation history:
 
-Back in November 2017, I published the [first blog article](https://rieckpil.de/summary-of-the-container-conf-2017/). While my first articles where quite random, I soon established the habit to constantly write about something. I've been writing articles for quite a range of topics in the Java ecosystem. Many of them where the result of my learnings at work or hands-on tutorials that I wish I had found on Google when I learned a new technology (especially Java EE).
+Back in November 2017, I published my [first blog article](https://rieckpil.de/summary-of-the-container-conf-2017/). While the following few articles where rather random (both in the topic and timing), I soon established the habit to constantly write about something. Since then, I've been writing articles for a range of topics mainly about Java and its framework ecosystem. Many of the blog posts where the result of my learnings at work or hands-on tutorials that I wish I had found on Google when I learned a new technology (especially Java EE).
 
-At the end of 2019 I also reached the milestone of 100 published articles on my site.
+At the end of 2019 I reached the milestone of 100 published articles on my site.
 
 After writing `text/plain` for some years, I thought the next natural step is to also create video content.
 
@@ -40,25 +36,25 @@ I gave it a shot and uploaded a [first video on YouTube](https://www.youtube.com
 
 > Perfection is the enemy of progress
 
-With these two content platforms (blog & YouTube) in place, I continued creating content for a variety of topics. There wasn't a clear target audience I reached. I usually switched frameworks between the articles and hence wasn't targeting a specific set of Java developers. 
+With these two content platforms (blog & YouTube) in place, I continued creating content for a variety of topics. There wasn't a clear target audience I wanted to reach. Whenever a topic worth talking about popped up, I sat down and wrote about it. I usually switched frameworks between the articles and hence wasn't targeting a specific set of Java developers. 
 
-In the last two years I naturally discovered my own content niche. I started focussing more on one specific topic this instead of serving all Java developers: Testing Spring Boot applications.
+In the last two years I naturally discovered my own content niche. I started focussing more on one specific topic instead of serving all Java developers: Testing Java and specifically Spring Boot (a common framework) applications.
 
 The benefit of this niche is that almost nobody talks about testing in their articles. They showcase shiny new features or tools but nearly never tackle the testing part. 
 
-That's quite frustrating if you want to apply their ideas to your project at work. You copy the relevant sections, making sure it compiles, and are then standing before all wall. 
+That's quite frustrating if you want to apply their ideas to your project at work. You copy the relevant sections, making sure it compiles, and then hit a road block.
 
-You know ahead that your colleagues will ask as soon as you want to integrate your code changes: "Where are the (damn) tests?".
+You know ahead that your colleagues will ask you as soon as you want to integrate your code changes: "Where are the (damn) tests?".
 
-I never started with the intent to create an online course on top of my blogging efforts. This came somehow naturally.
-
-After creating some articles for this niche, I discovered that there's almost no online course that teaches this topic in a comprehensive manner and using real-world example.
+After creating some articles for this niche (Testing Java and specifically Spring Boot applications), I discovered that there's almost no online course that teaches this topic in a comprehensive manner and using real-world example.
 
 Everyone can test the `add` method of a `MyCalculator` class. But how to write an end-to-end test for a modern frontend that involves a OIDC login, database access and fetching data from REST API in the background?
 
 In short, I wanted to develop a real-world course application, enhance it with an excellent test suite and talk about it.
 
 And with real-world I mean a sophisticated application that connects to various infrastructure components. This is where testing becomes tricky.
+
+The intent to create an online course and strategically create blog posts around this topic wasn't there from day one. This came somehow naturally.
 
 I strongly believe that as soon as you have the knowledge about the different testing tools & libraries and recipes at hand, testing becomes joyful.
 
@@ -70,19 +66,32 @@ That's why I decided to use an iterative approach and incrementally create this 
 
 ## Creating The Course Content
 
-As a first step, I developed the real-world course application up-front. For the application I used React with TypeScript and a Spring Boot Java backend. That should cover many of today's architectures out there.
+As a first step, I developed the real-world course application up-front. For the application's tech stack, I used React with TypeScript and a Spring Boot Java backend. That should mirror many of today's architectures (SPA connecting to a backend) out there.
 
 To make the setup more advanced, I added Keycloak (identity provider for OIDC), PostgreSQL to store data, a remote REST API, and an AWS service to the mix. 
 
-As a next step, I started to sketch out the different course modules. Throughout the course I want to tackle unit, integration and end-to-end testing. 
+As a next step, I started to sketch out the different course modules (module -> chapter -> lesson). Throughout the course I wanted to tackle unit, integration and end-to-end testing. This gave me the natural course structure of starting at the bottom of the testing pyramid with unit tests and then working upwards until we finally write end-to-end tests in the last module.
 
-Perfectionism will kill your progress.
+At the end of this planning work, I had a rough idea of what to talk about in each module written down in a Markdown file. 
 
-Get some first touch points with recording video and audio on YouTube.
+The application to write the tests for was also ready. I ensured to have enough code parts to demonstrate various testing techniques: secured endpoints, message listeners, database access with native queries, plain business logic to verify, etc.
 
-For this course I did only record my screen and my voice. No fancy greenscreen setup. This can come.
+While I could (and maybe should) have written the tests for the application alongside the development, I first wanted to have a working application that falls under the category of real-world and does some non trivial tasks.
 
-The benefit of this approach is that you can have as a many mispellings and just have to reiterate.
+Here's a short excerpt of the course application's main use case: Creating book reviews:
+
+// Insert GIF here
+
+(this is a automatically recorded end-to-end tests)
+
+With my iterative course creation strategy I started with the first milestone to release the first two modules (roughly 15 course lessons). 
+
+This goal got me started to first outline the lessons I'll be recording in greater detail. I noted down which best practices, tips and pitfalls I wanted to show. Next I opened my IDE and started writing all the test code that I'll be re-writing while recording. Once finished, I commited the changes and removed the code to the bare skeleton again.
+
+This "dry run" without recording helped me during the actual recording session as I used two monitor screens. On one screen I was recording my IDE and step-by-step developing the tests. On the second screen I opened the final source code by cloning the same project twice.
+
+I ensured to have the ahead coding quite close to the actual recording.
+
 
 For each course chapter - I'm structuring my courses like Module -> Chapter -> Lessons - I did some initial brainstorming using a Markdown file. There I pointed out what techniques and recipes I want to teach.
 
@@ -94,7 +103,13 @@ If it's bad, you'll figure it out early and can adjust. That's way better than p
 
 ## The Technical Setup
 
-I've recored everything on an Ubuntu 20.04 and used the following tools:
+The benefit of this approach is that you can have as a many mispellings and just have to reiterate.
+
+Get some first touch points with recording video and audio on YouTube.
+
+For this course I did only record my screen and my voice. No fancy greenscreen setup. This can come.
+
+I've recorded everything on an Ubuntu 20.04 and used the following tools:
 
 For the microphone I was using:
 
@@ -162,7 +177,7 @@ Social proof from the ecosystem you're in. Check your Twitter bubble or other co
 
 Include a money-back guarantee. I've made bad experience myself with a money-back guarantee from another content creator in my field.
 
-## Whom to sell the stuff?
+## How Will Buy this Stuff?
 
 Well, selling something to a audience of size zero is.
 
@@ -245,6 +260,8 @@ Do it incrementally and start with the sales page. If you already have an audien
 - Don't try to get everything perfect from day one
 
 It's a lot of topics to handle when selling courses in the internet. You have to ensure the participants have a smooth checkout process, the access is working and your landing page has a reasonable page speed to be accessed all over the world. You can easily get lost in various parts of creating, advertising and selling your content. I usually stop when I have a good enough solution and come back later to the topic. I did not start with the most compelling (and might still have areas of improvements there) sales copy but improved it over time. There's so much do. Start small, and iterate. Don't get frustrated if somethings not working from day one. You can't find the root cause for your not-so-optimal page speed? Give your best and otherwise sleep a night over it. 
+
+- Use IDEA shortcuts and live templates to avoid blocker while typing
 
 ## What I Would Have Made Differently
 
