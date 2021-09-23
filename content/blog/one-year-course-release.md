@@ -10,7 +10,7 @@ math: false
 toc: false
 ---
 
-Learnings From Selling My First Paid Online Course For a Year
+Learnings From Selling My First Paid Online Course
 
 It's been a year since I've launched my first paid online course. There's a lot of things I've learned along the long the way and mistakes I've made. 
 
@@ -48,7 +48,7 @@ You know ahead that your colleagues will ask you as soon as you want to integrat
 
 After creating some articles for this niche (Testing Java and specifically Spring Boot applications), I discovered that there's almost no online course that teaches this topic in a comprehensive manner and using real-world example.
 
-Everyone can test the `add` method of a `MyCalculator` class. But how to write an end-to-end test for a modern frontend that involves a OIDC login, database access and fetching data from REST API in the background?
+Everyone can test the `add` method of a `MyCalculator` class. But how to write an end-to-end test for a modern frontend that involves a OIDC login, database access, fetching data from REST API in the background?
 
 In short, I wanted to develop a real-world course application, enhance it with an excellent test suite and talk about it.
 
@@ -66,38 +66,38 @@ That's why I decided to use an iterative approach and incrementally create this 
 
 ## Creating The Course Content
 
-As a first step, I developed the real-world course application up-front. For the application's tech stack, I used React with TypeScript and a Spring Boot Java backend. That should mirror many of today's architectures (SPA connecting to a backend) out there.
+As a first step, I developed the real-world course application up-front. For the application's tech stack, I used React with TypeScript and a Spring Boot Java backend. That should mirror most of today's architectures (SPA connecting to a backend) out there.
 
-To make the setup more advanced, I added Keycloak (identity provider for OIDC), PostgreSQL to store data, a remote REST API, and an AWS service to the mix. 
+To make the setup more advanced, I added Keycloak (identity provider for OIDC), PostgreSQL to store data, a remote REST API, and an AWS service for messaging to the mix. 
 
-As a next step, I started to sketch out the different course modules (module -> chapter -> lesson). Throughout the course I wanted to tackle unit, integration and end-to-end testing. This gave me the natural course structure of starting at the bottom of the testing pyramid with unit tests and then working upwards until we finally write end-to-end tests in the last module.
+In parallel, I started to sketch out the different course modules (module -> chapter -> lesson). Throughout the course I wanted to tackle unit, integration and end-to-end testing. This gave me the natural course structure of starting at the bottom of the testing pyramid with unit testing and then working upwards until we finally write end-to-end tests in the last module.
 
-At the end of this planning work, I had a rough idea of what to talk about in each module written down in a Markdown file. 
+Once the application was ready, I had already had a rough idea of what I want to showcase and talk about. I ensured to have enough code parts to demonstrate various testing techniques: secured endpoints, message listeners, database access with native queries, plain business logic to verify, etc.
 
-The application to write the tests for was also ready. I ensured to have enough code parts to demonstrate various testing techniques: secured endpoints, message listeners, database access with native queries, plain business logic to verify, etc.
+While I could (and maybe should) have written the tests for the application alongside the development, I first wanted to have a working application that falls under the category of real-world and does some non-trivial tasks.
 
-While I could (and maybe should) have written the tests for the application alongside the development, I first wanted to have a working application that falls under the category of real-world and does some non trivial tasks.
+As the goal of the online course was all about testing applications, I did not record the creation of the sample application. At various lessons I explained the relevant code parts and gave an architectural overview at the beginning of the course. The overall application was sophisticated in the setup and yet simple enough to grasp.
 
 Here's a short excerpt of the course application's main use case: Creating book reviews:
 
-// Insert GIF here
-
-(this is a automatically recorded end-to-end tests)
-
-With my iterative course creation strategy I started with the first milestone to release the first two modules (roughly 15 course lessons). 
-
-This goal got me started to first outline the lessons I'll be recording in greater detail. I noted down which best practices, tips and pitfalls I wanted to show. Next I opened my IDE and started writing all the test code that I'll be re-writing while recording. Once finished, I commited the changes and removed the code to the bare skeleton again.
-
-This "dry run" without recording helped me during the actual recording session as I used two monitor screens. On one screen I was recording my IDE and step-by-step developing the tests. On the second screen I opened the final source code by cloning the same project twice.
-
-I ensured to have the ahead coding quite close to the actual recording.
+![Recorded E2E test of the main user journey](/main-user-journey-e2e-test-recording.gif "Recorded E2E test of the main user journey")
 
 
-For each course chapter - I'm structuring my courses like Module -> Chapter -> Lessons - I did some initial brainstorming using a Markdown file. There I pointed out what techniques and recipes I want to teach.
+(this is an automatically recorded outcome of a end-to-end Java tests)
 
-Next I opened my IDE and started developing the application and the core.
+With my iterative course creation strategy I started with the first milestone to release the first two modules (roughly 15 course lessons). Those two modules were all about getting used to the course application and an introduction to the various unit testing libraries.
 
-JUST ... SHIP ... IT
+This initial goal got me started to outline the first lessons greater detail. I noted down the best practices, tips and pitfalls I wanted to show. I did not plan each an every lesson in detail and rather found a natural position to cut the recorded video. 
+
+Next, I opened my IDE and started developing all the tests that I'll be writing and talking about in the recording. Once finished, I commited the changes to my private GitHub repository and removed the code to the bare skeleton again.
+
+This "dry run" without recording helped me during the actual recording session. I was using two screens and on one screen I was recording my IDE and developed the tests step-by-step. On the second screen I opened the target outcome by cloning the same project twice.
+
+I ensured to have the ahead coding quite close to the actual recording to not forget my plans.
+
+This initial batch of work (roughly 15 lessons each 5-15 min long) kept me busy for three weeks. I usually used the morning hours to record 60 - 90 minutes of content. In the afternoon, I brainstormed the next lessons and edited the videos once the entire batch was recorded.
+
+After uploading the outcome of each iteration, I started with the next one. I followed the exact same strategy until I had all 8 modules with 127 videos in total recorded.
 
 If it's bad, you'll figure it out early and can adjust. That's way better than procrastinating or trying to get a pixel-perfect lessons that nobody will watch because the topic is not convincing.
 
@@ -109,7 +109,22 @@ Get some first touch points with recording video and audio on YouTube.
 
 For this course I did only record my screen and my voice. No fancy greenscreen setup. This can come.
 
-I've recorded everything on an Ubuntu 20.04 and used the following tools:
+I've developed the course application and recorded everything on an Ubuntu 20.04 with following tools:
+
+Recording & Editing:
+
+- Sound
+- Recording
+- Editing
+
+Development:
+- private repository on GitHub
+- IntelliJ IDEA:
+  - I've recorded all lessons in the Presenter View 
+  - Install and activate the Presentation Assistant plugin to show the shortcuts you're using
+
+![Presentation Assistant Plugin Example](/presentation-assistant-idea-plugin-example.png "Presentation Assistant Plugin Example")
+
 
 For the microphone I was using:
 
