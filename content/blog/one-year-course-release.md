@@ -12,6 +12,14 @@ toc: false
 
 Learnings From Selling My First Paid Online Course
 
+How Much I Made After One Year Selling My First Online Course
+
+How I Made $40k from Selling My First Online Course
+
+--
+
+Structure: Explain the strategy and plan and then learnings & tips
+
 It's been a year since I've launched my first paid online course. There's a lot of things I've learned along the long the way and mistakes I've made. 
 
 This article gives you an in-depth overview about this journey, my technical setup, the way I've planned, recorded, my sales and marketing efforts.
@@ -82,14 +90,13 @@ Here's a short excerpt of the course application's main use case: Creating book 
 
 ![Recorded E2E test of the main user journey](/main-user-journey-e2e-test-recording.gif "Recorded E2E test of the main user journey")
 
-
 (this is an automatically recorded outcome of a end-to-end Java tests)
 
 With my iterative course creation strategy I started with the first milestone to release the first two modules (roughly 15 course lessons). Those two modules were all about getting used to the course application and an introduction to the various unit testing libraries.
 
 This initial goal got me started to outline the first lessons greater detail. I noted down the best practices, tips and pitfalls I wanted to show. I did not plan each an every lesson in detail and rather found a natural position to cut the recorded video. 
 
-Next, I opened my IDE and started developing all the tests that I'll be writing and talking about in the recording. Once finished, I commited the changes to my private GitHub repository and removed the code to the bare skeleton again.
+Next, I opened my IDE and started developing all the tests that I'll be writing and talking about in the recording. Once finished, I committed the changes to my private GitHub repository and removed the code to the bare skeleton again.
 
 This "dry run" without recording helped me during the actual recording session. I was using two screens and on one screen I was recording my IDE and developed the tests step-by-step. On the second screen I opened the target outcome by cloning the same project twice.
 
@@ -101,13 +108,10 @@ After uploading the outcome of each iteration, I started with the next one. I fo
 
 If it's bad, you'll figure it out early and can adjust. That's way better than procrastinating or trying to get a pixel-perfect lessons that nobody will watch because the topic is not convincing.
 
-## The Technical Setup
+## The Technical Setup For Recording
 
 The benefit of this approach is that you can have as a many mispellings and just have to reiterate.
 
-Get some first touch points with recording video and audio on YouTube.
-
-For this course I did only record my screen and my voice. No fancy greenscreen setup. This can come.
 
 I've developed the course application and recorded everything on an Ubuntu 20.04 with following tools:
 
@@ -119,9 +123,10 @@ Recording & Editing:
 
 Development:
 - private repository on GitHub
+- plain `.md` files inside the repository to structure the modules and lessons
 - IntelliJ IDEA:
-  - I've recorded all lessons in the Presenter View 
-  - Install and activate the Presentation Assistant plugin to show the shortcuts you're using
+  - use the Presenter View to record your videos (make yourself familiar with the basic IDEA shortcuts to navigate as you're otherwise lost in that view)
+  - download and active Presentation Assistant plugin to show the shortcuts you're using (a lot of course students will ask):
 
 ![Presentation Assistant Plugin Example](/presentation-assistant-idea-plugin-example.png "Presentation Assistant Plugin Example")
 
@@ -130,19 +135,31 @@ For the microphone I was using:
 
 - Link
 
-Lean technical setup yet full control over the audience.
+As I was only recording my screen and audio, there was no need for a greenscreen, high-resolution camera and a lightning setup. If I would have set up additional equipment for recording more than just my screen, this would have postponed the time I'd have a _good enough_ recording setup.
+
+IMHO for a technical course that's optional. Sometimes the face of the course instructor also blocks important parts on the screen. I'm anyways only hacking letters in the keyboard without much gesture. 
+
+For a first welcome video where you greet your new course participants it might make sense to show your face to establish a stronger _connection_ with the audience.
+
+Once I had the entire recordings for the next batch ready, I started the editing process. As a first step I extracted the audio from the recording and opened it in Audacity. There I might same adjustments to the sound (e.g. remove background noise). I took the Audacity export back to kdenlive and replaced the old audio.
+
+Next, I started the video editting. I didn't add any fancy animations or transitions to the videos and only focussed on removing the misspellings and separating videos. So a 90 minute recording block usually resulted in 50 minute content which was splitted in up to 4-5 separate videos.
+
+## The Technical Setup For Hosting the Course
+
+I then uploaded the rendered videos to [Vimeo](https://share.vimeo.com/mail75) for the integration in the online course later on.
 
 While I've worked through several courses on Udemy and similar platform myself, I encountered soon that these platforms are not the best when it comes to small course creators. While they do some marketing for your course and clearly have a big audience that search for various topics every day, their payment structure is not what I was looking for.
 
-I was looking for an alternative. 
+I was looking for an alternative. Lean technical setup yet full control over the audience.
 
-As my blog is running on WordPress and I'm heavily using plugins of the Thrive Suite, I started to investigate their online course plugin: Thrive Apprentice.
+As my blog is running on WordPress and I'm heavily using plugins of the [Thrive Suite](https://thrivethemes.com/affiliates/ref.php?id=12012), I started to investigate their online course plugin: Thrive Apprentice.
 
 With Thrive Apprentice, I could leverage the WordPress user management to have a login area and control access to my course. The visitors also stay on my side and I have full control over the content. 
 
-For Thrive Apprentice you need both a eCommerce Provider and a hosting solution. For the eCommerce provider, I've picked SendOwl as their offerings and pricing are quite reasonable (current plan is $26/month).
+For [Thrive Apprentice](https://thrivethemes.com/affiliates/ref.php?id=12012) you need both a eCommerce Provider and a hosting solution. For the eCommerce provider, I've picked [SendOwl](https://www.sendowl.com?r=db519) as their offerings and pricing are quite reasonable (current plan is $26/month).
 
-Once I've signed up for my SendOwl account, I connected both my Stripe and PayPal account to have the most common payment options.
+Once I've signed up for my [SendOwl](https://www.sendowl.com?r=db519) account, I connected both my Stripe and PayPal account to have the most common payment options.
 
 The workflow to gain access with this setup works as the following: 
 
@@ -241,6 +258,10 @@ Get a first version out as soon as possible. This first version doesn't have to 
 If you're selling to EU customers, rather pick a merchant of record to sell your stuff. Take some minutes to read about VAT handling of digital goods and you'll thank me later. I'm still handling VAT for myself and the effort is reasonable. Both SendOwl and Quaderno work quite well together.
 
 - Don't try to have the perfect tech setup from day one
+
+In the end, it's important that you're confident and have a simple (and reproducible) recording setup. You should be able to hit record in a matter of minutes without much preparation work. If you have to set up an entire conference studio for your first online course, chances are high you're procrastinating due to the effort.
+
+I can highly recommend getting some first touch points with video and recording and editing on YouTube. YouTube is a great playground. There won't be any refunds and only helpful comments to improve.
 
 This applies to both the technical setup for recording and selling your course. There are many decisions to make and I'd recommend that with a solution that fits your current needs. You can buy a green screen later.
 
