@@ -145,7 +145,7 @@ Next, I started the video editting. I didn't add any fancy animations or transit
 
 ## The Technical Setup For Hosting the Course
 
-I then uploaded the rendered videos to [Vimeo](https://share.vimeo.com/mail75) for the integration in the online course later on. For Vimeo I picked their paid plan. In comparison to YouTube, you can add more fine-grained security settings where your videos can be embedded. This makes unintended downloading and sharing more complicated.
+I then uploaded the rendered videos to [Vimeo](https://share.vimeo.com/mail75) for the integration in the online course later on. For Vimeo I picked their paid plan for 6€ each month. In comparison to YouTube, you can add more fine-grained security settings where your videos can be embedded. This makes unintended downloading and sharing more complicated.
 
 While I've worked through several courses on Udemy and similar platform myself, I encountered soon that these platforms are not the best when it comes to small course creators. While they do some marketing for your course and clearly have a big audience that search for various topics every day, their payment structure is not what I was looking for.
 
@@ -187,7 +187,7 @@ As I'm heavily using the plugin suite of Thrive Theme (costing $277 a year - If 
 
 I'm using SendOwl for this purpose which is intuitive, simple and fulfill all my needs (monthly $26 costs)
 
-"Deploy your features with more confidence while joyfulling testing your application due to recipes"
+"Deploy your features with more confidence while joyfully testing your application due to recipes"
 
 "Early-Bird" offers. With each new batch of course lessons being uploaded, I slighty increased . If you've joined early you'd get the course for almost the price of an eBook.
 
@@ -209,7 +209,16 @@ Include a money-back guarantee. I've made bad experience myself with a money-bac
 
 For each new batch of videos I slightly increased the price. In the end, I had 8 early bird batches
 
-- 1.
+- 80% discount 8th of August - 16th of August
+- 70% discount 17th of August - 23th of August
+- 65% discount 24th of August - 30th of August
+- 60% discount 31st of August - 13th of September
+- 5th batch: 55% discount 14th of September 20th of September
+- 6th batch: 50% discount until 27th of September
+- 7th early bird phase 40% discount starting from 28th of September
+- 8th early bird phase 40% discount
+- 9th early bird phase 37.5% discount to 25th of October
+- October 25 
 
 The different early bird phases were open for multiple weeks and I announced them mainly on my blog, mailing list and Twitter.
 
