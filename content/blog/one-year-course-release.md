@@ -104,22 +104,17 @@ I ensured to have the ahead coding quite close to the actual recording to not fo
 
 This initial batch of work (roughly 15 lessons each 5-15 min long) kept me busy for three weeks. I usually used the morning hours to record 60 - 90 minutes of content. In the afternoon, I brainstormed the next lessons and edited the videos once the entire batch was recorded.
 
-After uploading the outcome of each iteration, I started with the next one. I followed the exact same strategy until I had all 8 modules with 127 videos in total recorded.
-
-If it's bad, you'll figure it out early and can adjust. That's way better than procrastinating or trying to get a pixel-perfect lessons that nobody will watch because the topic is not convincing.
+After finishing an iteration of usually 1 - 2 modules, I started with the next one. I followed the exact same strategy until I had all 8 modules with 127 videos in total recorded.
 
 ## The Technical Setup For Recording
-
-The benefit of this approach is that you can have as a many mispellings and just have to reiterate.
-
 
 I've developed the course application and recorded everything on an Ubuntu 20.04 with following tools:
 
 Recording & Editing:
 
-- Sound
-- Recording
-- Editing
+- Audacity for sound editing
+- Kazam for audio and screen recording
+- kdenlive for video editing and rendering
 
 Development:
 - private repository on GitHub
@@ -130,14 +125,17 @@ Development:
 
 ![Presentation Assistant Plugin Example](/presentation-assistant-idea-plugin-example.png "Presentation Assistant Plugin Example")
 
-
 For the microphone I was using:
 
-- Link
+- Auna Mic with microphone holder
 
 As I was only recording my screen and audio, there was no need for a greenscreen, high-resolution camera and a lightning setup. If I would have set up additional equipment for recording more than just my screen, this would have postponed the time I'd have a _good enough_ recording setup.
 
+The benefit of this approach is that you can have as a many misspellings and just have to reiterate.
+
 IMHO for a technical course that's optional. Sometimes the face of the course instructor also blocks important parts on the screen. I'm anyways only hacking letters in the keyboard without much gesture. 
+
+If it's bad, you'll figure it out early and can adjust. That's way better than procrastinating or trying to get a pixel-perfect lessons that nobody will watch because the topic is not convincing.
 
 For a first welcome video where you greet your new course participants it might make sense to show your face to establish a stronger _connection_ with the audience.
 
@@ -147,7 +145,7 @@ Next, I started the video editting. I didn't add any fancy animations or transit
 
 ## The Technical Setup For Hosting the Course
 
-I then uploaded the rendered videos to [Vimeo](https://share.vimeo.com/mail75) for the integration in the online course later on.
+I then uploaded the rendered videos to [Vimeo](https://share.vimeo.com/mail75) for the integration in the online course later on. For Vimeo I picked their paid plan. In comparison to YouTube, you can add more fine-grained security settings where your videos can be embedded. This makes unintended downloading and sharing more complicated.
 
 While I've worked through several courses on Udemy and similar platform myself, I encountered soon that these platforms are not the best when it comes to small course creators. While they do some marketing for your course and clearly have a big audience that search for various topics every day, their payment structure is not what I was looking for.
 
@@ -157,7 +155,7 @@ As my blog is running on WordPress and I'm heavily using plugins of the [Thrive 
 
 With Thrive Apprentice, I could leverage the WordPress user management to have a login area and control access to my course. The visitors also stay on my side and I have full control over the content. 
 
-For [Thrive Apprentice](https://thrivethemes.com/affiliates/ref.php?id=12012) you need both a eCommerce Provider and a hosting solution. For the eCommerce provider, I've picked [SendOwl](https://www.sendowl.com?r=db519) as their offerings and pricing are quite reasonable (current plan is $26/month).
+For [Thrive Apprentice](https://thrivethemes.com/affiliates/ref.php?id=12012) you need both a eCommerce Provider and a video hosting solution. For the eCommerce provider, I've picked [SendOwl](https://www.sendowl.com?r=db519) as their offerings and pricing are quite reasonable (current plan is $26/month). Vimeo is one of the supported video hosting solutions and the integration works by just copying the link.
 
 Once I've signed up for my [SendOwl](https://www.sendowl.com?r=db519) account, I connected both my Stripe and PayPal account to have the most common payment options.
 
@@ -209,17 +207,25 @@ Social proof from the ecosystem you're in. Check your Twitter bubble or other co
 
 Include a money-back guarantee. I've made bad experience myself with a money-back guarantee from another content creator in my field.
 
-## How Will Buy this Stuff?
+For each new batch of videos I slightly increased the price. In the end, I had 8 early bird batches
 
-Well, selling something to a audience of size zero is.
+- 1.
+
+The different early bird phases were open for multiple weeks and I announced them mainly on my blog, mailing list and Twitter.
+
+With this early access, course user could join for a reduced price and benefit from all upcoming course lessons.
+
+## Who Will Buy this Stuff?
+
+Well, selling something to an audience of size zero is hard.
 
 Back then I already had a newsletter audience of 2000 people. Those people however all had different interests as my blogging areas was quite broad. That's why the unsubscribe rate once I announced this course (multiple times) was quite high. Which is okay. They weren't my target audience.
 
 Seeing the sales coming in, I also started to create ads on various platforms. 
 
-But this doesn't work for a ($150+) product. THe chance that a cold lead (someone who doesn't know you) will click the ad and immediately buy is quite low.
+But this doesn't work for a ($150+) product. The chance that a cold lead (someone who doesn't know you) will click the ad and immediately buy is quite low.
 
-Finding the right balance for hard selling. I was (and still am) super convincend that my online course on Testing can help so many developers deploy and write code with more confidence. That's why it might have seemed a little bit aggressive in the early days. I might have screwed some visitors or newsletter subscribers. That's the price you pay for learning. 
+Finding the right balance for hard selling. I was (and still am) super convinced that my online course on Testing can help so many developers deploy and write code with more confidence. That's why it might have seemed a little aggressive in the early days. I might have screwed some visitors or newsletter subscribers. That's the price you pay for learning. 
 
 As the sales were low in the beginning.
 
