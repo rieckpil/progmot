@@ -129,7 +129,7 @@ For the microphone I was using:
 
 - Auna Mic with microphone holder
 
-As I was only recording my screen and audio, there was no need for a greenscreen, high-resolution camera and a lightning setup. If I would have set up additional equipment for recording more than just my screen, this would have postponed the time I'd have a _good enough_ recording setup.
+As I was only recording my screen and audio, there was no need for a greenscreen, high-resolution camera and a lightning setup. If I had set up additional equipment for recording more than just my screen, this would have postponed the time I'd have a _good enough_ recording setup.
 
 The benefit of this approach is that you can have as a many misspellings and just have to reiterate.
 
@@ -141,19 +141,21 @@ For a first welcome video where you greet your new course participants it might 
 
 Once I had the entire recordings for the next batch ready, I started the editing process. As a first step I extracted the audio from the recording and opened it in Audacity. There I might same adjustments to the sound (e.g. remove background noise). I took the Audacity export back to kdenlive and replaced the old audio.
 
-Next, I started the video editting. I didn't add any fancy animations or transitions to the videos and only focussed on removing the misspellings and separating videos. So a 90 minute recording block usually resulted in 50 minute content which was splitted in up to 4-5 separate videos.
+Next, I started the video editing. I didn't add any fancy animations or transitions to the videos and only focussed on removing the misspellings and separating videos. So a 90-minute recording block usually resulted in 50 minute content which was splitting in up to 4-5 separate videos.
 
 ## The Technical Setup For Hosting the Course
 
-I then uploaded the rendered videos to [Vimeo](https://share.vimeo.com/mail75) for the integration in the online course later on. For Vimeo I picked their paid plan for 6€ each month. In comparison to YouTube, you can add more fine-grained security settings where your videos can be embedded. This makes unintended downloading and sharing more complicated.
+The decision for hosting the video course lessons fell to Vimeo. They offer a feature to protect the playback of videos only on allowed hosts. This is a bit more _secure_ compared to uploading the videos to YouTube and making them private.
+
+I then uploaded the rendered videos to [Vimeo](https://share.vimeo.com/mail75) for the integration in the online course later on. For Vimeo, I picked their paid plan for 6 € each month. In comparison to YouTube, you can add more fine-grained security settings where your videos can be embedded. This makes unintended downloading and sharing more complicated.
 
 While I've worked through several courses on Udemy and similar platform myself, I encountered soon that these platforms are not the best when it comes to small course creators. While they do some marketing for your course and clearly have a big audience that search for various topics every day, their payment structure is not what I was looking for.
 
 I was looking for an alternative. Lean technical setup yet full control over the audience.
 
-As my blog is running on WordPress and I'm heavily using plugins of the [Thrive Suite](https://thrivethemes.com/affiliates/ref.php?id=12012), I started to investigate their online course plugin: Thrive Apprentice.
+As my blog is running on WordPress, and I'm heavily using plugins of the [Thrive Suite](https://thrivethemes.com/affiliates/ref.php?id=12012), I started to investigate their online course plugin: Thrive Apprentice.
 
-With Thrive Apprentice, I could leverage the WordPress user management to have a login area and control access to my course. The visitors also stay on my side and I have full control over the content. 
+With Thrive Apprentice, I could leverage the WordPress user management to have a login area and control access to my course. The visitors also stay on my side, and I have full control over the content. 
 
 For [Thrive Apprentice](https://thrivethemes.com/affiliates/ref.php?id=12012) you need both a eCommerce Provider and a video hosting solution. For the eCommerce provider, I've picked [SendOwl](https://www.sendowl.com?r=db519) as their offerings and pricing are quite reasonable (current plan is $26/month). Vimeo is one of the supported video hosting solutions and the integration works by just copying the link.
 
@@ -162,52 +164,42 @@ Once I've signed up for my [SendOwl](https://www.sendowl.com?r=db519) account, I
 The workflow to gain access with this setup works as the following: 
 
 1. The potential course participant visits the landing page
-2. Once they click on "Buy Now" they're redirected to a pre-checkout page (on my blog) and have to either create or log in to a course account
+2. Once they click on "Buy Now" they're redirected to a pre-checkout page (on my blog) and have to register a new course account
 3. They're redirected to a SendOwl checkout page and enter their payment information
 4. SendOwl redirects the user to a "Thank You" page on my blog with further information on how to get started
 5. In the background (and if the user gave consent), they're added to my mailing list (Mailchimp) including order information
 6. Once the order is completed, SendOwl sends a webhook to my WordPress instance and Thrive Apprentice grants access to the purchased course
 7. The user can now work with the course and gets a "Welcome" email delivered to their inbox
 
-The decision for hosting the video course lessons fell to Vimeo. They offer a feature to protect the playback of videos only on allowed hosts. This is a bit more _secure_ compared to uploading the videos to YouTube and making them private. 
+It took me some test purchases until I had the configuration for this setup correct but since then it's working as expected. 
 
 ## Selling the Course Content
 
-Having the course idea and some early lessons in place, now it's time to sell the content, isn't it?
+Having the course idea and some early lessons uploaded to Vimeo, now it's time to sell the content, isn't it?
 
-I'd actually suggest to create a minimal version of your landing page including some basic sales copy first.
+From a timeline perspective, I'd actually suggest creating a minimal version of your landing page including some basic sales copy first. 
 
-This helps to get an early target audience. Even though you don't have your full checkout process in place, put a form for your newsletter on your landing page and tag those subscribers coming from that landing page. These might be your first customers.
+This helps you gather your thoughts. Creating the sales page first also helps to think about the benefits and gains of your course ahead. This gives clarity when you plan your course lessons in detail.
 
-Creating the sales page first also helps to think about the benefits and gains of your course ahead. This gives clarity when you do your detail planning.
+Even though you don't have your full checkout process in place, put a form for your newsletter on this early version of landing page and tag those subscribers coming from that landing page. These might be your first customers. 
 
-And now?
+This pre-landing page also acts as basic market research opportunity. You can use it to validate that your course idea arouses interest. Just because you think this course topic is important doesn't imply the rest of the world is interested in it.
 
-As I'm heavily using the plugin suite of Thrive Theme (costing $277 a year - If you're using WordPress, it's a must-have), using their online course plugin Thrive Apprentice seemed like a natural choice. It uses the WordPress user management for access control and you can connect various eCommerce providers that'll grant access after the purchase via a webhook.
+For the [landing page](https://rieckpil.de/testing-spring-boot-applications-masterclass/) I used Thrive Architect (part of [Thrive Suite](https://thrivethemes.com/affiliates/ref.php?id=12012)) which comes with ready-to-use landing page templates. 
 
-I'm using SendOwl for this purpose which is intuitive, simple and fulfill all my needs (monthly $26 costs)
+As this was my first landing page for a paid product, I'd give my best to write engaging sales copy. I added some social proof via testimonials about myself from well-known content creator in the Java-space. Check your Twitter bubble or other content creators for your niche. This will add a natural proof for your content.
 
-"Deploy your features with more confidence while joyfully testing your application due to recipes"
+You're a stranger to most of the developers, why should they take your course?
 
-"Early-Bird" offers. With each new batch of course lessons being uploaded, I slighty increased . If you've joined early you'd get the course for almost the price of an eBook.
+I announced and actively advertised the pre-landing page and my course idea via various channels (Twitter, LinkedIn, etc.). After collecting potential leads for almost two weeks I got 50 prospective buyers. This was enough evidence for me to get started.
 
-- Creating the Landing Page
+When it comes to pricing, I used other courses in my niche as an orientation and wanted to stand out with a premium course on this topic. Nothing in the Udemy price level. The first target price that came to my mind and seemed reasonable was $159 for the entire course.
 
-For the landing page I used Thrive Architect (part of Thrive Suite) which comes with ready-to-use landing page templates.
+Once the first batch of video lessons were uploaded, I modified the landing page and activated the checkout process. In addition, I added scarcity effects with a countdown that informs how long this early-bird discount is available.
 
-- Writing engaging sales copy
+With every iteration of early-bird offers. With each new batch of course lessons being uploaded, I slighty increased the price. Those that joined early got access to the entire course for almost the price of an eBook.
 
-When it comes to pricing, you'd. I used other courses in my niche as an orientation and wanted to stand out with a premium course on this topic. Nothing in the Udemy price level. 
-
-Later on, I also added more product variations to support a S/M/XL kind-of product variety. The M-product should be your selling target
-
-- Get early testimonials from the ecosystem (other well-known content creator)
-
-Social proof from the ecosystem you're in. Check your Twitter bubble or other content creators for your niche. This will add a natural proof for your content. You're new, why should a stranger trust you?
-
-Include a money-back guarantee. I've made bad experience myself with a money-back guarantee from another content creator in my field.
-
-For each new batch of videos I slightly increased the price. In the end, I had 8 early bird batches
+In the end, I had 9 early bird batches:
 
 - 80% discount 8th of August - 16th of August
 - 70% discount 17th of August - 23th of August
@@ -218,7 +210,6 @@ For each new batch of videos I slightly increased the price. In the end, I had 8
 - 7th early bird phase 40% discount starting from 28th of September
 - 8th early bird phase 40% discount
 - 9th early bird phase 37.5% discount to 25th of October
-- October 25 
 
 The different early bird phases were open for multiple weeks and I announced them mainly on my blog, mailing list and Twitter.
 
@@ -372,7 +363,7 @@ Philip
 TODO:
 
 - find out the release dates
-- affiliate links for Vimeo, Quaderno, SendOwl, ThriveThemes
+- affiliate links for Quaderno, 
 - update to latest Hugo
 - check Google Analytics setup
 - basic imprint and privacy policy
