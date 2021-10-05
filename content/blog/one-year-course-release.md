@@ -217,45 +217,41 @@ With this early access, course user could join for a reduced price and benefit f
 
 ## Who Will Buy this Stuff?
 
-Well, selling something to an audience of size zero is hard.
+Selling something to an audience of size zero is hard.
 
-Back then I already had a newsletter audience of 2000 people. Those people however all had different interests as my blogging areas was quite broad. That's why the unsubscribe rate once I announced this course (multiple times) was quite high. Which is okay. They weren't my target audience.
+Back when I launched the first landing page I already had an existing audience of mailing list subscribers, daily visitors on my blog, Twitter followers, and YouTube subscribers. Those people however all had different interests as my blogging areas was quite broad. Not all of them were my perfect target audience (Java developer working with Spring Boot) as I wrote articles for a variety of topics. Nevertheless, among my existing audience were at least some early adopters that gave me the initial motivational boost that there's demand for such a course.
 
-Seeing the sales coming in, I also started to create ads on various platforms. 
+My main advertising channels for the course idea and all upcoming early-bird batches was my mailing list. Just keep those subscribers in the loop and update them frequently with new content. Someday you can use this channel to announce your product(s). 
 
-But this doesn't work for a ($150+) product. The chance that a cold lead (someone who doesn't know you) will click the ad and immediately buy is quite low.
+Finding the right balance for hard selling. I was (and still am) super convinced that my online course on Testing can help so many developers deploy and write code with more confidence. That's why it might have seemed a little aggressive in the early days. I might have screwed some visitors or newsletter subscribers. That's the price you pay for learning. The unsubscribe rate of my newsletter once I announced this course (multiple times) was quite high. Which is okay. They weren't my target audience and disappeared naturally. 
 
-Finding the right balance for hard selling. I was (and still am) super convinced that my online course on Testing can help so many developers deploy and write code with more confidence. That's why it might have seemed a little aggressive in the early days. I might have screwed some visitors or newsletter subscribers. That's the price you pay for learning. 
+From then on I kept an focus for all new articles and video on YouTube to somehow be in the niche of testing Java and specifially Spring Boot applications. This helps to get potential leads naturally.
 
-As the sales were low in the beginning.
+After announcing the course idea and the upcoming first early-bird batch for multiple weeks, I went live with the first set of video lessons on the 8th of August 2020.
 
-I still remember the exact feeling when I hit the release button for the first chapter. I left my room, had dinner with my family and checked my phone two hours later.
+I still remember the exact feeling when I hit the release button for the first chapter. I left my room, had dinner with my family and checked the Stripe (payment processing) dashboard two hours later.
 
-WTF? There are already 5 sales ...
-
-Man, what a feeling. Someone from somewhere on the globe just bought my course at this early stage. 
+WTF? There are already 5 sales - yes! What a feeling. Someone from somewhere around globe just bought my course at this early stage. And they even paid for it!
 
 ## A Note on Effort
 
-In total, the course has now 127 video lessons. All of them vary from 5 to 15 minutes.
+In total, the course consists of 127 video lessons. All of them vary from 5 to 15 minutes in length. In total, course user will watch between 9 and 10 hours of recorded content. I never had any target for the total length in mind and this came naturally.
 
-I've never used a perfectly written script to record the videos. It as more or less half-freestyle with some notes and the target source code on a second screen.
+I've never used a perfectly written script to record the videos. It was more or less half-freestyle with some notes and the target source code on a second screen. This approach makes the recordings a bit longer as there will be misspellings and non-fluent explanations or coding parts. The effort for editing will also increase as with more recorded material, there's more to cut.
 
-This approach makes the recordings a little bit longer as there will be misspellings, outside noice.
-
-As a rule of thumb, for a 30 minute video, I've recorded 45 minutes and the editing took me another 45 minutes. That makes it 90minutes of recording and editing work.
+As a rule of thumb, for a 30-minute video, I've recorded 45 minutes and the editing took me another 45 minutes. This makes it a total of approximately 90 minutes effort for a 30-minute video lesson.
 
 This doesn't include any preparation work, coding upfront, which will also at least take the same amount as the video is long.
 
-You do the math. As you'll see later on, the time invest really paid off. 
+How long did this course take me? You do the math. But as you'll see later on, the time investment really paid off. 
 
 In the first month or even year you might not get the traction as expected. Don't compare the invested time with your hourly rate or salary. An online course is an asset that'll (hopefully) make money while you sleep. 
 
-I used my morning hours to plan the videos and record them. 
-
 Seeing more and more coure participants, this was also a natural motivation to keep going. 
 
-If I would have the end goal of 9hour content in mind and started my journey with the goal to record everything at once, that would have been impossible.
+If I had the end goal of 9 hour content in mind and started my journey with the goal to record everything at once, that would have been almost impossible. I'd had to lock myself in my room for two month straight and then come out with a big bang release. The iterative approach really improves the feedback loop and helps you drive the content.
+
+That's it for the strategy and history of this course. Now let's get into the learnings after selling this course for one year.
 
 ## Learnings After One Year
 
@@ -304,6 +300,12 @@ Do it incrementally and start with the sales page. If you already have an audien
 It's a lot of topics to handle when selling courses in the internet. You have to ensure the participants have a smooth checkout process, the access is working and your landing page has a reasonable page speed to be accessed all over the world. You can easily get lost in various parts of creating, advertising and selling your content. I usually stop when I have a good enough solution and come back later to the topic. I did not start with the most compelling (and might still have areas of improvements there) sales copy but improved it over time. There's so much do. Start small, and iterate. Don't get frustrated if somethings not working from day one. You can't find the root cause for your not-so-optimal page speed? Give your best and otherwise sleep a night over it. 
 
 - Use IDEA shortcuts and live templates to avoid blocker while typing
+
+- Ads
+
+Seeing the sales coming in, I also started to create ads on various platforms.
+
+But this doesn't work for a ($150+) product. The chance that a cold lead (someone who doesn't know you) will click the ad and immediately buy is quite low.
 
 ## What I Would Have Made Differently
 
