@@ -1,5 +1,5 @@
 ---
-title: "The Five Most Important Persons"
+title: "How I Made $34674 from Selling My First Online Course"
 date: 2021-09-04T09:15:58+02:00
 slug: ""
 description: ""
@@ -14,7 +14,7 @@ Learnings From Selling My First Paid Online Course
 
 How Much I Made After One Year Selling My First Online Course
 
-How I Made $40k from Selling My First Online Course
+How I Made $34674 from Selling My First Online Course
 
 --
 
@@ -247,17 +247,21 @@ How long did this course take me? You do the math. But as you'll see later on, t
 
 In the first month or even year you might not get the traction as expected. Don't compare the invested time with your hourly rate or salary. An online course is an asset that'll (hopefully) make money while you sleep. 
 
-Seeing more and more coure participants, this was also a natural motivation to keep going. 
+Seeing more and more course participants, this was also a natural motivation to keep going. 
 
 If I had the end goal of 9 hour content in mind and started my journey with the goal to record everything at once, that would have been almost impossible. I'd had to lock myself in my room for two month straight and then come out with a big bang release. The iterative approach really improves the feedback loop and helps you drive the content.
 
-That's it for the strategy and history of this course. Now let's get into the learnings after selling this course for one year.
+That's it for the strategy and history of this course. Now let's get into what I learned from this journey.
 
 ## Learnings After One Year
 
+- Start small and release early and often
+
 Get a first version out as soon as possible. This first version doesn't have to be perfect but will let you test your setup end-to-end. This works way better than preparing a "big bang" release and figuring out in the last minute that something with the payment setup is not working.
 
-If you're selling to EU customers, rather pick a merchant of record to sell your stuff. Take some minutes to read about VAT handling of digital goods and you'll thank me later. I'm still handling VAT for myself and the effort is reasonable. Both SendOwl and Quaderno work quite well together.
+- Use a merchant of record
+
+If you're selling to EU customers, rather pick a merchant of record to sell your digital products. Take some minutes to read about VAT handling of digital goods (especially for EU customers), and you'll thank me later. I'm still handling VAT for myself and the effort is reasonable. Both SendOwl and Quaderno work quite well together. Nevertheless, if I would start over, I'd pick a provider that handles all tax implications. That's more time for me to focus on improving the course.
 
 - Don't try to have the perfect tech setup from day one
 
@@ -265,35 +269,42 @@ In the end, it's important that you're confident and have a simple (and reproduc
 
 I can highly recommend getting some first touch points with video and recording and editing on YouTube. YouTube is a great playground. There won't be any refunds and only helpful comments to improve.
 
-This applies to both the technical setup for recording and selling your course. There are many decisions to make and I'd recommend that with a solution that fits your current needs. You can buy a green screen later.
+This applies to both the technical setup for recording and selling your course. There are many decisions to make, and I'd recommend that with a solution that fits your current needs. You can buy a green screen later.
 
 - People will ask for a refund, and that's fine. 
 
-It still remember the first month after the launch of the first version. I was so nervous about the first 30 day period and thought many would ask for a refund. This did not happen. After one year, I have a refund rate of 0.75%. Most of those refunds were due to a different expectation.
+I still remember the first month after the launch of the first version. I was so nervous about the first 30 day period and thought many would ask for a refund. This did not happen. After one year, I have a refund rate of 0.75%. Most of those refunds were due to a different expectations. 
 
-- Don't expect your course participants to go throug the course immediately. That was one of the interesting findings. I for myself usually always started a course I've bougth right away. That's not the case for everybody. I still see participants that did not even start with lesson one. That's okay - they might start when they have time.
+- Course participants won't start immediately with the course and some will never even finish
 
-- Affiliate marketing is king. There are tons of bloggers out there that might want some extra money each month to pay their hosting/tooling bills. 
+Don't expect your course participants to go through the course immediately. That was one of the interesting findings. I for myself usually always started a course I've bought right away. That's not the case for everybody. I still see participants that did not even start with lesson one. That's okay - they might start when they have time.
+
+- Get into affiliate marketing
+
+Affiliate marketing is king. There are tons of bloggers out there that might want some extra money each month to pay their hosting/tooling bills. I reached out soon to various other bloggers in the Java ecosystem and asked them to become an [affiliate](https://rieckpil.de/affiliate-program/). If the affiliate happens to blog also about the topic you teach, the conversion rates can be great. They can embed you link and mention that those who are looking for a deep-dive on this topic, should take a look at the course.
 
 - Have compelling free content around your course topic to attract new leads.
 
-- Luck with the first course
+- Move on if you don't see a demand
 
-I got lucky that this course hit the needs of an audience. It might have also flopped. That's fine, as long as you're finding this out early in the process.
+I got lucky that this course hit the needs of an audience. It might have also flopped. That's fine, as long as you're finding this out early in the process. Creating the landing page early in the process can help to identify if there's demand. You can also use a poll and send it to your existing audience. If you don't have an audience (yet), try to engage in the communities where your target audience is (e.g. Twitter, Reddit, YouTube, etc.).
 
 - Small steps, start with the landing page, gather leads and re-iterate
 
-- Support purchase power parity.
+- Support purchase power parity
 
-We live in a world with different purchase power and wages. Buying a course for $179 as a developer working in the valley might be totally fine. That's not the case for all other countries around the globe.
+We live in a world with different purchase power and wages. Buying a course for $179 as a developer working in the silicon valley might be totally fine. That's not the case for all other countries around the globe.
 
 I didn't have this from day one and several visitors asked for it. My main excuse was that my eCommerce setup doesn't support it. 
 
+
+- You can live from that side-business
+
 I've made $ 34.674 in revenue after one year. The margin is also quite high as my only expenses are hosting fees, marketing costs, and affiliate commissions. If I'd slightly reduce my monthly costs for living, I could live from that money. That's a big relief!
 
-The learnings were HUGE. I learned so much about tracking and optimizing conversion rates, A/B testing, checkout process, online marketing learning how to sell, learning how to advertise, how to work on customer complaints etc. This plays back to my job as a software developer
+- The learning curve is steep and you'll not only improve your coding and presentation skills
 
-Do it incrementally and start with the sales page. If you already have an audience, show them your plan and ask for their email if they'd like to get updates on it. This will give you a early indicator if there's interest in this topic.
+The learnings were HUGE. I learned so much about tracking and optimizing conversion rates, A/B testing, checkout process, online marketing learning how to sell, learning how to advertise, how to work on customer complaints etc. This plays back to my job as a software developer
 
 - Don't try to get everything perfect from day one
 
@@ -301,11 +312,13 @@ It's a lot of topics to handle when selling courses in the internet. You have to
 
 - Use IDEA shortcuts and live templates to avoid blocker while typing
 
-- Ads
+- Play with display ads but don't expect to get rich quickly
 
-Seeing the sales coming in, I also started to create ads on various platforms.
+Seeing the sales coming in, I also started to create ads on various platforms (Google Search, Twitter, Facebook and LinkedIn). First, the domain was new to me and their user interfaces to create new campaigns confused me
 
-But this doesn't work for a ($150+) product. The chance that a cold lead (someone who doesn't know you) will click the ad and immediately buy is quite low.
+But this doesn't work for a ($150+) product. The chance that a cold lead (someone who doesn't know you) will click the ad and immediately buy is rather low. 
+
+After spending over $2k+ for various platforms I'm not longer directly advertising the course. I'm still running display ads but they make my target audience aware of some of my free courses to get in touch. If they like the content, they might sooner or later convert into a course participant for my Masterclass.
 
 ## What I Would Have Made Differently
 
@@ -325,16 +338,18 @@ Code along in your pace if you prefer. I would have done this somehow differentl
 
 - Start earlier
 
-I guess this is a learning we all make after we've accomplished something outside our comfort zone. Seeing how "easy" it was in retrospect, makes us wondering why we did not start earlier. Most of my _fear_ when creating content (both text and videos) in the Internet was what will others think when they see it. I never actively showed them my project and let them natuarlly find out. In the end, I don't care at all what they think. As long as I'm having fun doing it and see benefit for a greater audience I'm set. If you would ask me now for advice when the right timing for creating your first article, first YouTube video or online course, the answer would be simple: "Right now".
+I guess this is a learning we all make after we've accomplished something outside our comfort zone. Seeing how "easy" it was in retrospect, makes us wonder why we did not start earlier. Most of my _fear_ when creating content (both text and videos) in the Internet was what will others think when they see it. 
+
+I never actively showed them my project and let them naturally find out. In the end, I don't care at all what they think. As long as I'm having fun doing it and see benefit for a greater audience I'm set. If you would ask me now for advice when the right timing for creating your first article, first YouTube video or online course, the answer would be simple: "Right now".
 
 - Spend less on display ads
 
-Well, I did not spent that much on ads on Google, Facebook, Twitter and Facebook but I'd definetly do it differently. While 50% of the money spent was also required to learn how the different advertisment platform works, with the rest I was trying to make sales. I always had this desired picture in place where you have your online course funnel and if you feed with enough visitors, a small percentage will finally convert and you somewhat a perpetuum mobile. You make more money on your course sales than your CPA (Cost per Acquistion) is. While this is defiently achievable, I did not come close to it. What definitely did not work for me was sending cold leads to a $100+ product and expect them to convert. What did work however, is to get some initial leads and move them up the value ladder. There are more or less four types of potential course participants:
+Well, I did not spent that much on ads on Google, Facebook, Twitter and Facebook but I'd definitely do it differently. While 50% of the money spent was also required to learn how the different advertisement platform works, with the rest I was trying to make sales. I always had this desired picture in place where you have your online course funnel and if you feed with enough visitors, a small percentage will finally convert and you somewhat a perpetuum mobile. You make more money on your course sales than your CPA (Cost per Acquisition) is. While this is defiantly achievable, I did not come close to it. What definitely did not work for me was sending cold leads to a $100+ product and expect them to convert. What did work however, is to get some initial leads and move them up the value ladder. There are more or less four types of potential course participants:
 
 1. The potential course participant is not aware that they have a problem (aka. I don't write tests)
 2. The potential course participant is aware that they have a problem (aka. I try to write tests but fail to get the setup correct and am constantly frustrated)
 3. The potential course participant is aware of you as a content creator (aka. I know that Philip is creating some content about Java and Spring and have read one or two articles from him)
-4. Being aware that you sell an online course that helps fixing this problem (aka. I know that Philip offers the Testing Spring Boot Applications Masterclass, that will help me write better tests -> Ka-Ching $$$)
+4. Being aware that you sell an online course that helps to fix this problem (aka. I know that Philip offers the Testing Spring Boot Applications Masterclass, that will help me write better tests -> Ka-Ching $$$)
 
 - Read more on this topic and connect more to other content creators
 
@@ -346,7 +361,7 @@ In our fast pace development world (fortunately the Java ecosystem is not that f
 
 That's why I'm constantly trying to be up-to-date. As the testing topic is also the main focus area of my blog that's no problem. Furthermore, projects for clients also ensure it get enough hands-on.
 
-Whenver there's something new and worth mentioning, I'll add a new lesson to the course. If there's something otudated or I would do something entierley different, then I'll replace a video.
+Whenever there's something new and worth mentioning, I'll add a new lesson to the course. If there's something outdated or I would do something entirely different, then I'll replace a video.
 
 I also gain more knowledge over time which is worth adding to the course.
 
@@ -356,7 +371,7 @@ As some course participants asked for a `plain/text` version of the online cours
 
 That's also a great way to attract a wider audience as not everybody enjoys learning from courses and rather prefers to read a book on the beach.
 
-The next online course is also waiting to be created. On top of the Stratospheric eBook (From Zero to Production with Spring Boot and AWS), which I've written together with Tom Hombergs and Björn Wilmsmann, we're creating a course. Equipped with my learnings from this course launch
+The next online course is also waiting to be created. On top of the Stratospheric eBook (From Zero to Production with Spring Boot and AWS), which I've written together with Tom Hombergs and Björn Wilmsmann, we're creating a course. Equipped with my learnings from this course launch I can 
 
 Now it's your turn - go for it (and let me know how it worked out)!
 
