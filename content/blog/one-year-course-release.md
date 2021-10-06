@@ -261,7 +261,7 @@ Get a first version out as soon as possible. This first version doesn't have to 
 
 - Use a merchant of record
 
-If you're selling to EU customers, rather pick a merchant of record to sell your digital products. Take some minutes to read about VAT handling of digital goods (especially for EU customers), and you'll thank me later. I'm still handling VAT for myself and the effort is reasonable. Both SendOwl and Quaderno work quite well together. Nevertheless, if I would start over, I'd pick a provider that handles all tax implications. That's more time for me to focus on improving the course.
+If you're selling to EU customers, rather pick a merchant of record to sell your digital products. Take some minutes to read about VAT handling of digital goods (especially for EU customers), and you'll thank me later. I'm still handling VAT for myself and the effort is reasonable. Both SendOwl and [Quaderno*](https://quaderno.io/?via=philip60) work quite well together. Nevertheless, if I would start over, I'd pick a provider that handles all tax implications. That's more time for me to focus on improving the course.
 
 - Don't try to have the perfect tech setup from day one
 
