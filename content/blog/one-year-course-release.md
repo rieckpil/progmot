@@ -295,6 +295,8 @@ I got lucky that this course hit the needs of an audience. It might have also fl
 
 I've made $ 34.674 in revenue after one year. The margin is also quite high as my only expenses are hosting fees, marketing costs, and affiliate commissions. If I'd slightly reduce my monthly costs for living, I could live off that money. That's a big relief!
 
+![Sales report overview after one year](../../static/tsbam-earnings-after-one-year.png)
+
 ### The learning curve is steep - you'll not only improve your coding and presentation skills
 
 The learnings were HUGE. I learned so much about tracking and optimizing conversion rates, A/B testing, checkout process, online marketing learning how to sell, learning how to advertise, how to work on customer complaints etc. This knowledge plays back to my job as a software developer as I know see things also from a different angle.
