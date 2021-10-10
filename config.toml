@@ -19,7 +19,7 @@ googleAnalytics = "UA-180172546-1"
 
 
 # Controls the navigation
-[[menu]]
+[menu]
 
   [[menu.main]]
     identifier = "about"
