@@ -2,7 +2,7 @@
 title = "About"
 description = "Hugo, the world's fastest framework for building websites"
 date = "2021-10-10"
-aliases = ["about-us", "about", "contact"]
+aliases = ["about-us", "contact"]
 author = "rieckpil"
 +++
 
