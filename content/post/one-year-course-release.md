@@ -273,7 +273,7 @@ This applies to both the technical setup for recording and selling your course. 
 
 ### People will ask for a refund, and that's fine
 
-I still remember the first month after the launch of the first version. I was so nervous about the first 30 day period and thought many would ask for a refund. This did not happen. After one year, I have a refund rate of 0.75%. Most of those refunds were due to a different expectations.
+I still remember the first month after the launch of the first version. I was so nervous about the first 30-day period and thought many would ask for a refund. This did not happen. After one year, I have a refund rate of 0.75%. Most of those refunds were due to a different expectations.
 
 ### Course participants won't start immediately with the course and some will never even finish
 
@@ -311,25 +311,41 @@ You can't find the root cause for your not-so-optimal page speed? Give your best
 
 IntelliJ IDEA, the Java IDE I'm using daily provides a feature to easily prepare code snippets as [live templates](https://www.jetbrains.com/help/idea/using-live-templates.html). While re-typing the tests for my online course and recording it, I made several mistakes. Sometimes I even forgot what the correct import was. With live templates you can add basic code skeletons and use this foundation to speed up the recording. When using templates it's important to find the right balance of magically inserting everything and actually typing. You can't just paste a 15 LoC long implementation and assume the course participant gets what you're doing.
 
-## What I Would Have Made Differently
+## Retrospective - What I Would Have Done Different
+
+Looking back to the first year of this adventure, there are several things I would have done differently. Let's take a look at them.
 
 ### Support purchase power parity from day one
 
-We live in a world with different purchase power and wages. Buying a course for $179 as a developer working in the silicon valley might be totally fine. That's not the case for all other countries around the globe.
+We live in a world with different purchase power and wages. Buying a course for $179 as a software developer working in the silicon valley might be totally fine. That's not the case for all other countries around the globe. A developer earning only a quarter of the US median wages thinks twice before enrolling in this course. For some developers the course might even be not affordable at all. 
 
-I didn't have this from day one and several visitors asked for it. My main excuse was that my eCommerce setup doesn't support it.
+As a result, many companies adjust the prices for their products and services to the purchase power of each country. This way the relative costs for a product (e.g. 5% of the median monthly salary) should be the same for everyone.
 
-The only excuse I had back then was that my eCommerce provider did not support something out-of-the-box. After some investigation, it's only required some customization on my end and I had a good-enough solution in place.
+I didn't have the PPP setup from day one. In the beginning, several potential customers asked for it. The only excuse I had back then was that my eCommerce provider did not support something out-of-the-box. 
 
-- Embed more hands-on exercises and quizzes 
+After some investigation I came across a [small library from Robin Wieruch](https://github.com/rwieruch/purchasing-power-parity) that helped me integrate purchase power parity (PPP) with some additional coding effort on my end.
 
-I enjoy learning new techniques and tools by watching online courses. For most of the courses I've worked through I prefer to code along the speaker and immediately try out things. When it came to exercises, I usually ignored them as they were to simple or somehow already covered by me coding along. That was the main reason to not include any specific coding task after each lesson. Personal preference and the additional effort to come up with great exercise material.
+As I want to reach as many people as possible with the content I create, supporting PPP is a no-brainer for me in retrospective. Since the integration of PPP the total amount of orders also increased.
 
-If you are eager to learn this topic, you'll try to apply the learnings as soon as possible. Otherwise it's shallow learning and if you're not motivated, exercises might also not help much.
+I've seen some creators that are afraid that this mechanism will be abused. Creating a VPN tunnel to another country is a matter of seconds. Someone might trick this system and get the content for only a subset of the target price for their country. Nevertheless, I'm still able to see the origin of the payment and can identify _frauds_. That never happened so far and even if it happens I'm convinced that Karma will do its job.
+
+### Embed more hands-on exercises and quizzes 
+
+I've personally worked through several online courses and enjoy learning new techniques and tools this way. For most of these courses I preferred to code along with the speaker and immediately try out things in my IDE.
+
+When it came to exercises or assignments, I usually ignored them as they were sometimes too simple or somehow already covered by me coding along.
+
+That was the main reason to not include any specific coding task after each lesson. Personal preference and the additional effort to come up with great exercise material.
+
+If you are eager to learn this topic, you'll try to apply the learnings as soon as possible. Otherwise, it's shallow learning and if you're not motivated, exercises might also not help that much.
 
 Code along in your pace if you prefer. I would have done this somehow differently. One of the best ways to transfer knowledge is to actually apply the learnings.
 
+Looking back, I would have at least .
+
 > Tell me and I forget, teach me and I may remember, involve me and I learn - Benjamin Franklin
+
+As I did not create a physical product that is already shipped to customers, I can still add exercises afterward.
 
 ### Start earlier
 
@@ -380,13 +396,13 @@ That's also a great way to attract a wider audience as not everybody enjoys lear
 
 The next online course is also waiting to be created. On top of the Stratospheric eBook (From Zero to Production with Spring Boot and AWS), which I've written together with Tom Hombergs and Björn Wilmsmann, we're creating a course. Equipped with my learnings from this course launch I can 
 
-Now it's your turn - go for it (and let me know how it worked out)!
+Now it's your turn - go for it and let me know how it worked out!
 
 Philip
 
 TODO:
 
-- update to latest Hugo
 - check Google Analytics setup
 - basic imprint and privacy policy
 - cool thumbnail
+- affiliate links for Amazon
