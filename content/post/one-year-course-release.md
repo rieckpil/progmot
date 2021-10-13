@@ -112,11 +112,12 @@ I've developed the course application and recorded everything on an Ubuntu 20.04
 
 Recording & Editing:
 
-- Audacity for sound editing
-- Kazam for audio and screen recording
-- kdenlive for video editing and rendering
+- [Audacity](https://www.audacity.de/) for sound editing
+- [Kazam](https://wiki.ubuntuusers.de/Kazam/) for audio and screen recording
+- [kdenlive](https://kdenlive.org/de/) for video editing and rendering
 
 Development:
+
 - private repository on GitHub
 - plain `.md` files inside the repository to structure the modules and lessons
 - IntelliJ IDEA:
@@ -127,7 +128,7 @@ Development:
 
 For the microphone I was using:
 
-- Auna Mic with microphone holder
+- [Auna Mic](https://rieckpil.de/a/auna-mic)
 
 As I was only recording my screen and audio, there was no need for a greenscreen, high-resolution camera and a lightning setup. If I had set up additional equipment for recording more than just my screen, this would have postponed the time I'd have a _good enough_ recording setup.
 
@@ -147,19 +148,19 @@ Next, I started the video editing. I didn't add any fancy animations or transiti
 
 The decision for hosting the video course lessons fell to Vimeo. They offer a feature to protect the playback of videos only on allowed hosts. This is a bit more _secure_ compared to uploading the videos to YouTube and making them private.
 
-I then uploaded the rendered videos to [Vimeo](https://share.vimeo.com/mail75) for the integration in the online course later on. For Vimeo, I picked their paid plan for 6 € each month. In comparison to YouTube, you can add more fine-grained security settings where your videos can be embedded. This makes unintended downloading and sharing more complicated.
+I then uploaded the rendered videos to [Vimeo*](https://rieckpil.de/a/vimeo) for the integration in the online course later on. For Vimeo, I picked their paid plan for 6 € each month. In comparison to YouTube, you can add more fine-grained security settings where your videos can be embedded. This makes unintended downloading and sharing more complicated.
 
 While I've worked through several courses on Udemy and similar platform myself, I encountered soon that these platforms are not the best when it comes to small course creators. While they do some marketing for your course and clearly have a big audience that search for various topics every day, their payment structure is not what I was looking for.
 
 I was looking for an alternative. Lean technical setup yet full control over the audience.
 
-As my blog is running on WordPress, and I'm heavily using plugins of the [Thrive Suite](https://thrivethemes.com/affiliates/ref.php?id=12012), I started to investigate their online course plugin: Thrive Apprentice.
+As my blog is running on WordPress, and I'm heavily using plugins of the [Thrive Suite*](https://rieckpil.de/a/thrive-themes), I started to investigate their online course plugin: Thrive Apprentice.
 
 With Thrive Apprentice, I could leverage the WordPress user management to have a login area and control access to my course. The visitors also stay on my side, and I have full control over the content. 
 
-For [Thrive Apprentice](https://thrivethemes.com/affiliates/ref.php?id=12012) you need both a eCommerce Provider and a video hosting solution. For the eCommerce provider, I've picked [SendOwl](https://www.sendowl.com?r=db519) as their offerings and pricing are quite reasonable (current plan is $26/month). Vimeo is one of the supported video hosting solutions and the integration works by just copying the link.
+For [Thrive Apprentice*](https://rieckpil.de/a/thrive-themes) you need both a eCommerce Provider and a video hosting solution. For the eCommerce provider, I've picked [SendOwl*](https://rieckpil.de/a/sendowl) as their offerings and pricing are quite reasonable (current plan is $26/month). Vimeo is one of the supported video hosting solutions and the integration works by just copying the link.
 
-Once I've signed up for my [SendOwl](https://www.sendowl.com?r=db519) account, I connected both my Stripe and PayPal account to have the most common payment options.
+Once I've signed up for my [SendOwl*](https://rieckpil.de/a/sendowl) account, I connected both my Stripe and PayPal account to have the most common payment options.
 
 The workflow to gain access with this setup works as the following: 
 
@@ -185,7 +186,7 @@ Even though you don't have your full checkout process in place, put a form for y
 
 This pre-landing page also acts as basic market research opportunity. You can use it to validate that your course idea arouses interest. Just because you think this course topic is important doesn't imply the rest of the world is interested in it.
 
-For the [landing page](https://rieckpil.de/testing-spring-boot-applications-masterclass/) I used Thrive Architect (part of [Thrive Suite](https://thrivethemes.com/affiliates/ref.php?id=12012)) which comes with ready-to-use landing page templates. 
+For the [landing page](https://rieckpil.de/testing-spring-boot-applications-masterclass/) I used Thrive Architect (part of [Thrive Suite](https://rieckpil.de/a/thrive-themes)) which comes with ready-to-use landing page templates. 
 
 As this was my first landing page for a paid product, I'd give my best to write engaging sales copy. I added some social proof via testimonials about myself from well-known content creator in the Java-space. Check your Twitter bubble or other content creators for your niche. This will add a natural proof for your content.
 
@@ -261,7 +262,7 @@ Get a first version out as soon as possible. This first version doesn't have to 
 
 ### Use a merchant of record
 
-If you're selling to EU customers, rather pick a merchant of record to sell your digital products. Take some minutes to read about VAT handling of digital goods (especially for EU customers), and you'll thank me later. I'm still handling VAT for myself and the effort is reasonable. Both SendOwl and [Quaderno*](https://quaderno.io/?via=philip60) work quite well together. Nevertheless, if I would start over, I'd pick a provider that handles all tax implications. That's more time for me to focus on improving the course.
+If you're selling to EU customers, rather pick a merchant of record to sell your digital products. Take some minutes to read about VAT handling of digital goods (especially for EU customers), and you'll thank me later. I'm still handling VAT for myself and the effort is reasonable. Both SendOwl and [Quaderno*](https://rieckpil.de/a/quaderno) work quite well together. Nevertheless, if I would start over, I'd pick a provider that handles all tax implications. That's more time for me to focus on improving the course.
 
 ### Don't try to have the perfect tech setup from day one
 
@@ -380,7 +381,7 @@ I learned (from this excellent book) that there are more or less four types of l
 3. The potential course participant is aware of you as a content creator (aka. I know that Philip is creating some content about Java and Spring and have read one or two articles from him)
 4. Being aware that you sell an online course that helps to fix this problem (aka. I know that Philip offers the Testing Spring Boot Applications Masterclass, that will help me write better tests -> Ka-Ching $$$)
 
-### Read more on this topic and connect more to other content creators
+### Connect more to other content creators
 
 You don't have to explore the entire everything on your own. You don't have to make all the mistakes on our own.
 
@@ -390,9 +391,17 @@ Read other and join communities like Blogging For Devs. Get around like-minded p
 
 ### Don't get drained in the sales dopamine cycle
 
-Seeing sales come in almost daily, this started as a dopamine kick. I soon eagerly checked my mails after work (I never check my mails first thing in the morning) and was hoping to see some order information in my inbox. 
+Seeing sales come in almost daily, I soon started to eagerly check my mails after work (I never check my mails first thing in the morning). Subconsciously I got drained into a habit of frequently checking my sales due to a small dopamine rush which each new order. It's similar to the urge of checking the Twitter feed, HackerNews or Reddit for updates.
 
-I somehow connected my happiness to how many sales I made. There were weeks where not one course . In the beginning I tried to run temporary discount campaigns to see at least some sales coming in. I stopped this as I didn't want to screw existing customers just for the purpose that I see these lously sale graph go up. That's not worth it. If your product is good and you have a sales funnel, it's only a matter of time until a new course user joins. This sales ambition might drain your creative resources.
+Each new customer gave me some gratification and relief. Up until the point when there were no new customers for several days. I started to feel unhappy.
+
+In the beginning I tried to run temporary discount campaigns to see at least some sales coming in. That wasn't worth the effort as it screwed existing customers just for the purpose that I see this lousily sale graph go up. 
+
+That's not worth it. 
+
+If your product is good, and you have an established sales funnel, it's only a matter of time until a new course user joins. 
+
+These sales ambitions might drain your creative resources, and you start focussing on the wrong ends (aka. get more sales vs. make a great product).
 
 ## What's next?
 
@@ -415,10 +424,3 @@ The next online course is also waiting to be created. On top of the [Stratospher
 Now it's your turn - go for it and let me know how it worked out!
 
 Philip
-
-TODO:
-
-- check Google Analytics setup
-- basic imprint and privacy policy
-- cool thumbnail
-- affiliate links for Amazon
