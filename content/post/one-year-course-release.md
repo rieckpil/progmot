@@ -1,32 +1,24 @@
 ---
-title: "How I Made $34.674 from Selling My First Online Course"
+title: "How I Made $34.674 Selling My First Online Course"
 date: 2021-09-04T09:15:58+02:00
 slug: ""
 description: ""
 keywords: []
-draft: true
+draft: false
 tags: []
 math: false
-toc: false
+toc: true
 ---
 
-Learnings From Selling My First Paid Online Course
+_**TL;DR:** This 6500 words long article is a one-year retrospect after launching my first paid online course. Learn about my initial strategy, the actual journey, the mistakes I've made and my recommendations._
 
-How Much I Made After One Year Selling My First Online Course
+It's been a year since I launched my first paid online course: the [Testing Spring Boot Applications Masterclass](https://rieckpil.de/testing-spring-boot-applications-masterclass/). There's a lot of things I've learned along the way and mistakes I've made.
 
-How I Made $34674 from Selling My First Online Course
+This article gives you an inside view to this project. We'll cover the technical setup, how I've planned and recorded the video lessons, and my sales and marketing efforts.
 
---
+A short note about my background: On [my main blog](https://rieckpil.de/) I'm creating content about Java, Testing, Spring Boot and AWS. In August 2020, I launched the Masterclass as my first paid online course. This online course is an in-depth resource for deploying Spring Boot applications with more confidence. The course showcases various recipes, tips & tricks and recommendations to test real-world Spring Boot applications.
 
-Structure: Explain the strategy and plan and then learnings & tips
-
-It's been a year since I launched my first paid online course. There's a lot of things I've learned along the long way and mistakes I've made.
-
-This article gives you an in-depth overview of this journey, my technical setup, how I've planned, recorded, and my sales and marketing efforts.
-
-Background: On [my main blog](https://rieckpil.de/) I'm creating content about Java, Testing, Spring Boot and AWS. In August 2020, I launched my first paid online course: the Testing Spring Boot Applications Masterclass. Thanks to an excellent test suite, this online course is an in-depth resource for deploying Spring Boot applications with more confidence. The course discusses various recipes and tips & tricks to test real-world Spring Boot applications.
-
-DISCLAIMER: Finding out the right tools and software was quite an effort. The marked links (*) are affiliate links. All the linked tools are in use, and I paid the price (mostly time) to figure out which one fits perfectly (for me). I get a small cut if you buy them via one of these links.
+_**Disclaimer**: Figuring out which tools to use for such a project was quite an effort. Especially as I started form scratch. I spent various evenings screaming at my misbehaving checkout setup. At various places in this article I'll reference the hardware, tools, and software I'm actively using. The marked links (*) are affiliate links. I paid the price (mostly time) to figure out this lightweight course selling setup - so you don't have to. I get a small cut if you buy them via one of these links._
 
 Let's get started.
 
