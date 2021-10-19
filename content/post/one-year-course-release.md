@@ -10,36 +10,35 @@ math: false
 toc: true
 ---
 
-_**TL;DR:** This 6500 words long article is a one-year retrospect after launching my first paid online course. Learn about my initial strategy, the actual journey, the mistakes I've made and my recommendations._
+_**TL;DR:** This 6500 words long article is a one-year retrospect after launching my first paid online course. Learn about my initial strategy, the actual journey, the mistakes I've made, and my recommendations._
 
 It's been a year since I launched my first paid online course: the [Testing Spring Boot Applications Masterclass](https://rieckpil.de/testing-spring-boot-applications-masterclass/). There's a lot of things I've learned along the way and mistakes I've made.
 
-This article gives you an inside view to this project. We'll cover the technical setup, how I've planned and recorded the video lessons, and my sales and marketing efforts.
+This article gives you an inside view of this project. We'll cover the technical setup, how I've planned and recorded the video lessons, and my sales and marketing efforts.
 
-A short note about my background: On [my main blog](https://rieckpil.de/) I'm creating content about Java, Testing, Spring Boot and AWS. In August 2020, I launched the Masterclass as my first paid online course. This online course is an in-depth resource for deploying Spring Boot applications with more confidence. The course showcases various recipes, tips & tricks and recommendations to test real-world Spring Boot applications.
+A short note about my background: On [my main blog](https://rieckpil.de/), I'm creating content about Java, Testing, Spring Boot, and AWS. In August 2020, I launched the Masterclass as my first paid online course. This online course is an in-depth resource for deploying Spring Boot applications with more confidence. The course showcases various recipes, tips & tricks, and best practices for testing real-world Spring Boot applications.
 
-_**Disclaimer**: Figuring out which tools to use for such a project was quite an effort. Especially as I started form scratch. I spent various evenings screaming at my misbehaving checkout setup. At various places in this article I'll reference the hardware, tools, and software I'm actively using. The marked links (*) are affiliate links. I paid the price (mostly time) to figure out this lightweight course selling setup - so you don't have to. I get a small cut if you buy them via one of these links._
+_**Disclaimer**: Figuring out which tools to use for such a project was quite an effort. Especially as I started from scratch. I spent various evenings screaming at my misbehaving checkout setup. I'll reference the hardware, tools, and software I'm actively using at multiple places in this article. The marked links (*) are affiliate links. I paid the price (mostly time) to figure out this lightweight course selling setup - so you don't have to. I get a small cut if you buy them via one of these links._
 
 Let's get started.
 
 ## The Initial Strategy
 
-To better understand my journey, let's take a brief look at my content creation history:
+To better understand my journey, let's take a brief look at my content creation history.
 
-Back in November 2017, I published my [first blog article](https://rieckpil.de/summary-of-the-container-conf-2017/). While these few articles were rather random (both in the topic and timing), I soon established the habit to constantly write about something. Since then, I've been writing articles for various topics, mainly about Java and its framework ecosystem. Many of the blog posts were the result of my learnings at work or hands-on tutorials I wish I had found on Google when I learned a new technology (especially Java EE).
+Back in November 2017, I published my [first blog article](https://rieckpil.de/summary-of-the-container-conf-2017/). While the first few articles were somewhat random (both in the topic and timing), I soon established the habit to write about something constantly. Since then, I've been writing articles for various topics, mainly about Java and its ecosystem. Many of the blog posts were the result of my learnings at work or hands-on tutorials I wish I had found on Google when I learned a new technology (especially Java EE).
 
 At the end of 2019, I reached the milestone of 100 published articles on my site.
 
-After writing `text/plain` for some years, I thought the next natural step was to also create video content.
+After writing `text/plain` for three years, I thought the next natural step was creating video content.
 
 I gave it a shot and uploaded a [first video on YouTube](https://www.youtube.com/watch?v=GM5ftYM_W90) in May 2019. The audio quality was bad, and the video had black bars as I didn't record 16:9. That didn't matter, as I was happy to leave my comfort zone and have _something_ uploaded. I was sure that the quality of every upcoming video would improve anyway.
 
 > Perfection is the enemy of progress
 
+With these two content platforms (blog & YouTube) in place, I continued creating content for various topics. There wasn't a clear target audience I wanted to reach. Whenever a topic worth talking about popped up, I sat down and wrote about it. I usually switched frameworks between the articles and hence wasn't targeting a specific set of Java developers.
 
-With these two content platforms (blog & YouTube) in place, I continued creating content for a variety of topics. There wasn't a clear target audience I wanted to reach. Whenever a topic worth talking about popped up, I sat down and wrote about it. I usually switched frameworks between the articles and hence wasn't targeting a specific set of Java developers.
-
-In the last two years, I have naturally discovered my content niche. I started focussing more on one specific topic instead of serving all Java developers: Testing Java and specifically Spring Boot (a common framework) applications.
+In the last two years, I have naturally discovered my content niche. I started focussing more on one specific topic instead of serving all Java developers: Testing Java and specifically Spring Boot (a well-known framework) applications.
 
 The benefit of this niche is that almost nobody talks about testing in their articles. They showcase shiny new features or tools but nearly never tackle the testing part.
 
@@ -47,21 +46,17 @@ That's quite frustrating if you want to apply their ideas to your project at wor
 
 You know ahead that your colleagues will ask you as soon as you want to integrate your code changes: "Where are the (damn) tests?".
 
-After creating articles for this niche (Testing Java and specifically Spring Boot applications), I discovered that there's almost no online course that comprehensively teaches this topic and uses a real-world example.
+After creating some articles for this niche, I discovered that there's almost no online course that comprehensively teaches this topic and uses a real-world example.
 
-Everyone can test the `add` method of a `MyCalculator` class. But how to write an end-to-end test for a modern front-end involving an OIDC login, database access, and fetch data from REST API in the background?
+Everyone can test the `add` method of a `MyCalculator` class. But how to write an end-to-end test for a modern frontend involving an OIDC login, database access, and fetching data from REST API in the background?
 
-I wanted to develop a real-world course application, enhance it with an excellent test suite and talk about it.
+My plan was to develop a real-world course application, enhance it with an excellent test suite and talk about it. And with real-world, I mean a sophisticated application that connects to various infrastructure components. This is where testing becomes tricky.
 
-And with real-world, I mean a sophisticated application that connects to various infrastructure components. This is where testing becomes tricky.
-
-The intent to create an online course and strategically create blog posts around this topic wasn't there from day one. This came somehow naturally.
-
-I strongly believe that testing becomes joyful as soon as you know of the different testing tools & libraries and recipes at hand.
+I strongly believe that testing becomes joyful as soon as you know of the different testing tools & libraries, and recipes at hand.
 
 It's the HOW that's important here.
 
-Packed with this mission, I was highly motivated to get this project going. As I have done nothing similar before, recording everything upfront would be a hell of work.
+Packed with this mission, I was highly motivated to get this project going. As I have done nothing similar before, except same sporadic YouTube videos, recording everything up front would be a hell of work.
 
 That's why I decided to use an iterative approach and incrementally create this course while getting feedback early on. #agileDoneRight
 
