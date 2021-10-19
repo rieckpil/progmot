@@ -62,35 +62,35 @@ That's why I decided to use an iterative approach and incrementally create this 
 
 ## Creating The Course Content
 
-As a first step, I developed the real-world course application up-front. For the application's tech stack, I used React with TypeScript and a Spring Boot Java backend. That should mirror most of today's architectures (SPA connecting to a backend) out there.
+As a first step, I developed the real-world course application. The course application is all about creating and managing book reviews. For the application's tech stack, I picked React with TypeScript and a Spring Boot Java backend. That should mirror most of today's architectures (SPA connecting to a backend) out there.
 
-To make the setup more advanced, I added Keycloak (identity provider for OIDC), PostgreSQL to store data, a remote REST API, and an AWS service for messaging to the mix.
+To make the setup more advanced, I added Keycloak (an open source identity provider), PostgreSQL to store data, a remote REST API, and an AWS service for messaging to the mix.
 
-In parallel, I sketched out the different course modules (module -> chapter -> lesson). Throughout the course, I wanted to tackle unit, integration and end-to-end testing. This gave me the natural course structure of starting at the bottom of the testing pyramid with unit testing and then working upwards until we finally write end-to-end tests in the last module.
+In parallel, I sketched out the different course modules (module -> chapter -> lesson). Throughout the course, I wanted to tackle unit, integration, and end-to-end testing. This gave me the natural course structure of starting at the bottom of the testing pyramid with unit testing and then working upwards until we finally write end-to-end tests in the last module.
 
-Once the application was ready, I had a rough idea of what I wanted to showcase and talk about. I ensured enough code parts to demonstrate various testing techniques: secured endpoints, message listeners, database access with native queries, plain business logic to verify, etc.
+Once the application was ready, I had a rough idea of what I wanted to showcase and talk about. I ensured there were enough non-trivial code parts to demonstrate various testing techniques: secured endpoints, message listeners, database access with native queries, plain business logic to verify, etc.
 
-While I could (and maybe should) have written the tests for the application alongside the development, I first wanted to have a working application that falls under the real-world category and does some non-trivial tasks.
+While I could (and maybe should) have written the tests for the application alongside the development, I first wanted to have a working application to see the bigger picture.
 
 As the goal of the online course was all about testing applications, I did not record the creation of the sample application. At various lessons, I explained the relevant code parts and gave an architectural overview at the beginning of the course. The overall application was sophisticated in the setup and yet simple enough to grasp.
 
-Here's a short excerpt of the course application's main use case: Creating book reviews:
+Here's a short excerpt of the course application's primary use case: Creating book reviews:
 
 ![Recorded E2E test of the main user journey](/main-user-journey-e2e-test-recording.gif "Recorded E2E test of the main user journey")
 
 The GIF above is an automatically recorded outcome of an end-to-end test.
 
-With my iterative course creation strategy, I started with the first milestone to release the first two modules (roughly 15 course lessons). Those two modules were all about getting used to the course application and an introduction to the unit testing libraries.
+With my iterative course creation strategy in mind, I started with the first milestone and wanted to release the first two modules (roughly 15 course lessons). Those two modules were all about getting used to the course application and an introduction unit testing.
 
-This initial goal got me started to outline the first lessons in greater detail. I noted down the best practices, tips and pitfalls I wanted to show. I did not plan each and every lesson and rather found a natural position to cut the recorded video.
+This initial goal got me started to outline the first lessons in greater detail. I noted down the best practices, tips, and pitfalls I wanted to show. I did not set hard boundaries for the lessons ahead and wanted to find a natural position to cut the recorded video afterward.
 
-Next, I opened my IDE and developed all the tests I'll write and talk about in the recording. Once finished, I committed the changes to my private GitHub repository and again removed the code to the bare skeleton.
+Next, I opened my IDE and developed all the tests I wanted to write and talk about in the course. Once finished, I committed the changes to my private GitHub repository and removed the code I just developed to a bare skeleton.
 
-This "dry run" without recording helped me during the actual recording session. I was using two screens and on one screen, I recorded my IDE and developed the tests step-by-step. On the second screen I opened the target outcome by cloning the same project twice.
+This "dry run" without recording helped me during the actual recording session. I was using two screens, and on one screen, I recorded my IDE and developed the tests step-by-step. On the second screen, I opened the target outcome by cloning the same project twice.
 
-I ensured to have the ahead coding close to the actual recording to not forget my plans.
+I could frequently look at the second screen to not get lost while coding.
 
-This initial batch of work (roughly 15 lessons each 5-15 min long) kept me busy for three weeks. I usually used the morning hours to record 60 - 90 minutes of content. I brainstormed the next lessons in the afternoon and edited the videos once the entire batch was recorded.
+This initial batch of work (roughly 15 lessons each 5-15 min long) kept me busy for three weeks. I usually used the morning hours to record 60 - 90 minutes of content. I brainstormed the following lessons in the afternoon and edited the videos once the entire batch was recorded.
 
 After finishing an iteration of usually 1 - 2 modules, I started with the next one. I followed the exact same strategy until I had all 8 modules with 127 videos in total recorded.
 
