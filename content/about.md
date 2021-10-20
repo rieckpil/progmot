@@ -17,7 +17,7 @@ I've co-authored [Stratospheric](https://stratospheric.dev/) - an eBook on getti
 
 To demystify the name of this site:
 
-progmot = Random thoughts about **prog**ramming & **mot**ivation
+progmot = Thoughts about **prog**ramming & **mot**ivation
 
 Enjoy reading my random thoughts,\
 Philip
