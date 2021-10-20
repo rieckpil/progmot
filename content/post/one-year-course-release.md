@@ -96,7 +96,7 @@ After finishing an iteration of usually 1 - 2 modules, I started with the next o
 
 ## The Technical Setup For Recording
 
-I've developed the course application and recorded everything on an Ubuntu 20.04 with the following tools:
+I've developed the course application and recorded everything on an Ubuntu 20.04 desktop PC and used the following tools:
 
 Recording & Editing:
 
@@ -104,34 +104,33 @@ Recording & Editing:
 - [Kazam](https://wiki.ubuntuusers.de/Kazam/) for audio and screen recording
 - [kdenlive](https://kdenlive.org/de/) for video editing and rendering
 
-Development:
+Application development:
 
 - private repository on GitHub
 - plain `.md` files inside the repository to structure the modules and lessons
 - IntelliJ IDEA:
-    - use the Presenter View to record your videos (make yourself familiar with the basic IDEA shortcuts to navigate as you're otherwise lost in that view)
-    - download and active Presentation Assistant plugin to show the shortcuts you're using (a lot of students will ask):
-
-
+    - use the IDEA's Presenter View to record your videos (make yourself familiar with the basic IDEA shortcuts to navigate as you're otherwise lost in that view) for a bigger font-size and less clutter on the screen
+    - download and active Presentation Assistant plugin to automatically show the shortcuts you're using (a lot of students will ask):
+    
 ![Presentation Assistant Plugin Example](/presentation-assistant-idea-plugin-example.png "Presentation Assistant Plugin Example")
 
 For the microphone I was using:
 
 - [Auna Mic](https://rieckpil.de/a/auna-mic)
 
-As I was only recording my screen and audio, there was no need for a greenscreen, high-resolution camera and a lighting setup. Had I set up additional equipment for recording more than just my screen, this would have postponed the time I'd have a _good enough_ recording setup.
+As I was only recording my screen and audio, there was no need for a greenscreen, a high-resolution camera, or a lighting setup. Had I set up additional equipment for recording more than just my screen, this would have postponed the time I'd have a _good enough_ recording setup.
 
-The benefit of this approach is that you can have as many misspellings as needed—you just have to reiterate.
+The benefit of recording only audio and the screen is that you can focus on writing code. You don't have to coordinate with the camera and can stare at your screen or microphone. If you misspelled a sentence, you can reiterate with ease.
 
-IMHO, for a technical course, that's optional. Sometimes the face of the course instructor also blocks important parts on the screen. I'm only hacking letters on the keyboard without much gesture.
+For a first welcome video where you greet your new course participants, it might make sense to show your face to establish a stronger _connection_ with the audience. For the rest of a technical course, IMHO, that's optional. Sometimes the face of the course instructor also blocks important parts on the screen. As I'm only hacking some letters into the keyboard, there isn't much gesture anyway.
 
-If it's bad, you'll figure it out early and can adjust. That's way better than procrastinating or trying to get pixel-perfect lessons that nobody will watch because the topic is not convincing.
+It's better to get started with a setup you feel comfortable with than procrastinating or getting pixel-perfect lessons that nobody will watch because the topic is not convincing.
 
-For a first welcome video where you greet your new course participants, it might make sense to show your face to establish a stronger _connection_ with the audience.
+Once I had the entire recordings for a batch ready, I started the editing process. 
 
-Once I had the entire recordings for the next batch ready, I started the editing process. As a first step, I extracted the audio from the recording and opened it in Audacity. There I might same adjustments to the sound (e.g. remove background noise). I took the Audacity export back to kdenlive and replaced the old audio.
+As a first step, I extracted the audio from the recording and opened it in Audacity. There I made some adjustments to the audio, like removing background noise. I replaced the original audio with the edited soundtrack from Audacity within kdenlive.
 
-Next, I started video editing. I added no fancy animations or transitions to the videos and only focussed on removing the misspellings and separating videos. So a 90-minute recording block usually resulted in 50 minutes of content split up to 4-5 separate videos.
+Next, I started the actual video editing. I added no fancy animations or transitions to the videos and only focussed on removing the misspellings and separating videos. A 90-minute recording block usually resulted in 50 minutes of content split up into 4-5 separate video lessons.
 
 ## The Technical Setup For Hosting the Course
 
