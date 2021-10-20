@@ -1,6 +1,6 @@
 theme = "paper"
 
-title = "Progmot"
+title = "progmot"
 languageCode = "en-us"
 baseURL = "https://progmot.com/"
 copyright = "© {year}"
@@ -13,10 +13,10 @@ googleAnalytics = "UA-180172546-1"
 
 # Optional params
 [params]
+  disableHLJS = true
   twitter = 'rieckpil'
   github = 'rieckpil'
   instagram = 'rieckpil'
-
 
 # Controls the navigation
 [menu]
