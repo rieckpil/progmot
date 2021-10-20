@@ -1,5 +1,5 @@
 ---
-title: "How I Made $35k Selling My First Online Course"
+title: "A Retrospect - How I Made $35k Selling My First Online Course"
 date: 2021-09-04T09:15:58+02:00
 slug: ""
 description: ""
