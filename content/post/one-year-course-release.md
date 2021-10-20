@@ -1,5 +1,5 @@
 ---
-title: "How I Made $34.674 Selling My First Online Course"
+title: "How I Made $35k Selling My First Online Course"
 date: 2021-09-04T09:15:58+02:00
 slug: ""
 description: ""
@@ -7,7 +7,7 @@ keywords: []
 draft: true
 tags: []
 math: false
-toc: true
+toc: false
 ---
 
 _**TL;DR:** This 6500 words long article is a one-year retrospect after launching my first paid online course. Learn about my initial strategy, the actual journey, the mistakes I've made, and my recommendations._
@@ -66,6 +66,8 @@ As a first step, I developed the real-world course application. The course appli
 
 To make the setup more advanced, I added Keycloak (an open source identity provider), PostgreSQL to store data, a remote REST API, and an AWS service for messaging to the mix.
 
+![Technical Architecture of the Masterclass](/img/tbsam-technical-architecture.png "Technical Architecture of the Masterclass")
+
 In parallel, I sketched out the different course modules (module -> chapter -> lesson). Throughout the course, I wanted to tackle unit, integration, and end-to-end testing. This gave me the natural course structure of starting at the bottom of the testing pyramid with unit testing and then working upwards until we finally write end-to-end tests in the last module.
 
 Once the application was ready, I had a rough idea of what I wanted to showcase and talk about. I ensured there were enough non-trivial code parts to demonstrate various testing techniques: secured endpoints, message listeners, database access with native queries, plain business logic to verify, etc.
@@ -76,7 +78,7 @@ As the goal of the online course was all about testing applications, I did not r
 
 Here's a short excerpt of the course application's primary use case: Creating book reviews:
 
-![Recorded E2E test of the main user journey](/main-user-journey-e2e-test-recording.gif "Recorded E2E test of the main user journey")
+![Recorded E2E test of the main user journey](/img/main-user-journey-e2e-test-recording.gif "Recorded E2E test of the main user journey")
 
 The GIF above is an automatically recorded outcome of an end-to-end test.
 
@@ -112,11 +114,11 @@ Application development:
     - use the IDEA's Presenter View to record your videos (make yourself familiar with the basic IDEA shortcuts to navigate as you're otherwise lost in that view) for a bigger font-size and less clutter on the screen
     - download and active Presentation Assistant plugin to automatically show the shortcuts you're using (a lot of students will ask):
 
-![Presentation Assistant Plugin Example](/presentation-assistant-idea-plugin-example.png "Presentation Assistant Plugin Example")
+![Presentation Assistant Plugin Example](/img/presentation-assistant-idea-plugin-example.png "Presentation Assistant Plugin Example")
 
 For the microphone I was using:
 
-- [Auna Mic](https://rieckpil.de/a/auna-mic)
+- [Auna Mic*](https://rieckpil.de/a/auna-mic)
 
 As I was only recording my screen and audio, there was no need for a greenscreen, a high-resolution camera, or a lighting setup. Had I set up additional equipment for recording more than just my screen, this would have postponed the time I'd have a _good enough_ recording setup.
 
@@ -154,13 +156,15 @@ Using these tools, the final workflow to gain access to the Masterclass is as th
 2. Once they click on "Buy Now" they're redirected to a pre-checkout page (on my blog) and have to register a new course account
 3. They're redirected to a SendOwl checkout page and enter their payment information
 4. SendOwl redirects the user to a "Thank You" page on my blog with further information on how to get started
-5. In the background (and if the user gave consent), they're added to my mailing list ([*Mailchimp](https://rieckpil.de/a/mailchimp)), including order information
+5. In the background (and if the user gave consent), they're added to my mailing list ([Mailchimp*](https://rieckpil.de/a/mailchimp)), including order information
 6. Once the order is completed, SendOwl sends a webhook to my WordPress instance and Thrive Apprentice grants access to the purchased course
 7. The user can now work with the course and gets a "Welcome" email delivered to their inbox
 
 It took me some test purchases until I had the proper configuration for this setup, but since then, it's working as expected.
 
-SendOwl even offers a deep integration with [*Mailchimp](https://rieckpil.de/a/mailchimp) to recover abandoned carts that can help to drive additional sales. The integration to my main mailing list also helps to segment the audience. I can see if a subscriber has enrolled for the course or got stuck in the checkout. This helps to send marketing campaigns more efficiently to the right subscribers.
+SendOwl even offers a deep integration with [Mailchimp*](https://rieckpil.de/a/mailchimp) to recover abandoned carts that can help to drive additional sales. The integration to my main mailing list also helps to segment the audience. I can see if a subscriber has enrolled for the course or got stuck in the checkout. This helps to send marketing campaigns more efficiently to the right subscribers by using tags:
+
+![Mailchimp SendOwl Integration Example](/img/mailchimp-order-information-from-sendowl.png "Mailchimp SendOwl Integration Example")
 
 ## Selling the Course Content
 
@@ -175,6 +179,8 @@ Even though you don't have your full checkout process in place, put a form for y
 This pre-landing page also acts as a basic market research opportunity. You can use it to validate that your course idea arouses interest. Just because you think this course topic is important doesn't imply the rest of the world is interested in it.
 
 For the [landing page](https://rieckpil.de/testing-spring-boot-applications-masterclass/) I used Thrive Architect (part of [Thrive Suite](https://rieckpil.de/a/thrive-themes)) which comes with ready-to-use landing page templates.
+
+![Landing Page of the Masterclass](/img/tsbam-landing-page-overview.gif "Landing Page of the Masterclass")
 
 As this was my first landing page for a paid product, I'd give my best to write engaging sales copy. I added some social proof via testimonials about myself from a well-known content creator in the Java-space. So, check your Twitter bubble or other content creators for your niche. This will add natural proof to your content.
 
@@ -221,6 +227,12 @@ After announcing the course idea and the upcoming first early-bird batch for mul
 I still remember the exact feeling when I hit the release button for the first chapter. Two hours later, I left my room, had dinner with my family, and checked the Stripe (payment processing) dashboard.
 
 WTF? There are already 5 sales - yes! What a feeling. Someone from somewhere around the globe just bought my course at this early stage. And they even paid for it!
+
+At the end of the release day, there were 9 paying customers:
+
+![Incoming Sales on the Course Launch Day](/img/tsbam-first-day-course-launch-sales.png "Incoming Sales on the Course Launch Day")
+
+I never thought that many people will enroll for the course at this stage. I was expecting 20 customers in the first month.
 
 ## A Note on Effort
 
@@ -288,7 +300,7 @@ If you don't have an audience (yet), try to engage in the communities where your
 
 I've made $ 34.674 in revenue after one year. The margin is also high as my only expenses are hosting fees, marketing costs, and affiliate commissions. If I'd slightly reduce my monthly costs for living, I could live off that money. That's a big relief!
 
-![Sales report overview after one year](../../static/img/tsbam-earnings-after-one-year.png)
+![Sales report overview after one year](/img/tsbam-earnings-after-one-year.png)
 
 ### The learning curve is steep - not only for your coding and presentation skills
 
