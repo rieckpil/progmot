@@ -2,7 +2,7 @@
 title = "About"
 date = "2021-10-20"
 aliases = ["about-us"]
-author = "rieckpil"
+author = "Philip"
 +++
 
 Hi :wave:

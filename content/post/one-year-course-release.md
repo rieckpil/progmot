@@ -1,8 +1,13 @@
 ---
 title: "How I Made $35k Selling My First Online Course - A Retrospect"
-date: 2021-09-04T09:15:58+02:00
+date: 2021-10-21T09:15:58+02:00
 slug: "/creating-and-selling-my-first-online-course"
-description: ""
+author: "Philip"
+summary: "A one-year retrospect after creating and selling my first online course: my strategy, the actual journey, mistakes, and recommendations."
+description: "A one-year retrospect after creating and selling my first online course: my strategy, the actual journey, mistakes, and recommendations."
+type: posts
+images:
+  - /img/online-course-one-year-retrospect-featured-image.png
 keywords: []
 draft: true
 tags: []
