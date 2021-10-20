@@ -288,7 +288,7 @@ If you don't have an audience (yet), try to engage in the communities where your
 
 I've made $ 34.674 in revenue after one year. The margin is also high as my only expenses are hosting fees, marketing costs, and affiliate commissions. If I'd slightly reduce my monthly costs for living, I could live off that money. That's a big relief!
 
-![Sales report overview after one year](../../static/tsbam-earnings-after-one-year.png)
+![Sales report overview after one year](../../static/img/tsbam-earnings-after-one-year.png)
 
 ### The learning curve is steep - not only for your coding and presentation skills
 
