@@ -1,25 +1,23 @@
 +++
 title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2021-10-10"
-aliases = ["about-us", "contact"]
+date = "2021-10-20"
+aliases = ["about-us"]
 author = "rieckpil"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hi :wave:
 
-Hugo makes use of a variety of open source projects including:
+I'm Philip, a freelance IT consultant and indie hacker from Berlin :de:.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+On my main blog [rieckpil.de](https://rieckpil.de/) I'm creating content under the slogan _Testing Java Applications Made Simple_ with a focus on Java, Kotlin, Spring Boot, and AWS :leaves:
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+This site acts as a meta blog for topics that don't fit on a technical blog: freelancing, motivation, indie hacking, productivity, etc.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+I've co-authored [Stratospheric](https://stratospheric.dev/) - an eBook on getting started with Spring Boot on AWS (Amazon Web Services) and am the co-founder of [Blogtrack](https://www.blogtrack.io/).
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+To demystify the name of this site:
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+progmot = Random thoughts about **prog**ramming & **mot**ivation
+
+Enjoy reading my random thoughts,\
+Philip
