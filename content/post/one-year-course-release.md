@@ -111,7 +111,7 @@ Application development:
 - IntelliJ IDEA:
     - use the IDEA's Presenter View to record your videos (make yourself familiar with the basic IDEA shortcuts to navigate as you're otherwise lost in that view) for a bigger font-size and less clutter on the screen
     - download and active Presentation Assistant plugin to automatically show the shortcuts you're using (a lot of students will ask):
-    
+
 ![Presentation Assistant Plugin Example](/presentation-assistant-idea-plugin-example.png "Presentation Assistant Plugin Example")
 
 For the microphone I was using:
@@ -126,7 +126,7 @@ For a first welcome video where you greet your new course participants, it might
 
 It's better to get started with a setup you feel comfortable with than procrastinating or getting pixel-perfect lessons that nobody will watch because the topic is not convincing.
 
-Once I had the entire recordings for a batch ready, I started the editing process. 
+Once I had the entire recordings for a batch ready, I started the editing process.
 
 As a first step, I extracted the audio from the recording and opened it in Audacity. There I made some adjustments to the audio, like removing background noise. I replaced the original audio with the edited soundtrack from Audacity within kdenlive.
 
@@ -142,7 +142,7 @@ As my blog is running on WordPress, and I'm heavily usin the [Thrive Suite*](htt
 
 With Thrive Apprentice, I could leverage the WordPress user management to have a login area and control access to my course. The visitors also stay on my side, and I have full control over the content.
 
-For [Thrive Apprentice*](https://rieckpil.de/a/thrive-themes), you need both an eCommerce Provider and a video hosting solution. For the eCommerce provider, I've picked [SendOwl*](https://rieckpil.de/a/sendowl) as their offerings and pricing are reasonable (my current plan is $26/month). 
+For [Thrive Apprentice*](https://rieckpil.de/a/thrive-themes), you need both an eCommerce Provider and a video hosting solution. For the eCommerce provider, I've picked [SendOwl*](https://rieckpil.de/a/sendowl) as their offerings and pricing are reasonable (my current plan is $26/month).
 
 Once I've signed up for my [SendOwl*](https://rieckpil.de/a/sendowl) account, I connected my Stripe and PayPal accounts to have the most common payment options.
 
@@ -280,7 +280,7 @@ As soon as most of our audience knows your product, you somehow need to attract 
 
 I got lucky that this course hit the needs of an audience. It might have also flopped.
 
-That's fine, as long as you're finding this out early in the process. Creating the landing page early in the process can help to identify if there's demand. You can also use a poll and send it to your existing audience. 
+That's fine, as long as you're finding this out early in the process. Creating the landing page early in the process can help to identify if there's demand. You can also use a poll and send it to your existing audience.
 
 If you don't have an audience (yet), try to engage in the communities where your target audience is (e.g. Twitter, Reddit, YouTube, etc.). Small steps, start with the landing page, gather leads and re-iterate.
 
@@ -322,7 +322,7 @@ As I want to reach many people with the content I create, supporting PPP is a no
 
 I've seen creators afraid this mechanism will be abused. Creating a VPN tunnel to another country is a matter of seconds. Someone might trick this system and get the content for only a subset of the target price for their country. Nevertheless, I'm still able to see the origin of the payment and identify _frauds_. That never happened so far, and even if it happens, I'm convinced that Karma will do its job.
 
-### Embed more hands-on exercises and quizzes 
+### Embed more hands-on exercises and quizzes
 
 I've worked through several online courses and enjoy learning new techniques and tools this way. For most of these courses, I preferred to code along with the speaker and immediately try out things in my IDE.
 

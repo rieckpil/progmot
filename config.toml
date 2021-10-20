@@ -35,22 +35,26 @@ series = "series"
 # Privacy
 [privacy]
 
-  [privacy.vimeo]
-    disabled = false
-    simple = true
-
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
+  [privacy.disqus]
+    disable = true
 
   [privacy.instagram]
-    disabled = false
-    simple = true
+    disable = true
+
+  [privacy.twitter]
+    disable = true
+
+  [privacy.vimeo]
+    disable = true
 
   [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
+    disable = true
+
+  [privacy.googleAnalytics]
+     anonymizeIP = true
+     disable = false
+     respectDoNotTrack = true
+     useSessionStorage = false # not supported by GA4
 
 [services]
 

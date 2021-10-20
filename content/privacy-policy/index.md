@@ -65,8 +65,8 @@ We herewith advise you that the transmission of data via the Internet (i.e., thr
 
 The data processing controller on this website is:
 
-Philip Riecks  
-Fließstraße 17  
+Philip Riecks\
+Fließstraße 17\
 12439 Berlin
 
 E-mail: philip@progmot.com
