@@ -134,35 +134,33 @@ Next, I started the actual video editing. I added no fancy animations or transit
 
 ## The Technical Setup For Hosting the Course
 
-The decision to host the video course lessons fell to Vimeo. They offer a feature to protect the playback of videos only on allowed hosts. This is more _secure_ compared to uploading the videos to YouTube and making them private.
+While I've worked through several courses on Udemy and similar platforms myself, I soon encountered that these platforms are not the best for small course creators. While they do some marketing for your course and have a lot of search traffic for various topics every day, their payment structure is not what I was looking for.
 
-I then uploaded the rendered videos to [Vimeo*](https://rieckpil.de/a/vimeo) for the integration in the online course later on. For Vimeo, I picked their paid plan for 6 € each month. Compared to YouTube, you can add more fine-grained security settings where your videos can be embedded. This makes unintended downloading and sharing more complicated.
+I was looking for a lean technical setup that gives me full control over the course and audience.
 
-While I've worked through several courses on Udemy and a similar platform myself, I soon encountered that these platforms are not the best for small course creators. While they do some marketing for your course and have a big audience that searches for various topics every day, their payment structure is not what I was looking for.
-
-I was looking for an alternative—lean technical setup yet full control over the audience.
-
-As my blog is running on WordPress, and I'm heavily using plugins of the [Thrive Suite*](https://rieckpil.de/a/thrive-themes), I investigated their online course plugin: Thrive Apprentice.
+As my blog is running on WordPress, and I'm heavily usin the [Thrive Suite*](https://rieckpil.de/a/thrive-themes), I investigated their online course plugin: Thrive Apprentice.
 
 With Thrive Apprentice, I could leverage the WordPress user management to have a login area and control access to my course. The visitors also stay on my side, and I have full control over the content.
 
-For [Thrive Apprentice*](https://rieckpil.de/a/thrive-themes), you need both an eCommerce Provider and a video hosting solution. For the eCommerce provider, I've picked [SendOwl*](https://rieckpil.de/a/sendowl) as their offerings and pricing are reasonable (the current plan is $26/month). Vimeo is one of the supported video hosting solutions, and the integration works by just copying the link.
+For [Thrive Apprentice*](https://rieckpil.de/a/thrive-themes), you need both an eCommerce Provider and a video hosting solution. For the eCommerce provider, I've picked [SendOwl*](https://rieckpil.de/a/sendowl) as their offerings and pricing are reasonable (my current plan is $26/month). 
 
 Once I've signed up for my [SendOwl*](https://rieckpil.de/a/sendowl) account, I connected my Stripe and PayPal accounts to have the most common payment options.
 
-The workflow to gain access with this setup works as the following:
+Thrive Apprentice supports various video hosting platforms. I went for [Vimeo*](https://rieckpil.de/a/vimeo) and picked their paid plan for $6/month. Compared to YouTube, you can add more fine-grained security settings for your videos with Vimeo. This makes unintended downloads and sharing more complicated. The integration with Thrive Apprentice works by just copying the video link.
 
-The workflow to gain access with this setup works as the following:
+Using these tools, the final workflow to gain access to the Masterclass is as the following:
 
 1. The potential course participant visits the landing page
 2. Once they click on "Buy Now" they're redirected to a pre-checkout page (on my blog) and have to register a new course account
 3. They're redirected to a SendOwl checkout page and enter their payment information
 4. SendOwl redirects the user to a "Thank You" page on my blog with further information on how to get started
-5. In the background (and if the user gave consent), they're added to my mailing list (Mailchimp), including order information
+5. In the background (and if the user gave consent), they're added to my mailing list ([*Mailchimp](https://rieckpil.de/a/mailchimp)), including order information
 6. Once the order is completed, SendOwl sends a webhook to my WordPress instance and Thrive Apprentice grants access to the purchased course
 7. The user can now work with the course and gets a "Welcome" email delivered to their inbox
 
-It took me some test purchases until I had the configuration for this setup correct, but since then, it's working as expected.
+It took me some test purchases until I had the proper configuration for this setup, but since then, it's working as expected.
+
+SendOwl even offers a deep integration with [*Mailchimp](https://rieckpil.de/a/mailchimp) to recover abandoned carts that can help to drive additional sales. The integration to my main mailing list also helps to segment the audience. I can see if a subscriber has enrolled for the course or got stuck in the checkout. This helps to send marketing campaigns more efficiently to the right subscribers.
 
 ## Selling the Course Content
 
