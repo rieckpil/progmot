@@ -5,7 +5,6 @@ slug: "/creating-and-selling-my-first-online-course"
 author: "Philip"
 summary: "A one-year retrospect after creating and selling my first online course: my strategy, the actual journey, mistakes, and recommendations."
 description: "A one-year retrospect after creating and selling my first online course: my strategy, the actual journey, mistakes, and recommendations."
-type: posts
 images:
   - /img/online-course-one-year-retrospect-featured-image.png
 keywords: []
@@ -21,7 +20,7 @@ It's been a year since I launched my first paid online course: the [Testing Spri
 
 This article gives you an inside view of this project. We'll cover the technical setup, how I've planned and recorded the video lessons, and my sales and marketing efforts.
 
-A short note about my background: On [my main blog](https://rieckpil.de/), I'm creating content about Java, Testing, Spring Boot, and AWS. In August 2020, I launched the Masterclass as my first paid online course. This online course is an in-depth resource for deploying Spring Boot applications with more confidence. The course showcases various recipes, tips & tricks, and best practices for testing real-world Spring Boot applications.
+A short note about my background: On [my main blog](https://rieckpil.de/), I'm creating content about Java, Testing, Spring Boot, and AWS. In August 2020, I launched the Masterclass as my first paid online course. This online course is an in-depth resource on deploying Spring Boot applications with more confidence. The course showcases various recipes, tips & tricks, and best practices for testing real-world Spring Boot applications.
 
 _**Disclaimer**: Figuring out which tools to use for such a project was quite an effort. Especially as I started from scratch. I spent various evenings screaming at my misbehaving checkout setup. I'll reference the hardware, tools, and software I'm actively using at multiple places in this article. The marked links (*) are affiliate links. I paid the price (mostly time) to figure out this lightweight course selling setup - so you don't have to. I get a small cut if you buy them via one of these links._
 
@@ -65,7 +64,7 @@ Packed with this mission, I was highly motivated to get this project going. As I
 
 That's why I decided to use an iterative approach and incrementally create this course while getting feedback early on. #agileDoneRight
 
-## Creating The Course Content
+## Creating the Course Content
 
 As a first step, I developed the real-world course application. The course application is all about creating and managing book reviews. For the application's tech stack, I picked React with TypeScript and a Spring Boot Java backend. That should mirror most of today's architectures (SPA connecting to a backend) out there.
 
@@ -101,7 +100,7 @@ This initial batch of work (roughly 15 lessons each 5-15 min long) kept me busy 
 
 After finishing an iteration of usually 1 - 2 modules, I started with the next one. I followed the exact same strategy until I had all 8 modules with 127 videos in total recorded.
 
-## The Technical Setup For Recording
+## The Technical Recording Setup
 
 I've developed the course application and recorded everything on an Ubuntu 20.04 desktop PC and used the following tools:
 
@@ -139,7 +138,7 @@ As a first step, I extracted the audio from the recording and opened it in Audac
 
 Next, I started the actual video editing. I added no fancy animations or transitions to the videos and only focussed on removing the misspellings and separating videos. A 90-minute recording block usually resulted in 50 minutes of content split up into 4-5 separate video lessons.
 
-## The Technical Setup For Hosting the Course
+## The Technical Hosting Setup
 
 While I've worked through several courses on Udemy and similar platforms myself, I soon encountered that these platforms are not the best for small course creators. While they do some marketing for your course and have a lot of search traffic for various topics every day, their payment structure is not what I was looking for.
 
@@ -377,7 +376,7 @@ As long as I'm having fun doing it and see the benefit for a greater audience, I
 
 If you asked me now for advice when the right timing for creating your first article, first YouTube video or online course, the answer would be simple: Right now.
 
-### Spend Less On Display Ads Or Spent it Better
+### Spend Less on Display Ads Or Spent It Better
 
 Seeing the sales coming in, I created ads on various platforms like Google Search, Twitter, Facebook and LinkedIn. I thought that if I just had enough firepower (aka. money) for ads, I'd create a money machine.
 
@@ -410,7 +409,7 @@ Most of the stuff has been done by others. Ask them for advice and help. Ask the
 
 Read other and join communities like Blogging For Devs. Get around like-minded people for both support and motivation.
 
-### Don't Get Drained in the Sales Dopamine Cycle
+### Don't Get Drained Into a Sales Dopamine Cycle
 
 Seeing sales come in almost daily, I soon started to eagerly check my mails after work (I never check my emails first thing in the morning). Subconsciously, I got drained into frequently checking my sales due to a small dopamine rush from each new order. It's similar to the urge of checking the Twitter feed, HackerNews or Reddit for updates.
 
@@ -440,10 +439,10 @@ As some course participants asked for a `plain/text` version of the online cours
 
 That's also a great way to attract a wider audience as not everybody enjoys learning from courses and rather prefers to read a book on the beach.
 
-The next online course is also waiting to be created. On top of the [Stratospheric eBook](https://stratospheric.dev/) (From Zero to Production with Spring Boot and AWS), which I've written with [Tom Hombergs](https://reflectoring.io/) and [Björn Wilmsmann](https://bjoernkw.com/), we're creating an online course. Equipped with my learnings from this course launch I'm looking forward to this project.
+The next online course is also waiting to be created. On top of the [Stratospheric eBook](https://stratospheric.dev/) (From Zero to Production with Spring Boot and AWS), which I've written with [Tom Hombergs](https://reflectoring.io/) and [Björn Wilmsmann](https://bjoernkw.com/), we're creating an online course. Equipped with my insights from this course launch I'm looking forward to this project.
 
 Now it's your turn - go for it and let me know how it worked out!
 
-PS: If you plan to mirror this setup and have in-depth technical questions, feel free to [reach out to me](https://twitter.com/rieckpil).
+PS: If you plan to mirror this setup and have further questions, feel free to [reach out](https://twitter.com/rieckpil).
 
 Philip
