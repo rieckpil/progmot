@@ -22,7 +22,7 @@ This article gives you an inside view of this project. We'll cover the technical
 
 A short note about my background: On [my main blog](https://rieckpil.de/), I'm creating content about Java, Testing, Spring Boot, and AWS. In August 2020, I launched the Masterclass as my first paid online course. This online course is an in-depth resource on deploying Spring Boot applications with more confidence. The course showcases various recipes, tips & tricks, and best practices for testing real-world Spring Boot applications.
 
-_**Disclaimer**: Figuring out which tools to use for such a project was quite an effort. Especially as I started from scratch. I spent various evenings screaming at my misbehaving checkout setup. I'll reference the hardware, tools, and software I'm actively using at multiple places in this article. The marked links (*) are affiliate links. I paid the price (mostly time) to figure out this lightweight course selling setup - so you don't have to. I get a small cut if you buy them via one of these links._
+_**Disclaimer**: Figuring out which tools to use for such a project was quite an effort. Especially as I started from scratch. I spent various evenings screaming at my misbehaving checkout setup. I'll reference the hardware, tools, and software I'm actively using at multiple places in this article. The marked links (*) are affiliate links. I paid the price (mostly time) to figure out this lightweight course selling setup - so you don't have to._
 
 Let's get started.
 
@@ -144,7 +144,7 @@ While I've worked through several courses on Udemy and similar platforms myself,
 
 I was looking for a lean technical setup that gives me full control over the course and audience.
 
-As my blog is running on WordPress, and I'm heavily usin the [Thrive Suite*](https://rieckpil.de/a/thrive-themes), I investigated their online course plugin: Thrive Apprentice.
+As my blog is running on WordPress, and I'm heavily using the [Thrive Suite*](https://rieckpil.de/a/thrive-themes), I investigated their online course plugin: Thrive Apprentice.
 
 With Thrive Apprentice, I could leverage the WordPress user management to have a login area and control access to my course. The visitors also stay on my side, and I have full control over the content.
 
@@ -198,13 +198,13 @@ I announced and actively advertised the pre-landing page and my course idea via 
 
 For pricing, I used other courses in my niche as an orientation and wanted to stand out with a premium course on this topic. Nothing in the Udemy price level. The first target price that came to my mind and seemed reasonable was $159 for the entire course.
 
-Once the first video lessons were uploaded to Vimeo, I modified the landing page and activated the checkout process. Paying the full price for the course upfront while getting access to a subset of the lessons wasn't a viable strategy. I came up with the idea of early bird discounts similar to an early access program.
+Once the first video lessons were uploaded to Vimeo, I modified the landing page and activated the checkout process. Paying the full price for the course upfront while getting access to a subset of the lessons wasn't a viable strategy. I came up with the idea of early-bird discounts similar to an early access program.
 
 With every iteration of the course, I slightly increased the price. Those that joined early got access to the entire course for almost the price of an eBook. But they had to wait until all lessons were available.
 
-I added scarcity effects with a countdown that informs how long the current early bird discount is available to drive more sales.
+I added scarcity effects with a countdown that informs how long the current early-bird discount is available to drive more sales.
 
-In the end, I had nine of these early bird batches:
+In the end, I had nine of these early-bird batches:
 
 - 80% discount 8th of August - 16th of August
 - 70% discount until the 23rd of August
@@ -216,7 +216,7 @@ In the end, I had nine of these early bird batches:
 - 37.5% discount until the 11th of October
 - 30% discount until the 25th of October
 
-At each stage new course users could join for a reduced price and get all upcoming course lessons for free. This early bird program also reduced the feedback cycle as I got important feedback early on and could improve the upcoming lessons.
+At each stage new course users could join for a reduced price and get all upcoming course lessons for free. This early-bird program also reduced the feedback cycle as I got important feedback early on and could improve the upcoming lessons.
 
 ## Going Live With the First Lessons
 
@@ -240,7 +240,7 @@ Since then, I started to focus on creating new content that is somehow related t
 
 On the 8th of August 2020, the time had come to go live with the first video lessons and an 80% discount.
 
-I still remember the exact feeling when I hit the release button for this first early bird batch. I was both nervous and super excited. While I tested the entire checkout process multiple times, I was still worried that something would go wrong.
+I still remember the exact feeling when I hit the release button for this first early-bird batch. I was both nervous and super excited. While I tested the entire checkout process multiple times, I was still worried that something would go wrong.
 
 As I didn't want to nervously stare at my inbox for the first complaints or orders (who knows what will happen), I left my room and had dinner with my family to distract myself.
 
@@ -262,27 +262,21 @@ I never thought that many people would enroll in the course at this stage. I was
 
 ## A Note on Effort
 
-On the 25th of October 2020 when I closed the last early bird batch and uploaded the last lessons,  the course had 127 video lessons. They all vary from 5 to 15 minutes in length.
+On the 25th of October 2020, when I uploaded the last lessons and closed the final early-bird batch, the course had 127 video lessons. I never had a target for the total course length in mind. I recorded as many videos as required to explain the various unit, integration, and end-to-end testing concepts.
 
-In total, the course users will watch 10 hours of high-quality content on testing Spring Boot applications. I had no target for the total length in mind, this came naturally.
+In total, the course users will watch 10 hours of high-quality content on testing Spring Boot applications. Most of the video lessons are five to ten minutes long.
 
-For a 30-minute video, I've recorded 45 minutes, and the editing took me another 45 minutes. This makes it approximately 90 minutes of effort for a 30-minute video lesson.
+If I had started this project with the goal of 10 hours in mind and wanted to record everything at once, that would have been almost impossible. I'd had to lock myself in my room for two months straight and then come out with a big bang release. The iterative approach helped me keep going.
 
-This includes no preparation work or coding upfront.
+It's hard to tell how much effort went into this entire adventure as I didn't stop the time.
 
-How long did it take to create this course? I can't give you the exact figures as I never mesaured the time. But as you'll see later on, the time investment paid off.
+As a ballpark figure, let's say that for 30-minutes of video content, I've recorded 45 minutes. Editing the raw content took me another 45 minutes. This makes it approximately 90 minutes for a final 30-minutes content block. However, this number does not include preparation work, coding efforts upfront, ideation, and marketing efforts afterward.
 
-In the first month or even year, you might not get the traction as expected. Don't compare the invested time with your hourly rate or salary. An online course is an asset that'll (hopefully) make money while you sleep.
+If I had to guess the total hours, it would be between 100 and 120 hours to create this course from scratch.
 
-Seeing more and more course participants also was a natural motivation to keep going.
+The additional time I got due to working remotely made this workload possible, next to a full-time job as a developer. I didn't have to spend 2 hours every day for the commute and could focus on the course first thing in the morning. In addition, I spent some Saturdays and Sundays to make this course happen.
 
-If I would have started with the end goal of 10 hour content in mind and wanted to record everything at once, that would have been almost impossible. I'd had to lock myself in my room for two months straight and then come out with a big bang release. The iterative approach improves the feedback loop and helps you drive the content.
-
-As there was no travel time to work and I could use this additional time to work on the course.
-
-That's it for the strategy and history of this course.
-
-Let's get into the retrospect for this adventure.
+Now it's time to start with the one-year retrospect for this adventure.
 
 ## One-Year Retrospect - What Went Well
 
@@ -319,6 +313,8 @@ That's fine, as long as you're finding this out early in the process. Creating t
 If you don't have an audience (yet), try to engage in the communities where your target audience is (e.g. Twitter, Reddit, YouTube, etc.). Small steps, start with the landing page, gather leads and re-iterate.
 
 ### You can live from such a side-business
+
+In the first month or even year, you might not get the traction as expected. Don't compare the invested time with your hourly rate or salary. An online course is an asset that'll (hopefully) make money while you sleep.
 
 I've made $ 34.674 in revenue after one year. The margin is also high as my only expenses are hosting fees, marketing costs, and affiliate commissions. If I'd slightly reduce my monthly costs for living, I could live off that money. That's a big relief!
 
