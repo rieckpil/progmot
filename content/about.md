@@ -7,7 +7,7 @@ author = "Philip"
 
 Hi :wave:
 
-I'm Philip, a freelance IT consultant and indie hacker from Berlin :de:.
+I'm Philip, a freelance IT consultant and Indie Hacker from Berlin :de:.
 
 On my main blog [rieckpil.de](https://rieckpil.de/) I'm creating content under the slogan _Testing Java Applications Made Simple_ with a focus on Java, Kotlin, Spring Boot, and AWS :leaves:
 

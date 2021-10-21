@@ -262,7 +262,9 @@ I never thought that many people would enroll in the course at this stage. I was
 
 ## A Note on Effort
 
-On the 25th of October 2020 when I closed the last early bird batch, the course had 127 video lessons. They all vary from 5 to 15 minutes in length. In total, the course users will watch 10 hours of recorded content on testing Spring Boot applications. I had no target for the total length in mind, this came naturally.
+On the 25th of October 2020 when I closed the last early bird batch and uploaded the last lessons,  the course had 127 video lessons. They all vary from 5 to 15 minutes in length.
+
+In total, the course users will watch 10 hours of high-quality content on testing Spring Boot applications. I had no target for the total length in mind, this came naturally.
 
 For a 30-minute video, I've recorded 45 minutes, and the editing took me another 45 minutes. This makes it approximately 90 minutes of effort for a 30-minute video lesson.
 
