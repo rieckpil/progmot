@@ -158,7 +158,7 @@ Using these tools, the final workflow to gain access to the Masterclass is as th
 
 1. The potential course participant visits the landing page
 2. Once they click on "Buy Now" they're redirected to a pre-checkout page (on my blog) and have to register a new course account
-3. They're redirected to a SendOwl checkout page and enter their payment information
+3. They're redirected to a [SendOwl*](https://rieckpil.de/a/sendowl) checkout page and enter their payment information
 4. SendOwl redirects the user to a "Thank You" page on my blog with further information on how to get started
 5. In the background (and if the user gave consent), they're added to my mailing list ([Mailchimp*](https://rieckpil.de/a/mailchimp)), including order information
 6. Once the order is completed, SendOwl sends a webhook to my WordPress instance and Thrive Apprentice grants access to the purchased course
@@ -166,7 +166,7 @@ Using these tools, the final workflow to gain access to the Masterclass is as th
 
 It took me some test purchases until I had the proper configuration for this setup, but since then, it's working as expected.
 
-SendOwl even offers a deep integration with [Mailchimp*](https://rieckpil.de/a/mailchimp) to recover abandoned carts that can help to drive additional sales. The integration to my main mailing list also helps to segment the audience. I can see if a subscriber has enrolled for the course or got stuck in the checkout. This helps to send marketing campaigns more efficiently to the right subscribers by using tags:
+[SendOwl*](https://rieckpil.de/a/sendowl) even offers a deep integration with [Mailchimp*](https://rieckpil.de/a/mailchimp) to recover abandoned carts that can help to drive additional sales. The integration to my main mailing list also helps to segment the audience. I can see if a subscriber has enrolled for the course or got stuck in the checkout. This helps to send marketing campaigns more efficiently to the right subscribers by using tags:
 
 ![Mailchimp SendOwl Integration Example](/img/mailchimp-order-information-from-sendowl.png "Mailchimp SendOwl Integration Example")
 
@@ -272,7 +272,7 @@ It's hard to tell how much effort went into this entire adventure as I didn't st
 
 As a ballpark figure, let's say that for 30-minutes of video content, I've recorded 45 minutes. Editing the raw content took me another 45 minutes. This makes it approximately 90 minutes for a final 30-minutes content block. However, this number does not include preparation work, coding efforts upfront, ideation, and marketing efforts afterward.
 
-If I had to guess the total hours, it would be between 100 and 120 hours to create this course from scratch.
+If I had to guess the total hours, it would be **between 100 and 120 hours to create this course from scratch**.
 
 The additional time I got due to working remotely made this workload possible, next to a full-time job as a developer. I didn't have to spend 2 hours every day for the commute and could focus on the course first thing in the morning. In addition, I spent some Saturdays and Sundays to make this course happen.
 
@@ -280,75 +280,157 @@ Now it's time to start with the one-year retrospect for this adventure.
 
 ## One-Year Retrospect - What Went Well
 
+Looking back at the first year of this adventure, let's talk about what I would recommend and where I got lucky.
+
 ### Releasing Early and Often
 
-Get the first version out as soon as possible. This first version need not be perfect but will let you test your setup end-to-end. This works way better than preparing a "big bang" release and figuring out that something with the payment setup is not working at the last minute.
+The iterative approach with small increments helped to experiment and keep being motivated.
+
+Getting the first version of your course out as soon as possible gives you confirmation and feedback early on.
+
+This first version need not be perfect but will let you test your setup end-to-end. This works way better than preparing a "big bang" release and then figuring out that something with the payment setup is not working at the last minute.
 
 ### Working With a Good Enough Tech Setup
 
-It's important that you're confident and have a simple (and reproducible) recording setup. You should be able to hit record in a matter of minutes with little preparation work. If you have to set up an entire conference studio for your first online course, chances are high you're procrastinating due to the effort.
+You must be confident and have a simple and reproducible recording setup. You should be able to hit the record button in a matter of minutes with little preparation work.
 
-I can highly recommend getting some first touchpoints with video and recording and editing on YouTube. YouTube is a great playground. There will be no refunds and only helpful comments to improve.
+If you have to set up an entire conference studio for your first online course, chances are high you're procrastinating due to the effort.
 
-This applies to both the technical setup for recording and selling your course. There are many decisions to make, and I'd recommend that with a solution that fits your current needs. You can buy a green screen later.
+I can highly recommend getting some first touchpoints with video and recording and editing on YouTube. YouTube is a great playground. There will be no refunds and (usually) only helpful comments to improve.
+
+This applies to both the technical setup for recording and selling your course. There are many decisions to make, and I'd recommend that you start with the simplest solution that fits your current needs. You can buy a green screen later.
 
 ### Single Digit Refund Rates
 
-I still remember the first month after the launch of the first version. I was so nervous about the first 30-day period and thought many would ask for a refund. This did not happen. After one year, I have a refund rate of 0.75%. Most of those refunds were due to different expectations.
+Money-back guarantees are a must-have for digital content. I'm offering a 30 days back no-questions-asked policy. I've had [some bad experience with the refund policy of another content creator](https://rieckpil.de/review-baeldungs-rest-with-spring-masterclass/) in the past and didn't want to be alike.
+
+I still remember the first month after the launch of the first version. I was so nervous about the first 30-day period and thought many customers would ask for a refund.
+
+This did not happen.
+
+After one year, I have a refund rate of 0.75%. Most of those refunds were due to different expectations.
 
 ### Affiliate Marketing is King
 
-There are tons of bloggers out there that might want some extra money each month to pay their hosting/tooling bills. I reached out soon to various other bloggers in the Java ecosystem and asked them to become an [affiliate](https://rieckpil.de/affiliate-program/). If the affiliate also blogs about the topic you teach, the conversion rates can be great. They can embed your link and explain how those looking for a deep-dive on this topic should look at the course.
+There are tons of bloggers out there that might want some extra money each month to pay their hosting/tooling bills. I reached out soon to various other bloggers in the Java ecosystem and asked them to become an [affiliate](https://rieckpil.de/affiliate-program/).
+
+If the affiliate partner embeds their link into an article that talks about the topic you teach, the conversion rates can be excellent.
+
+Those affiliate links will also add social proof, and more developers will get to know you.
+
+[SendOwl*](https://rieckpil.de/a/sendowl) comes with an easy-to-use affiliate setup. One of my affiliate partners is making $200+ almost every month.
 
 ### Attracting New Leads With Compelling Free Content
 
-As soon as most of our audience knows your product, you somehow need to attract new potential buyers. One of the best ways to do it is by creating free content around the course topic. Once I found my niche, I doubled down on the testing topic and primarily created articles and videos. Your blog visitors will associate your blog with a niche and know they can come back to find a solution for problem X. New visitors rarely convert into paying customers on their first visits. But the next time they're looking for deep-dive content on your topic, they know where to look first.
+As soon as your existing audience knows about your product, you need to attract new leads.
+
+One of the best ways to do it is by creating high-quality content around the course topic.
+
+Once I found my niche, I doubled down on the testing topic and primarily created articles and videos for this domain.
+
+Your blog visitors will soon associate your blog with your niche. Even if they don't convert on their first visit (which they rarely do), they know that they can come back to find a solution for problem X.
+
+And the next time they're looking for deep dive content on your topic, they know where to look first for an online course.
 
 ### Starting With Market Research
 
-I got lucky that this course hit the needs of an audience. It might have also flopped.
+I got lucky that there was a demand for this course. It might have also flopped.
 
-That's fine, as long as you're finding this out early in the process. Creating the landing page early in the process can help to identify if there's demand. You can also use a poll and send it to your existing audience.
+That's fine, as long as you're finding this out early in the process. Creating the landing page first can help to identify if there's demand. You can also use a poll and send it to your existing audience.
 
-If you don't have an audience (yet), try to engage in the communities where your target audience is (e.g. Twitter, Reddit, YouTube, etc.). Small steps, start with the landing page, gather leads and re-iterate.
+If you don't have an audience (yet), try to engage with your target audience on Twitter, Reddit, YouTube, etc.
 
-### You can live from such a side-business
+### Living Off the Earnings
 
-In the first month or even year, you might not get the traction as expected. Don't compare the invested time with your hourly rate or salary. An online course is an asset that'll (hopefully) make money while you sleep.
+I guess most of you are eagerly waiting for the raw numbers :moneybag:
 
-I've made $ 34.674 in revenue after one year. The margin is also high as my only expenses are hosting fees, marketing costs, and affiliate commissions. If I'd slightly reduce my monthly costs for living, I could live off that money. That's a big relief!
+I've made $ 35.369,44 in revenue after one year:
 
 ![Sales report overview after one year](/img/tsbam-earnings-after-one-year.png)
 
-### Steep Learning Curve not only for your coding and presentation skills
+The margin is high as my only expenses are hosting fees, marketing costs, and affiliate commissions.
 
-The learnings were HUGE. I learned so much about tracking and optimizing conversion rates, A/B testing, checkout process, online marketing learning how to sell, learning how to advertise, how to work on customer complaints etc. This knowledge plays back to my job as a software developer as I also see things from a different angle.
+If I'd slightly reduce my monthly costs for living, I could live off that money.
+
+That's a huge relief!
+
+In the first month or even year, you might not get the traction as expected. Don't compare the invested time with your hourly rate or salary. An online course is an asset that'll (hopefully) make money while you sleep.
+
+### Steep Learning Curve
+
+There's a lot to learn, not only about the topic you teach.
+
+I learned so much about marketing, writing sales copy, tracking, conversion rate optimization, A/B testing, checkout processes, online marketing, how to work on customer complaints etc.
+
+This additional knowledge also helps me improve as a software developer as I now see things from a different angle.
+
+I'm no longer just a techie and code monkey. I understand what it takes (at least the basics) to run an online business as I'm selling products on my own.
 
 ### Starting Small
 
-It's many topics to handle when selling courses on the Internet. You have to ensure the participants have a smooth checkout process, the access is working, and your landing page has a reasonable page speed to be accessed worldwide. You can easily get lost in various parts of creating, advertising and selling your content. I usually stop when I have a good enough solution and come back later to the topic. I did not start with the most compelling (and might still have areas of improvement there) sales copy but improved it over time. There's so much to do. Start small, and iterate. Don't get frustrated if something's not working immediately.
+This steep learning curve is a double-edged sword.
 
-Can't you find the root cause for your not-so-optimal page speed? Give your best and otherwise sleep a night over it.
+There are so many topics to handle when selling digital products on the Internet:
 
-## One-Year  Retrospect - What to Improve
+- your participants have a smooth and working checkout process
+- the access to the course content is working
+- your landing page has a reasonable page speed
+- work on complaints
+- create invoices
+- do accounting work
+- etc.
 
-Looking back to the first year of this adventure, there are several things I would have done differently. Let's take a look at them.
+You can easily get lost in various parts of creating, advertising, and selling your content.
+
+I usually stop when I have a good enough solution and come back later with a fresh mind and more hands-on experience.
+
+There's so much to do. Start small, and iterate. Don't get frustrated if something's not working immediately.
+
+You can't find the root cause for your not-so-optimal page speed? Give your best and otherwise sleep a night over it.
+
+It has to be joy, not work :wink:
+
+## One-Year Retrospect - What to Improve
+
+As the goal of every retrospective is to improve, let's talk about my mistakes and the things I would do differently now.
 
 ### Use a Merchant of Record
 
-... and thank me later
+... and thank me later.
 
-If you're selling to EU customers, rather pick a merchant of record to sell your digital products. Take a few minutes to read about VAT handling of digital goods (especially for EU customers), and you'll thank me later. I'm still handling VAT for myself, and the effort is reasonable. Both SendOwl and [Quaderno*](https://rieckpil.de/a/quaderno) work well together. But if I would start over, I'd pick a provider that handles all tax implications. That's more time for me to focus on improving the course.
+If you're selling to EU customers, pick a merchant of record to sell your digital products. Take a few minutes to [read about VAT handling](https://www.quaderno.io/resources/eu-vat-guide) of digital goods (especially for EU customers), and you'll thank me later. I did not read enough about this topic and started without such a middleman.
 
-### Adjust the Expectation for the Course Participants
+I'm handling VAT for myself, and the effort is manageable.
 
-I first thought my content is not good enough or they stopped after the first lesosns.
+When working with [SendOwl*](https://rieckpil.de/a/sendowl), I can highly recommend [Quaderno*](https://rieckpil.de/a/quaderno) to stay tax compliant, create nice-looking invoices and exports for your tax advisor.
 
-Don't expect your course participants to go through the course immediately. That was one of the interesting findings. I usually always start a course I've bought right away. That's not the case for everybody, though. I still see participants that did not even start with lesson one. That's okay - they might start when they have time.
+If I would start over again, I'd pick a provider that handles all tax implications.
+
+That's more time for me to focus on improving the course.
+
+### Adjust Your Expectations for the Participation Rate
+
+I first thought my content was not good enough when I looked at the total views of the last module.
+
+I expected everyone to finish the course right after they purchased it or at least in time (whatever this means). Because this I what I usually did when I bought a course.
+
+It seems that this is not the case for everyone.
+
+There a still course participants that did not even start with lesson one.
+
+That's okay - they might be busy and will start when they have time.
 
 ### Use IDEA Live Templates to Avoid Blockers While Recording
 
-IntelliJ IDEA, the Java IDE I'm using daily provides a feature to easily prepare code snippets as [live templates](https://www.jetbrains.com/help/idea/using-live-templates.html). While re-typing the tests for my online course and recording them, I made several mistakes. Sometimes, I even forgot the correct import. You can add basic code skeletons with live templates and use this foundation to speed up the recording. When using templates, it's important to find the right balance of magically inserting everything and typing. You can't just paste a 15 LoC long implementation and assume the course participant gets what you're doing.
+At various recording sessions, I got lost. I sometimes forgot how to implement the test, what package to import or what I wanted to show.
+
+IntelliJ IDEA, the Java IDE I'm using, provides a feature to help: [live templates](https://www.jetbrains.com/help/idea/using-live-templates.html).
+
+These templates can help to prepare code skeletons you want to show during the recording.
+
+However, when using these templates, it's important to find the right balance of magically inserting the code and typing everything from scratch.
+
+You can't just paste 15 lines of code and assume the course participant gets what you're doing.
 
 ### Support Purchase Power Parity from Day One
 
