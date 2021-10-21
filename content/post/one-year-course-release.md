@@ -419,21 +419,19 @@ Initially, I tried to run temporary discount campaigns to see at least some sale
 
 That's not worth it.
 
-If your product is good and you have an established sales funnel, it's only a matter of time until a new course user joins.
+If your product is good, and you have an established sales funnel, it's only a matter of time until a new course user joins.
 
 These sales ambitions might drain your creative resources, and you start focussing on the wrong ends (aka. get more sales vs. make a great product).
 
 ## What's Next?
 
-In our fast-paced development world (fortunately, the Java ecosystem is not as fast paced as JavaScript), content ages and gets outdated over the years. New libraries, tools and techniques pop up that make some lessons outdated or not the best practice anymore.
+In our fast-paced development world (fortunately, the Java ecosystem is not as fast-paced as JavaScript), content ages and gets outdated over the years. New libraries, tools and techniques pop up that make existing course lessons outdated.
 
-That's why I'm constantly trying to be up-to-date, and as the testing topic is also the main focus area of my blog, that's no problem. Projects for clients as a freelancer also ensure I get enough hands-on.
+That's why I'm constantly trying to be up-to-date. As the testing topic is also the main focus area of my blog, that's no problem. Projects for clients as a freelancer also ensure I get enough hands-on experience.
 
-Whenever there's something new and worth mentioning, I'll add a new lesson to the course. If there's something outdated or I would do something different, then I'll replace a video.
+Whenever there's something new and worth mentioning, I'll add a new lesson to the course. If there's something outdated, or I would do something different, then I'll replace a video.
 
-I also gain more knowledge over time which is worth adding to the course.
-
-Compared to an eBook, keeping an online course up-to-date can be more effort. There's no search in replace functionality for already recorded videos. You have to find the correct spot and record a new video or cut the outdated scene. But fortunately, in the area I'm creating content for, there's maturity and stable APIs and libraries.
+Compared to an eBook, keeping an online course up-to-date is more effort. There's no search and replace functionality for already recorded videos. You have to find the correct spot and record a new video or cut the outdated scene. But fortunately, in the area I'm creating content for, there's maturity and stable APIs and libraries.
 
 As some course participants asked for a `plain/text` version of the online course, to find recipes and techniques more easily, I'm currently creating an eBook from the online course.
 
