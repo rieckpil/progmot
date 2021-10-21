@@ -182,7 +182,7 @@ I didn't have the already mentioned checkout process in place at this point. It 
 
 This pre-landing page also acts as a basic market research opportunity. I used it to validate that the course idea arouses interest. Just because I thought the course topic was valuable doesn't imply there's someone out there willing to pay for it.
 
-For the [landing page](https://rieckpil.de/testing-spring-boot-applications-masterclass/) I used Thrive Architect (part of [Thrive Suite](https://rieckpil.de/a/thrive-themes)) which comes with ready-to-use landing page templates.
+For the [landing page](https://rieckpil.de/testing-spring-boot-applications-masterclass/) I used Thrive Architect, a visual drag-and-drop page editor that is part of the [Thrive Suite*](https://rieckpil.de/a/thrive-themes). I picked one of their ready-to-use landing page templates to get started quickly.
 
 While I haven't any screenshots of this early version anymore, here's an overview of the final page:
 
@@ -216,33 +216,49 @@ In the end, I had nine of these early bird batches:
 - 37.5% discount until the 11th of October
 - 30% discount until the 25th of October
 
-The different early bird phases were open for multiple weeks and actively announced on my blog, mailing list, and Twitter.
+At each stage new course users could join for a reduced price and get all upcoming course lessons for free. This early bird program also reduced the feedback cycle as I got important feedback early on and could improve the upcoming lessons.
 
-Course users could join for a reduced price and benefit from all upcoming course lessons with this early access. This early-bird program also reduced the feedback cycle as I got important feedback early on and could use it for the upcoming lessons.
-
-## Who Will Buy this Stuff?
+## Going Live With the First Lessons
 
 Selling something to an audience of size zero is hard.
 
 When I launched the first landing page, I already had an existing audience thanks to my mailing list, blog, Twitter account, and YouTube channel.
 
-Those people, however, all had different interests as my existing content was about a diverse mix of topics. Not all of them were my perfect target audience: Java developers working with Spring Boot that want to improve their testing skills to deploy their application with more confidence.
+Those people, however, all had different interests as my existing content was a diverse mix of topics. Not all of them were my perfect target audience: Java developers working with Spring Boot that want to improve their testing skills to deploy their application with more confidence.
 
-Nevertheless, there were at least some early adopters among my existing audience, which gave me the initial motivational boost that there's demand for such a course.
+Nevertheless, some early adopters were among my existing audience, which gave me an additional boost and confirmation that there's demand for such a course.
 
-As I was (and still am) convinced that my online course on testing can help so many developers to deploy codes changes with more confidence. That's why my newsletter updates and Tweets might have seemed too salesy in the early days. I screwed some visitors or newsletter subscribers as they weren't expecting this. That's the price you pay for learning. The unsubscribe rate of my newsletter once I announced this course (multiple times) was quite high. As they weren't my target audience it was fine that they _disappeared naturally_.
+After the small _market research_ phase, where I collected email addresses of potential leads on my pre-landing page, I started to advertise the course actively. As I was (and still am) highly convinced that my online course can improve the technical skills of many developers, I used all channels to raise attention about each early-bird phase.
 
-From then on, I focused on all new articles and videos on YouTube to somehow be in the niche of testing Java and specifically Spring Boot applications. This helped me get potential leads naturally.
+In the beginning, my newsletter updates and Tweets might have seemed a little salesy as I was highly motivated to get the word out. I screwed some visitors and newsletter subscribers as they weren't expecting this much advertisement.
 
-I still remember the exact feeling when I hit the release button for the first chapter. Two hours later, I left my room, had dinner with my family, and checked the Stripe (payment processor for credit cards) dashboard.
+That's the price you pay for learning how to balance sales talk and content delivery.
 
-WTF? There are already 5 sales - yes! What a feeling. Someone from somewhere around the globe just bought my course at this early stage. And they even paid for it!
+The unsubscribe rate of my mailing list also started to increase. At first, it was hard to see subscribers leaving the mailing list whenever I wrote about the current progress or informed about the remaining days for the current early-bird batch. In the end, as I can't please everyone and wanted to shift my content niche, it was fine that some subscribers _disappeared naturally_.
 
-At the end of the release day, there were 9 paying customers:
+Since then, I started to focus on creating new content that is somehow related to my niche. This helped me get potential leads naturally as they subscribed with the intent to learn more about testing.
+
+On the 8th of August 2020, the time had come to go live with the first video lessons and an 80% discount.
+
+I still remember the exact feeling when I hit the release button for this first early bird batch. I was both nervous and super excited. While I tested the entire checkout process multiple times, I was still worried that something would go wrong.
+
+As I didn't want to nervously stare at my inbox for the first complaints or orders (who knows what will happen), I left my room and had dinner with my family to distract myself.
+
+I almost forgot about the launch and checked the Stripe (payment processor for credit cards) dashboard two hours later...
+
+WTF?
+
+There are already five sales - YEEEEEES!
+
+Damn, what a feeling.
+
+Someone from somewhere around the globe just bought my course at this early stage. And they even paid for it!
+
+At the end of the release day, there were nine paying customers:
 
 ![Incoming Sales on the Course Launch Day](/img/tsbam-first-day-course-launch-sales.png "Incoming Sales on the Course Launch Day")
 
-I never thought that many people will enroll for the course at this stage. I was expecting 20 customers in the first month.
+I never thought that many people would enroll in the course at this stage. I was expecting 20 customers in the first month.
 
 ## A Note on Effort
 
@@ -266,7 +282,7 @@ That's it for the strategy and history of this course.
 
 Let's get into the retrospect for this adventure.
 
-## Retrospect - What Went Well
+## One-Year Retrospect - What Went Well
 
 ### Releasing Early and Often
 
@@ -316,7 +332,7 @@ It's many topics to handle when selling courses on the Internet. You have to ens
 
 Can't you find the root cause for your not-so-optimal page speed? Give your best and otherwise sleep a night over it.
 
-## Retrospect - What to Improve
+## One-Year  Retrospect - What to Improve
 
 Looking back to the first year of this adventure, there are several things I would have done differently. Let's take a look at them.
 
