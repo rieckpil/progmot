@@ -171,49 +171,55 @@ SendOwl even offers a deep integration with [Mailchimp*](https://rieckpil.de/a/m
 
 ![Mailchimp SendOwl Integration Example](/img/mailchimp-order-information-from-sendowl.png "Mailchimp SendOwl Integration Example")
 
-## Selling the Course Content
+## Selling the Content
 
 Having the course idea and some early lessons uploaded to Vimeo, now it's time to sell the content, isn't it?
 
-From a timeline perspective, I'd suggest creating a minimal version of your landing page, including a basic sales copy.
+From a timeline perspective, I first created a minimal version of the landing page, including basic sales copy.
 
-This helps you gather your thoughts. Creating the sales page first also helps to think about the benefits and gains of your course ahead. This gives clarity when you plan your course lessons.
+This helped me gather my thoughts and think about the benefits and the USP (unique selling proposition) of the course ahead. Figuring out a minimal sales pitch also gave clarity on what to focus when I planned the course lessons.
 
-Even though you don't have your full checkout process in place, put a form for your newsletter on this early version of the landing page and tag those subscribers coming from that landing page. These might be your first customers.
+I didn't have the already mentioned checkout process in place at this point. It was the bare minimum and a static site on my blog advertising my current idea. I put a newsletter signup form on this early version of the landing page to capture potential customers.
 
-This pre-landing page also acts as a basic market research opportunity. You can use it to validate that your course idea arouses interest. Just because you think this course topic is important doesn't imply the rest of the world is interested in it.
+This pre-landing page also acts as a basic market research opportunity. I used it to validate that the course idea arouses interest. Just because I thought the course topic was valuable doesn't imply there's someone out there willing to pay for it.
 
 For the [landing page](https://rieckpil.de/testing-spring-boot-applications-masterclass/) I used Thrive Architect (part of [Thrive Suite](https://rieckpil.de/a/thrive-themes)) which comes with ready-to-use landing page templates.
 
+While I haven't any screenshots of this early version anymore, here's an overview of the final page:
+
 ![Landing Page of the Masterclass](/img/tsbam-landing-page-overview.gif "Landing Page of the Masterclass")
 
-As this was my first landing page for a paid product, I'd give my best to write engaging sales copy. I added some social proof via testimonials about myself from a well-known content creator in the Java-space. So, check your Twitter bubble or other content creators for your niche. This will add natural proof to your content.
+As this was my first landing page for a paid product, I tried my best to write engaging sales copy. I added social proof via testimonials about myself from well-known content creators in the Java space as I didn't have any course testimonials yet.
 
-You're a stranger to most of the developers. Why should they take your course?
+As soon as the first feedback from course participants came in, I asked for their permission and also placed them as testimonials on the page.
 
-I announced and actively advertised the pre-landing page and my course idea via various channels (Twitter, LinkedIn, etc.). After collecting potential leads for almost two weeks, I got 50 prospective buyers. This was enough evidence for me to get started.
+Most developers don't know you. You're a stranger on the Internet. Why should anyone take your course?
 
-For pricing, I used other courses in my niche as an orientation and wanted to stand out with a premium course on this topic—nothing in the Udemy price level. The first target price that came to my mind and seemed reasonable was $159 for the entire course.
+I announced and actively advertised the pre-landing page and my course idea via various channels (Twitter, LinkedIn, mailing list, etc.). After collecting potential leads for almost two weeks, I got 50 prospective buyers. This was enough evidence for me to get started.
 
-Once the first batch of video lessons was uploaded, I modified the landing page and activated the checkout process. In addition, I added scarcity effects with a countdown that informs how long this early-bird discount is available.
+For pricing, I used other courses in my niche as an orientation and wanted to stand out with a premium course on this topic. Nothing in the Udemy price level. The first target price that came to my mind and seemed reasonable was $159 for the entire course.
 
-With every iteration of early-bird offers and each new batch of course lessons being uploaded, I slightly increased the price. Those that joined early got access to the entire course for almost the price of an eBook.
+Once the first video lessons were uploaded to Vimeo, I modified the landing page and activated the checkout process. Paying the full price for the course upfront while getting access to a subset of the lessons wasn't a viable strategy. I came up with the idea of early bird discounts similar to an early access program.
 
-In the end, I had 9 early bird batches:
+With every iteration of the course, I slightly increased the price. Those that joined early got access to the entire course for almost the price of an eBook. But they had to wait until all lessons were available.
+
+I added scarcity effects with a countdown that informs how long the current early bird discount is available to drive more sales.
+
+In the end, I had nine of these early bird batches:
 
 - 80% discount 8th of August - 16th of August
-- 70% discount 17th of August - 23th of August
-- 65% discount 24th of August - 30th of August
-- 60% discount 31st of August - 13th of September
-- 5th batch: 55% discount 14th of September 20th of September
-- 6th batch: 50% discount until 27th of September
-- 7th early bird phase 40% discount starting from 28th of September
-- 8th early bird phase 40% discount
-- 9th early bird phase 37.5% discount to 25th of October
+- 70% discount until the 23rd of August
+- 65% discount until the 30th of August
+- 60% discount until the 13th of September
+- 55% discount until the 20th of September
+- 50% discount until the 27th of September
+- 40% discount until the 4th of October
+- 37.5% discount until the 11th of October
+- 30% discount until the 25th of October
 
-The different early bird phases were open for multiple weeks, and I announced them mainly on my blog, mailing list and Twitter.
+The different early bird phases were open for multiple weeks and actively announced on my blog, mailing list, and Twitter.
 
-Course users could join for a reduced price and benefit from all upcoming course lessons with this early access.
+Course users could join for a reduced price and benefit from all upcoming course lessons with this early access. This early-bird program also reduced the feedback cycle as I got important feedback early on and could use it for the upcoming lessons.
 
 ## Who Will Buy this Stuff?
 
