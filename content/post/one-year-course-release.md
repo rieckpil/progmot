@@ -225,17 +225,17 @@ Course users could join for a reduced price and benefit from all upcoming course
 
 Selling something to an audience of size zero is hard.
 
-When I launched the first landing page, I already had an existing audience of mailing list subscribers, daily visitors on my blog, Twitter followers, and YouTube subscribers. Those people, however, all had different interests as my blogging areas were broad. Not all of them were my perfect target audience (Java developer working with Spring Boot) as I wrote articles for various topics. Nevertheless, there were at least some early adopters among my existing audience, which gave me the initial motivational boost that there's demand for such a course.
+When I launched the first landing page, I already had an existing audience thanks to my mailing list, blog, Twitter account, and YouTube channel.
 
-My main advertising channel for the course idea and all upcoming early-bird batches was my mailing list. Just keep those subscribers in the loop and update them frequently with new content. Someday you can use this channel to announce your product(s).
+Those people, however, all had different interests as my existing content was about a diverse mix of topics. Not all of them were my perfect target audience: Java developers working with Spring Boot that want to improve their testing skills to deploy their application with more confidence.
 
-Finding the right balance for hard selling. I was (and still am) super convinced that my online course on Testing can help so many developers deploy and write code with more confidence. That's why it might have seemed a little aggressive in the early days. I might have screwed some visitors or newsletter subscribers. That's the price you pay for learning. The unsubscribe rate of my newsletter once I announced this course (multiple times) was quite high, which is okay. They weren't my target audience and disappeared naturally.
+Nevertheless, there were at least some early adopters among my existing audience, which gave me the initial motivational boost that there's demand for such a course.
 
-From then on, I focused on all new articles and videos on YouTube to somehow be in the niche of testing Java and specifically Spring Boot applications. This helps to get potential leads naturally.
+As I was (and still am) convinced that my online course on testing can help so many developers to deploy codes changes with more confidence. That's why my newsletter updates and Tweets might have seemed too salesy in the early days. I screwed some visitors or newsletter subscribers as they weren't expecting this. That's the price you pay for learning. The unsubscribe rate of my newsletter once I announced this course (multiple times) was quite high. As they weren't my target audience it was fine that they _disappeared naturally_.
 
-After announcing the course idea and the upcoming first early-bird batch for multiple weeks, I went live with the set of video lessons on 8th of August 2020.
+From then on, I focused on all new articles and videos on YouTube to somehow be in the niche of testing Java and specifically Spring Boot applications. This helped me get potential leads naturally.
 
-I still remember the exact feeling when I hit the release button for the first chapter. Two hours later, I left my room, had dinner with my family, and checked the Stripe (payment processing) dashboard.
+I still remember the exact feeling when I hit the release button for the first chapter. Two hours later, I left my room, had dinner with my family, and checked the Stripe (payment processor for credit cards) dashboard.
 
 WTF? There are already 5 sales - yes! What a feeling. Someone from somewhere around the globe just bought my course at this early stage. And they even paid for it!
 
@@ -247,35 +247,33 @@ I never thought that many people will enroll for the course at this stage. I was
 
 ## A Note on Effort
 
-In total, the course consists of 127 video lessons. All vary from 5 to 15 minutes in length. In total, the course user will watch between 9 and 10 hours of recorded content. I had no target for the total length in mind, and this came naturally.
-
-I've never used a perfectly written script to record the videos. It was more or less half-freestyle with some notes and the target source code on a second screen. This approach makes the recordings longer as there will be misspellings and non-fluent explanations or coding parts. The effort for editing will also increase as with more recorded material, there's more to cut.
+On the 25th of October 2020 when I closed the last early bird batch, the course had 127 video lessons. They all vary from 5 to 15 minutes in length. In total, the course users will watch 10 hours of recorded content on testing Spring Boot applications. I had no target for the total length in mind, this came naturally.
 
 For a 30-minute video, I've recorded 45 minutes, and the editing took me another 45 minutes. This makes it approximately 90 minutes of effort for a 30-minute video lesson.
 
-This includes no preparation work, or coding upfront, which will take the same amount as the video is long.
+This includes no preparation work or coding upfront.
 
-How long did this course take me? You do the math. But as you'll see later on, the time investment paid off.
+How long did it take to create this course? I can't give you the exact figures as I never mesaured the time. But as you'll see later on, the time investment paid off.
 
 In the first month or even year, you might not get the traction as expected. Don't compare the invested time with your hourly rate or salary. An online course is an asset that'll (hopefully) make money while you sleep.
 
-Seeing more and more course participants was also a natural motivation to keep going.
+Seeing more and more course participants also was a natural motivation to keep going.
 
-If I had the end goal of 9 hour content in mind and started my journey to record everything at once, that would have been almost impossible. I'd had to lock myself in my room for two months straight and then come out with a big bang release. The iterative approach improves the feedback loop and helps you drive the content.
+If I would have started with the end goal of 10 hour content in mind and wanted to record everything at once, that would have been almost impossible. I'd had to lock myself in my room for two months straight and then come out with a big bang release. The iterative approach improves the feedback loop and helps you drive the content.
 
-That's it for the strategy and history of this course. Now let's get into what I learned from this journey.
+As there was no travel time to work and I could use this additional time to work on the course.
 
-## Learnings After One Year
+That's it for the strategy and history of this course.
 
-### Start small and release early and often
+Let's get into the retrospect for this adventure.
+
+## Retrospect - What Went Well
+
+### Releasing Early and Often
 
 Get the first version out as soon as possible. This first version need not be perfect but will let you test your setup end-to-end. This works way better than preparing a "big bang" release and figuring out that something with the payment setup is not working at the last minute.
 
-### Use a merchant of record and thank me later
-
-If you're selling to EU customers, rather pick a merchant of record to sell your digital products. Take a few minutes to read about VAT handling of digital goods (especially for EU customers), and you'll thank me later. I'm still handling VAT for myself, and the effort is reasonable. Both SendOwl and [Quaderno*](https://rieckpil.de/a/quaderno) work well together. But if I would start over, I'd pick a provider that handles all tax implications. That's more time for me to focus on improving the course.
-
-### Don't try to have the perfect tech setup from day one
+### Working With a Good Enough Tech Setup
 
 It's important that you're confident and have a simple (and reproducible) recording setup. You should be able to hit record in a matter of minutes with little preparation work. If you have to set up an entire conference studio for your first online course, chances are high you're procrastinating due to the effort.
 
@@ -283,23 +281,19 @@ I can highly recommend getting some first touchpoints with video and recording a
 
 This applies to both the technical setup for recording and selling your course. There are many decisions to make, and I'd recommend that with a solution that fits your current needs. You can buy a green screen later.
 
-### People will ask for a refund, and that's fine
+### Single Digit Refund Rates
 
 I still remember the first month after the launch of the first version. I was so nervous about the first 30-day period and thought many would ask for a refund. This did not happen. After one year, I have a refund rate of 0.75%. Most of those refunds were due to different expectations.
-
-### Course participants won't start immediately with the course and some will never even finish
-
-Don't expect your course participants to go through the course immediately. That was one of the interesting findings. I usually always start a course I've bought right away. That's not the case for everybody, though. I still see participants that did not even start with lesson one. That's okay - they might start when they have time.
 
 ### Affiliate Marketing is King
 
 There are tons of bloggers out there that might want some extra money each month to pay their hosting/tooling bills. I reached out soon to various other bloggers in the Java ecosystem and asked them to become an [affiliate](https://rieckpil.de/affiliate-program/). If the affiliate also blogs about the topic you teach, the conversion rates can be great. They can embed your link and explain how those looking for a deep-dive on this topic should look at the course.
 
-### Have compelling free content around your course topic to attract new leads
+### Attracting New Leads With Compelling Free Content
 
 As soon as most of our audience knows your product, you somehow need to attract new potential buyers. One of the best ways to do it is by creating free content around the course topic. Once I found my niche, I doubled down on the testing topic and primarily created articles and videos. Your blog visitors will associate your blog with a niche and know they can come back to find a solution for problem X. New visitors rarely convert into paying customers on their first visits. But the next time they're looking for deep-dive content on your topic, they know where to look first.
 
-### Move on if you don't see a demand
+### Starting With Market Research
 
 I got lucky that this course hit the needs of an audience. It might have also flopped.
 
@@ -313,23 +307,35 @@ I've made $ 34.674 in revenue after one year. The margin is also high as my only
 
 ![Sales report overview after one year](/img/tsbam-earnings-after-one-year.png)
 
-### The learning curve is steep - not only for your coding and presentation skills
+### Steep Learning Curve not only for your coding and presentation skills
 
 The learnings were HUGE. I learned so much about tracking and optimizing conversion rates, A/B testing, checkout process, online marketing learning how to sell, learning how to advertise, how to work on customer complaints etc. This knowledge plays back to my job as a software developer as I also see things from a different angle.
 
-### Don't try to get everything perfect from day one
+### Starting Small
 
 It's many topics to handle when selling courses on the Internet. You have to ensure the participants have a smooth checkout process, the access is working, and your landing page has a reasonable page speed to be accessed worldwide. You can easily get lost in various parts of creating, advertising and selling your content. I usually stop when I have a good enough solution and come back later to the topic. I did not start with the most compelling (and might still have areas of improvement there) sales copy but improved it over time. There's so much to do. Start small, and iterate. Don't get frustrated if something's not working immediately.
 
 Can't you find the root cause for your not-so-optimal page speed? Give your best and otherwise sleep a night over it.
 
-### Use IDEA live templates to avoid blocker while typing
-
-IntelliJ IDEA, the Java IDE I'm using daily provides a feature to easily prepare code snippets as [live templates](https://www.jetbrains.com/help/idea/using-live-templates.html). While re-typing the tests for my online course and recording them, I made several mistakes. Sometimes, I even forgot the correct import. You can add basic code skeletons with live templates and use this foundation to speed up the recording. When using templates, it's important to find the right balance of magically inserting everything and typing. You can't just paste a 15 LoC long implementation and assume the course participant gets what you're doing.
-
-## Retrospective - What I Would Have Done Differently
+## Retrospect - What to Improve
 
 Looking back to the first year of this adventure, there are several things I would have done differently. Let's take a look at them.
+
+### Use a Merchant of Record
+
+... and thank me later
+
+If you're selling to EU customers, rather pick a merchant of record to sell your digital products. Take a few minutes to read about VAT handling of digital goods (especially for EU customers), and you'll thank me later. I'm still handling VAT for myself, and the effort is reasonable. Both SendOwl and [Quaderno*](https://rieckpil.de/a/quaderno) work well together. But if I would start over, I'd pick a provider that handles all tax implications. That's more time for me to focus on improving the course.
+
+### Adjust the Expectation for the Course Participants
+
+I first thought my content is not good enough or they stopped after the first lesosns.
+
+Don't expect your course participants to go through the course immediately. That was one of the interesting findings. I usually always start a course I've bought right away. That's not the case for everybody, though. I still see participants that did not even start with lesson one. That's okay - they might start when they have time.
+
+### Use IDEA Live Templates to Avoid Blockers While Recording
+
+IntelliJ IDEA, the Java IDE I'm using daily provides a feature to easily prepare code snippets as [live templates](https://www.jetbrains.com/help/idea/using-live-templates.html). While re-typing the tests for my online course and recording them, I made several mistakes. Sometimes, I even forgot the correct import. You can add basic code skeletons with live templates and use this foundation to speed up the recording. When using templates, it's important to find the right balance of magically inserting everything and typing. You can't just paste a 15 LoC long implementation and assume the course participant gets what you're doing.
 
 ### Support Purchase Power Parity from Day One
 
@@ -345,7 +351,7 @@ As I want to reach many people with the content I create, supporting PPP is a no
 
 I've seen creators afraid this mechanism will be abused. Creating a VPN tunnel to another country is a matter of seconds. Someone might trick this system and get the content for only a subset of the target price for their country. Nevertheless, I'm still able to see the origin of the payment and identify _frauds_. That never happened so far, and even if it happens, I'm convinced that Karma will do its job.
 
-### Embed more hands-on exercises and quizzes
+### Embed More Hands-On Exercises and Quizzes
 
 I've worked through several online courses and enjoy learning new techniques and tools this way. For most of these courses, I preferred to code along with the speaker and immediately try out things in my IDE.
 
@@ -396,7 +402,7 @@ I learned (from this excellent book) there are more or less four leads:
 3. The potential course participant is aware of you as a content creator (aka. I know that Philip is creating some content about Java and Spring and have read one or two articles from him)
 4. Being aware that you sell an online course that helps to fix this problem (aka. I know that Philip offers the Testing Spring Boot Applications Masterclass, that will help me write better tests -> Ka-Ching $$$)
 
-### Connect More to Other Content Creators
+### Connect With More Content Creators
 
 You don't have to explore everything on your own. You don't have to make all the mistakes on your own.
 
@@ -404,7 +410,7 @@ Most of the stuff has been done by others. Ask them for advice and help. Ask the
 
 Read other and join communities like Blogging For Devs. Get around like-minded people for both support and motivation.
 
-### Don't Get Drained in a "Sales Dopamine Cycle"
+### Don't Get Drained in the Sales Dopamine Cycle
 
 Seeing sales come in almost daily, I soon started to eagerly check my mails after work (I never check my emails first thing in the morning). Subconsciously, I got drained into frequently checking my sales due to a small dopamine rush from each new order. It's similar to the urge of checking the Twitter feed, HackerNews or Reddit for updates.
 
