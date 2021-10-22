@@ -426,7 +426,7 @@ At various recording sessions, I got lost. I sometimes forgot how to implement t
 
 IntelliJ IDEA, the Java IDE I'm using, provides a feature to help: [live templates](https://www.jetbrains.com/help/idea/using-live-templates.html).
 
-These templates can help to prepare code skeletons you want to show during the recording.
+With these templates you prepare code skeletons and insert them with auto-completion.
 
 However, when using these templates, it's important to find the right balance of magically inserting the code and typing everything from scratch.
 
@@ -434,47 +434,47 @@ You can't just paste 15 lines of code and assume the course participant gets wha
 
 ### Support Purchase Power Parity from Day One
 
-We live in a world with different purchasing power and wages. Buying a course for $179 as a software developer working in silicon valley might be fine. That's not the case for all other countries around the globe. A developer earning only a quarter of the US median wages thinks twice before enrolling in this course. For some developers, the course might even be not affordable.
+We live in a world with different purchasing power and wages. A $159 online course is affordable for someone working for working in silicon valley. That's not the case for all other countries around the globe. A developer earning only a quarter of the US median wages thinks twice before enrolling in this course. For some developers, the course for its base price is not affordable at all.
 
-Many companies adjust the prices for their products and services to the purchasing power of each country. This way, the relative costs for a product (e.g. 5% of the median monthly salary) should be the same for everyone.
+Many companies adjust the prices for their products and services to the purchasing power of each country. This way, the relative costs for a product (e.g., 5% of the median monthly salary) should be the same for everyone.
 
-In the early days of the course, several potential customers asked for coupon codes because the price was too high for them. Back then, the excuse for not integrating automatic price adjustments was that my eCommerce provider did not support something out-of-the-box.
+In the early days of the course, several potential customers asked for coupon codes because the price was too high for them. Back then, my main excuse for not integrating automatic price adjustments was that my eCommerce provider did not support something out-of-the-box.
 
 After some investigation, I came across a [small library from Robin Wieruch](https://github.com/rwieruch/purchasing-power-parity) that helped me integrate purchase power parity (PPP) with some additional coding effort on my end.
 
 As I want to reach many people with the content I create, supporting PPP is a no-brainer for me in retrospect. Since the integration of PPP, the total orders have also increased.
 
-I've seen creators afraid this mechanism will be abused. Creating a VPN tunnel to another country is a matter of seconds. Someone might trick this system and get the content for only a subset of the target price for their country. Nevertheless, I'm still able to see the origin of the payment and identify _frauds_. That never happened so far, and even if it happens, I'm convinced that Karma will do its job.
+I've seen creators that are afraid that someone will abuse this mechanism. Creating a VPN tunnel to another country is a matter of seconds. Someone might trick this system and get the content for only a subset of the target price for their country. Nevertheless, I'm still able to see the origin of the payment and can identify _frauds_. That never happened so far, and even if it happens, I'm convinced that Karma will do its job.
 
 ### Embed More Hands-On Exercises and Quizzes
 
-I've worked through several online courses and enjoy learning new techniques and tools this way. For most of these courses, I preferred to code along with the speaker and immediately try out things in my IDE.
+I've worked through several online courses and enjoy learning new techniques and tools this way. I generally prefer to code along with the course instructor and immediately try out things in my IDE.
 
-When these only courses had exercises or assignments at the end of each lesson, I usually ignored them as they were sometimes too simple or somehow already covered by me coding along.
+Whenever there were exercises or assignments at the end of each lesson, I usually ignored them as they were sometimes too simple or somehow already covered by me coding along.
 
-That was the main reason not to include any specific coding task after each lesson of the Testing Spring Boot Applications Masterclass. I thought that if you are eager to learn this topic, you'll try to apply the learnings as soon as possible. Otherwise, it's shallow learning, and if you're not motivated, exercises might also not help that much.
+This personal preference was the main reason not to include any specific coding task after each lesson. I thought that if you are eager to learn this topic, you'll try to apply the knowledge as soon as possible by default. Otherwise, it's shallow learning, and if you're not motivated, exercises might also not help that much.
 
-Not everyone shares this viewpoint, and some course participants have already asked for a more guided approach. Looking back, I would have thought more about exercises, quizzes and assignments.
+Not everyone shares this viewpoint, and some course participants have already asked for a more guided approach. Looking back, I would have thought more about exercises, quizzes, and assignments.
 
 For learning new things, the best way to put it is in the words of Benjamin Franklin:
 
 > Tell me and I forget, teach me and I may remember, involve me and I learn - Benjamin Franklin
 
-As I did not create a physical product that is shipped to customers, I can still add these exercises afterward.
+As I did not create a physical product that is already shipped to customers, I can still add these exercises afterward.
 
 ### Start Earlier
 
-I guess this is learning we all make after we've accomplished something outside our comfort zone. Seeing how easy it was in retrospect makes us wonder why we did not start earlier. Most of my _fear_ when creating content (both text and videos) on the Internet was what others will think when they see it.
+I guess everybody has this learning after we've accomplished something outside our comfort zone. Seeing how _easy_ it was in retrospect makes us wonder why we did not start earlier. Most of my _fear_ when creating content on the Internet was what others think when they see it.
 
-When I created my blog or uploaded my first video, I never actively showed anyone my project and let them naturally find out. I don't care at all what they think (except constructive feedback).
+When I created my blog and uploaded my first video on YouTube, I never actively showed anyone my project and let them naturally find out. I don't care at all what they think, except it's constructive feedback.
 
-As long as I'm having fun doing it and see the benefit for a greater audience, I'm set.
+As long as I'm having fun doing it and see the benefit for a greater audience, I'm happy.
 
-If you asked me now for advice when the right timing for creating your first article, first YouTube video or online course, the answer would be simple: Right now.
+There's only one right timing for creating your first article, first YouTube video, or online course: Right now.
 
-### Spend Less on Display Ads Or Spent It Better
+### Spend Less on Display Ads or Spent It Better
 
-Seeing the sales coming in, I created ads on various platforms like Google Search, Twitter, Facebook and LinkedIn. I thought that if I just had enough firepower (aka. money) for ads, I'd create a money machine.
+Seeing the sales coming in, I created ads on various platforms like Google Search, Twitter, Facebook, and LinkedIn. I thought that if I just had enough firepower (aka. money) for ads, I'd create a money machine.
 
 Living the dream where the CPA (cost per acquisition) is less than the generated revenue.
 
@@ -482,61 +482,64 @@ That didn't work - at least not for cold leads and a $150+ product.
 
 The advertising domain was new, and the (sometimes complex) user interfaces to create new campaigns confused me. I had to burn some cash until I had the campaign setup right and targeted the right audience.
 
-My first ads on Facebook, Twitter and LinkedIn were trying to create sales for the Masterclass. While these ads brought visitors to my site, nobody immediately converted. This is understandable for cold leads and a $150+ product.
+My first ads on Facebook, Twitter, and LinkedIn, were trying to create sales for the Masterclass. While these ads brought visitors to my site, nobody immediately converted. This is understandable for cold leads and a $150+ product.
 
-After spending over $2k+ for various platforms, I'm no longer advertising the Masterclass directly. This amount of money might seem huge, but almost 50% was spent learning how advertising works.
+After spending over $2k+ for various platforms, I'm no longer advertising the Masterclass directly. This money might seem huge, but almost 50% was spent learning how display ads work.
 
-I'm still running display ads but follow a different approach. I make my target audience aware of my content and what my site is all about with display ads. If they like the content, they might sooner or later convert into a course participant for my Masterclass.
+I'm still running display ads but follow a different approach. I use the ads to make my target audience aware of my content and what my site is all about. If they like the content, they might sooner or later convert into a course participant for my Masterclass.
 
-While this is a slower sales process, it's more sustainable, and I can generate leads for one of my free testing courses for about $0.50.
+While this is a slower sales process, it's more sustainable, and right now, I generate leads for one of my free testing courses for about $0.50.
 
-I learned (from this excellent book) there are more or less four leads:
+From this [excellent book*](https://rieckpil.de/a/traffic-secrets) I learned that there are more or less four types of leads:
 
-1. The potential course participant is not aware that they have a problem (aka. I don't write tests)
-2. The potential course participant is aware that they have a problem (aka. I try to write tests but fail to get the setup correct, and I'm constantly frustrated)
-3. The potential course participant is aware of you as a content creator (aka. I know that Philip is creating some content about Java and Spring and have read one or two articles from him)
-4. Being aware that you sell an online course that helps to fix this problem (aka. I know that Philip offers the Testing Spring Boot Applications Masterclass, that will help me write better tests -> Ka-Ching $$$)
+1. The potential course participant is not aware that they have a problem: aka. I don't write tests
+2. The potential course participant is aware that they have a problem: aka. I try to write tests but fail to get the setup correct, and I'm constantly frustrated
+3. The potential course participant is aware of you as a content creator: aka. I know that Philip is creating some content about Java and Spring and have read one or two articles from him
+4. Being aware that you sell an online course that helps to fix this problem: aka. I know that Philip offers the Testing Spring Boot Applications Masterclass, which will help me write better tests -> Ka-Ching $$$
 
 ### Connect With More Content Creators
 
 You don't have to explore everything on your own. You don't have to make all the mistakes on your own.
 
-Most of the stuff has been done by others. Ask them for advice and help. Ask them what they'd done differently if they'd start from scratch again. Ask them which tools they use and how their setup looks like. I'm sure most creators are happy to share insights and help you get started.
+Most of the stuff has already been solved by other content creators. Ask them actively for advice and help. Ask them what they'd do differently if they'd start from scratch again. Ask them which tools they use and how their setup works.
 
-Read other and join communities like Blogging For Devs. Get around like-minded people for both support and motivation.
+I'm sure most creators are happy to share insights and help you get started.
+
+Read retrospect articles like this and join communities like [Blogging For Devs](https://bloggingfordevs.com/). Get around like-minded people for both support and motivation.
 
 ### Don't Get Drained Into a Sales Dopamine Cycle
 
-Seeing sales come in almost daily, I soon started to eagerly check my mails after work (I never check my emails first thing in the morning). Subconsciously, I got drained into frequently checking my sales due to a small dopamine rush from each new order. It's similar to the urge of checking the Twitter feed, HackerNews or Reddit for updates.
+Seeing passive money coming in almost daily, I soon started to check my mails after work eagerly (I never check my emails first thing in the morning). Subconsciously, I got drained into frequently checking my sales due to a small dopamine rush from each new order. It's similar to the urge to check the Twitter feed, HackerNews, or Reddit.
 
 Each new customer gave me some gratification and relief until the point when there were no new customers for several days. I felt unhappy.
 
-Initially, I tried to run temporary discount campaigns to see at least some sales coming in. That wasn't worth the effort as it screwed existing customers just for the purpose I see this lousy sale graph go up.
+Initially, I tried to run temporary discount campaigns to see at least some sales coming in. That wasn't worth the effort as it screwed existing customers just for the purpose that I see this lousy sales graph go up.
 
 That's not worth it.
 
-If your product is good, and you have an established sales funnel, it's only a matter of time until a new course user joins.
+If your product is good and you have an established sales funnel, it's only a matter of time until new course users join.
 
-These sales ambitions might drain your creative resources, and you start focussing on the wrong ends (aka. get more sales vs. make a great product).
+These sales ambitions might drain your creative resources, and you start focussing on the wrong ends: aka. get more sales vs. make a great product.
 
 ## What's Next?
 
-In our fast-paced development world (fortunately, the Java ecosystem is not as fast-paced as JavaScript), content ages and gets outdated over the years. New libraries, tools and techniques pop up that make existing course lessons outdated.
+In our fast-paced development world (fortunately, the Java ecosystem is not as fast-paced as JavaScript), content ages and gets outdated over the years. New libraries, tools, and techniques pop up that make existing course lessons outdated.
 
-That's why I'm constantly trying to be up-to-date. As the testing topic is also the main focus area of my blog, that's no problem. Projects for clients as a freelancer also ensure I get enough hands-on experience.
+That's why I'm constantly trying to be up-to-date. As the testing topic is also the main focus area of my blog, that's no problem. My freelance projects for clients also ensure I get enough hands-on experience.
 
-Whenever there's something new and worth mentioning, I'll add a new lesson to the course. If there's something outdated, or I would do something different, then I'll replace a video.
+Whenever there's something new or worth mentioning, I'll add a new lesson to the course. If there's something outdated, or I would do something different, I'll replace a video.
 
 Compared to an eBook, keeping an online course up-to-date is more effort. There's no search and replace functionality for already recorded videos. You have to find the correct spot and record a new video or cut the outdated scene. But fortunately, in the area I'm creating content for, there's maturity and stable APIs and libraries.
 
-As some course participants asked for a `plain/text` version of the online course, to find recipes and techniques more easily, I'm currently creating an eBook from the online course.
+Some course participants asked for a `plain/text` version of the online course to have a quick lookup reference for recipes and techniques. That's why I'm currently creating an eBook based on the online course.
 
-That's also a great way to attract a wider audience as not everybody enjoys learning from courses and rather prefers to read a book on the beach.
+That's also a great way to attract a wider audience as not everybody enjoys learning from videos and prefers to read a book on the beach.
 
-The next online course is also waiting to be created. On top of the [Stratospheric eBook](https://stratospheric.dev/) (From Zero to Production with Spring Boot and AWS), which I've written with [Tom Hombergs](https://reflectoring.io/) and [Björn Wilmsmann](https://bjoernkw.com/), we're creating an online course. Equipped with my insights from this course launch I'm looking forward to this project.
+The next online course is also waiting to be created. On top of the [Stratospheric eBook](https://stratospheric.dev/) (From Zero to Production with Spring Boot and AWS), which I've written with [Tom Hombergs](https://reflectoring.io/) and [Björn Wilmsmann](https://bjoernkw.com/), we're creating an online course. Equipped with my insights from this course launch, I'm looking forward to this project.
 
 Now it's your turn - go for it and let me know how it worked out!
 
 PS: If you plan to mirror this setup and have further questions, feel free to [reach out](https://twitter.com/rieckpil).
 
+Happy creating,
 Philip
