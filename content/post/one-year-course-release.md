@@ -30,17 +30,23 @@ Let's get started.
 
 To better understand my journey, let's take a brief look at my content creation history.
 
-Back in November 2017, I published my [first blog article](https://rieckpil.de/summary-of-the-container-conf-2017/). While the first few articles were somewhat random (both in the topic and timing), I soon established the habit to write about something constantly. Since then, I've been writing articles for various topics, mainly about Java and its ecosystem. Many of the blog posts were the result of my learnings at work or hands-on tutorials I wish I had found on Google when I learned a new technology (especially Java EE).
+Back in November 2017, I published my [first blog article](https://rieckpil.de/summary-of-the-container-conf-2017/). While the first few articles were somewhat random (both in the topic and timing), I soon established the habit of writing about something constantly. Since then, I've been writing articles for various topics, mainly about Java and its ecosystem.
+
+Many of the blog posts result from my hands-on experience at work or are tutorials I wish I had found on Google when I learned a new technology (especially Java EE).
 
 At the end of 2019, I reached the milestone of 100 published articles on my site.
 
 After writing `text/plain` for three years, I thought the next natural step was creating video content.
 
-I gave it a shot and uploaded a [first video on YouTube](https://www.youtube.com/watch?v=GM5ftYM_W90) in May 2019. The audio quality was bad, and the video had black bars as I didn't record 16:9. That didn't matter, as I was happy to leave my comfort zone and have _something_ uploaded. I was sure that the quality of every upcoming video would improve anyway.
+I gave it a shot and uploaded my [first video on YouTube](https://www.youtube.com/watch?v=GM5ftYM_W90) in May 2019.
+
+The audio quality was bad, and the video had black bars as I didn't record 16:9. That didn't matter, as I was happy to leave my comfort zone and have _something_ uploaded. I was sure that the quality of every upcoming video would improve anyway.
 
 > Perfection is the enemy of progress
 
-With these two content platforms (blog & YouTube) in place, I continued creating content for various topics. There wasn't a clear target audience I wanted to reach. Whenever a topic worth talking about popped up, I sat down and wrote about it. I usually switched frameworks between the articles and hence wasn't targeting a specific set of Java developers.
+With these two content platforms (blog & YouTube) in place, I continued creating content for various topics. There wasn't a clear target audience I wanted to reach.
+
+Whenever a topic worth talking about popped up, I sat down and wrote about it. I usually switched frameworks between the articles and hence wasn't targeting a specific set of Java developers.
 
 In the last two years, I have naturally discovered my content niche. I started focussing more on one specific topic instead of serving all Java developers: Testing Java and specifically Spring Boot (a well-known framework) applications.
 
@@ -52,7 +58,7 @@ You know ahead that your colleagues will ask you as soon as you want to integrat
 
 After creating some articles for this niche, I discovered that there's almost no online course that comprehensively teaches this topic and uses a real-world example.
 
-Everyone can test the `add` method of a `MyCalculator` class. But how to write an end-to-end test for a modern frontend involving an OIDC login, database access, and fetching data from REST API in the background?
+Everyone can test the `add` method of a `MyCalculator` class. But how to write an end-to-end test for a modern application involving an OIDC login, database access, and fetching data from REST API in the background?
 
 My plan was to develop a real-world course application, enhance it with an excellent test suite and talk about it. And with real-world, I mean a sophisticated application that connects to various infrastructure components. This is where testing becomes tricky.
 
@@ -60,15 +66,19 @@ I strongly believe that testing becomes joyful as soon as you know of the differ
 
 It's the HOW that's important here.
 
-Packed with this mission, I was highly motivated to get this project going. As I have done nothing similar before, except same sporadic YouTube videos, recording everything up front would be a hell of work.
+Packed with this mission, I was highly motivated to get this project going. As I have done nothing similar before, except some sporadic YouTube videos, recording everything up front would be a hell of work.
 
 That's why I decided to use an iterative approach and incrementally create this course while getting feedback early on. #agileDoneRight
 
 ## Creating the Course Content
 
-As a first step, I developed the real-world course application. The course application is all about creating and managing book reviews. For the application's tech stack, I picked React with TypeScript and a Spring Boot Java backend. That should mirror most of today's architectures (SPA connecting to a backend) out there.
+As a first step, I developed the real-world course application.
 
-To make the setup more advanced, I added Keycloak (an open source identity provider), PostgreSQL to store data, a remote REST API, and an AWS service for messaging to the mix.
+The course application is all about creating and managing book reviews.
+
+For the application's tech stack, I picked React with TypeScript and a Spring Boot Java backend. That should mirror most of today's architectures (SPA connecting to a backend) out there.
+
+To make the setup more advanced, I added Keycloak (an open source identity provider), PostgreSQL to store data, a remote REST API, and an AWS service for messaging to the mix:
 
 ![Technical Architecture of the Masterclass](/img/tbsam-technical-architecture.png "Technical Architecture of the Masterclass")
 
@@ -78,19 +88,21 @@ Once the application was ready, I had a rough idea of what I wanted to showcase 
 
 While I could (and maybe should) have written the tests for the application alongside the development, I first wanted to have a working application to see the bigger picture.
 
-As the goal of the online course was all about testing applications, I did not record the creation of the sample application. At various lessons, I explained the relevant code parts and gave an architectural overview at the beginning of the course. The overall application was sophisticated in the setup and yet simple enough to grasp.
+As the goal of the online course was all about testing applications, I did not record the creation of the sample application. At various lessons, I explained the relevant code parts and gave an architectural overview at the beginning of the course. The overall application was sophisticated in the setup and yet simple enough to grasp within minutes.
 
 Here's a short excerpt of the course application's primary use case: Creating book reviews:
 
 ![Recorded E2E test of the main user journey](/img/main-user-journey-e2e-test-recording.gif "Recorded E2E test of the main user journey")
 
-The GIF above is an automatically recorded outcome of an end-to-end test.
+(The GIF above is an automatically recorded outcome of an end-to-end test)
 
-With my iterative course creation strategy in mind, I started with the first milestone and wanted to release the first two modules (roughly 15 course lessons). Those two modules were all about getting used to the course application and an introduction unit testing.
+With my iterative course creation strategy in mind, I started with the first milestone and wanted to release the first two modules (roughly 15 course lessons). Those two modules were all about getting used to the course application and an introduction to unit testing.
 
 This initial goal got me started to outline the first lessons in greater detail. I noted down the best practices, tips, and pitfalls I wanted to show. I did not set hard boundaries for the lessons ahead and wanted to find a natural position to cut the recorded video afterward.
 
-Next, I opened my IDE and developed all the tests I wanted to write and talk about in the course. Once finished, I committed the changes to my private GitHub repository and removed the code I just developed to a bare skeleton.
+Next, I opened my IDE and developed all the tests I wanted to write and talk about.
+
+Once finished, I committed the changes to my private GitHub repository and removed the code I had just developed to a bare skeleton.
 
 This "dry run" without recording helped me during the actual recording session. I was using two screens, and on one screen, I recorded my IDE and developed the tests step-by-step. On the second screen, I opened the target outcome by cloning the same project twice.
 
@@ -98,7 +110,7 @@ I could frequently look at the second screen to not get lost while coding.
 
 This initial batch of work (roughly 15 lessons each 5-15 min long) kept me busy for three weeks. I usually used the morning hours to record 60 - 90 minutes of content. I brainstormed the following lessons in the afternoon and edited the videos once the entire batch was recorded.
 
-After finishing an iteration of usually 1 - 2 modules, I started with the next one. I followed the exact same strategy until I had all 8 modules with 127 videos in total recorded.
+After finishing an iteration of usually 1 - 2 modules, I started with the next one. I followed this strategy until I had all eight course modules with 127 videos lessons recorded.
 
 ## The Technical Recording Setup
 
@@ -106,29 +118,30 @@ I've developed the course application and recorded everything on an Ubuntu 20.04
 
 Recording & Editing:
 
-- [Audacity](https://www.audacity.de/) for sound editing
 - [Kazam](https://wiki.ubuntuusers.de/Kazam/) for audio and screen recording
+- [Audacity](https://www.audacity.de/) for sound editing
 - [kdenlive](https://kdenlive.org/de/) for video editing and rendering
+- Microphone: [Auna Mic*](https://rieckpil.de/a/auna-mic)
 
 Application development:
 
-- private repository on GitHub
+- a private repository on GitHub
 - plain `.md` files inside the repository to structure the modules and lessons
-- IntelliJ IDEA:
-    - use the IDEA's Presenter View to record your videos (make yourself familiar with the basic IDEA shortcuts to navigate as you're otherwise lost in that view) for a bigger font-size and less clutter on the screen
-    - download and active Presentation Assistant plugin to automatically show the shortcuts you're using (a lot of students will ask):
+- IntelliJ IDEA as the IDE:
+    - I used IntelliJ's Presenter View to record the videos for a bigger font size and less clutter on the screen
+    - In addition, I used the Presentation Assistant plugin to automatically show the shortcuts I'm using (a lot of students will ask):
 
 ![Presentation Assistant Plugin Example](/img/presentation-assistant-idea-plugin-example.png "Presentation Assistant Plugin Example")
 
-For the microphone I was using:
+As I was only recording my screen and audio, there was no need for a green screen, a high-resolution camera, or a lighting setup.
 
-- [Auna Mic*](https://rieckpil.de/a/auna-mic)
-
-As I was only recording my screen and audio, there was no need for a greenscreen, a high-resolution camera, or a lighting setup. Had I set up additional equipment for recording more than just my screen, this would have postponed the time I'd have a _good enough_ recording setup.
+Had I set up additional equipment for recording more than just my screen, this would have postponed the time I'd have a _good enough_ recording setup.
 
 The benefit of recording only audio and the screen is that you can focus on writing code. You don't have to coordinate with the camera and can stare at your screen or microphone. If you misspelled a sentence, you can reiterate with ease.
 
-For a first welcome video where you greet your new course participants, it might make sense to show your face to establish a stronger _connection_ with the audience. For the rest of a technical course, IMHO, that's optional. Sometimes the face of the course instructor also blocks important parts on the screen. As I'm only hacking some letters into the keyboard, there isn't much gesture anyway.
+For a first welcome video where you greet your new course participants, it might make sense to show your face to establish a stronger _connection_ with the audience. For the rest of a technical course, IMHO, that's optional.
+
+Sometimes the face of the course instructor also blocks essential parts on the screen. As I'm only typing on my keyboard, there isn't much gesture anyway.
 
 It's better to get started with a setup you feel comfortable with than procrastinating or getting pixel-perfect lessons that nobody will watch because the topic is not convincing.
 
@@ -136,27 +149,33 @@ Once I had the entire recordings for a batch ready, I started the editing proces
 
 As a first step, I extracted the audio from the recording and opened it in Audacity. There I made some adjustments to the audio, like removing background noise. I replaced the original audio with the edited soundtrack from Audacity within kdenlive.
 
-Next, I started the actual video editing. I added no fancy animations or transitions to the videos and only focussed on removing the misspellings and separating videos. A 90-minute recording block usually resulted in 50 minutes of content split up into 4-5 separate video lessons.
+Next, I started the actual video editing.
+
+I did not add any fancy animation or transition to the videos and only focussed on removing the misspellings and separating videos. A 90-minute recording block usually resulted in 50 minutes of content split up into 4-5 separate video lessons.
 
 ## The Technical Hosting Setup
 
-While I've worked through several courses on Udemy and similar platforms myself, I soon encountered that these platforms are not the best for small course creators. While they do some marketing for your course and have a lot of search traffic for various topics every day, their payment structure is not what I was looking for.
+While I've worked through several courses on Udemy and similar platforms myself, I soon encountered that these platforms are not the best fit for me. While they do some marketing for your course and have a lot of search traffic, their payment structure is not what I was looking for.
 
-I was looking for a lean technical setup that gives me full control over the course and audience.
+I wanted a lean technical setup that gives me full control over the course and audience.
 
 As my blog is running on WordPress, and I'm heavily using the [Thrive Suite*](https://rieckpil.de/a/thrive-themes), I investigated their online course plugin: Thrive Apprentice.
 
 With Thrive Apprentice, I could leverage the WordPress user management to have a login area and control access to my course. The visitors also stay on my side, and I have full control over the content.
 
-For [Thrive Apprentice*](https://rieckpil.de/a/thrive-themes), you need both an eCommerce Provider and a video hosting solution. For the eCommerce provider, I've picked [SendOwl*](https://rieckpil.de/a/sendowl) as their offerings and pricing are reasonable (my current plan is $26/month).
+For [Thrive Apprentice*](https://rieckpil.de/a/thrive-themes), you need both an eCommerce provider and a video hosting solution.
+
+For the eCommerce provider, I chose [SendOwl*](https://rieckpil.de/a/sendowl) as their features and pricing (my current plan is $26/month) are reasonable.
 
 Once I've signed up for my [SendOwl*](https://rieckpil.de/a/sendowl) account, I connected my Stripe and PayPal accounts to have the most common payment options.
 
-Thrive Apprentice supports various video hosting platforms. I went for [Vimeo*](https://rieckpil.de/a/vimeo) and picked their paid plan for $6/month. Compared to YouTube, you can add more fine-grained security settings for your videos with Vimeo. This makes unintended downloads and sharing more complicated. The integration with Thrive Apprentice works by just copying the video link.
+Thrive Apprentice supports various video hosting platforms. I went for [Vimeo*](https://rieckpil.de/a/vimeo) and picked their paid plan for $6/month.
 
-Using these tools, the final workflow to gain access to the Masterclass is as the following:
+Compared to YouTube, you can add more fine-grained security settings for your videos with Vimeo. This makes unintended downloads and sharing more complicated. The integration with Thrive Apprentice works by just copying the video link.
 
-1. The potential course participant visits the landing page
+Using these tools, the final workflow to access the Masterclass is the following:
+
+1. The potential course participant visits the [landing page](https://rieckpil.de/testing-spring-boot-applications-masterclass/)
 2. Once they click on "Buy Now" they're redirected to a pre-checkout page (on my blog) and have to register a new course account
 3. They're redirected to a [SendOwl*](https://rieckpil.de/a/sendowl) checkout page and enter their payment information
 4. SendOwl redirects the user to a "Thank You" page on my blog with further information on how to get started
@@ -164,9 +183,13 @@ Using these tools, the final workflow to gain access to the Masterclass is as th
 6. Once the order is completed, SendOwl sends a webhook to my WordPress instance and Thrive Apprentice grants access to the purchased course
 7. The user can now work with the course and gets a "Welcome" email delivered to their inbox
 
-It took me some test purchases until I had the proper configuration for this setup, but since then, it's working as expected.
+It took me some test purchases until I had the proper configuration for this setup, but since then, it's working fine.
 
-[SendOwl*](https://rieckpil.de/a/sendowl) even offers a deep integration with [Mailchimp*](https://rieckpil.de/a/mailchimp) to recover abandoned carts that can help to drive additional sales. The integration to my main mailing list also helps to segment the audience. I can see if a subscriber has enrolled for the course or got stuck in the checkout. This helps to send marketing campaigns more efficiently to the right subscribers by using tags:
+[SendOwl*](https://rieckpil.de/a/sendowl) even offers a deep integration with [Mailchimp*](https://rieckpil.de/a/mailchimp) to recover abandoned carts.
+
+The integration to my main mailing list also helps to segment my audience. I can see if a subscriber has enrolled for the course or got stuck in the checkout.
+
+This helps to send marketing campaigns more efficiently to the right subscribers by using tags:
 
 ![Mailchimp SendOwl Integration Example](/img/mailchimp-order-information-from-sendowl.png "Mailchimp SendOwl Integration Example")
 
@@ -178,9 +201,9 @@ From a timeline perspective, I first created a minimal version of the landing pa
 
 This helped me gather my thoughts and think about the benefits and the USP (unique selling proposition) of the course ahead. Figuring out a minimal sales pitch also gave clarity on what to focus when I planned the course lessons.
 
-I didn't have the already mentioned checkout process in place at this point. It was the bare minimum and a static site on my blog advertising my current idea. I put a newsletter signup form on this early version of the landing page to capture potential customers.
+The landing page at this time was the bare minimum (no checkout) and a static site on my blog advertising my current idea. I put a newsletter signup form on this early version of the landing page to capture potential customers.
 
-This pre-landing page also acts as a basic market research opportunity. I used it to validate that the course idea arouses interest. Just because I thought the course topic was valuable doesn't imply there's someone out there willing to pay for it.
+This pre-landing page also acted as a basic market research opportunity. I used it to validate that the course idea arouses interest. Just because I thought the course topic was valuable doesn't imply there's someone out there willing to pay for it.
 
 For the [landing page](https://rieckpil.de/testing-spring-boot-applications-masterclass/) I used Thrive Architect, a visual drag-and-drop page editor that is part of the [Thrive Suite*](https://rieckpil.de/a/thrive-themes). I picked one of their ready-to-use landing page templates to get started quickly.
 
@@ -194,11 +217,15 @@ As soon as the first feedback from course participants came in, I asked for thei
 
 Most developers don't know you. You're a stranger on the Internet. Why should anyone take your course?
 
-I announced and actively advertised the pre-landing page and my course idea via various channels (Twitter, LinkedIn, mailing list, etc.). After collecting potential leads for almost two weeks, I got 50 prospective buyers. This was enough evidence for me to get started.
+I shared the pre-landing page and my course idea on various channels (Twitter, LinkedIn, mailing list, etc.). After collecting potential leads for almost two weeks, I got 50 prospective leads.
 
-For pricing, I used other courses in my niche as an orientation and wanted to stand out with a premium course on this topic. Nothing in the Udemy price level. The first target price that came to my mind and seemed reasonable was $159 for the entire course.
+This was enough evidence for me to get started.
 
-Once the first video lessons were uploaded to Vimeo, I modified the landing page and activated the checkout process. Paying the full price for the course upfront while getting access to a subset of the lessons wasn't a viable strategy. I came up with the idea of early-bird discounts similar to an early access program.
+To come up with a final price, I used other courses in my niche as an orientation and wanted to stand out with a premium course on this topic. Nothing in the Udemy price level. The first target price that came to my mind and seemed reasonable was $159 for the entire course.
+
+Once the first video lessons were uploaded to Vimeo, I modified the landing page and activated the checkout process.
+
+Paying the full price for the course up front while getting access to a subset of the lessons wasn't a viable strategy. I came up with the idea of early-bird discounts similar to an early access program.
 
 With every iteration of the course, I slightly increased the price. Those that joined early got access to the entire course for almost the price of an eBook. But they had to wait until all lessons were available.
 
@@ -234,7 +261,9 @@ In the beginning, my newsletter updates and Tweets might have seemed a little sa
 
 That's the price you pay for learning how to balance sales talk and content delivery.
 
-The unsubscribe rate of my mailing list also started to increase. At first, it was hard to see subscribers leaving the mailing list whenever I wrote about the current progress or informed about the remaining days for the current early-bird batch. In the end, as I can't please everyone and wanted to shift my content niche, it was fine that some subscribers _disappeared naturally_.
+The unsubscribe rate of my mailing list also started to increase. At first, it was hard to see subscribers leaving the mailing list whenever I wrote about the current progress or informed about the remaining days for the current early-bird batch.
+
+In the end, as I can't please everyone and wanted to shift my content niche, it was fine that some subscribers _disappeared naturally_.
 
 Since then, I started to focus on creating new content that is somehow related to my niche. This helped me get potential leads naturally as they subscribed with the intent to learn more about testing.
 
@@ -260,9 +289,13 @@ At the end of the release day, there were nine paying customers:
 
 I never thought that many people would enroll in the course at this stage. I was expecting 20 customers in the first month.
 
+From this release day forward, I almost used every day to work on the remaining course lessons. It took me two and a half months to finish the course.
+
 ## A Note on Effort
 
-On the 25th of October 2020, when I uploaded the last lessons and closed the final early-bird batch, the course had 127 video lessons. I never had a target for the total course length in mind. I recorded as many videos as required to explain the various unit, integration, and end-to-end testing concepts.
+On the 25th of October 2020, when I uploaded the last lessons and closed the final early-bird batch, the course had 127 video lessons.
+
+I never had a target for the total course length in mind. I recorded as many videos as required to explain the various unit, integration, and end-to-end testing concepts.
 
 In total, the course users will watch 10 hours of high-quality content on testing Spring Boot applications. Most of the video lessons are five to ten minutes long.
 
@@ -270,13 +303,15 @@ If I had started this project with the goal of 10 hours in mind and wanted to re
 
 It's hard to tell how much effort went into this entire adventure as I didn't stop the time.
 
-As a ballpark figure, let's say that for 30-minutes of video content, I've recorded 45 minutes. Editing the raw content took me another 45 minutes. This makes it approximately 90 minutes for a final 30-minutes content block. However, this number does not include preparation work, coding efforts upfront, ideation, and marketing efforts afterward.
+As a ballpark figure, let's say that for 30-minutes of video content, I've recorded 45 minutes. Editing the raw content took me another 45 minutes. This makes it approximately 90 minutes for a final 30-minutes content block.
+
+However, this number does not include preparation work, coding efforts upfront, ideation, and marketing efforts afterward.
 
 If I had to guess the total hours, it would be **between 100 and 120 hours to create this course from scratch**.
 
 The additional time I got due to working remotely made this workload possible, next to a full-time job as a developer. I didn't have to spend 2 hours every day for the commute and could focus on the course first thing in the morning. In addition, I spent some Saturdays and Sundays to make this course happen.
 
-Now it's time to start with the one-year retrospect for this adventure.
+Now it's time to start with the one-year retrospect.
 
 ## One-Year Retrospect - What Went Well
 
@@ -296,9 +331,11 @@ You must be confident and have a simple and reproducible recording setup. You sh
 
 If you have to set up an entire conference studio for your first online course, chances are high you're procrastinating due to the effort.
 
-I can highly recommend getting some first touchpoints with video and recording and editing on YouTube. YouTube is a great playground. There will be no refunds and (usually) only helpful comments to improve.
+I can highly recommend getting some first touchpoints with video recording and editing on YouTube. YouTube is a great playground. There will be no refunds and (usually) only helpful comments to improve.
 
-This applies to both the technical setup for recording and selling your course. There are many decisions to make, and I'd recommend that you start with the simplest solution that fits your current needs. You can buy a green screen later.
+This applies to both the technical setup for recording and selling your course. There are many decisions to make, and I'd recommend that you start with the simplest solution that fits your current needs.
+
+You can buy a green screen later.
 
 ### Single Digit Refund Rates
 
@@ -344,7 +381,7 @@ If you don't have an audience (yet), try to engage with your target audience on 
 
 I guess most of you are eagerly waiting for the raw numbers :moneybag:
 
-I've made $ 35.369,44 in revenue after one year:
+I've made $35.369,44 in revenue after one year:
 
 ![Sales report overview after one year](/img/tsbam-earnings-after-one-year.png)
 
@@ -354,7 +391,9 @@ If I'd slightly reduce my monthly costs for living, I could live off that money.
 
 That's a huge relief!
 
-In the first month or even year, you might not get the traction as expected. Don't compare the invested time with your hourly rate or salary. An online course is an asset that'll (hopefully) make money while you sleep.
+In the first months, you might not get the traction as expected. Don't compare the invested time with your hourly rate or salary.
+
+An online course is an asset that'll (hopefully) make money while you sleep.
 
 ### Steep Learning Curve
 
@@ -384,7 +423,9 @@ You can easily get lost in various parts of creating, advertising, and selling y
 
 I usually stop when I have a good enough solution and come back later with a fresh mind and more hands-on experience.
 
-There's so much to do. Start small, and iterate. Don't get frustrated if something's not working immediately.
+There's so much to do. Start small, and iterate.
+
+Don't get frustrated if something's not working immediately.
 
 You can't find the root cause for your not-so-optimal page speed? Give your best and otherwise sleep a night over it.
 
@@ -400,19 +441,19 @@ As the goal of every retrospective is to improve, let's talk about my mistakes a
 
 If you're selling to EU customers, pick a merchant of record to sell your digital products. Take a few minutes to [read about VAT handling](https://www.quaderno.io/resources/eu-vat-guide) of digital goods (especially for EU customers), and you'll thank me later. I did not read enough about this topic and started without such a middleman.
 
-I'm handling VAT for myself, and the effort is manageable.
+I'm handling VAT for myself. The effort is manageable.
 
 When working with [SendOwl*](https://rieckpil.de/a/sendowl), I can highly recommend [Quaderno*](https://rieckpil.de/a/quaderno) to stay tax compliant, create nice-looking invoices and exports for your tax advisor.
 
 If I would start over again, I'd pick a provider that handles all tax implications.
 
-That's more time for me to focus on improving the course.
+That's more time to focus on improving the course.
 
 ### Adjust Your Expectations for the Participation Rate
 
 I first thought my content was not good enough when I looked at the total views of the last module.
 
-I expected everyone to finish the course right after they purchased it or at least in time (whatever this means). Because this I what I usually did when I bought a course.
+I expected everyone to finish the course right after they purchased it or at least in time (whatever this means). Because this is what I usually do when I enroll for a new course.
 
 It seems that this is not the case for everyone.
 
@@ -422,7 +463,9 @@ That's okay - they might be busy and will start when they have time.
 
 ### Use IDEA Live Templates to Avoid Blockers While Recording
 
-At various recording sessions, I got lost. I sometimes forgot how to implement the test, what package to import or what I wanted to show.
+At various recording sessions, I got lost.
+
+I sometimes forgot how to implement the test, what package to import or what I wanted to show.
 
 IntelliJ IDEA, the Java IDE I'm using, provides a feature to help: [live templates](https://www.jetbrains.com/help/idea/using-live-templates.html).
 
@@ -434,7 +477,11 @@ You can't just paste 15 lines of code and assume the course participant gets wha
 
 ### Support Purchase Power Parity from Day One
 
-We live in a world with different purchasing power and wages. A $159 online course is affordable for someone working for working in silicon valley. That's not the case for all other countries around the globe. A developer earning only a quarter of the US median wages thinks twice before enrolling in this course. For some developers, the course for its base price is not affordable at all.
+We live in a world with different purchasing power and wages.
+
+This $159 online course is affordable for someone working for working in silicon valley. That's not the case for all other countries around the globe.
+
+A developer earning only a quarter of the US median wages thinks twice before enrolling in this course. For some developers, the course for its base price is not affordable at all.
 
 Many companies adjust the prices for their products and services to the purchasing power of each country. This way, the relative costs for a product (e.g., 5% of the median monthly salary) should be the same for everyone.
 
@@ -444,7 +491,11 @@ After some investigation, I came across a [small library from Robin Wieruch](htt
 
 As I want to reach many people with the content I create, supporting PPP is a no-brainer for me in retrospect. Since the integration of PPP, the total orders have also increased.
 
-I've seen creators that are afraid that someone will abuse this mechanism. Creating a VPN tunnel to another country is a matter of seconds. Someone might trick this system and get the content for only a subset of the target price for their country. Nevertheless, I'm still able to see the origin of the payment and can identify _frauds_. That never happened so far, and even if it happens, I'm convinced that Karma will do its job.
+I've seen creators that are afraid that someone will abuse this mechanism.
+
+Creating a VPN tunnel to another country is a matter of seconds. Someone might trick this system and get the content for only a subset of the target price for their country. Nevertheless, I'm still able to see the origin of the payment and can identify _frauds_.
+
+That never happened so far, and even if it happens, I'm convinced that Karma will do its job.
 
 ### Embed More Hands-On Exercises and Quizzes
 
@@ -452,7 +503,9 @@ I've worked through several online courses and enjoy learning new techniques and
 
 Whenever there were exercises or assignments at the end of each lesson, I usually ignored them as they were sometimes too simple or somehow already covered by me coding along.
 
-This personal preference was the main reason not to include any specific coding task after each lesson. I thought that if you are eager to learn this topic, you'll try to apply the knowledge as soon as possible by default. Otherwise, it's shallow learning, and if you're not motivated, exercises might also not help that much.
+This personal preference was the main reason not to include any specific coding task after each lesson. I thought that if you are eager to learn this topic, you'll try to apply the knowledge as soon as possible by default.
+
+Otherwise, it's shallow learning, and if you're not motivated, exercises might also not help that much.
 
 Not everyone shares this viewpoint, and some course participants have already asked for a more guided approach. Looking back, I would have thought more about exercises, quizzes, and assignments.
 
@@ -464,7 +517,9 @@ As I did not create a physical product that is already shipped to customers, I c
 
 ### Start Earlier
 
-I guess everybody has this learning after we've accomplished something outside our comfort zone. Seeing how _easy_ it was in retrospect makes us wonder why we did not start earlier. Most of my _fear_ when creating content on the Internet was what others think when they see it.
+I guess everybody has this learning after accomplishing something outside their comfort zone.
+
+Seeing how _easy_ it was in retrospect makes us wonder why we did not start earlier. Most of my _fear_ when creating content on the Internet was what others think when they see it.
 
 When I created my blog and uploaded my first video on YouTube, I never actively showed anyone my project and let them naturally find out. I don't care at all what they think, except it's constructive feedback.
 
@@ -474,9 +529,11 @@ There's only one right timing for creating your first article, first YouTube vid
 
 ### Spend Less on Display Ads or Spent It Better
 
-Seeing the sales coming in, I created ads on various platforms like Google Search, Twitter, Facebook, and LinkedIn. I thought that if I just had enough firepower (aka. money) for ads, I'd create a money machine.
+Seeing the sales coming in, I created ads on various platforms like Google Search, Twitter, Facebook, and LinkedIn.
 
-Living the dream where the CPA (cost per acquisition) is less than the generated revenue.
+I thought that if I just had enough firepower (aka. money) for ads, I'd create a money machine.
+
+Living the dream where the CPA (cost per acquisition) is less than the generated revenue. A money perpetuum mobile.
 
 That didn't work - at least not for cold leads and a $150+ product.
 
@@ -541,5 +598,5 @@ Now it's your turn - go for it and let me know how it worked out!
 
 PS: If you plan to mirror this setup and have further questions, feel free to [reach out](https://twitter.com/rieckpil).
 
-Happy creating,
+Happy creating,\
 Philip
