@@ -12,6 +12,8 @@ toc: false
 
 Short intro about this article. What worked, how we organized ourselves. The book is all about AWS and Spring Boot. Getting your Spring Boot application into production.
 
+Our journey to write a technical book remotley together without having met each other in person before.
+
 Three co-authors: Tom, Björn, Philip.
 
 ## How we got together
@@ -30,7 +32,7 @@ We then met constantly every two weeks and
 
 We started with the project name `aws101`. However, was this was clearly violating trademarks of AWS, we had to find another name. As the book is all about getting ready for the cloud and effectively deploy applications to production in the cloud, the symbol of a starting rocket seemed natural.
 
-We ordered two design exampels for the logo on Fiverr and picked the best:
+We ordered two design examples for the logo on Fiverr and picked the best:
 
 INSERT LOGO HERE
 
@@ -43,24 +45,37 @@ Not much in-depth content for this complex domain. We all had some experience wi
 
 Project to learn and will learning produce something
 
-## Getting Started with the book
+## Getting Started With Writing the Book
 
-As this project was or all three of us a side-project and nothing we do full time, we all agreed that working with a formal publisher is no option for us. Setting deadlines and having to deliver a final piece on a given date was something we wanted to avoid.
+Once we had a working sample application running on AWS and were confident that the topic we're about to write adds value, we started writing the book. We first sketched out a table of contents and started working on the different chapters in parallel.
 
-As Tom already had self-published an eBook on Leanpub before, we went for Leanpub as their services are appeling for self-publishing tech authors:
+As were incrementally releasing new version of th eBook, we tried to work on the modules and chapters in sequence. It should be more or less and append-only of chapters and no inline adding of chapters so that the readers that get a copy early, can continue reading the book were they left if there's a new version available.
+
+I've used this same iterative approach with an [early bird audience for my first online course](https://progmot.com/post/creating-and-selling-my-first-online-course/) and we saw the same benefits for this book.
+
+As this project was or all three of us a side-project and nothing we do full time, we all agreed that working with a formal publisher is no option for us. Setting deadlines and having to deliver a final piece on a given date was something we clearly wanted to avoid.
+
+As Tom already had self-published an eBook on Leanpub before, we went for Leanpub as their services are appealing for self-publishing tech authors:
 
 - write the manuscript in Markdown
 - formatting comes automatically
 - direct integration with a GitHub repository
 - fair pricing with 80% royalties
+- payout via PayPal and support for multiple authors
 
-Release early and often. They favor the approach of giving access to a book early while its still in development.
+Release early and often. They favor the approach of giving access to a book early while it's still in development.
 
 SHOW progress bar
 
-We choose Leanpub as it's tech-friendly, easy-to-setup and great royalties. Leanpub is a self publishing platform mostly focussing on tech books.
+We choose Leanpub as it's tech-friendly, easy-to-setup and great royalties. Leanpub is a self-publishing platform mostly focussing on tech books.
 
-To gain some traction and to see if there's interest for such a book, we started with a basic landing page and collecting email addresses for a mailing list.
+To gain some traction and to see if there's interest in such a book, we started with a basic landing page and collecting email addresses for a mailing list.
+
+On the XY of November 2020, we released the first manuscript. From this day forward it took us approximately two months for the next revision to be published.
+
+The final release was on August 2021. At the end we did some final checks for consistency, wording, and typos which took a little bit longer.
+
+
 
 
 Made a lot of fun, learned a ton about AWS, met and get to know great and knowledgeable people
@@ -73,10 +88,14 @@ basic landing page
 
 Used tools:
 
-GitHub suggestion feature for the PR. Show example
+GitHub suggestion feature for the PR. Show example. The collaboration makes fun. Immediate feedback and now need to send Word files via email and use the comment functionality of Word.
+
+Leanpub removed the barriers of formatting a nice-looking PDF and publishing it in various formats.
+
+Getting to the end of the book, some publishers started to reach out to us. They wanted to publish Stratospheric from their publishing house and bring it to various marketplaces. We . The additional outreach may be great but the royalties are diminishing compared to Leanpub, especially if we have to split them into three equal parts. To stay independent we chose against a publisher and published the eBook ourselves on Amazon to have at least the big search traffic from this major ecommerce platform. We know that Leanpub is a niche site and not all developers are available of this great source of technical books. However, given our existing audience from our blog, newsletter, Twitter, etc. we make our potential readers aware via those channels.
 
 
-Running Grammarly to spot low hanging fruits when it comes to grammar and typos.
+Running Grammarly to spot low-hanging fruits when it comes to grammar and typos.
 
 
 All changes were reviewed by all of us
