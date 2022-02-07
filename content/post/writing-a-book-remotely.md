@@ -19,9 +19,12 @@ Three co-authors: Tom, Björn, Philip.
 ## How we got together
 
 Small anecdote how it started with a simple Tweet by Tom.
+
 We next met with the intent to share experience as tech bloggers. During the second or third meeting of this kind, Tom asked for fellow bloggers that would be interested in taking a closer look at AWS and Spring Boot and may want to write about it.
 
-Björn and me who were participating in this meeting raised our hands and we met for the first time
+Björn and me who were participating in this meeting raised our hands. We've never met each other before.
+
+We organized a seperate meeting to discuss more details and to get to know each other.
 
 
 ## How it started
@@ -45,9 +48,17 @@ Not much in-depth content for this complex domain. We all had some experience wi
 
 Project to learn and will learning produce something
 
+Structure of the eBook:
+
+1. Getting Started with AWS
+2. Building the sample application
+3. Operating and montoring and application in production on AWS
+
 ## Getting Started With Writing the Book
 
 Once we had a working sample application running on AWS and were confident that the topic we're about to write adds value, we started writing the book. We first sketched out a table of contents and started working on the different chapters in parallel.
+
+Everybody was working on a dedicated chapter so there wasn't any conflict or waiting. Writing the new chapter consisted both of doing some resarch, adjusting the sample application and writing the manuscript.
 
 As were incrementally releasing new version of th eBook, we tried to work on the modules and chapters in sequence. It should be more or less and append-only of chapters and no inline adding of chapters so that the readers that get a copy early, can continue reading the book were they left if there's a new version available.
 
@@ -69,20 +80,38 @@ SHOW progress bar
 
 We choose Leanpub as it's tech-friendly, easy-to-setup and great royalties. Leanpub is a self-publishing platform mostly focussing on tech books.
 
+The manuscript is backed by a private GitHub repository.
+
+Leanpub allows creating preview versions of the eBook that we heavily used to see a rendered version of our recent changes.
+
 To gain some traction and to see if there's interest in such a book, we started with a basic landing page and collecting email addresses for a mailing list.
 
 On the XY of November 2020, we released the first manuscript. From this day forward it took us approximately two months for the next revision to be published.
 
-The final release was on August 2021. At the end we did some final checks for consistency, wording, and typos which took a little bit longer.
+The final release was on August 2021. At the end we did some final checks for consistency, wording, and typos which took a little longer.
+
+To make the final release (version 1.0, there's no final release ever), we organized a release party and invited both the existing eBook readers as well as other interested persons from our audience.
+
+We talked about the sample application, the way we deploy the application, how we wrote the book, gave a feature demo and hit the release button on Leanpub together.
+
+The recording of this release party is [available on YouTube](https://www.youtube.com/watch?v=oaWEKvVXucU).
 
 
+## Tips
 
+Made a lot of fun, learned a ton about AWS, met and get to know great and knowledgeable people.
 
-Made a lot of fun, learned a ton about AWS, met and get to know great and knowledgeable people
-
-Iterative approach, collect emails from interested
+Iterative approach, collect emails from interested people.
 
 Meeting schedules, continuous sprints, peer review
+
+We were using a Trello board for our task planning. We grouped our tasked in columns like: marketing, backlog, in progress, in verify, done.
+
+This helped us keep an overview of what is currently in progress and what still needs to be done.
+
+AWS sponsored us some gift vouchers so that we could run the infrastructure (almost) for free.
+
+We could even sponsor a two-part article on the AWS Open Source blog to gain some traction for our project.
 
 basic landing page
 
@@ -96,7 +125,6 @@ Getting to the end of the book, some publishers started to reach out to us. They
 
 
 Running Grammarly to spot low-hanging fruits when it comes to grammar and typos.
-
 
 All changes were reviewed by all of us
 
@@ -113,4 +141,10 @@ We even organized a small release party where we talked about the project, the s
 
 Since the release, we're still meeting each other on a bi-weekly basis. We add reader feedback, keep the source code up-to-date and add new section where it makes sense.
 
-with currently more than 700 readers
+With currently more than 700 readers
+
+Adding links for further resources is both a curse and a blessing. It allows the interested reader to dive deeper into a topic. However, the links rotten over time and may no longer be accessible as the content might have moved or the site got shutdown. We automated the hyperlink verification with a small GitHub Action and a npm package that checks all links (also internal manuscript links) on each commit:
+
+SHOW Link verify mechanism.
+
+This helped us to identify and replace rotten links
