@@ -10,24 +10,38 @@ math: false
 toc: false
 ---
 
-Short intro about this article. What worked, how we organized ourselves. The book is all about AWS and Spring Boot. Getting your Spring Boot application into production.
+Titles:
+- Lessons Learned: Writing a Technical eBook Remotely Without ever meeting before
+- How we managed to write a book about AWS remotely
 
-Our journey to write a technical book remotley together without having met each other in person before.
+Share some tools we use, how we organized, which process we followed
 
-Three co-authors: Tom, Björn, Philip.
+Short intro about this article. What worked, how we organized ourselves.
 
-## How we got together
+The book is all about AWS and Spring Boot. Getting your Spring Boot application into production.
 
-Small anecdote how it started with a simple Tweet by Tom.
+Our journey to writing a technical book remotely together without having met each other in person before.
+
+Three co-authors: [Tom](https://twitter.com/TomHombergs/), [Björn](https://twitter.com/bwilmsmann/), [Philip](https://twitter.com/rieckpil) (that's me).
+
+## How We Got Together
+
+> Luck is what happens when preparation meets opportunity
+
+While scrolling through my Twitter feed I saw a fellow technical blogger reaching out to other bloggers to organize a small knowledge exchange.
+
+Small anecdote how it started with a simple tweet by Tom.
 
 We next met with the intent to share experience as tech bloggers. During the second or third meeting of this kind, Tom asked for fellow bloggers that would be interested in taking a closer look at AWS and Spring Boot and may want to write about it.
 
-Björn and me who were participating in this meeting raised our hands. We've never met each other before.
+Björn and me who were participating in this meeting raised our hands. We've never met each other before. And partially knew each other from reading our blogs.
 
 We organized a seperate meeting to discuss more details and to get to know each other.
 
 
 ## How it started
+
+In our first meetings we first got to know each other better. We first wanted to ensure our expecations for this project align. While we were all three working fulltime for clients/an employer, we set the common understanding that this will be a fun sideproject.
 
 In the first meetings that we organized bi-weekly we were first getting to know each other better. This included the current experience with AWS and what our plans with this project would be.
 
@@ -58,13 +72,16 @@ Structure of the eBook:
 
 Once we had a working sample application running on AWS and were confident that the topic we're about to write adds value, we started writing the book. We first sketched out a table of contents and started working on the different chapters in parallel.
 
+
 Everybody was working on a dedicated chapter so there wasn't any conflict or waiting. Writing the new chapter consisted both of doing some resarch, adjusting the sample application and writing the manuscript.
 
 As were incrementally releasing new version of th eBook, we tried to work on the modules and chapters in sequence. It should be more or less and append-only of chapters and no inline adding of chapters so that the readers that get a copy early, can continue reading the book were they left if there's a new version available.
 
 I've used this same iterative approach with an [early bird audience for my first online course](https://progmot.com/post/creating-and-selling-my-first-online-course/) and we saw the same benefits for this book.
 
-As this project was or all three of us a side-project and nothing we do full time, we all agreed that working with a formal publisher is no option for us. Setting deadlines and having to deliver a final piece on a given date was something we clearly wanted to avoid.
+As this project was or all three of us a side-project and nothing we do full time, we all agreed that working with a formal publisher is no option for us. Working towards given deadlines and having to deliver a final piece on a fixed date was something we clearly wanted to avoid.
+
+Furthermore, Tom already had one of his eBooks published by a technical publisher and wasn't that convinced.
 
 As Tom already had self-published an eBook on Leanpub before, we went for Leanpub as their services are appealing for self-publishing tech authors:
 
@@ -73,6 +90,7 @@ As Tom already had self-published an eBook on Leanpub before, we went for Leanpu
 - direct integration with a GitHub repository
 - fair pricing with 80% royalties
 - payout via PayPal and support for multiple authors
+- Leanpub acts as the marchant of record and takes ownership for the payment and tax handling
 
 Release early and often. They favor the approach of giving access to a book early while it's still in development.
 
@@ -95,6 +113,52 @@ To make the final release (version 1.0, there's no final release ever), we organ
 We talked about the sample application, the way we deploy the application, how we wrote the book, gave a feature demo and hit the release button on Leanpub together.
 
 The recording of this release party is [available on YouTube](https://www.youtube.com/watch?v=oaWEKvVXucU).
+
+## Organization
+
+Bi-weekly calls via Zoom to have a mix of a daily, review and planning in a one hour session.
+
+We were using a basic Trello board with some backlog columns, a In progress and one review column.
+
+We cross-read all out manuscript and therefore had
+
+Grammarly was another big help to spot some low hanging typo, grammatical and syntactical issues.
+
+
+Pull request via GitHub
+
+## Incrementally building
+
+Leanpub is supporting this mode, we can publish work-in-progress version and use a percentage bar to inform potential readers how far we are in the process.
+
+
+## Releasing the Book
+
+Add a basic timeline with our release dates and how far we came.
+
+The last release was the one that took the longest. Before we put the version `1.0` out and mark this eBook as complete on Leanpub, we wanted to polish and proofread the entire book by ourselves. This took some additional 2-3 weeks.
+
+## After
+
+Live since August 2021. Great adoption, we also now have a Slack channel for the community of the eBook.
+
+Monetary information: We don't get rich. It's some additional pocket money for us in the range of $150-300 for each author.
+
+To increase the visibility of our eBook we included it on Amazon. While Amazon's royalty rules are not that optimal compared to Leanpub, we primarly list on Amazon to get in front of more developers. Amazon is one of the biggest search interfaces after Google and YouTube.
+
+We thought about an printed eBook but for now postponed this move as we think that our audience is anyway more interested to read technical books on their devices.
+
+Some readers even requested more in-depth coverage and hence we decided to build an online course on top of it.
+
+Given my [existing experience with building and launching technical online courses](https://progmot.com/post/creating-and-selling-my-first-online-course/), this will be a great opportunity to apply my lessons learned from my first courses.
+
+## About the eBook authors
+
+### Tom Hombergs
+
+### Björn Wilsmann
+
+### Philip Riecks
 
 
 ## Tips
