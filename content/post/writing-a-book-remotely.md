@@ -143,13 +143,26 @@ We cross-read all out manuscript and therefore had
 
 Grammarly was another big help to spot some low hanging typo, grammatical and syntactical issues.
 
+Excalidraw for some nice-looking diagrams
 
-Pull request via GitHub
+TODO: Add Excalidraw example picture
+
+Pull request via GitHub.
+
+We had the following _branching strategy_ for the eBook:
+- `main` -> generate eBook releases on Leanpub
+- `preview` -> generate previews on Leanpub
+- `personal-feature-branch`
+
+Every co-author would work on their own branch and write their chapters. Once completed, we created a pull request to merge into the `preview`. This triggered our review process where all other co-authors reviewed proposed writings one after the other.
+
+After the review is completed, we integrated the change into the `preview` branch to collect multiple chapters for the next release. Once every two month we then created the next work in progress release by merging the changes to the `main` branch.
+
+TODO: Insert excalidraw
 
 ## Incrementally building
 
 Leanpub is supporting this mode, we can publish work-in-progress version and use a percentage bar to inform potential readers how far we are in the process.
-
 
 ## Releasing the Book
 
@@ -171,16 +184,11 @@ Some readers even requested more in-depth coverage and hence we decided to build
 
 Given my [existing experience with building and launching technical online courses](https://progmot.com/post/creating-and-selling-my-first-online-course/), this will be a great opportunity to apply my lessons learned from my first courses.
 
-## About the eBook authors
-
-### Tom Hombergs
-
-### Björn Wilsmann
-
-### Philip Riecks
-
-
 ## Tips
+
+Writing together motivates to keep going. We all committed to deliver something and had some high level ideas when the next release would be published.
+
+Improve the writing a lot by getting constant feedback.
 
 Made a lot of fun, learned a ton about AWS, met and get to know great and knowledgeable people.
 
@@ -192,20 +200,25 @@ We were using a Trello board for our task planning. We grouped our tasked in col
 
 This helped us keep an overview of what is currently in progress and what still needs to be done.
 
-AWS sponsored us some gift vouchers so that we could run the infrastructure (almost) for free.
+AWS sponsored us some gift vouchers so that we could run the infrastructure (almost) for free. We could even sponsor a two-part article on the AWS Open Source blog to gain some traction for our project.
 
-We could even sponsor a two-part article on the AWS Open Source blog to gain some traction for our project.
+After the book was published, we even got a great donation from AWS for our project via GitHub.
 
-basic landing page
+Keep it simple, shared logins for the tools.
+
+For our laning page we purchased a bootstrap HTML theme for some bucks and adjusted it to our needs. During the inception phase of the project and while the eBook was not at 100, we primarily used the landing page to attract potential readers. Our landing page had (and still has) a newsletter subscription form to keep potential readers around.
 
 Used tools:
+
+Writing the eBook in their editor of choice. I personally used IntelliJ IDEA most of the time.
+
+I tweaked the editor setting to wrap the lines so that I can write more naturally without having to horizontally scroll endlessly or buy a curved monitor.
 
 GitHub suggestion feature for the PR. Show example. The collaboration makes fun. Immediate feedback and now need to send Word files via email and use the comment functionality of Word.
 
 Leanpub removed the barriers of formatting a nice-looking PDF and publishing it in various formats.
 
 Getting to the end of the book, some publishers started to reach out to us. They wanted to publish Stratospheric from their publishing house and bring it to various marketplaces. We . The additional outreach may be great but the royalties are diminishing compared to Leanpub, especially if we have to split them into three equal parts. To stay independent we chose against a publisher and published the eBook ourselves on Amazon to have at least the big search traffic from this major ecommerce platform. We know that Leanpub is a niche site and not all developers are available of this great source of technical books. However, given our existing audience from our blog, newsletter, Twitter, etc. we make our potential readers aware via those channels.
-
 
 Running Grammarly to spot low-hanging fruits when it comes to grammar and typos.
 
@@ -231,3 +244,12 @@ Adding links for further resources is both a curse and a blessing. It allows the
 SHOW Link verify mechanism.
 
 This helped us to identify and replace rotten links
+
+## About the eBook authors
+
+### Tom Hombergs
+
+### Björn Wilsmann
+
+### Philip Riecks
+
