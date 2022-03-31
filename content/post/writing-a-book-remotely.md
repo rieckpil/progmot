@@ -11,7 +11,8 @@ toc: false
 ---
 
 Titles:
-- Lessons Learned: Writing a Technical eBook Remotely Without ever meeting before
+(more positive word for lessons learned)
+- Lessons Learned: Writing a Technical eBook Remotely Without Ever Meeting Before
 - How we managed to write a book about AWS remotely
 
 Share some tools we use, how we organized, which process we followed
@@ -26,7 +27,7 @@ Three co-authors: [Tom](https://twitter.com/TomHombergs/), [Björn](https://twit
 
 ## How We Got Together
 
-> Luck is what happens when preparation meets opportunity
+> Luck is what happens when preparation meets opportunity.
 
 While scrolling through my Twitter feed I saw a fellow technical blogger reaching out to other bloggers to organize a small knowledge exchange.
 
@@ -36,27 +37,37 @@ We next met with the intent to share experience as tech bloggers. During the sec
 
 Björn and me who were participating in this meeting raised our hands. We've never met each other before. And partially knew each other from reading our blogs.
 
-We organized a seperate meeting to discuss more details and to get to know each other.
-
+We organized a separate meeting to discuss more details and to get to know each other.
 
 ## How it started
 
-In our first meetings we first got to know each other better. We first wanted to ensure our expecations for this project align. While we were all three working fulltime for clients/an employer, we set the common understanding that this will be a fun sideproject.
+In our first meetings we first got to know each other better. We first wanted to ensure our expectations for this project align. While we were all three working full-time for clients/an employer, we set the common understanding that this will be a fun side project.
 
 In the first meetings that we organized bi-weekly we were first getting to know each other better. This included the current experience with AWS and what our plans with this project would be.
 
 We then met constantly every two weeks and
 
+As a first step, we wanted to develop a small proof of concept application to explore which areas we can write about. We wanted our readers complete the journey from only a bit about AWS to having a automated CI/CD pipeline that deploys their application to production.
+
+For the tech-stack we picked what we felt most comfortable with: Java and Spring Boot with Spring Cloud AWS.
+
+Besides educating the reader about this topic, we also had a big self-interest as we were all using AWS almost on a daily basis and wanted to get to know it in more detail. Every one of us had stories and best practices for various AWS services to share that the other co-authors could learn from. Win-win!
+
+We opened a new AWS account for this project, created three IAM users for us and a GitHub organization called to organize ourselves.
+
 We started with the project name `aws101`. However, was this was clearly violating trademarks of AWS, we had to find another name. As the book is all about getting ready for the cloud and effectively deploy applications to production in the cloud, the symbol of a starting rocket seemed natural.
+
+After some brainstorming for possible names, we ended up with: `Stratospheric`.
 
 We ordered two design examples for the logo on Fiverr and picked the best:
 
 INSERT LOGO HERE
 
+## How We Continued
+
+After developing a the proof of concept application and having automated everything with CloudFormation, we were sure that we have enough to show and committed to writing the book.
 
 While the AWS CDK was getting more and more traction in the meantime, we decided to rework the infrastructure setup and use the CDK instead of CloudFormation templates.
-
-Stratospheric
 
 Not much in-depth content for this complex domain. We all had some experience with AWS but there were clearly parts that we're not understanding in detail
 
@@ -65,8 +76,16 @@ Project to learn and will learning produce something
 Structure of the eBook:
 
 1. Getting Started with AWS
-2. Building the sample application
-3. Operating and montoring and application in production on AWS
+
+Get used to AWS, its interfaces, its services and the management console (a bit as we try to automated everything with the AWS CDK). This includes an introduction to the AWS CDK, our custom CDK constructs Java library and some design decision for building a CI/CD pipeline with GitHub Actions.
+
+2. Building the Sample Application
+
+Next, we dive into the actual application development and build many must-have features of today's application while connecting to various AWS services: OAuth2 Login and user registration with AWS Cognito, email delivery with SES, websockets, asynchronous workload operation with AWS SQS, storing data in an relational database with RDS. We showcase the integration with AWS and Spring Boot based on meaningful feature implementations and enrich our sample Todo application with every chapter.
+
+3. Operating and Monitoring and Applications in Production on AWS
+
+Production is where the fun begins. We don't stop after developing the last feature but also cover monitoring and operation our Spring Boot application in production. This includes topics like structured logging, Amazon CloudWatch alerts, emitting metrics, creating operational dashboard, etc.
 
 ## Getting Started With Writing the Book
 
