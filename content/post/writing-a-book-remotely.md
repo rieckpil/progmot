@@ -12,10 +12,15 @@ toc: false
 
 Titles:
 (more positive word for lessons learned)
-- Lessons Learned: Writing a Technical eBook Remotely Without Ever Meeting Before
+- Lessons Learned: Writing a Technical eBook Remotely Without Ever Meeting In Person Before
+- Lessons Learned: Writing a Technical eBook Remotely
+- Interconnected World: Writing a Technical eBook Remotely
+- How To Write a Technical eBook Remotely Without Every Meeting
 - How we managed to write a book about AWS remotely
 
-Share some tools we use, how we organized, which process we followed
+This article describes my one-year journey to write [Stratospheric - From Zero to Production with Spring Boot and AWS](https://stratospheric.dev/) as a co-author with two other co-authors that I met on Twitter. We never met in person before and while writing and still managed to successfully write a 450+ in-depth guide on AWS and Spring Boot.
+
+We self-published this, promotion strategies, connecting to the readers, money side of things, how we organized ourselves, which processes we followed
 
 Short intro about this article. What worked, how we organized ourselves.
 
@@ -24,6 +29,17 @@ The book is all about AWS and Spring Boot. Getting your Spring Boot application 
 Our journey to writing a technical book remotely together without having met each other in person before.
 
 Three co-authors: [Tom](https://twitter.com/TomHombergs/), [Björn](https://twitter.com/bwilmsmann/), [Philip](https://twitter.com/rieckpil) (that's me).
+
+Structure:
+- How we got together
+- Our goals
+- How we started (first Poc, outline chapters, start writing)
+- Getting the first readers on it
+- Iterate: Continuously improve for 6-7 month
+- Publishing version 1.0: Proofreading, aligning the wording,
+- Iterate aka. nach dem Release ist vor dem Release: Continue with further updates, fast changing cloud environment, online course
+
+- Short list of tips & tricks: Email addresses, Landing page, Grammarly, Link Checker, GitHUb issue templates -> feedback will come in many ways, best is centralized and open, if you write with multiple persons, set some image/text rules ahead. You'll save time aligining the manuscript afterward.
 
 ## How We Got Together
 
@@ -62,6 +78,34 @@ After some brainstorming for possible names, we ended up with: `Stratospheric`.
 We ordered two design examples for the logo on Fiverr and picked the best:
 
 INSERT LOGO HERE
+
+## Getting Early Feedback
+
+While you can have the best eBook or product, if your potential readers and customers are not getting in front of it.
+
+As we all three are running a blog, have an audience on Twitter and some of us a mailing list, we started off with an existing target audience.
+
+To spread the news about our project, we tweeted about our current state every now and then. To capture the email address of potential readers and to outline our goal with the book, we created a basic landing page.
+
+Nothing fancy, a simple $50 bootstrap HTML theme that we bought, tweaked and launched via GitHub pages to the Internet.
+
+Convertkit for the mailing provider to learn about a new one (we recently switched to MailerLite).
+
+As there wasn't any earnings, we kept the costs low to only invest more $ once we see and adoption.
+
+Getting people to your waiting list for the book, doesn't necassarly mean they'll also pull out their credit card once the eBook lands.
+
+We used both our social media channels and the mailing list to teaser and give constant updates about our progress.
+
+To mix up the person in charge of writing the mailing list update, we rotated among all co-authors.
+
+Leanpub supports selling eBooks in their early stage. They even have a progress bar on each eBook's landing page indicating how far the content is and when it was updated. Combining this with an incremental price increase, lets readers join early and benefit from all future updates.
+
+Show progress bar example with WIP and one with completed
+
+We started with a base price of $X. Keep in mind that we get 80% royalties but have to split those equally among all authors.
+
+Overall, Similar approach to my iterative course launch with early access program.
 
 ## How We Continued
 
