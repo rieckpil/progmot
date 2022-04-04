@@ -30,17 +30,6 @@ Our journey to writing a technical book remotely together without having met eac
 
 Three co-authors: [Tom](https://twitter.com/TomHombergs/), [Björn](https://twitter.com/bwilmsmann/), [Philip](https://twitter.com/rieckpil) (that's me).
 
-Structure:
-- How we got together
-- Our goals
-- How we started (first Poc, outline chapters, start writing)
-- Getting the first readers on it
-- Iterate: Continuously improve for 6-7 month
-- Publishing version 1.0: Proofreading, aligning the wording,
-- Iterate aka. nach dem Release ist vor dem Release: Continue with further updates, fast changing cloud environment, online course
-
-- Short list of tips & tricks: Email addresses, Landing page, Grammarly, Link Checker, GitHUb issue templates -> feedback will come in many ways, best is centralized and open, if you write with multiple persons, set some image/text rules ahead. You'll save time aligining the manuscript afterward.
-
 ## How We Got Together
 
 > Luck is what happens when preparation meets opportunity.
@@ -55,7 +44,12 @@ Björn and me who were participating in this meeting raised our hands. We've nev
 
 We organized a separate meeting to discuss more details and to get to know each other.
 
-## How it started
+## Our Goals For This Project
+
+
+## How We Started
+
+(first Poc, outline chapters, start writing)
 
 In our first meetings we first got to know each other better. We first wanted to ensure our expectations for this project align. While we were all three working full-time for clients/an employer, we set the common understanding that this will be a fun side project.
 
@@ -79,62 +73,35 @@ We ordered two design examples for the logo on Fiverr and picked the best:
 
 INSERT LOGO HERE
 
-## Getting Early Feedback
 
-While you can have the best eBook or product, if your potential readers and customers are not getting in front of it.
+Bi-weekly calls via Zoom to have a mix of a daily, review and planning in a one hour session.
 
-As we all three are running a blog, have an audience on Twitter and some of us a mailing list, we started off with an existing target audience.
+We were using a basic Trello board with some backlog columns, a In progress and one review column.
 
-To spread the news about our project, we tweeted about our current state every now and then. To capture the email address of potential readers and to outline our goal with the book, we created a basic landing page.
+We cross-read all out manuscript and therefore had
 
-Nothing fancy, a simple $50 bootstrap HTML theme that we bought, tweaked and launched via GitHub pages to the Internet.
+Grammarly was another big help to spot some low hanging typo, grammatical and syntactical issues.
 
-Convertkit for the mailing provider to learn about a new one (we recently switched to MailerLite).
+Excalidraw for some nice-looking diagrams
 
-As there wasn't any earnings, we kept the costs low to only invest more $ once we see and adoption.
+TODO: Add Excalidraw example picture
 
-Getting people to your waiting list for the book, doesn't necassarly mean they'll also pull out their credit card once the eBook lands.
+Pull request via GitHub.
 
-We used both our social media channels and the mailing list to teaser and give constant updates about our progress.
+We had the following _branching strategy_ for the eBook:
+- `main` -> generate eBook releases on Leanpub
+- `preview` -> generate previews on Leanpub
+- `personal-feature-branch`
 
-To mix up the person in charge of writing the mailing list update, we rotated among all co-authors.
+Every co-author would work on their own branch and write their chapters. Once completed, we created a pull request to merge into the `preview`. This triggered our review process where all other co-authors reviewed proposed writings one after the other.
 
-Leanpub supports selling eBooks in their early stage. They even have a progress bar on each eBook's landing page indicating how far the content is and when it was updated. Combining this with an incremental price increase, lets readers join early and benefit from all future updates.
+After the review is completed, we integrated the change into the `preview` branch to collect multiple chapters for the next release. Once every two month we then created the next work in progress release by merging the changes to the `main` branch.
 
-Show progress bar example with WIP and one with completed
+TODO: Insert excalidraw
 
-We started with a base price of $X. Keep in mind that we get 80% royalties but have to split those equally among all authors.
-
-Overall, Similar approach to my iterative course launch with early access program.
-
-## How We Continued
-
-After developing a the proof of concept application and having automated everything with CloudFormation, we were sure that we have enough to show and committed to writing the book.
-
-While the AWS CDK was getting more and more traction in the meantime, we decided to rework the infrastructure setup and use the CDK instead of CloudFormation templates.
-
-Not much in-depth content for this complex domain. We all had some experience with AWS but there were clearly parts that we're not understanding in detail
-
-Project to learn and will learning produce something
-
-Structure of the eBook:
-
-1. Getting Started with AWS
-
-Get used to AWS, its interfaces, its services and the management console (a bit as we try to automated everything with the AWS CDK). This includes an introduction to the AWS CDK, our custom CDK constructs Java library and some design decision for building a CI/CD pipeline with GitHub Actions.
-
-2. Building the Sample Application
-
-Next, we dive into the actual application development and build many must-have features of today's application while connecting to various AWS services: OAuth2 Login and user registration with AWS Cognito, email delivery with SES, websockets, asynchronous workload operation with AWS SQS, storing data in an relational database with RDS. We showcase the integration with AWS and Spring Boot based on meaningful feature implementations and enrich our sample Todo application with every chapter.
-
-3. Operating and Monitoring and Applications in Production on AWS
-
-Production is where the fun begins. We don't stop after developing the last feature but also cover monitoring and operation our Spring Boot application in production. This includes topics like structured logging, Amazon CloudWatch alerts, emitting metrics, creating operational dashboard, etc.
-
-## Getting Started With Writing the Book
+## Getting the First Readers aka. Getting Early Feedback
 
 Once we had a working sample application running on AWS and were confident that the topic we're about to write adds value, we started writing the book. We first sketched out a table of contents and started working on the different chapters in parallel.
-
 
 Everybody was working on a dedicated chapter so there wasn't any conflict or waiting. Writing the new chapter consisted both of doing some resarch, adjusting the sample application and writing the manuscript.
 
@@ -177,44 +144,71 @@ We talked about the sample application, the way we deploy the application, how w
 
 The recording of this release party is [available on YouTube](https://www.youtube.com/watch?v=oaWEKvVXucU).
 
-## Organization
+While you can have the best eBook or product, if your potential readers and customers are not getting in front of it.
 
-Bi-weekly calls via Zoom to have a mix of a daily, review and planning in a one hour session.
+As we all three are running a blog, have an audience on Twitter and some of us a mailing list, we started off with an existing target audience.
 
-We were using a basic Trello board with some backlog columns, a In progress and one review column.
+To spread the news about our project, we tweeted about our current state every now and then. To capture the email address of potential readers and to outline our goal with the book, we created a basic landing page.
 
-We cross-read all out manuscript and therefore had
+Nothing fancy, a simple $50 bootstrap HTML theme that we bought, tweaked and launched via GitHub pages to the Internet.
 
-Grammarly was another big help to spot some low hanging typo, grammatical and syntactical issues.
+Convertkit for the mailing provider to learn about a new one (we recently switched to MailerLite).
 
-Excalidraw for some nice-looking diagrams
+As there wasn't any earnings, we kept the costs low to only invest more $ once we see and adoption.
 
-TODO: Add Excalidraw example picture
+Getting people to your waiting list for the book, doesn't necassarly mean they'll also pull out their credit card once the eBook lands.
 
-Pull request via GitHub.
+We used both our social media channels and the mailing list to teaser and give constant updates about our progress.
 
-We had the following _branching strategy_ for the eBook:
-- `main` -> generate eBook releases on Leanpub
-- `preview` -> generate previews on Leanpub
-- `personal-feature-branch`
+To mix up the person in charge of writing the mailing list update, we rotated among all co-authors.
 
-Every co-author would work on their own branch and write their chapters. Once completed, we created a pull request to merge into the `preview`. This triggered our review process where all other co-authors reviewed proposed writings one after the other.
+Leanpub supports selling eBooks in their early stage. They even have a progress bar on each eBook's landing page indicating how far the content is and when it was updated. Combining this with an incremental price increase, lets readers join early and benefit from all future updates.
 
-After the review is completed, we integrated the change into the `preview` branch to collect multiple chapters for the next release. Once every two month we then created the next work in progress release by merging the changes to the `main` branch.
+Show progress bar example with WIP and one with completed
 
-TODO: Insert excalidraw
+We started with a base price of $X. Keep in mind that we get 80% royalties but have to split those equally among all authors.
 
-## Incrementally building
+Overall, Similar approach to my iterative course launch with early access program.
+
+## Iterate: Continuously improve for 6-7 month
 
 Leanpub is supporting this mode, we can publish work-in-progress version and use a percentage bar to inform potential readers how far we are in the process.
 
-## Releasing the Book
+After developing a the proof of concept application and having automated everything with CloudFormation, we were sure that we have enough to show and committed to writing the book.
+
+While the AWS CDK was getting more and more traction in the meantime, we decided to rework the infrastructure setup and use the CDK instead of CloudFormation templates.
+
+Not much in-depth content for this complex domain. We all had some experience with AWS but there were clearly parts that we're not understanding in detail
+
+Project to learn and will learning produce something
+
+Structure of the eBook:
+
+1. Getting Started with AWS
+
+Get used to AWS, its interfaces, its services and the management console (a bit as we try to automated everything with the AWS CDK). This includes an introduction to the AWS CDK, our custom CDK constructs Java library and some design decision for building a CI/CD pipeline with GitHub Actions.
+
+2. Building the Sample Application
+
+Next, we dive into the actual application development and build many must-have features of today's application while connecting to various AWS services: OAuth2 Login and user registration with AWS Cognito, email delivery with SES, websockets, asynchronous workload operation with AWS SQS, storing data in an relational database with RDS. We showcase the integration with AWS and Spring Boot based on meaningful feature implementations and enrich our sample Todo application with every chapter.
+
+3. Operating and Monitoring and Applications in Production on AWS
+
+Production is where the fun begins. We don't stop after developing the last feature but also cover monitoring and operation our Spring Boot application in production. This includes topics like structured logging, Amazon CloudWatch alerts, emitting metrics, creating operational dashboard, etc.
+
+## Publishing Version 1.0
+
+Proofreading, aligning the wording, launch party on YouTube.
 
 Add a basic timeline with our release dates and how far we came.
 
 The last release was the one that took the longest. Before we put the version `1.0` out and mark this eBook as complete on Leanpub, we wanted to polish and proofread the entire book by ourselves. This took some additional 2-3 weeks.
 
-## After
+## Iterate: Post 1.0 Release
+
+> A book is never finished; it's abandoned. (Gene Fowler)
+
+Continue with further updates, fast changing cloud environment, online course
 
 Live since August 2021. Great adoption, we also now have a Slack channel for the community of the eBook.
 
@@ -228,7 +222,7 @@ Some readers even requested more in-depth coverage and hence we decided to build
 
 Given my [existing experience with building and launching technical online courses](https://progmot.com/post/creating-and-selling-my-first-online-course/), this will be a great opportunity to apply my lessons learned from my first courses.
 
-## Tips
+## Recommendations, tips & tricks, and lessons learned
 
 Writing together motivates to keep going. We all committed to deliver something and had some high level ideas when the next release would be published.
 
@@ -289,11 +283,88 @@ SHOW Link verify mechanism.
 
 This helped us to identify and replace rotten links
 
+### Get an Email Address for Every Author
+
+Feedback channel, signup for shared account with an `info@yourbookname.com`.
+
+We've registered our domain with Route 53, Amazon's DNS Service. We'e build a simple self-made email forwarding with AWS SES, S3 and AWS Lambda. If you're curious about the implementation, check out the [source code on GitHub](https://github.com/stratospheric-dev/stratospheric/tree/main/utility/email).
+
+### Centralize the Feedback Channels
+
+- private DMs
+- Emails to our eBook domain and/or private domain
+- Slack messages
+- Feedback via Leanpub
+
+Had to keep track, coordinate and show transparently the status. We now route every feedback to an GitHub issue.
+
+To make sure every issue/typo/feedback includes some minimal requirments like the eBook version to which this issue refers, we've created a GitHub issue template.
+
+We have two, both for feedback to the application itslef (more technical) and one for the eBook:
+
+`.github/ISSUE_TEMPLATE/BOOK-FEEDBACK.yml`
+
+```yaml
+name: Feedback for the eBook
+description: "Everything related to the eBook: typos, layout issues, broken links, explanation gaps, inconsistencies, testimonials, etc."
+labels: [ "ebook-feedback", "triage" ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to provide feedback and improve the overall quality of Stratospheric!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: "What can we improve?"
+      description: "Try to be as specific as possible - for example: On page 47, there's a typo in the word 'Strotospheric'."
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: "Which eBook version are you referring to? You can find the version as part of the changelog (one of the last pages). Pick 'latest' if you can't find it."
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-change
+    attributes:
+      label: Suggested Changes
+      description: What would you suggest to change or what do you expect as a reader?
+```
+
+Communication then happens on this public issue and everybody can follow the status.
+
+### Basic Landing Page
+
+Go with the simplest setup and GitHub Pages
+
+### Automate low hanging verification
+
+Use Grammarly,
+
+Link checker example
+
 ## About the eBook authors
 
 ### Tom Hombergs
 
-### Björn Wilsmann
+Tom is a seasoned software engineer with a passion for building systems in the simplest way possible. He is regularly blogging about Java, Spring, and AWS and is the author of [*Get Your Hands Dirty on Clean Architecture*](https://leanpub.com/get-your-hands-dirty-on-clean-architecture), giving hands-on advice on implementing a hexagonal architecture.
 
-### Philip Riecks
+Find out more about Tom on [reflectoring.io](https://reflectoring.io) and his [Twitter profile](https://twitter.com/TomHombergs).
 
+### Björn Wilmsmann
+
+Björn Wilmsmann is an independent IT consultant who helps companies transform their business into a digital business. He designs and develops business solutions and enterprise applications for his clients. Björn provides hands-on training in technologies such as Angular and Spring Boot.
+
+Find out more about Björn on [bjoernkw.com](https://bjoernkw.com) and his [Twitter profile](https://twitter.com/bwilmsmann).
+
+### Philip Riecks (That's me)
+
+Under the slogan "Testing Java Applications Made Simple" Philip provides recipes and tips & tricks to accelerate your testing success and make testing joyful (or at least less painful). Apart from blogging, he's a course instructor for various Java-related online courses and active on YouTube.
+
+Find out more about Philip on [rieckpil.de](https://rieckpil.de) and his [Twitter profile](https://twitter.com/rieckpil).
+
+Have fun writing your book,
+Philip
