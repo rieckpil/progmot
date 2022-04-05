@@ -1,9 +1,10 @@
-+++
-title = "About"
-date = "2021-10-20"
-aliases = ["about-us"]
-author = "Philip"
-+++
+---
+title: "About"
+date: "2021-10-20"
+aliases: ["about-us"]
+author: "Philip"
+HideCommentBox: true
+---
 
 Hi :wave:
 

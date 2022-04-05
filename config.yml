@@ -1,0 +1,148 @@
+title: Thoughts About Programming & Motivation - progmot
+languageCode: en-us
+paginate: 5
+baseURL: 'https://progmot.com/'
+copyright: '© 2022'
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+pygmentsUseClasses: true
+
+module:
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
+
+enableEmoji: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: progmot
+  description: "Thoughts About Programming & Motivation - progmot"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Philip
+  images: ['/img/progmot-general-featured-image.png']
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+
+  label:
+    text: "progmot"
+    icon: /favicon.ico
+    iconHeight: 16
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: >
+      I'm Philip, a freelance IT consultant and Indie Hacker from Berlin 🇩🇪
+
+      - On my main blog [rieckpil.de](https://rieckpil.de), I’m creating content under the slogan _Testing Java Applications Made Simple_ with a focus on Java, Kotlin, Spring Boot, and AWS 🍃
+
+      - This site acts as a meta blog for topics that don’t fit on a technical blog: freelancing, motivation, indie hacking, productivity, etc.
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/rieckpil"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/9085273/rieckpil"
+    - name: github
+      url: "https://github.com/rieckpil"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: false
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
