@@ -69,7 +69,7 @@ Furthermore, the development journey doesn't stop when moving an implementation 
 If we are in the lucky position to maintain and operate our own service (DevOps done right), we will get in contact with the following questions sooner or later:
 
 - How do I know my service is healthy and operating as expected?
-- Whats the current average response time of my most important API endpoint?
+- What's the current average response time of my most important API endpoint?
 - What happened with the application yesterday night as one of our users was complaining about errors?
 - Where can I find and filter the logs from last Sunday?
 - etc.
@@ -84,9 +84,9 @@ Packed with these ideas, we then got started with the project.
 
 ## How We Started
 
-(first Poc, outline chapters, start writing)
+(first Poc, outline chapters, start writing, some technical hints on the worklfow, why Leanpub)
 
-We then met constantly every two weeks and
+We then met constantly every two weeks via Zoom and created a Slack workspace for communication and coordination.
 
 As a first step, we wanted to develop a small proof of concept application to explore which areas we can write about. We wanted our readers complete the journey from only a bit about AWS to having a automated CI/CD pipeline that deploys their application to production.
 
@@ -95,14 +95,6 @@ For the tech-stack we picked what we felt most comfortable with: Java and Spring
 Besides educating the reader about this topic, we also had a big self-interest as we were all using AWS almost on a daily basis and wanted to get to know it in more detail. Every one of us had stories and best practices for various AWS services to share that the other co-authors could learn from. Win-win!
 
 We opened a new AWS account for this project, created three IAM users for us and a GitHub organization called to organize ourselves.
-
-We started with the project name `aws101`. However, was this was clearly violating trademarks of AWS, we had to find another name. As the book is all about getting ready for the cloud and effectively deploy applications to production in the cloud, the symbol of a starting rocket seemed natural.
-
-After some brainstorming for possible names, we ended up with: `Stratospheric`.
-
-We ordered two design examples for the logo on Fiverr and picked the best:
-
-INSERT LOGO HERE
 
 
 Bi-weekly calls via Zoom to have a mix of a daily, review and planning in a one hour session.
@@ -116,29 +108,6 @@ Grammarly was another big help to spot some low hanging typo, grammatical and sy
 Excalidraw for some nice-looking diagrams
 
 TODO: Add Excalidraw example picture
-
-Pull request via GitHub.
-
-We had the following _branching strategy_ for the eBook:
-- `main` -> generate eBook releases on Leanpub
-- `preview` -> generate previews on Leanpub
-- `personal-feature-branch`
-
-Every co-author would work on their own branch and write their chapters. Once completed, we created a pull request to merge into the `preview`. This triggered our review process where all other co-authors reviewed proposed writings one after the other.
-
-After the review is completed, we integrated the change into the `preview` branch to collect multiple chapters for the next release. Once every two month we then created the next work in progress release by merging the changes to the `main` branch.
-
-TODO: Insert excalidraw
-
-## Getting the First Readers aka. Getting Early Feedback
-
-Once we had a working sample application running on AWS and were confident that the topic we're about to write adds value, we started writing the book. We first sketched out a table of contents and started working on the different chapters in parallel.
-
-Everybody was working on a dedicated chapter so there wasn't any conflict or waiting. Writing the new chapter consisted both of doing some resarch, adjusting the sample application and writing the manuscript.
-
-As were incrementally releasing new version of th eBook, we tried to work on the modules and chapters in sequence. It should be more or less and append-only of chapters and no inline adding of chapters so that the readers that get a copy early, can continue reading the book were they left if there's a new version available.
-
-I've used this same iterative approach with an [early bird audience for my first online course](https://progmot.com/post/creating-and-selling-my-first-online-course/) and we saw the same benefits for this book.
 
 As this project was or all three of us a side-project and nothing we do full time, we all agreed that working with a formal publisher is no option for us. Working towards given deadlines and having to deliver a final piece on a fixed date was something we clearly wanted to avoid.
 
@@ -157,11 +126,47 @@ Release early and often. They favor the approach of giving access to a book earl
 
 SHOW progress bar
 
-We choose Leanpub as it's tech-friendly, easy-to-setup and great royalties. Leanpub is a self-publishing platform mostly focussing on tech books.
-
 The manuscript is backed by a private GitHub repository.
 
 Leanpub allows creating preview versions of the eBook that we heavily used to see a rendered version of our recent changes.
+
+
+We choose Leanpub as it's tech-friendly, easy-to-setup and great royalties. Leanpub is a self-publishing platform mostly focussing on tech books.
+
+Pull request via GitHub.
+
+We had the following _branching strategy_ for the eBook:
+- `main` -> generate eBook releases on Leanpub
+- `preview` -> generate previews on Leanpub
+- `personal-feature-branch`
+
+Every co-author would work on their own branch and write their chapters. Once completed, we created a pull request to merge into the `preview`. This triggered our review process where all other co-authors reviewed proposed writings one after the other.
+
+After the review is completed, we integrated the change into the `preview` branch to collect multiple chapters for the next release. Once every two month we then created the next work in progress release by merging the changes to the `main` branch.
+
+TODO: Insert excalidraw
+
+## Getting the First Readers aka. Getting Early Feedback
+
+(having something to show, basic landing page, getting a cover, trouble with the naming, first version on Leanpub)
+
+We started with the project name `aws101`. However, was this was clearly violating trademarks of AWS, we had to find another name. As the book is all about getting ready for the cloud and effectively deploy applications to production in the cloud, the symbol of a starting rocket seemed natural.
+
+After some brainstorming for possible names, we ended up with: `Stratospheric`.
+
+We ordered two design examples for the logo on Fiverr and picked the best:
+
+INSERT LOGO HERE
+
+
+Once we had a working sample application running on AWS and were confident that the topic we're about to write adds value, we started writing the book. We first sketched out a table of contents and started working on the different chapters in parallel.
+
+Everybody was working on a dedicated chapter so there wasn't any conflict or waiting. Writing the new chapter consisted both of doing some resarch, adjusting the sample application and writing the manuscript.
+
+As were incrementally releasing new version of th eBook, we tried to work on the modules and chapters in sequence. It should be more or less and append-only of chapters and no inline adding of chapters so that the readers that get a copy early, can continue reading the book were they left if there's a new version available.
+
+I've used this same iterative approach with an [early bird audience for my first online course](https://progmot.com/post/creating-and-selling-my-first-online-course/) and we saw the same benefits for this book.
+
 
 To gain some traction and to see if there's interest in such a book, we started with a basic landing page and collecting email addresses for a mailing list.
 
@@ -201,7 +206,9 @@ We started with a base price of $X. Keep in mind that we get 80% royalties but h
 
 Overall, Similar approach to my iterative course launch with early access program.
 
-## Iterate: Continuously improve for 6-7 month
+## Iterate: Continuously Improve for 6-7 month
+
+(life after the first release, gather feedback, do the work)
 
 Leanpub is supporting this mode, we can publish work-in-progress version and use a percentage bar to inform potential readers how far we are in the process.
 
@@ -229,7 +236,7 @@ Production is where the fun begins. We don't stop after developing the last feat
 
 ## Publishing Version 1.0
 
-Proofreading, aligning the wording, launch party on YouTube.
+(proofreading, aligning the wording, launch party on YouTube)
 
 Add a basic timeline with our release dates and how far we came.
 
@@ -319,6 +326,12 @@ This helped us to identify and replace rotten links
 Feedback channel, signup for shared account with an `info@yourbookname.com`.
 
 We've registered our domain with Route 53, Amazon's DNS Service. We'e build a simple self-made email forwarding with AWS SES, S3 and AWS Lambda. If you're curious about the implementation, check out the [source code on GitHub](https://github.com/stratospheric-dev/stratospheric/tree/main/utility/email).
+
+### Work With Checklists and Rotate
+
+We have checklist for the eBook release that the person in charge for creating a new eBook release can use to avoid missing important steps.
+
+We also rotate various responsibilites
 
 ### Centralize the Feedback Channels
 
