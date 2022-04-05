@@ -155,33 +155,21 @@ This data is recorded on the basis of Art. 6(1)(f) GDPR. The operator of the web
 
 ## 5. Analysis tools and advertising
 
-### Google Analytics
+### Matomo
 
-This website uses functions of the web analysis service Google Analytics. The provider of this service is Google Ireland Limited (“Google”), Gordon House, Barrow Street, Dublin 4, Ireland.
+This website uses the open-source web analysis service Matomo. Matomo uses technologies that make it possible to recognize the user across multiple pages with the aim of analyzing the user patterns (e.g. cookies or device fingerprinting). The information recorded by Matomo about the use of this website will be stored on our server. Prior to archiving, the IP address will first be anonymized.
 
-Google Analytics enables the website operator to analyze the behavior patterns of website visitors. To that end, the website operator receives a variety of user data, such as pages accessed, time spent on the page, the utilized operating system and the user’s origin. Google may consolidate these data in a profile that is allocated to the respective user or the user’s device.
+Through Matomo, we are able to collect and analyze data on the use of our website-by-website visitors. This enables us to find out, for instance, when which page views occurred and from which region they came. In addition, we collect various log files (e.g. IP address, referrer, browser, and operating system used) and can measure whether our website visitors perform certain actions (e.g. clicks, purchases, etc.).
 
-Furthermore, Google Analytics allows us to record your mouse and scroll movements and clicks, among other things. Google Analytics uses various modeling approaches to augment the collected data sets and uses machine learning technologies in data analysis.
+The use of this analysis tool is based on Art. 6(1)(f) GDPR. The website operator has a legitimate interest in the analysis of user patterns, in order to optimize the operator’s web offerings and advertising. If appropriate consent has been obtained, the processing is carried out exclusively on the basis of Art. 6(1)(a) GDPR and § 25 (1) TTDSG, insofar the consent includes the storage of cookies or the access to information in the user’s end device (e.g., device fingerprinting) within the meaning of the TTDSG. This consent can be revoked at any time.
 
-Google Analytics uses technologies that make the recognition of the user for the purpose of analyzing the user behavior patterns (e.g., cookies or device fingerprinting). The website use information recorded by Google is, as a rule transferred to a Google server in the United States, where it is stored.
+#### IP anonymization
 
-This analysis tool is used on the basis of Art. 6(1)(f) GDPR. The operator of this website has a legitimate interest in the analysis of user patterns to optimize both, the services offered online and the operator’s advertising activities. If a corresponding agreement has been requested (e.g., an agreement to the storage of cookies), the processing takes place exclusively on the basis of Art. 6(1)(a) GDPR; the agreement can be revoked at any time.
+For analysis with Matomo we use IP anonymization. Your IP address is shortened before the analysis, so that it is no longer clearly assignable to you.
 
-Data transmission to the US is based on the Standard Contractual Clauses (SCC) of the European Commission. Details can be found here: [https://privacy.google.com/businesses/controllerterms/mccs/](https://privacy.google.com/businesses/controllerterms/mccs/).
+#### Hosting
 
-#### Browser plug-in
-
-You can prevent the recording and processing of your data by Google by downloading and installing the browser plugin available under the following link: [https://tools.google.com/dlpage/gaoptout?hl=en](https://tools.google.com/dlpage/gaoptout?hl=en).
-
-For more information about the handling of user data by Google Analytics, please consult Google’s Data Privacy Declaration at: [https://support.google.com/analytics/answer/6004245?hl=en](https://support.google.com/analytics/answer/6004245?hl=en).
-
-#### Contract data processing
-
-We have executed a contract data processing agreement with Google and are implementing the stringent provisions of the German data protection agencies to the fullest when using Google Analytics.
-
-#### Archiving period
-
-Data on the user or incident level stored by Google linked to cookies, user IDs or advertising IDs (e.g., DoubleClick cookies, Android advertising ID) will be anonymized or deleted after 2 months. For details, please click the following link: [https://support.google.com/analytics/answer/7667196?hl=en](https://support.google.com/analytics/answer/7667196?hl=en)
+We host Matomo exclusively on our own servers so that all analysis data remains with us and is not passed on.
 
 ## 6. Online marketing and partner programs
 
