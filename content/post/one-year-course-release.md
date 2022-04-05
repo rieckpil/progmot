@@ -5,13 +5,15 @@ slug: "/creating-and-selling-my-first-online-course"
 author: "Philip"
 summary: "A one-year retrospect after creating and selling my first online course: my strategy, the actual journey, mistakes, and recommendations."
 description: "A one-year retrospect after creating and selling my first online course: my strategy, the actual journey, mistakes, and recommendations."
-images:
-  - /img/online-course-one-year-retrospect-featured-image.png
+cover:
+  image: "/img/online-course-one-year-retrospect-featured-image.png"
+  alt: "Selling My First Online Course One-Year Retrospect"
+  caption: "Selling My First Online Course One-Year Retrospect"
+  relative: false
 keywords: []
 draft: false
 tags: []
-math: false
-toc: false
+ShowToc: true
 ---
 
 _**TL;DR:** This 6500 words long article is a one-year retrospect after launching my first paid online course. Learn about my initial strategy, the actual journey, the mistakes I've made, and my recommendations._

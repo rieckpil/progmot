@@ -2,6 +2,8 @@
 title: "Privacy Policy"
 date: 2020-10-20T11:40:13+02:00
 draft: false
+ShowToc: false
+HideCommentBox: true
 ---
 ## 1. An overview of data protection
 

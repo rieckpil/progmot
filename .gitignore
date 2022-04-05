@@ -4,3 +4,5 @@ resources/
 .idea
 
 .DS_Store
+
+.hugo_build.lock

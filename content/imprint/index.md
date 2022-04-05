@@ -2,6 +2,8 @@
 title: "Imprint"
 date: 2020-10-20T11:40:13+02:00
 draft: false
+ShowToc: false
+HideCommentBox: true
 ---
 
 ## Information pursuant to Sect. 5 German Telemedia Act (TMG)
