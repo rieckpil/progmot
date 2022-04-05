@@ -2,3 +2,5 @@ public/
 resources/
 
 .idea
+
+.DS_Store
