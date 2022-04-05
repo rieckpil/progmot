@@ -46,14 +46,45 @@ We organized a separate meeting to discuss more details and to get to know each 
 
 ## Our Goals For This Project
 
+Before we started to work on this project we met several times to get to know each other and align our goals and expectations. While we were all three working full-time for clients/an employer, we set the common understanding that this will be a fun side project.
+
+We all have had some experience with AWS and Java in the past but wanted to learn more about this cloud provider in depth. When developing features for clients or customers we usually never had the time to explore the variety of AWS services.
+
+One major goal of this remote writing project was to get better at developing Java applications on AWS. As Spring Boot was our default technology stack back then, the choice came naturally to write about this niche.
+
+While there are many book on AWS in general, and Spring Boot, none of them talked about the full cycle for brining an Spring Boot application to production on AWS.
+
+Showcasing shiny features and machine learning capabilities of AWS is great, but teams also struggle to design an automated CI/CD pipeline to push their changes automatically AWS.
+
+Personal goals:
+
+1. Learn about AWS
+2. Improve writing skills and tick off the bucket list item for "writing a book"
+3. Create awareness for ourselves to attract potential clients
+
+This included the current experience with AWS and what our plans with this project would be.
+
+Furthermore, the development journey doesn't stop when moving an implementation ticket to done and merging the code changes. Now the fun part begins as our code runs in production.
+
+If we are in the lucky position to maintain and operate our own service (DevOps done right), we will get in contact with the following questions sooner or later:
+
+- How do I know my service is healthy and operating as expected?
+- Whats the current average response time of my most important API endpoint?
+- What happened with the application yesterday night as one of our users was complaining about errors?
+- Where can I find and filter the logs from last Sunday?
+- etc.
+
+In short, this brought us to the following high-level goals for our readers that also influenced our manuscript:
+
+1. Educate about AWS and IaaC with the AWS CDK
+2. Develop Spring Boot with meaningful features (e.g., email notifications or OAuth2 login) while integrating as many AWS services as possible
+3. Educate about best practices for running Spring Boot applications in production on AWS: monitoring, alerting, observability, etc.
+
+Packed with these ideas, we then got started with the project.
 
 ## How We Started
 
 (first Poc, outline chapters, start writing)
-
-In our first meetings we first got to know each other better. We first wanted to ensure our expectations for this project align. While we were all three working full-time for clients/an employer, we set the common understanding that this will be a fun side project.
-
-In the first meetings that we organized bi-weekly we were first getting to know each other better. This included the current experience with AWS and what our plans with this project would be.
 
 We then met constantly every two weeks and
 
