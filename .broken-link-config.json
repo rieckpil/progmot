@@ -1,0 +1,13 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "localhost:"
+    },
+    {
+      "pattern": "/img/*"
+    },
+    {
+      "pattern": "https://rieckpil.de/a/auna-mic"
+    }
+  ]
+}

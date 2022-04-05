@@ -1,0 +1,14 @@
+{
+  "name": "progmot",
+  "version": "1.0.0",
+  "scripts": {
+    "check-links": "find content -type f -name '*.md' | xargs -L1 node_modules/.bin/markdown-link-check -c .broken-link-config.json --quiet"
+  },
+  "homepage": "https://progmot.com",
+  "dependencies": {
+    "markdown-link-check": "3.8.7"
+  },
+  "engines": {
+    "node": ">= 16"
+  }
+}
