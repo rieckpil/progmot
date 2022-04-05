@@ -14,7 +14,7 @@ Hello world!
 
 What is this  blog all about?
 
-What is the name all about? ProgMot: Unfiltered thoughts around **Prog**ramming & **Mot**ivation
+What is the name all about? ProgMot: Unfiltered thoughts about **Prog**ramming & **Mot**ivation
 
 With unfiltered I mean that my views might not fit into all what society thought you to think. The content won't be written to please everyone but to help those who understand it and want to grow.
 
@@ -35,7 +35,7 @@ The main reason I started blogging and teaching Java topics: You'll learn a lot 
 
 Thinking back of my time at university, most of my success there was due to my study group. We met before the test and had to explain
 each other the topic. Once you are able to explain someone (who might be less familiar or does not know the topic at all) it now longer becomes hard guessing
-because YOU fully understand the topic know. The person sitting next to you (or reading your articles online) might ask detailed question that you have to answer. 
+because YOU fully understand the topic know. The person sitting next to you (or reading your articles online) might ask detailed question that you have to answer.
 You might not always no the answer yet, but it makes you thinking again about it to finally figure it out.
 
 How to set the correct goals when starting with your own blog or online activities.
