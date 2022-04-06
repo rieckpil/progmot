@@ -36,7 +36,9 @@ Three co-authors: [Tom](https://twitter.com/TomHombergs/), [Björn](https://twit
 
 While scrolling through my Twitter feed I saw a fellow technical blogger reaching out to other bloggers to organize a small knowledge exchange.
 
-Small anecdote how it started with a simple tweet by Tom.
+Small anecdote how it started with a simple Tweet by Tom.
+
+TODO: Include Tweet with Twitter Embed
 
 We next met with the intent to share experience as tech bloggers. During the second or third meeting of this kind, Tom asked for fellow bloggers that would be interested in taking a closer look at AWS and Spring Boot and may want to write about it.
 
@@ -86,52 +88,55 @@ Packed with these ideas, we then got started with the project.
 
 (first Poc, outline chapters, start writing, some technical hints on the worklfow, why Leanpub)
 
-We then met constantly every two weeks via Zoom and created a Slack workspace for communication and coordination.
+We then started to met constantly every two weeks via Zoom and created a Slack workspace for communication and coordination. We organized ourselves in a Scrum-like setup and planned our two week _sprints_ with a Trello board. These bi-weekly Zoom calls were a mix of a daily, review and planning session.
 
-As a first step, we wanted to develop a small proof of concept application to explore which areas we can write about. We wanted our readers complete the journey from only a bit about AWS to having a automated CI/CD pipeline that deploys their application to production.
+There wasn't any story point or product owner, we were all intrinsically motivated to get stuff done and got a positive peer pressure as everyone was reporting what they achieved in the last two weeks.
+
+As a first step, we wanted to develop a small proof of concept application to explore which areas we can write about. We wanted our readers complete the journey from only a bit about AWS to having an automated CI/CD pipeline that deploys their application to production.
 
 For the tech-stack we picked what we felt most comfortable with: Java and Spring Boot with Spring Cloud AWS.
 
-Besides educating the reader about this topic, we also had a big self-interest as we were all using AWS almost on a daily basis and wanted to get to know it in more detail. Every one of us had stories and best practices for various AWS services to share that the other co-authors could learn from. Win-win!
+Besides exploring AWS services on the go, every one of us had stories and best practices for various AWS services to share that the other co-authors could learn from.
 
-We opened a new AWS account for this project, created three IAM users for us and a GitHub organization called to organize ourselves.
+We created a new AWS account for this project, and added three IAM users for us. Next, we created a GitHub organization that acts as an umbrella container for all related code repositories for this eBook project.
 
+We more or less split this PoC time into two areas: automating the infrastructure setup with CloudFormation and developing a sample application. Back then we started with `.yaml` CloudFormation templates but moved quickly to the promising AWS CDK project.
 
-Bi-weekly calls via Zoom to have a mix of a daily, review and planning in a one hour session.
+As soon as we had a container cluster (ECS) with an automated CI/CD pipeline and the sample application with some basic features likes login with AWS Cognito and storing data within RDS ready, we started to plan the next steps.
 
-We were using a basic Trello board with some backlog columns, a In progress and one review column.
+This pilot area took about 2-3 months.
 
-We cross-read all out manuscript and therefore had
+What's next was deciding how we would write this book. The main question we had to answer was: Should we talk to a publisher and pitch our idea or self-publish the whole thing?
 
-Grammarly was another big help to spot some low hanging typo, grammatical and syntactical issues.
+As this project was for all three of us a side-project and nothing we do full time, we all agreed that working with a formal publisher is no option for us. Working towards given deadlines and having to deliver a final piece on a fixed date was something we clearly wanted to avoid.
 
-Excalidraw for some nice-looking diagrams
+Furthermore, Tom already self-published his first book and then got a technical publisher on board to offer a print version and more distribution channels. Based on his experience and the common understanding, that this project may also fail, we went for the self-publishing approach.
 
-TODO: Add Excalidraw example picture
+When it comes to self-publishing book in the tech space, [Leanpub](https://leanpub.com/) is the de-facto choice.
 
-As this project was or all three of us a side-project and nothing we do full time, we all agreed that working with a formal publisher is no option for us. Working towards given deadlines and having to deliver a final piece on a fixed date was something we clearly wanted to avoid.
+Leanpub is really appealing for self-publishing tech authors as they offer the following:
 
-Furthermore, Tom already had one of his eBooks published by a technical publisher and wasn't that convinced.
-
-As Tom already had self-published an eBook on Leanpub before, we went for Leanpub as their services are appealing for self-publishing tech authors:
-
-- write the manuscript in Markdown
-- formatting comes automatically
-- direct integration with a GitHub repository
-- fair pricing with 80% royalties
+- write the manuscript in Markdown or bring your own PDF
+- automatic formatting/layout for a Markdown manuscript
+- automatic file generation for other eBook formats like Mobi and ePub
+- integration with GitHub/Dropbox for the manuscript
+- fair pricing with 80% royalties for the authors
 - payout via PayPal and support for multiple authors
-- Leanpub acts as the marchant of record and takes ownership for the payment and tax handling
+- no payment/tax implications for the author: Leanpub acts as the merchant of record and takes ownership for the payment and tax handling (something I should have also favored for [my first online course](https://progmot.com/post/creating-and-selling-my-first-online-course/))
 
-Release early and often. They favor the approach of giving access to a book early while it's still in development.
+Leanpub is also build around the concept: Publish Early, Publish Often. They favor the approach of giving access to a book early while it's still in development and continuously adding new chapters to id.
 
-SHOW progress bar
+Each [Leanpub eBook landing page](https://leanpub.com/stratospheric) provides information about the completeness and when the last changes were published:
+
+TODO: ADD completeness image
+
+Leanpub even allows creating preview versions of the eBook that we heavily used to see a rendered version of our recent changes. This helped us quite a lot when preparing a new eBook version.
+
+We went for Leanpub because it's tech-friendly, easy-to-setup and offers fair royalties that the platform can automatically split between co-authors.
+
+Now it was time to get our hands dirty and bring the eBook manuscript setup in place.
 
 The manuscript is backed by a private GitHub repository.
-
-Leanpub allows creating preview versions of the eBook that we heavily used to see a rendered version of our recent changes.
-
-
-We choose Leanpub as it's tech-friendly, easy-to-setup and great royalties. Leanpub is a self-publishing platform mostly focussing on tech books.
 
 Pull request via GitHub.
 
@@ -143,8 +148,6 @@ We had the following _branching strategy_ for the eBook:
 Every co-author would work on their own branch and write their chapters. Once completed, we created a pull request to merge into the `preview`. This triggered our review process where all other co-authors reviewed proposed writings one after the other.
 
 After the review is completed, we integrated the change into the `preview` branch to collect multiple chapters for the next release. Once every two month we then created the next work in progress release by merging the changes to the `main` branch.
-
-TODO: Insert excalidraw
 
 ## Getting the First Readers aka. Getting Early Feedback
 
@@ -237,6 +240,10 @@ Production is where the fun begins. We don't stop after developing the last feat
 ## Publishing Version 1.0
 
 (proofreading, aligning the wording, launch party on YouTube)
+
+Excalidraw for some nice-looking diagrams
+
+TODO: Add Excalidraw example picture
 
 Add a basic timeline with our release dates and how far we came.
 
