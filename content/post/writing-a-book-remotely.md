@@ -10,6 +10,9 @@ math: false
 toc: false
 ---
 
+Hints for the reviewer:
+- Correct tenses: I describe an event in the past but also sometimes relate to things in the present as we're still doing them.
+
 Titles:
 (more positive word for lessons learned)
 - Lessons Learned: Writing a Technical eBook Remotely Without Ever Meeting In Person Before
@@ -54,7 +57,7 @@ We all have had some experience with AWS and Java in the past but wanted to lear
 
 One major goal of this remote writing project was to get better at developing Java applications on AWS. As Spring Boot was our default technology stack back then, the choice came naturally to write about this niche.
 
-While there are many book on AWS in general, and Spring Boot, none of them talked about the full cycle for brining an Spring Boot application to production on AWS.
+While there are many book on AWS in general, and Spring Boot, none of them talked about the full cycle for brining a Spring Boot application to production on AWS.
 
 Showcasing shiny features and machine learning capabilities of AWS is great, but teams also struggle to design an automated CI/CD pipeline to push their changes automatically AWS.
 
@@ -96,7 +99,7 @@ As a first step, we wanted to develop a small proof of concept application to ex
 
 For the tech-stack we picked what we felt most comfortable with: Java and Spring Boot with Spring Cloud AWS.
 
-Besides exploring AWS services on the go, every one of us had stories and best practices for various AWS services to share that the other co-authors could learn from.
+Besides, exploring AWS services on the go, every one of us had stories and best practices for various AWS services to share that the other co-authors could learn from.
 
 We created a new AWS account for this project, and added three IAM users for us. Next, we created a GitHub organization that acts as an umbrella container for all related code repositories for this eBook project.
 
@@ -134,26 +137,70 @@ Leanpub even allows creating preview versions of the eBook that we heavily used 
 
 We went for Leanpub because it's tech-friendly, easy-to-setup and offers fair royalties that the platform can automatically split between co-authors.
 
-Now it was time to get our hands dirty and bring the eBook manuscript setup in place.
+Having signed up for Leanpub, now it was time to finalize the technical setup to then get our hands dirty and start writing.
 
-The manuscript is backed by a private GitHub repository.
+Working daily with GitHub, we choose a private GitHub repository for backing our manuscript markdown files. This allowed for a more seamless flow compared to uploading the files to a shared DropBox folder. With GitHub, we get versioning, automations with GitHub Actions, collaboration tools and a great feedback mechanism via pull requests.
 
-Pull request via GitHub.
+We used the following branching strategy for the eBook:
 
-We had the following _branching strategy_ for the eBook:
 - `main` -> generate eBook releases on Leanpub
 - `preview` -> generate previews on Leanpub
 - `personal-feature-branch`
 
-Every co-author would work on their own branch and write their chapters. Once completed, we created a pull request to merge into the `preview`. This triggered our review process where all other co-authors reviewed proposed writings one after the other.
+Every co-author would work on their own branch and push their chapters to their dedicated branch. Once completed, we created a pull request to merge into the `preview` branch. This triggered our review process where all other co-authors reviewed the new section one after the other.
 
-After the review is completed, we integrated the change into the `preview` branch to collect multiple chapters for the next release. Once every two month we then created the next work in progress release by merging the changes to the `main` branch.
+What's great about this review process is that we could leverage the review features of GitHub. This allowed the reviewing person to directly make suggestions like fixing a typo or structuring the sentence. These suggestions could be then added automatically by the review owner:
+
+TODO: Image of PR comments
+
+This way of working felt way more convenient than using a PDF reader, making comments and annotations to the file and then sending it over to the owner of the changes.
+
+After the review is completed by both other co-authors (six eye principle), we integrated the change into the `preview` branch to collect multiple chapters for the next release. Once every two month or so we then created the next work in progress release by merging the changes to the `main` branch.
+
+What's left to do is to click the release button inside Leanpub to build a new digital version of our eBook. Theoretically, we can even automate this and publish a new release on each commit for the `main` branch.
 
 ## Getting the First Readers aka. Getting Early Feedback
 
 (having something to show, basic landing page, getting a cover, trouble with the naming, first version on Leanpub)
 
-We started with the project name `aws101`. However, was this was clearly violating trademarks of AWS, we had to find another name. As the book is all about getting ready for the cloud and effectively deploy applications to production in the cloud, the symbol of a starting rocket seemed natural.
+Given the fact that we figured out how to sell the eBook and how to write it, we now had to start writing the eBook.
+
+We naturally found based on our own interests. While Björn and I were more focussed on implementing features for the sample application and connection AWS services, Tom was more into the CI/CD setup and the step-by-step introduction to AWS and the CDK.
+
+While we had a rough idea and a early draft for our planned table of contents, we adjusted our plans along the way.
+
+As we incrementally released new versions, we wanted to make sure to release new chapters that build on top of each other. So we started with the security and database setup for the application before implementing any feature that would require this knowledge.
+
+We also made sure every co-author works independently on their own area (like OAuth2 login or RDS setup) to avoid any misunderstanding.
+
+Working on a new chapter/feature usually involved some background checking, developing the code changes and then writing the chapter.
+
+For some concrete examples, these are chapters we worked on:
+- Getting Started with the AWS CDK
+- OAuth2 Login with AWS Cognito
+- Storing Entities to PostgreSQL using RDS
+- Structured Logging with Amazon CloudWatch
+- etc.
+
+While we had implemented similar features in the past, we still spend a good amount of time reading the AWS documentation and related blog posts to ensure our previous assumptions are correct.
+
+Once we had a working sample application running on AWS and were confident that the topic we're about to write adds value, we started writing the book. We first sketched out a table of contents and started working on the different chapters in parallel.
+
+Everybody was working on a dedicated chapter so there wasn't any conflict or waiting. Writing the new chapter consisted both of doing some resarch, adjusting the sample application and writing the manuscript.
+
+As were incrementally releasing new version of th eBook, we tried to work on the modules and chapters in sequence. It should be more or less and append-only of chapters and no inline adding of chapters so that the readers that get a copy early, can continue reading the book were they left if there's a new version available.
+
+In parallel to our first release preparation, we create a basic landing page and signed up for an mailing list provider (Convertkit back then).
+
+When purchasing an eBook on Leanpub, the reader can decide if Leanpub should share their email address with the authors or not.
+
+To reach out to our readers immediately and to collect potential prospects, we offered a mailing list.
+
+This also acted as a first litmus test in the beginning to see how many developers are interested in bringing this book over the finish line.
+
+Before we could release a first version, we had to finalize our eBook title, find a logo and a cover.
+
+We started with the placeholder project name `aws101`. However, this was clearly violating trademarks of AWS, we had to find another name. As the book is all about getting ready for the cloud and effectively deploy applications to production in the cloud, the symbol of a starting rocket seemed natural.
 
 After some brainstorming for possible names, we ended up with: `Stratospheric`.
 
@@ -161,12 +208,6 @@ We ordered two design examples for the logo on Fiverr and picked the best:
 
 INSERT LOGO HERE
 
-
-Once we had a working sample application running on AWS and were confident that the topic we're about to write adds value, we started writing the book. We first sketched out a table of contents and started working on the different chapters in parallel.
-
-Everybody was working on a dedicated chapter so there wasn't any conflict or waiting. Writing the new chapter consisted both of doing some resarch, adjusting the sample application and writing the manuscript.
-
-As were incrementally releasing new version of th eBook, we tried to work on the modules and chapters in sequence. It should be more or less and append-only of chapters and no inline adding of chapters so that the readers that get a copy early, can continue reading the book were they left if there's a new version available.
 
 I've used this same iterative approach with an [early bird audience for my first online course](https://progmot.com/post/creating-and-selling-my-first-online-course/) and we saw the same benefits for this book.
 
