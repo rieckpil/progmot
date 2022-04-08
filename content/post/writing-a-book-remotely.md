@@ -43,6 +43,8 @@ Small anecdote how it started with a simple Tweet by Tom.
 
 TODO: Include Tweet with Twitter Embed
 
+{{< tweet user="TomHombergs" id="1278635778722000902" >}}
+
 We next met with the intent to share experience as tech bloggers. During the second or third meeting of this kind, Tom asked for fellow bloggers that would be interested in taking a closer look at AWS and Spring Boot and may want to write about it.
 
 Björn and me who were participating in this meeting raised our hands. We've never met each other before. And partially knew each other from reading our blogs.
@@ -100,6 +102,8 @@ As a first step, we wanted to develop a small proof of concept application to ex
 For the tech-stack we picked what we felt most comfortable with: Java and Spring Boot with Spring Cloud AWS.
 
 Besides, exploring AWS services on the go, every one of us had stories and best practices for various AWS services to share that the other co-authors could learn from.
+
+Once we had a working sample application running on AWS and were confident that the topic we're about to write adds value, we started writing the book. We first sketched out a table of contents and started working on the different chapters in parallel.
 
 We created a new AWS account for this project, and added three IAM users for us. Next, we created a GitHub organization that acts as an umbrella container for all related code repositories for this eBook project.
 
@@ -165,15 +169,11 @@ What's left to do is to click the release button inside Leanpub to build a new d
 
 Given the fact that we figured out how to sell the eBook and how to write it, we now had to start writing the eBook.
 
-We naturally found based on our own interests. While Björn and I were more focussed on implementing features for the sample application and connection AWS services, Tom was more into the CI/CD setup and the step-by-step introduction to AWS and the CDK.
+We naturally found how to split the work and who write what based on our own interests. While Björn and I were more focussed on implementing features for the sample application and connecting various AWS services, Tom was more into the CI/CD and infrastructure setup.
 
-While we had a rough idea and a early draft for our planned table of contents, we adjusted our plans along the way.
+While we had a rough idea and an early draft for our planned table of contents, we adjusted our plans along the way.
 
-As we incrementally released new versions, we wanted to make sure to release new chapters that build on top of each other. So we started with the security and database setup for the application before implementing any feature that would require this knowledge.
-
-We also made sure every co-author works independently on their own area (like OAuth2 login or RDS setup) to avoid any misunderstanding.
-
-Working on a new chapter/feature usually involved some background checking, developing the code changes and then writing the chapter.
+Working on a new chapter/feature usually involved some background fact checking, consulting the AWS documentation and other blogs, developing the code changes and then writing the chapter.
 
 For some concrete examples, these are chapters we worked on:
 - Getting Started with the AWS CDK
@@ -184,19 +184,19 @@ For some concrete examples, these are chapters we worked on:
 
 While we had implemented similar features in the past, we still spend a good amount of time reading the AWS documentation and related blog posts to ensure our previous assumptions are correct.
 
-Once we had a working sample application running on AWS and were confident that the topic we're about to write adds value, we started writing the book. We first sketched out a table of contents and started working on the different chapters in parallel.
+We also made sure every co-author works independently on their own area (like OAuth2 login or RDS setup) to avoid any misunderstanding.
 
-Everybody was working on a dedicated chapter so there wasn't any conflict or waiting. Writing the new chapter consisted both of doing some resarch, adjusting the sample application and writing the manuscript.
+Everybody was working on a dedicated chapter so there wasn't any conflict or idle time due to waiting on some else input. Writing the new chapter consisted both of doing some research, adjusting the sample application and writing the manuscript.
 
 As were incrementally releasing new version of th eBook, we tried to work on the modules and chapters in sequence. It should be more or less and append-only of chapters and no inline adding of chapters so that the readers that get a copy early, can continue reading the book were they left if there's a new version available.
 
-In parallel to our first release preparation, we create a basic landing page and signed up for an mailing list provider (Convertkit back then).
+In parallel to our first release preparation, we create a basic [landing page](https://stratospheric.dev) and signed up for a mailing list provider (Convertkit back then). To keep things simple, we bought an HTML Bootstrap theme and used GitHub pages to quickly launch this landing page and add the mailing list signup form to allow potential readers get more information about our progress.
 
-When purchasing an eBook on Leanpub, the reader can decide if Leanpub should share their email address with the authors or not.
 
-To reach out to our readers immediately and to collect potential prospects, we offered a mailing list.
 
-This also acted as a first litmus test in the beginning to see how many developers are interested in bringing this book over the finish line.
+As there wasn't any earnings, we kept the costs low to only invest more $ once we see and adoption.
+
+This signup form also acted as a first litmus test for us to see how many developers are interested in bringing this book over the finish line.
 
 Before we could release a first version, we had to finalize our eBook title, find a logo and a cover.
 
@@ -204,25 +204,19 @@ We started with the placeholder project name `aws101`. However, this was clearly
 
 After some brainstorming for possible names, we ended up with: `Stratospheric`.
 
-We ordered two design examples for the logo on Fiverr and picked the best:
+We ordered two design examples for the logo on Fiverr and picked the best one:
 
-INSERT LOGO HERE
+![Stratospheric eBook Cover](/img/stratospheric/stratospheric-ebook-cover.png "Stratospheric eBook Cover")
 
+On the 08 of November 2020, we released the first manuscript. From this day forward it took us approximately two months for the next revision to be published.
+
+We started with a base price of $X. Keep in mind that we get 80% royalties but have to split those equally among all authors.
+
+## Iterate: Continuously Improve for 6-7 month
+
+(life after the first release, gather feedback, do the work)
 
 I've used this same iterative approach with an [early bird audience for my first online course](https://progmot.com/post/creating-and-selling-my-first-online-course/) and we saw the same benefits for this book.
-
-
-To gain some traction and to see if there's interest in such a book, we started with a basic landing page and collecting email addresses for a mailing list.
-
-On the XY of November 2020, we released the first manuscript. From this day forward it took us approximately two months for the next revision to be published.
-
-The final release was on August 2021. At the end we did some final checks for consistency, wording, and typos which took a little longer.
-
-To make the final release (version 1.0, there's no final release ever), we organized a release party and invited both the existing eBook readers as well as other interested persons from our audience.
-
-We talked about the sample application, the way we deploy the application, how we wrote the book, gave a feature demo and hit the release button on Leanpub together.
-
-The recording of this release party is [available on YouTube](https://www.youtube.com/watch?v=oaWEKvVXucU).
 
 While you can have the best eBook or product, if your potential readers and customers are not getting in front of it.
 
@@ -230,29 +224,13 @@ As we all three are running a blog, have an audience on Twitter and some of us a
 
 To spread the news about our project, we tweeted about our current state every now and then. To capture the email address of potential readers and to outline our goal with the book, we created a basic landing page.
 
-Nothing fancy, a simple $50 bootstrap HTML theme that we bought, tweaked and launched via GitHub pages to the Internet.
-
-Convertkit for the mailing provider to learn about a new one (we recently switched to MailerLite).
-
-As there wasn't any earnings, we kept the costs low to only invest more $ once we see and adoption.
-
 Getting people to your waiting list for the book, doesn't necassarly mean they'll also pull out their credit card once the eBook lands.
 
 We used both our social media channels and the mailing list to teaser and give constant updates about our progress.
 
 To mix up the person in charge of writing the mailing list update, we rotated among all co-authors.
 
-Leanpub supports selling eBooks in their early stage. They even have a progress bar on each eBook's landing page indicating how far the content is and when it was updated. Combining this with an incremental price increase, lets readers join early and benefit from all future updates.
-
-Show progress bar example with WIP and one with completed
-
-We started with a base price of $X. Keep in mind that we get 80% royalties but have to split those equally among all authors.
-
 Overall, Similar approach to my iterative course launch with early access program.
-
-## Iterate: Continuously Improve for 6-7 month
-
-(life after the first release, gather feedback, do the work)
 
 Leanpub is supporting this mode, we can publish work-in-progress version and use a percentage bar to inform potential readers how far we are in the process.
 
@@ -278,9 +256,24 @@ Next, we dive into the actual application development and build many must-have f
 
 Production is where the fun begins. We don't stop after developing the last feature but also cover monitoring and operation our Spring Boot application in production. This includes topics like structured logging, Amazon CloudWatch alerts, emitting metrics, creating operational dashboard, etc.
 
+Progress:
+- Revision 0.1: 2020-11-08
+- Revision 0.2: 2020-12-20
+- Revision 0.3: 2021-02-14
+- Revision 0.4: 2021-04-10
+
 ## Publishing Version 1.0
 
 (proofreading, aligning the wording, launch party on YouTube)
+
+The final release was on 1st August 2021. At the end we did some final checks for consistency, wording, and typos which took a little longer.
+
+To make the final release (version 1.0, there's no final release ever), we organized a release party and invited both the existing eBook readers as well as other interested persons from our audience.
+
+We talked about the sample application, the way we deploy the application, how we wrote the book, gave a feature demo and hit the release button on Leanpub together.
+
+The recording of this release party is [available on YouTube](https://www.youtube.com/watch?v=oaWEKvVXucU).
+
 
 Excalidraw for some nice-looking diagrams
 
