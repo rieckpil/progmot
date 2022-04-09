@@ -326,7 +326,7 @@ After the book was published, we even got a great donation from AWS for our proj
 
 Keep it simple, shared logins for the tools.
 
-For our laning page we purchased a bootstrap HTML theme for some bucks and adjusted it to our needs. During the inception phase of the project and while the eBook was not at 100, we primarily used the landing page to attract potential readers. Our landing page had (and still has) a newsletter subscription form to keep potential readers around.
+For our landing page we purchased a bootstrap HTML theme for some bucks and adjusted it to our needs. During the inception phase of the project and while the eBook was not at 100, we primarily used the landing page to attract potential readers. Our landing page had (and still has) a newsletter subscription form to keep potential readers around.
 
 Used tools:
 
@@ -334,7 +334,7 @@ Writing the eBook in their editor of choice. I personally used IntelliJ IDEA mos
 
 I tweaked the editor setting to wrap the lines so that I can write more naturally without having to horizontally scroll endlessly or buy a curved monitor.
 
-GitHub suggestion feature for the PR. Show example. The collaboration makes fun. Immediate feedback and now need to send Word files via email and use the comment functionality of Word.
+GitHub's suggestion feature for the PR. Show example. The collaboration makes fun. Immediate feedback and now need to send Word files via email and use the comment functionality of Word.
 
 Leanpub removed the barriers of formatting a nice-looking PDF and publishing it in various formats.
 
@@ -369,7 +369,7 @@ This helped us to identify and replace rotten links
 
 Feedback channel, signup for shared account with an `info@yourbookname.com`.
 
-We've registered our domain with Route 53, Amazon's DNS Service. We'e build a simple self-made email forwarding with AWS SES, S3 and AWS Lambda. If you're curious about the implementation, check out the [source code on GitHub](https://github.com/stratospheric-dev/stratospheric/tree/main/utility/email).
+We've registered our domain with Route 53, Amazon's DNS Service. We've built a simple self-made email forwarding with AWS SES, S3 and AWS Lambda. If you're curious about the implementation, check out the [source code on GitHub](https://github.com/stratospheric-dev/stratospheric/tree/main/utility/email).
 
 ### Work With Checklists and Rotate
 
