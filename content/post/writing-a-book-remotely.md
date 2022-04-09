@@ -192,8 +192,6 @@ As were incrementally releasing new version of th eBook, we tried to work on the
 
 In parallel to our first release preparation, we create a basic [landing page](https://stratospheric.dev) and signed up for a mailing list provider (Convertkit back then). To keep things simple, we bought an HTML Bootstrap theme and used GitHub pages to quickly launch this landing page and add the mailing list signup form to allow potential readers get more information about our progress.
 
-
-
 As there wasn't any earnings, we kept the costs low to only invest more $ once we see and adoption.
 
 This signup form also acted as a first litmus test for us to see how many developers are interested in bringing this book over the finish line.
@@ -212,37 +210,27 @@ On the 08 of November 2020, we released the first manuscript. From this day forw
 
 We started with a base price of $X. Keep in mind that we get 80% royalties but have to split those equally among all authors.
 
-## Iterate: Continuously Improve for 6-7 month
+## Iterate For 6-7 Month ✍🏻
 
-(life after the first release, gather feedback, do the work)
+What followed where multiple months of meeting every two weeks, discussing the next steps and writing the book. This step-by-step approach gave us the ability to react early on reader feedback and stay motivated as we could release something to the world sometimes.
 
-I've used this same iterative approach with an [early bird audience for my first online course](https://progmot.com/post/creating-and-selling-my-first-online-course/) and we saw the same benefits for this book.
+I've used this same iterative approach with an [early bird audience for my first online course](https://progmot.com/post/creating-and-selling-my-first-online-course/).
 
 While you can have the best eBook or product, if your potential readers and customers are not getting in front of it.
 
 As we all three are running a blog, have an audience on Twitter and some of us a mailing list, we started off with an existing target audience.
 
-To spread the news about our project, we tweeted about our current state every now and then. To capture the email address of potential readers and to outline our goal with the book, we created a basic landing page.
+To spread the news about our project, we tweeted about our current progress occasionally. To stay in contact with existing and potential readers, we tried to get as many of them on our landing page and sign up for our mailing list.
 
-Getting people to your waiting list for the book, doesn't necassarly mean they'll also pull out their credit card once the eBook lands.
-
-We used both our social media channels and the mailing list to teaser and give constant updates about our progress.
+We used both our social media channels and the mailing list to teaser and give constant updates about our progress. Whenever we released a new version, we wrote an mailing list update and slightly increased the price.
 
 To mix up the person in charge of writing the mailing list update, we rotated among all co-authors.
 
-Overall, Similar approach to my iterative course launch with early access program.
+Those tha got their eBook early, got it for the lowest price which is fair as they trusted in our project from day one.
 
-Leanpub is supporting this mode, we can publish work-in-progress version and use a percentage bar to inform potential readers how far we are in the process.
+While we originally planned to use AWS CloudFormation templates for our infrastructure setup, we decided to rework the existing setup and use the AWS CloudDevelopmentKit. he AWS CDK was getting more and more traction in the meantime and this would also be a big USP as not many literatures uses the CDK already.
 
-After developing a the proof of concept application and having automated everything with CloudFormation, we were sure that we have enough to show and committed to writing the book.
-
-While the AWS CDK was getting more and more traction in the meantime, we decided to rework the infrastructure setup and use the CDK instead of CloudFormation templates.
-
-Not much in-depth content for this complex domain. We all had some experience with AWS but there were clearly parts that we're not understanding in detail
-
-Project to learn and will learning produce something
-
-Structure of the eBook:
+On a high level, we ended up with these main modules for the eBook:
 
 1. Getting Started with AWS
 
@@ -256,32 +244,47 @@ Next, we dive into the actual application development and build many must-have f
 
 Production is where the fun begins. We don't stop after developing the last feature but also cover monitoring and operation our Spring Boot application in production. This includes topics like structured logging, Amazon CloudWatch alerts, emitting metrics, creating operational dashboard, etc.
 
-Progress:
-- Revision 0.1: 2020-11-08
+There wasn't one bi-weekly status update we missed and we all made at least some progress every two weeks.
+
+Looking back, these were the times we released a new version:
+- Revision 0.1: 2020-11-08 (first release)
 - Revision 0.2: 2020-12-20
 - Revision 0.3: 2021-02-14
 - Revision 0.4: 2021-04-10
 
-## Publishing Version 1.0
+![Stratospheric eBook Cover](/img/stratospheric/stratospheric-pre-release-version-overview.png "Stratospheric Pre Releaes")
+TODO: ADD image from the changelog
 
-(proofreading, aligning the wording, launch party on YouTube)
+Revision 0.4 was our last pre-release, and we got our book to 80% at that time.
 
-The final release was on 1st August 2021. At the end we did some final checks for consistency, wording, and typos which took a little longer.
+While we almost constantly released a new version every two month, those remaining 20% were literally the hardest part and took the longest...
 
-To make the final release (version 1.0, there's no final release ever), we organized a release party and invited both the existing eBook readers as well as other interested persons from our audience.
+## Publishing Version 1.0 🥳
 
-We talked about the sample application, the way we deploy the application, how we wrote the book, gave a feature demo and hit the release button on Leanpub together.
+The last release was the one that took the longest. Like you always hear the remaining 20% of a project are where the most time is spent, this was true for us.
 
-The recording of this release party is [available on YouTube](https://www.youtube.com/watch?v=oaWEKvVXucU).
+We had some final content to write but our biggest effort went into final proofreading and alignment.
 
-
-Excalidraw for some nice-looking diagrams
+Align screenshots, custom diagrams, wordng, header, etc. Excalidraw for some nice-looking diagrams
 
 TODO: Add Excalidraw example picture
 
-Add a basic timeline with our release dates and how far we came.
+When writing together we sometimes had a different understanding on when to use a *bold*, _italic_ statement or when to use an info box. This was something we wanted to unify across the book.
 
-The last release was the one that took the longest. Before we put the version `1.0` out and mark this eBook as complete on Leanpub, we wanted to polish and proofread the entire book by ourselves. This took some additional 2-3 weeks.
+The version `1.0` should be both feature complete as well as polished.
+
+We took over the proofreading and did not hire someone to do this.
+
+As the finalization of the manuscript went closer, we thought about the best possible way to announce and release version 1.0. We decided to organize a release party and invited both the existing eBook readers as well as other interested persons from our audience.
+
+For this release party we prepared an one hour agenda where we talked about the content of the book, showcased the sample application and the CI/CD workflow and had some time left for a Q&A session.
+
+After this 50 minutes of content, we released the final version of Stratospheric together with the audience by hitting the "Publish Now" button in Leanpub _together_ and live in the call.
+
+We recorded this release party for those that couldn't make it to the live event on the 1st of August 2021 and [uploaded the video on YouTube](https://www.youtube.com/watch?v=oaWEKvVXucU).
+
+The final release was on 1st August 2021. At the end we did some final checks for consistency, wording, and typos which took a little longer.
+
 
 ## Iterate: Post 1.0 Release
 
@@ -430,6 +433,13 @@ Go with the simplest setup and GitHub Pages
 Use Grammarly,
 
 Link checker example
+
+### Come up with a basic rule set for typing
+
+When to use bold
+When to use an infobox
+Header structure
+How and which screenshot to take
 
 ## About the eBook authors
 
