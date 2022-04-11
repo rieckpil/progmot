@@ -578,7 +578,7 @@ That's not worth it.
 
 If your product is good and you have an established sales funnel, it's only a matter of time until new course users join.
 
-These sales ambitions might drain your creative resources, and you start focussing on the wrong ends: aka. get more sales vs. make a great product.
+These sales ambitions might drain your creative resources, and you start focusing on the wrong ends: AKA - getting more sales vs. making a great product.
 
 ## What's Next?
 
@@ -588,11 +588,11 @@ That's why I'm constantly trying to be up-to-date. As the testing topic is also 
 
 Whenever there's something new or worth mentioning, I'll add a new lesson to the course. If there's something outdated, or I would do something different, I'll replace a video.
 
-Compared to an eBook, keeping an online course up-to-date is more effort. There's no search and replace functionality for already recorded videos. You have to find the correct spot and record a new video or cut the outdated scene. But fortunately, in the area I'm creating content for, there's maturity and stable APIs and libraries.
+Compared to an eBook, keeping an online course up-to-date is more effort. There's no search and replace functionality for already recorded videos. You have to find the correct spot and record a new video, or cut the outdated scene. But fortunately, in the area I'm creating content for, there's maturity and stable APIs and libraries.
 
-Some course participants asked for a `plain/text` version of the online course to have a quick lookup reference for recipes and techniques. That's why I'm currently creating an eBook based on the online course.
+Some course participants asked for a `plain/text` version of the online course to have a quick lookup reference for recipes and techniques. This is why I'm currently creating an eBook based on the online course.
 
-That's also a great way to attract a wider audience as not everybody enjoys learning from videos and prefers to read a book on the beach.
+It's also a great way to attract a wider audience, as not everybody enjoys learning from videos and prefers to read a book on the beach.
 
 The next online course is also waiting to be created. On top of the [Stratospheric eBook](https://stratospheric.dev/) (From Zero to Production with Spring Boot and AWS), which I've written with [Tom Hombergs](https://reflectoring.io/) and [Björn Wilmsmann](https://bjoernkw.com/), we're creating an online course. Equipped with my insights from this course launch, I'm looking forward to this project.
 
