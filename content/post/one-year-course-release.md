@@ -6,10 +6,10 @@ author: "Philip"
 summary: "A one-year retrospect after creating and selling my first online course: my strategy, the actual journey, mistakes, and recommendations."
 description: "A one-year retrospect after creating and selling my first online course: my strategy, the actual journey, mistakes, and recommendations."
 cover:
-image: "/img/online-course-one-year-retrospect-featured-image.png"
-alt: "Selling My First Online Course One-Year Retrospect"
-caption: "Selling My First Online Course One-Year Retrospect"
-relative: false
+  image: "/img/online-course-one-year-retrospect-featured-image.png"
+  alt: "Selling My First Online Course One-Year Retrospect"
+  caption: "Selling My First Online Course One-Year Retrospect"
+  relative: false
 keywords: []
 draft: false
 tags: []
