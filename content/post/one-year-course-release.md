@@ -533,7 +533,7 @@ There's only one good time for creating your first article, YouTube video, or on
 
 Seeing the sales coming in, I created ads on various platforms like Google Search, Twitter, Facebook, and LinkedIn.
 
-I thought that if I just had enough firepower (aka. money) for ads, I'd create a money machine.
+I thought that if I just had enough firepower (a.k.a. money) for ads, I'd create a money machine.
 
 Living the dream where the CPA (cost per acquisition) is less than the generated revenue: a money perpetuum mobile.
 
@@ -551,10 +551,10 @@ While this is a slower sales process, it's more sustainable, and right now, I ge
 
 From this [excellent book*](https://rieckpil.de/a/traffic-secrets) I learned that there are more or less four types of leads:
 
-1. The potential course participant is not aware that they have a problem: AKA - I don't write tests
-2. The potential course participant is aware that they have a problem: AKA - I try to write tests but fail to get the setup correct, and I'm constantly frustrated
-3. The potential course participant is aware of you as a content creator: AKA - I know that Philip is creating some content about Java and Spring and have read one or two articles from him
-4. Being aware that you sell an online course that helps to fix this problem: AKA - I know that Philip offers the Testing Spring Boot Applications Masterclass, which will help me write better tests -> Ka-Ching $$$
+1. The potential course participant is not aware that they have a problem: a.k.a. - I don't write tests
+2. The potential course participant is aware that they have a problem: a.k.a. - I try to write tests but fail to get the setup correct, and I'm constantly frustrated
+3. The potential course participant is aware of you as a content creator: a.k.a. - I know that Philip is creating some content about Java and Spring and have read one or two articles from him
+4. Being aware that you sell an online course that helps to fix this problem: a.k.a. - I know that Philip offers the Testing Spring Boot Applications Masterclass, which will help me write better tests -> Ka-Ching $$$
 
 ### Connect With More Content Creators
 
@@ -578,7 +578,7 @@ That's not worth it.
 
 If your product is good and you have an established sales funnel, it's only a matter of time until new course users join.
 
-These sales ambitions might drain your creative resources, and you start focusing on the wrong ends: AKA - getting more sales vs. making a great product.
+These sales ambitions might drain your creative resources, and you start focusing on the wrong ends: a.k.a. - getting more sales vs. making a great product.
 
 ## What's Next?
 
