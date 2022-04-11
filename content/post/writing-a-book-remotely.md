@@ -222,38 +222,36 @@ As we all three are running a blog, have an audience on Twitter and some of us a
 
 To spread the news about our project, we tweeted about our current progress occasionally. To stay in contact with existing and potential readers, we tried to get as many of them on our landing page and sign up for our mailing list.
 
-We used both our social media channels and the mailing list to teaser and give constant updates about our progress. Whenever we released a new version, we wrote an mailing list update and slightly increased the price.
+We used both our social media channels and the mailing list to teaser and give constant updates about our progress. Whenever we released a new version, we wrote a mailing list update and slightly increased the price.
 
 To mix up the person in charge of writing the mailing list update, we rotated among all co-authors.
 
-Those tha got their eBook early, got it for the lowest price which is fair as they trusted in our project from day one.
+Those that got their eBook early, got it for the lowest price which is fair as they trusted in our project from day one.
 
-While we originally planned to use AWS CloudFormation templates for our infrastructure setup, we decided to rework the existing setup and use the AWS CloudDevelopmentKit. he AWS CDK was getting more and more traction in the meantime and this would also be a big USP as not many literatures uses the CDK already.
+While we originally planned to use AWS CloudFormation templates for our infrastructure setup, we decided to rework the existing setup and use the AWS Cloud Development Kit (CDK). The AWS CDK was getting more and more traction and this would also be a big USP as not many literatures uses the CDK already.
 
 On a high level, we ended up with these main modules for the eBook:
 
 1. Getting Started with AWS
 
-Get used to AWS, its interfaces, its services and the management console (a bit as we try to automated everything with the AWS CDK). This includes an introduction to the AWS CDK, our custom CDK constructs Java library and some design decision for building a CI/CD pipeline with GitHub Actions.
+Getting used to AWS, its interfaces, its services, the management console and how to automate the infrastructure deployment. This includes an introduction to the AWS CDK, our [custom CDK constructs Java library](https://github.com/stratospheric-dev/cdk-constructs) and some design decision for building a CI/CD pipeline with GitHub Actions.
 
 2. Building the Sample Application
 
-Next, we dive into the actual application development and build many must-have features of today's application while connecting to various AWS services: OAuth2 Login and user registration with AWS Cognito, email delivery with SES, websockets, asynchronous workload operation with AWS SQS, storing data in an relational database with RDS. We showcase the integration with AWS and Spring Boot based on meaningful feature implementations and enrich our sample Todo application with every chapter.
+Next, we dive into the actual application development and build many must-have features of today's application while connecting to various AWS services: OAuth2 Login and user management with AWS Cognito, email delivery with SES, websockets for live updates, asynchronous workload operation with AWS SQS, storing data in a relational database with RDS. We showcase the integration with AWS and Spring Boot based on meaningful feature implementations and enrich our sample Todo application with every chapter.
 
 3. Operating and Monitoring and Applications in Production on AWS
 
-Production is where the fun begins. We don't stop after developing the last feature but also cover monitoring and operation our Spring Boot application in production. This includes topics like structured logging, Amazon CloudWatch alerts, emitting metrics, creating operational dashboard, etc.
+Production is where the fun begins. We don't stop after developing the last feature and also cover monitoring and operating our Spring Boot application in production. This includes topics like structured logging, Amazon CloudWatch alerts, emitting metrics, creating operational dashboard, etc.
 
-There wasn't one bi-weekly status update we missed and we all made at least some progress every two weeks.
+Looking back, these were the times we released a new _work in progress_ eBook version:
 
-Looking back, these were the times we released a new version:
 - Revision 0.1: 2020-11-08 (first release)
 - Revision 0.2: 2020-12-20
 - Revision 0.3: 2021-02-14
 - Revision 0.4: 2021-04-10
 
-![Stratospheric eBook Cover](/img/stratospheric/stratospheric-pre-release-version-overview.png "Stratospheric Pre Releaes")
-TODO: ADD image from the changelog
+![Stratospheric eBook Cover](/img/stratospheric/stratospheric-pre-release-version-overview.png "Stratospheric Pre Releases")
 
 Revision 0.4 was our last pre-release, and we got our book to 80% at that time.
 
@@ -261,30 +259,44 @@ While we almost constantly released a new version every two month, those remaini
 
 ## Publishing Version 1.0 🥳
 
-The last release was the one that took the longest. Like you always hear the remaining 20% of a project are where the most time is spent, this was true for us.
+The last release was the one that took the longest. Like you always hear the remaining 20% of a project are where the most time is spent...
 
-We had some final content to write but our biggest effort went into final proofreading and alignment.
+... this was also true for us.
 
-Align screenshots, custom diagrams, wordng, header, etc. Excalidraw for some nice-looking diagrams
+We had some final content to write but our biggest effort went into final proofreading and alignment of the manuscript.
 
-TODO: Add Excalidraw example picture
+With three people on the team, everyone was doing their screenshots, custom diagrams, header structure, etc. slightly different, and we wanted to have a common style through the book.
 
-When writing together we sometimes had a different understanding on when to use a *bold*, _italic_ statement or when to use an info box. This was something we wanted to unify across the book.
+Furthermore, everyone had a different understanding on when to use a *bold*, _italic_ statement or when to use an info box. This was something we wanted to unify across the book.
 
-The version `1.0` should be both feature complete as well as polished.
+Next, we also replaced some of our architecture and information diagrams with nice-looking [Excalidraw](https://excalidraw.com/) diagrams:
 
-We took over the proofreading and did not hire someone to do this.
+![Stratospheric Excalidraw Image Example](/img/stratospheric/stratospheric-excalidraw-example.png "Stratospheric Excalidraw Image Example")
 
-As the finalization of the manuscript went closer, we thought about the best possible way to announce and release version 1.0. We decided to organize a release party and invited both the existing eBook readers as well as other interested persons from our audience.
 
-For this release party we prepared an one hour agenda where we talked about the content of the book, showcased the sample application and the CI/CD workflow and had some time left for a Q&A session.
+These finalization parts took almost two month as we also read the eBook from start to finish several times. We took over the proofreading and did not hire someone to do this.
+
+In total, we ended up with 450 pages of high-value content about Spring Boot and AWS.
+
+The version `1.0` should be both feature complete as well as polished. We knew that our eBook journey doesn't stop here but wanted to finally move the completness needle on Leanpub to 100%.
+
+As the finalization of the manuscript went closer, we thought about the best possible way to announce and release version 1.0.
+
+We were invited to the [German AWS Podcast](https://german-aws-podcast.libsyn.com/33-von-null-auf-produktion-mit-spring-boot-und-aws) from Dennis Traub (AWS Developer Advocate) and could talk about our own AWS cloud journey and advertise the eBook a bit.
+
+On top of this podcast, we decided to organize a release party and invited both the existing eBook readers and other interested persons from our audience.
+
+For this release party we prepared a one-hour agenda where we talked about the content of the book, showcased the sample application and the CI/CD workflow and had some time left for a Q&A session.
+
+From the ~50 accepted invitations, twenty people showed up on a Sunday afternoon to celebrate the release with us.
 
 After this 50 minutes of content, we released the final version of Stratospheric together with the audience by hitting the "Publish Now" button in Leanpub _together_ and live in the call.
 
+https://twitter.com/rieckpil/status/1421811091152191488?s=20&t=GlpinFubEB7927yf4jkrFA
+
 We recorded this release party for those that couldn't make it to the live event on the 1st of August 2021 and [uploaded the video on YouTube](https://www.youtube.com/watch?v=oaWEKvVXucU).
 
-The final release was on 1st August 2021. At the end we did some final checks for consistency, wording, and typos which took a little longer.
-
+We were all super happy with the outcome of the release party and our progress. At that time we already had 500 readers and getting more and more attention.
 
 ## Iterate: Post 1.0 Release
 
