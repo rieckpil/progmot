@@ -459,7 +459,7 @@ I expected everyone to finish the course right after they purchased it, or at le
 
 It seems that this is not the case for everyone.
 
-There a still course participants that did not even start with lesson one.
+There are still course participants that did not even start with lesson one.
 
 That's okay - they might be busy and will start when they have time.
 
