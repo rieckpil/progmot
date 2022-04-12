@@ -4,7 +4,7 @@ date: 2020-10-11T09:27:17+02:00
 slug: ""
 description: ""
 keywords: []
-draft: true
+draft: false
 tags: []
 math: false
 toc: false
@@ -292,7 +292,7 @@ From the ~50 accepted invitations, twenty people showed up on a Sunday afternoon
 
 After this 50 minutes of content, we released the final version of Stratospheric together with the audience by hitting the "Publish Now" button in Leanpub _together_ and live in the call.
 
-https://twitter.com/rieckpil/status/1421811091152191488?s=20&t=GlpinFubEB7927yf4jkrFA
+{{< tweet user="rieckpil" id="1421811091152191488" >}}
 
 We recorded this release party for those that couldn't make it to the live event on the 1st of August 2021 and [uploaded the video on YouTube](https://www.youtube.com/watch?v=oaWEKvVXucU).
 
