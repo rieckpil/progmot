@@ -204,7 +204,7 @@ After some brainstorming for possible names, we ended up with: `Stratospheric`.
 
 We ordered two design examples for the logo on Fiverr and picked the best one:
 
-![Stratospheric eBook Cover](/img/stratospheric/stratospheric-ebook-cover.png "Stratospheric eBook Cover")
+![Stratospheric eBook Cover](/img/stratospheric-ebook/stratospheric-ebook-cover.png "Stratospheric eBook Cover")
 
 On the 08 of November 2020, we released the first manuscript. From this day forward it took us approximately two months for the next revision to be published.
 
@@ -251,7 +251,7 @@ Looking back, these were the times we released a new _work in progress_ eBook ve
 - Revision 0.3: 2021-02-14
 - Revision 0.4: 2021-04-10
 
-![Stratospheric eBook Cover](/img/stratospheric/stratospheric-pre-release-version-overview.png "Stratospheric Pre Releases")
+![Stratospheric eBook Cover](/img/stratospheric-ebook/stratospheric-pre-release-version-overview.png "Stratospheric Pre Releases")
 
 Revision 0.4 was our last pre-release, and we got our book to 80% at that time.
 
@@ -271,7 +271,7 @@ Furthermore, everyone had a different understanding on when to use a *bold*, _it
 
 Next, we also replaced some of our architecture and information diagrams with nice-looking [Excalidraw](https://excalidraw.com/) diagrams:
 
-![Stratospheric Excalidraw Image Example](/img/stratospheric/stratospheric-excalidraw-example.png "Stratospheric Excalidraw Image Example")
+![Stratospheric Excalidraw Image Example](/img/stratospheric-ebook/stratospheric-excalidraw-example.png "Stratospheric Excalidraw Image Example")
 
 
 These finalization parts took almost two month as we also read the eBook from start to finish several times. We took over the proofreading and did not hire someone to do this.
