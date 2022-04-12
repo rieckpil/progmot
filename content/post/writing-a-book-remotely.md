@@ -2,8 +2,9 @@
 title: "Writing a Book Remotely Without Ever Meeting In Person Before"
 date: 2022-04-12T09:27:17+02:00
 slug: ""
-description: ""
+description: "TODO"
 keywords: []
+cover:
 draft: false
 tags: []
 math: false
@@ -473,5 +474,5 @@ Under the slogan "Testing Java Applications Made Simple" Philip provides recipes
 
 Find out more about Philip on [rieckpil.de](https://rieckpil.de) and his [Twitter profile](https://twitter.com/rieckpil).
 
-Have fun writing your book,
+Have fun writing your book,\
 Philip
