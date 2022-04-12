@@ -90,7 +90,7 @@ In short, this brought us to the following high-level goals for our readers that
 
 Packed with these ideas, we then got started with the project.
 
-## How We Started 🛫
+## How We Got Started 🛫
 
 (first Poc, outline chapters, start writing, some technical hints on the worklfow, why Leanpub)
 
