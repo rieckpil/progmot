@@ -294,7 +294,9 @@ After this 50 minutes of content, we released the final version of Stratospheric
 
 {{< tweet user="rieckpil" id="1421811091152191488" >}}
 
-We recorded this release party for those that couldn't make it to the live event on the 1st of August 2021 and [uploaded the video on YouTube](https://www.youtube.com/watch?v=oaWEKvVXucU).
+We recorded this release party for those that couldn't make it to the live event on the 1st of August 2021 and [uploaded the video on YouTube](https://www.youtube.com/watch?v=oaWEKvVXucU):
+
+{{< youtube oaWEKvVXucU >}}
 
 We were all super happy with the outcome of the release party and our progress. At that time we already had 500 readers and getting more and more attention.
 
@@ -302,21 +304,29 @@ We were all super happy with the outcome of the release party and our progress. 
 
 > A book is never finished; it's abandoned. (Gene Fowler)
 
-Continue with further updates, fast changing cloud environment, online course
+While still being euphoric about releasing finish the first version of this book within one year, we knew that our journey wouldn't stop here. Right after the release party we all took some time off and focussed more on spreading the news about the release rather than planning what's next.
 
-Live since August 2021. Great adoption, we also now have a Slack channel for the community of the eBook.
+Ever since the release of version 1.0 in August 2021 we see great adoption and based on readers feedback also create a Slack channel for the community of the eBook for Q&A and general communication.
 
-Monetary information: We don't get rich. It's some additional pocket money for us in the range of $150-300 for each author.
+Both Spring Boot and AWS are more or less mature, at least those areas that we talk about: SQS, SES, RDS, web development. Still, there's much going on for the library that we're using for integrating AWS services ([Spring Cloud AWS](https://awspring.io/)). Furthermore, we also learn even better best practices or different ways of doing things.
 
-To increase the visibility of our eBook we included it on Amazon. While Amazon's royalty rules are not that optimal compared to Leanpub, we primarly list on Amazon to get in front of more developers. Amazon is one of the biggest search interfaces after Google and YouTube.
+Thanks to the agile nature of Leanpub and given the fact that we don't ship a physical book to our readers, we can still update the eBook post delivery. Leanpub has a feature to notify the readers about a new version that they can then download for free.
 
-We thought about an printed eBook but for now postponed this move as we think that our audience is anyway more interested to read technical books on their devices.
+While we had no strict roadmap in mind, we all agreed to keep this book up-to-date to avoid a stale book.
 
-Some readers even requested more in-depth coverage and hence we decided to build an online course on top of it.
+Whenever there's a new update for our eBook we also send out a small release information email to our newsletter to give a short overview of the changes:
 
-Given my [existing experience with building and launching technical online courses](https://progmot.com/post/creating-and-selling-my-first-online-course/), this will be a great opportunity to apply my lessons learned from my first courses.
+![Stratospheric Post Release Mailing List Update](/img/stratospheric-ebook/stratospheric-post-release-mailing-list-update.png#center "Stratospheric Post Release Mailing List Update")
 
-## Recommendations, tips & tricks, and lessons learned
+On the monetary side of things: We don't get rich from selling this book. It's some additional pocket money for us in the range of $150-300 for every author each month.
+
+To increase the visibility of our eBook we listed it on Amazon Kindle. While Amazon's royalty rules are not that optimal compared to Leanpub, we primarily list on Amazon to get in front of more developers. Amazon is one of the biggest search interfaces after Google and YouTube.
+
+We thought about a printed eBook but for now postponed this move as we think that our audience is anyway more interested to read technical books on their devices. However, (at least I) want to have a physical copy of this book in my bookshelf somewhere in the future.
+
+Based on the feedback we got so far from our readers, we also decided to build an online course on top of the eBook to provide some more in-depth coverage of various areas. Given my [existing experience with creating and launching technical online courses](https://progmot.com/post/creating-and-selling-my-first-online-course/), this will be a great opportunity to apply my lessons learned from my first courses.
+
+## Recommendations, Tips & Tricks, and Lessons Learned
 
 Writing together motivates to keep going. We all committed to deliver something and had some high level ideas when the next release would be published.
 
@@ -467,11 +477,13 @@ Björn Wilmsmann is an independent IT consultant who helps companies transform t
 
 Find out more about Björn on [bjoernkw.com](https://bjoernkw.com) and his [Twitter profile](https://twitter.com/bwilmsmann).
 
-### Philip Riecks (That's me)
+### Philip Riecks (That's Me)
 
 Under the slogan "Testing Java Applications Made Simple" Philip provides recipes and tips & tricks to accelerate your testing success and make testing joyful (or at least less painful). Apart from blogging, he's a course instructor for various Java-related online courses and active on YouTube.
 
 Find out more about Philip on [rieckpil.de](https://rieckpil.de) and his [Twitter profile](https://twitter.com/rieckpil).
+
+If you have further questions or want some more details for a specific topic, let me know in the comments below 👇🏻
 
 Have fun writing your book,\
 Philip
