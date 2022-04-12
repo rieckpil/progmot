@@ -328,7 +328,7 @@ Based on the feedback we got so far from our readers, we also decided to build a
 
 At the time of writing this article, we have 800 readers, which is a great success 🥳
 
-## Recommendations, Tips & Tricks, and Lessons Learned
+## Recommendations, Tips & Tricks, and Lessons Learned 🎩
 
 What follows is a unordered list of small hints and tips if you plan to write your in a similar setup.
 
