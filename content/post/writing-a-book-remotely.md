@@ -1,6 +1,6 @@
 ---
 title: "Writing a book remotely without ever meeting before"
-date: 2020-10-11T09:27:17+02:00
+date: 2022-04-12T09:27:17+02:00
 slug: ""
 description: ""
 keywords: []
