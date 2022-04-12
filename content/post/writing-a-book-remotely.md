@@ -326,15 +326,29 @@ We thought about a printed eBook but for now postponed this move as we think tha
 
 Based on the feedback we got so far from our readers, we also decided to build an online course on top of the eBook to provide some more in-depth coverage of various areas. Given my [existing experience with creating and launching technical online courses](https://progmot.com/post/creating-and-selling-my-first-online-course/), this will be a great opportunity to apply my lessons learned from my first courses.
 
+At the time of writing this article, we have 800 readers, which is a great success 🥳
+
 ## Recommendations, Tips & Tricks, and Lessons Learned
 
-Writing together motivates to keep going. We all committed to deliver something and had some high level ideas when the next release would be published.
-
-Improve the writing a lot by getting constant feedback.
+What follows is a unordered list of small hints and tips if you plan to write your in a similar setup.
 
 Made a lot of fun, learned a ton about AWS, met and get to know great and knowledgeable people.
 
+### Write Together, Not Alone
+
+Writing together motivates to keep going. We all committed to deliver something and had some high level ideas when the next release would be published.
+
+Especially if it's your first book, writing it alone might feel like a huge project. Together you get better step by step.
+
+Furthermore, when writing together, you'll also improve your writing skills as you get constant feedback the writing a lot by getting constant feedback.
+
+### Use an Iterative approach
+
 Iterative approach, collect emails from interested people.
+
+Pick Leanpub if you want to go the self-publishing route or pick a verlag that supports this.
+
+### Organize and Find a Schedule
 
 Meeting schedules, continuous sprints, peer review
 
@@ -342,19 +356,29 @@ We were using a Trello board for our task planning. We grouped our tasked in col
 
 This helped us keep an overview of what is currently in progress and what still needs to be done.
 
+What personally worked for me was taking the first hour every morning to work on this project.
+
+Commit to some deadlines to keep the focus.
+
+### Reach Out for Advertisement
+
 AWS sponsored us some gift vouchers so that we could run the infrastructure (almost) for free. We could even sponsor a two-part article on the AWS Open Source blog to gain some traction for our project.
 
+Some small donations to keep our infrastructure up and running.
+
 After the book was published, we even got a great donation from AWS for our project via GitHub.
+
+Start talking on podcasts, conferences, tweet about it.
+
+### Use Simple Tools
 
 Keep it simple, shared logins for the tools.
 
 For our landing page we purchased a bootstrap HTML theme for some bucks and adjusted it to our needs. During the inception phase of the project and while the eBook was not at 100, we primarily used the landing page to attract potential readers. Our landing page had (and still has) a newsletter subscription form to keep potential readers around.
 
 Used tools:
-
-Writing the eBook in their editor of choice. I personally used IntelliJ IDEA most of the time.
-
-I tweaked the editor setting to wrap the lines so that I can write more naturally without having to horizontally scroll endlessly or buy a curved monitor.
+- Gramarly for basic proofeading typos
+- Writing the eBook in their editor of choice. I personally used IntelliJ IDEA most of the time. I tweaked the editor setting to wrap the lines so that I can write more naturally without having to horizontally scroll endlessly or buy a curved monitor.
 
 GitHub's suggestion feature for the PR. Show example. The collaboration makes fun. Immediate feedback and now need to send Word files via email and use the comment functionality of Word.
 
@@ -364,20 +388,7 @@ Getting to the end of the book, some publishers started to reach out to us. They
 
 Running Grammarly to spot low-hanging fruits when it comes to grammar and typos.
 
-All changes were reviewed by all of us
-
-`main` branch -> final output
-`preview` branch -> generate a preview PDF
-
-We were writing our content on feature branches and integrated them into the `preview` branch. Once we had enough reviewed sections in the `preview` branch, we released a new
-
 Automation: We could even directly release from the main branch, but we prefer to still do it manually. PDF, Kindle, ePub format.
-
-The final result was release on the first of August 2021: 450 pages long eBook
-
-We even organized a small release party where we talked about the project, the sample application and hit the release button together.
-
-Since the release, we're still meeting each other on a bi-weekly basis. We add reader feedback, keep the source code up-to-date and add new section where it makes sense.
 
 With currently more than 700 readers
 
@@ -386,6 +397,8 @@ Adding links for further resources is both a curse and a blessing. It allows the
 SHOW Link verify mechanism.
 
 This helped us to identify and replace rotten links
+
+Share costs with a simple Google sheet. There are not many positions that we have to pay for each month.
 
 ### Get an Email Address for Every Author
 
@@ -450,20 +463,32 @@ Communication then happens on this public issue and everybody can follow the sta
 
 Go with the simplest setup and GitHub Pages
 
-### Automate low hanging verification
+### Automate Low Hanging Verifications
 
 Use Grammarly,
 
 Link checker example
 
-### Come up with a basic rule set for typing
+### Define Rules for Typesetting and Structure
 
-When to use bold
-When to use an infobox
-Header structure
-How and which screenshot to take
+This would have helped us save some time for the final polishing and is one of the lessons learned.
 
-## About the eBook authors
+Provide a one pager for your authors and some clear definitions on topics like:
+- when to use *bold*
+- When to use an infobox
+- header structure
+- How and which screenshot to take
+- max. number of links on a page
+
+### Have Fun
+
+That's one of the most important parts. Find people that you enjoy working with and that you can learn from.
+
+It's a side project, enjoy the experience, learn as much as you can. It's your time.
+
+Don't expect to become rich by writing a book but use this opportunity to establish a brand in your niche or use it as a form of basic credibility. I'm pretty sure that co-authoring a eBook weighs more than any basic certification for a topic.
+
+## About the eBook Authors 🙋‍♂️
 
 ### Tom Hombergs
 
@@ -483,7 +508,7 @@ Under the slogan "Testing Java Applications Made Simple" Philip provides recipes
 
 Find out more about Philip on [rieckpil.de](https://rieckpil.de) and his [Twitter profile](https://twitter.com/rieckpil).
 
-If you have further questions or want some more details for a specific topic, let me know in the comments below 👇🏻
+PS: If you have further questions or want some more details about a specific topic, let me know in the comments below 👇🏻
 
 Have fun writing your book,\
 Philip
