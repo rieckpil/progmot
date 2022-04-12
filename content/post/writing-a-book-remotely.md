@@ -504,7 +504,7 @@ Find out more about Björn on [bjoernkw.com](https://bjoernkw.com) and his [Twit
 
 ### Philip Riecks (That's Me)
 
-Under the slogan "Testing Java Applications Made Simple" Philip provides recipes and tips & tricks to accelerate your testing success and make testing joyful (or at least less painful). Apart from blogging, he's a course instructor for various Java-related online courses and active on YouTube.
+Under the slogan _Testing Java Applications Made Simple_ Philip provides recipes and tips & tricks to accelerate your testing success and make testing joyful (or at least less painful). Apart from blogging, he's a course instructor for various Java-related online courses and active on YouTube.
 
 Find out more about Philip on [rieckpil.de](https://rieckpil.de) and his [Twitter profile](https://twitter.com/rieckpil).
 
