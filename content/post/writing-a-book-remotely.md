@@ -34,7 +34,7 @@ Our journey to writing a technical book remotely together without having met eac
 
 Three co-authors: [Tom](https://twitter.com/TomHombergs/), [Björn](https://twitter.com/bwilmsmann/), [Philip](https://twitter.com/rieckpil) (that's me).
 
-## How We Got Together
+## How We Got Together ✍🏻
 
 > Luck is what happens when preparation meets opportunity.
 
@@ -52,7 +52,7 @@ Björn and me who were participating in this meeting raised our hands. We've nev
 
 We organized a separate meeting to discuss more details and to get to know each other.
 
-## Our Goals For This Project
+## Our Goals For This Project ⭐️
 
 Before we started to work on this project we met several times to get to know each other and align our goals and expectations. While we were all three working full-time for clients/an employer, we set the common understanding that this will be a fun side project.
 
@@ -90,7 +90,7 @@ In short, this brought us to the following high-level goals for our readers that
 
 Packed with these ideas, we then got started with the project.
 
-## How We Started
+## How We Started 🛫
 
 (first Poc, outline chapters, start writing, some technical hints on the worklfow, why Leanpub)
 
@@ -164,7 +164,7 @@ After the review is completed by both other co-authors (six eye principle), we i
 
 What's left to do is to click the release button inside Leanpub to build a new digital version of our eBook. Theoretically, we can even automate this and publish a new release on each commit for the `main` branch.
 
-## Getting the First Readers aka. Getting Early Feedback
+## Getting the First Readers aka. Early Feedback 📖
 
 (having something to show, basic landing page, getting a cover, trouble with the naming, first version on Leanpub)
 
@@ -211,7 +211,7 @@ On the 08 of November 2020, we released the first manuscript. From this day forw
 
 We started with a base price of $X. Keep in mind that we get 80% royalties but have to split those equally among all authors.
 
-## Iterate For 6-7 Month ✍🏻
+## Iterate For 6-7 Month ♺
 
 What followed where multiple months of meeting every two weeks, discussing the next steps and writing the book. This step-by-step approach gave us the ability to react early on reader feedback and stay motivated as we could release something to the world sometimes.
 
@@ -274,7 +274,6 @@ Next, we also replaced some of our architecture and information diagrams with ni
 
 ![Stratospheric Excalidraw Image Example](/img/stratospheric-ebook/stratospheric-excalidraw-example.png#center "Stratospheric Excalidraw Image Example")
 
-
 These finalization parts took almost two month as we also read the eBook from start to finish several times. We took over the proofreading and did not hire someone to do this.
 
 In total, we ended up with 450 pages of high-value content about Spring Boot and AWS.
@@ -299,7 +298,7 @@ We recorded this release party for those that couldn't make it to the live event
 
 We were all super happy with the outcome of the release party and our progress. At that time we already had 500 readers and getting more and more attention.
 
-## Iterate: Post 1.0 Release
+## Life After the 1.0 Release 🏗
 
 > A book is never finished; it's abandoned. (Gene Fowler)
 
