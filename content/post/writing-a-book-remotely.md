@@ -34,7 +34,7 @@ Our journey to writing a technical book remotely together without having met eac
 
 Three co-authors: [Tom](https://twitter.com/TomHombergs/), [Björn](https://twitter.com/bwilmsmann/), [Philip](https://twitter.com/rieckpil) (that's me).
 
-## How We Got Together ✍🏻
+## How We Got Together 👥
 
 > Luck is what happens when preparation meets opportunity.
 
@@ -211,7 +211,7 @@ On the 08 of November 2020, we released the first manuscript. From this day forw
 
 We started with a base price of $X. Keep in mind that we get 80% royalties but have to split those equally among all authors.
 
-## Iterate For 6-7 Month ♺
+## Iterate For 6-7 Month ✍🏻
 
 What followed where multiple months of meeting every two weeks, discussing the next steps and writing the book. This step-by-step approach gave us the ability to react early on reader feedback and stay motivated as we could release something to the world sometimes.
 
