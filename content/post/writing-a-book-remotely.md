@@ -11,6 +11,14 @@ math: false
 toc: false
 ---
 
+Remaining todos:
+- finalize tips
+- polish intro
+- find a title
+- proofread from top
+- Grammarly
+- Ask Björn and Elliott
+
 Hints for the reviewer:
 - Correct tenses: I describe an event in the past but also sometimes relate to things in the present as we're still doing them.
 
@@ -24,13 +32,15 @@ Titles:
 
 This article describes my one-year journey to write [Stratospheric - From Zero to Production with Spring Boot and AWS](https://stratospheric.dev/) as a co-author with two other co-authors that I met on Twitter. We never met in person before and while writing and still managed to successfully write a 450+ in-depth guide on AWS and Spring Boot.
 
-We self-published this, promotion strategies, connecting to the readers, money side of things, how we organized ourselves, which processes we followed
+We self-published this, promotion strategies, connecting to the readers, money side of things, how we organized ourselves, which processes we followed.
 
 Short intro about this article. What worked, how we organized ourselves.
 
 The book is all about AWS and Spring Boot. Getting your Spring Boot application into production.
 
 Our journey to writing a technical book remotely together without having met each other in person before.
+
+Made a lot of fun, learned a ton about AWS, met and get to know great and knowledgeable people.
 
 Three co-authors: [Tom](https://twitter.com/TomHombergs/), [Björn](https://twitter.com/bwilmsmann/), [Philip](https://twitter.com/rieckpil) (that's me).
 
@@ -304,11 +314,11 @@ We were all super happy with the outcome of the release party and our progress. 
 
 > A book is never finished; it's abandoned. (Gene Fowler)
 
-While still being euphoric about releasing finish the first version of this book within one year, we knew that our journey wouldn't stop here. Right after the release party we all took some time off and focussed more on spreading the news about the release rather than planning what's next.
+While still being euphoric about releasing finish the first version of this book within one year, we knew that our journey wouldn't stop here. Right after the release party, we all took some time off and focussed more on spreading the news about the release rather than planning what's next.
 
-Ever since the release of version 1.0 in August 2021 we see great adoption and based on readers feedback also create a Slack channel for the community of the eBook for Q&A and general communication.
+Ever since the release of version 1.0 in August 2021 we see great adoption and based on readers' feedback and also created a Slack channel for the community of the eBook for Q&A and general communication.
 
-Both Spring Boot and AWS are more or less mature, at least those areas that we talk about: SQS, SES, RDS, web development. Still, there's much going on for the library that we're using for integrating AWS services ([Spring Cloud AWS](https://awspring.io/)). Furthermore, we also learn even better best practices or different ways of doing things.
+Both Spring Boot and AWS are more or less mature, at least those areas that we talk about: SQS, SES, RDS, web development, etc. Still, there's much going on for the library that we're using for integrating AWS services ([Spring Cloud AWS](https://awspring.io/)). Furthermore, we also learn even better best practices or different ways of doing things.
 
 Thanks to the agile nature of Leanpub and given the fact that we don't ship a physical book to our readers, we can still update the eBook post delivery. Leanpub has a feature to notify the readers about a new version that they can then download for free.
 
@@ -322,7 +332,7 @@ On the monetary side of things: We don't get rich from selling this book. It's s
 
 To increase the visibility of our eBook we listed it on Amazon Kindle. While Amazon's royalty rules are not that optimal compared to Leanpub, we primarily list on Amazon to get in front of more developers. Amazon is one of the biggest search interfaces after Google and YouTube.
 
-We thought about a printed eBook but for now postponed this move as we think that our audience is anyway more interested to read technical books on their devices. However, (at least I) want to have a physical copy of this book in my bookshelf somewhere in the future.
+We thought about a printed eBook version but for now postponed this move as we think that our audience is anyway more interested to read technical books on their devices. However, (at least I) want to have a physical copy of this book in my bookshelf somewhere in the future.
 
 Based on the feedback we got so far from our readers, we also decided to build an online course on top of the eBook to provide some more in-depth coverage of various areas. Given my [existing experience with creating and launching technical online courses](https://progmot.com/post/creating-and-selling-my-first-online-course/), this will be a great opportunity to apply my lessons learned from my first courses.
 
@@ -330,43 +340,31 @@ At the time of writing this article, we have 800 readers, which is a great succe
 
 ## Recommendations, Tips & Tricks, and Lessons Learned 🎩
 
-What follows is a unordered list of small hints and tips if you plan to write your in a similar setup.
-
-Made a lot of fun, learned a ton about AWS, met and get to know great and knowledgeable people.
+What follows is an unordered list of hints and tips about this journey. If you plan to start a similar project, make sure to learn from our _mistakes_ and recommendations.
 
 ### Write Together, Not Alone
 
-Writing together motivates to keep going. We all committed to deliver something and had some high level ideas when the next release would be published.
+Writing a book together has a lot of benefits. It motivates you to keep going. We all committed to deliver something every two weeks and had some high-level ideas when the next release would be published.
 
-Especially if it's your first book, writing it alone might feel like a huge project. Together you get better step by step.
+Especially if it's your first book, writing it alone might feel like a big pile of work. Together, you get there step-by-step and can use the momentum of the group.
 
-Furthermore, when writing together, you'll also improve your writing skills as you get constant feedback the writing a lot by getting constant feedback.
+Furthermore, when co-authoring a book, you'll also improve your writing skills as you get constant feedback the writing a lot by getting constant feedback.
 
-### Use an Iterative approach
+We all three had some background in writing technical content that helped us a lot. Starting such a project with three people that have never written any technical blog before, might be a little burdensome.
 
-Iterative approach, collect emails from interested people.
+### Use an Iterative Approach
 
-Pick Leanpub if you want to go the self-publishing route or pick a verlag that supports this.
+We had a rough plan of what we want to cover but also detected a lot along the way.
 
-### Organize and Find a Schedule
+With an iterative approach, you don't lock yourself for a year in a wooden cabin in Norway and come back with a finished book.
 
-Meeting schedules, continuous sprints, peer review
+Small increments, baby steps and direct feedback.
 
-We were using a Trello board for our task planning. We grouped our tasked in columns like: marketing, backlog, in progress, in verify, done.
+Leanpub is the perfect platform for this. Especially if you are a developer, you'll really enjoy writing your manuscript in Markdown. No annoying formatting issues inside Word when entering images or tables. Leanpub does the job your. You just ship your manuscript.
 
-This helped us keep an overview of what is currently in progress and what still needs to be done.
+If you don't want to go the self-publishing route, pick a publisher that supports early access programs.
 
-What personally worked for me was taking the first hour every morning to work on this project.
-
-Commit to some deadlines to keep the focus.
-
-### Reach Out for Advertisement
-
-AWS sponsored us some gift vouchers so that we could run the infrastructure (almost) for free. We could even sponsor a two-part article on the AWS Open Source blog to gain some traction for our project.
-
-Some small donations to keep our infrastructure up and running.
-
-After the book was published, we even got a great donation from AWS for our project via GitHub.
+You might be super convinced about your idea and think it's the most wanted book ever. However, this doesn't necessarily reflect the reality. Get some early mechanisms in place that help you quantify the interest. A mailing list or a dedicated Twitter acount can be such a tool.
 
 Start talking on podcasts, conferences, tweet about it.
 
@@ -400,17 +398,59 @@ This helped us to identify and replace rotten links
 
 Share costs with a simple Google sheet. There are not many positions that we have to pay for each month.
 
+### Organize and Find a Schedule to Keep Momentum
+
+
+There many tools out there. What worked for us was:
+- Trello board with some columns: backlog, in progress, to review, done
+- Meet via Zoom
+- Document standards within the repository
+- Use GitHub Actions for basic automation
+Meeting schedules, continuous sprints, peer review
+
+We were using a Trello board for our task planning. We grouped our tasked in columns like: marketing, backlog, in progress, in verify, done.
+
+This helped us keep an overview of what is currently in progress and what still needs to be done.
+
+What personally worked for me was taking the first hour every morning to work on this project.
+
+Commit to some deadlines to keep the focus.
+
+### Automate What Can be Automated
+
+Use Grammarly,
+
+Link checker example
+
+Linting
+
+### Reach Out for Advertisement
+
+AWS sponsored us some gift vouchers so that we could run the infrastructure (almost) for free. We could even sponsor a two-part article on the AWS Open Source blog to gain some traction for our project.
+
+Some small donations to keep our infrastructure up and running.
+
+After the book was published, we even got a great donation from AWS for our project via GitHub.
+
+
 ### Get an Email Address for Every Author
 
 Feedback channel, signup for shared account with an `info@yourbookname.com`.
 
 We've registered our domain with Route 53, Amazon's DNS Service. We've built a simple self-made email forwarding with AWS SES, S3 and AWS Lambda. If you're curious about the implementation, check out the [source code on GitHub](https://github.com/stratospheric-dev/stratospheric/tree/main/utility/email).
 
-### Work With Checklists and Rotate
+### Work With Checklists
 
 We have checklist for the eBook release that the person in charge for creating a new eBook release can use to avoid missing important steps.
 
+### Rotate the Responsibilites
+
 We also rotate various responsibilites
+
+Everyone should do the release
+No silos
+
+An "author of the week" to respond to GitHub issues, Slack notifications and emails.
 
 ### Centralize the Feedback Channels
 
@@ -459,16 +499,6 @@ body:
 
 Communication then happens on this public issue and everybody can follow the status.
 
-### Basic Landing Page
-
-Go with the simplest setup and GitHub Pages
-
-### Automate Low Hanging Verifications
-
-Use Grammarly,
-
-Link checker example
-
 ### Define Rules for Typesetting and Structure
 
 This would have helped us save some time for the final polishing and is one of the lessons learned.
@@ -482,9 +512,9 @@ Provide a one pager for your authors and some clear definitions on topics like:
 
 ### Have Fun
 
-That's one of the most important parts. Find people that you enjoy working with and that you can learn from.
+That's the most important takeaway. Find people that you enjoy working with and that you can learn from.
 
-It's a side project, enjoy the experience, learn as much as you can. It's your time.
+It's a side project, enjoy the experience, learn as much as you can. It's your spare time. If it feels like a job, don't do it.
 
 Don't expect to become rich by writing a book but use this opportunity to establish a brand in your niche or use it as a form of basic credibility. I'm pretty sure that co-authoring a eBook weighs more than any basic certification for a topic.
 
@@ -508,7 +538,7 @@ Under the slogan _Testing Java Applications Made Simple_ Philip provides recipes
 
 Find out more about Philip on [rieckpil.de](https://rieckpil.de) and his [Twitter profile](https://twitter.com/rieckpil).
 
-PS: If you have further questions or want some more details about a specific topic, let me know in the comments below 👇🏻
+PS: If you have further questions or want some more details about a specific topic, let me know in the comments 👇🏻
 
-Have fun writing your book,\
+Have fun writing your own book,\
 Philip
