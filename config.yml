@@ -82,10 +82,6 @@ params:
     - name: github
       url: "https://github.com/rieckpil"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
