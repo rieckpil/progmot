@@ -336,6 +336,8 @@ We thought about a printed eBook version but for now postponed this move as we t
 
 Based on the feedback we got so far from our readers, we also decided to build an online course on top of the eBook to provide some more in-depth coverage of various areas. Given my [existing experience with creating and launching technical online courses](https://progmot.com/post/creating-and-selling-my-first-online-course/), this will be a great opportunity to apply my lessons learned from my first courses.
 
+Getting to the end of the book, some publishers started to reach out to us. They wanted to publish Stratospheric from their publishing house and bring it to various marketplaces. We . The additional outreach may be great but the royalties are diminishing compared to Leanpub, especially if we have to split them into three equal parts. To stay independent we chose against a publisher and published the eBook ourselves on Amazon to have at least the big search traffic from this major ecommerce platform. We know that Leanpub is a niche site and not all developers are available of this great source of technical books. However, given our existing audience from our blog, newsletter, Twitter, etc. we make our potential readers aware via those channels.
+
 At the time of writing this article, we have 800 readers, which is a great success 🥳
 
 ## Recommendations, Tips & Tricks, and Lessons Learned 🎩
@@ -344,7 +346,9 @@ What follows is an unordered list of hints and tips about this journey. If you p
 
 ### Write Together, Not Alone
 
-Writing a book together has a lot of benefits. It motivates you to keep going. We all committed to deliver something every two weeks and had some high-level ideas when the next release would be published.
+Writing a book together has a lot of benefits. It motivates you to keep going when you would otherwise quite when working on your own.
+
+We committed to deliver something every two weeks and had some high-level ideas when the next release would be published. This goal-based work allowed us to not drift off and work towards the next milestone.
 
 Especially if it's your first book, writing it alone might feel like a big pile of work. Together, you get there step-by-step and can use the momentum of the group.
 
@@ -354,103 +358,122 @@ We all three had some background in writing technical content that helped us a l
 
 ### Use an Iterative Approach
 
-We had a rough plan of what we want to cover but also detected a lot along the way.
+With an iterative approach, you don't have to lock yourself for a year in a wooden cabin in Norway and come back with a finished book.
 
-With an iterative approach, you don't lock yourself for a year in a wooden cabin in Norway and come back with a finished book.
+Start small. Deliver small increments, baby steps and get feedback early.
 
-Small increments, baby steps and direct feedback.
+We had a rough plan of what we want to cover but also adjusted a lot along the way.
 
-Leanpub is the perfect platform for this. Especially if you are a developer, you'll really enjoy writing your manuscript in Markdown. No annoying formatting issues inside Word when entering images or tables. Leanpub does the job your. You just ship your manuscript.
+Leanpub is the perfect platform for this. Especially if you are a developer, you'll really enjoy writing your manuscript in Markdown. No annoying formatting issues inside Word when trying to center images or tables.
+
+Leanpub does the lay-outing and file generation job your. You just ship your manuscript.
 
 If you don't want to go the self-publishing route, pick a publisher that supports early access programs.
 
-You might be super convinced about your idea and think it's the most wanted book ever. However, this doesn't necessarily reflect the reality. Get some early mechanisms in place that help you quantify the interest. A mailing list or a dedicated Twitter acount can be such a tool.
-
-Start talking on podcasts, conferences, tweet about it.
+You might be super convinced about your idea and think it's the most wanted book ever. However, this doesn't necessarily reflect the reality. Get some early feedback mechanisms in place that help you quantify the interest. A mailing list or a dedicated Twitter account can be such a tool.
 
 ### Use Simple Tools
 
-Keep it simple, shared logins for the tools.
+Keep it simple. Use free plans and share the login with your co-authors if necessary.
+
+You can scale the tools and costs with your eBook's success.
 
 For our landing page we purchased a bootstrap HTML theme for some bucks and adjusted it to our needs. During the inception phase of the project and while the eBook was not at 100, we primarily used the landing page to attract potential readers. Our landing page had (and still has) a newsletter subscription form to keep potential readers around.
 
-Used tools:
-- Gramarly for basic proofeading typos
+We started with the free plan of ConvertKit and recently migrated to MailLite. The MailerLite pricing and plan structure was better for our needs.
+
+Some other tools/services that we used:
+- Grammarly for basic proofreading typos
 - Writing the eBook in their editor of choice. I personally used IntelliJ IDEA most of the time. I tweaked the editor setting to wrap the lines so that I can write more naturally without having to horizontally scroll endlessly or buy a curved monitor.
+- Fiverr for designing creatives, the logo and the eBook cover
+- GitHub for collaboration and review
+- Google Sheet to keep track of our costs
+- Slack for internal and external (with the community) communication
 
-GitHub's suggestion feature for the PR. Show example. The collaboration makes fun. Immediate feedback and now need to send Word files via email and use the comment functionality of Word.
+### Find a Schedule to Keep Momentum
 
-Leanpub removed the barriers of formatting a nice-looking PDF and publishing it in various formats.
+What helped us to keep the writing flow going was a fixed schedule. We met every two weeks for one hour and did a status updated and planned the next steps.
 
-Getting to the end of the book, some publishers started to reach out to us. They wanted to publish Stratospheric from their publishing house and bring it to various marketplaces. We . The additional outreach may be great but the royalties are diminishing compared to Leanpub, especially if we have to split them into three equal parts. To stay independent we chose against a publisher and published the eBook ourselves on Amazon to have at least the big search traffic from this major ecommerce platform. We know that Leanpub is a niche site and not all developers are available of this great source of technical books. However, given our existing audience from our blog, newsletter, Twitter, etc. we make our potential readers aware via those channels.
-
-Running Grammarly to spot low-hanging fruits when it comes to grammar and typos.
-
-Automation: We could even directly release from the main branch, but we prefer to still do it manually. PDF, Kindle, ePub format.
-
-With currently more than 700 readers
-
-Adding links for further resources is both a curse and a blessing. It allows the interested reader to dive deeper into a topic. However, the links rotten over time and may no longer be accessible as the content might have moved or the site got shutdown. We automated the hyperlink verification with a small GitHub Action and a npm package that checks all links (also internal manuscript links) on each commit:
-
-SHOW Link verify mechanism.
-
-This helped us to identify and replace rotten links
-
-Share costs with a simple Google sheet. There are not many positions that we have to pay for each month.
-
-### Organize and Find a Schedule to Keep Momentum
-
-
-There many tools out there. What worked for us was:
-- Trello board with some columns: backlog, in progress, to review, done
-- Meet via Zoom
-- Document standards within the repository
+What worked for us was:
+- A Trello board with four columns: backlog, in progress, to review, done
+- Meetings via Zoom
+- Document writing standards within the repository
 - Use GitHub Actions for basic automation
-Meeting schedules, continuous sprints, peer review
-
-We were using a Trello board for our task planning. We grouped our tasked in columns like: marketing, backlog, in progress, in verify, done.
-
-This helped us keep an overview of what is currently in progress and what still needs to be done.
 
 What personally worked for me was taking the first hour every morning to work on this project.
 
-Commit to some deadlines to keep the focus.
+### Automate What Can Be Automated
 
-### Automate What Can be Automated
+As we all had a software developer background, we tried to automate everything that we could. We could have also automated the eBook publishing using Leanpub's API.
 
-Use Grammarly,
+GitHub Actions makes automations almost effortless.
 
-Link checker example
+Adding links for further resources is both a curse and a blessing. It allows the interested reader to dive deeper into a topic. However, the links rotten over time and may no longer be accessible as the content might have moved or the site got shut down.
 
-Linting
+We automated the hyperlink verification with a small GitHub Action and a npm package that checks all links (also internal manuscript links) on each commit:
+
+```
+name: Check for broken links
+on: [push, pull_request]
+jobs:
+  broken-link-check:
+    runs-on: ubuntu-latest
+    name: Check for broken links in all Markdown files
+    steps:
+      - name: Check out source code
+        uses: actions/checkout@v3
+
+      - name: Set up Node 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'npm'
+
+      - name: Install NPM packages
+        run: npm install
+
+      - name: Check for broken links
+        run: npm run check-links
+```
 
 ### Reach Out for Advertisement
 
-AWS sponsored us some gift vouchers so that we could run the infrastructure (almost) for free. We could even sponsor a two-part article on the AWS Open Source blog to gain some traction for our project.
+Start talking about your eBook on podcasts, conferences, and tweet about it as soon as possible.
 
-Some small donations to keep our infrastructure up and running.
+We reached out to an AWS developer advocate during the inception phase to find possible ways of collaboration.
 
-After the book was published, we even got a great donation from AWS for our project via GitHub.
+AWS ha sponsored us some gift vouchers so that we could run the infrastructure (almost) for free. We could even sponsor a two-part article on the AWS Open Source blog to gain some traction for our project:
 
+- [Getting started with Spring Boot on AWS: Part 1](https://aws.amazon.com/blogs/opensource/getting-started-with-spring-boot-on-aws-part-1/)
+- [Getting started with Spring Boot on AWS: Part 2](https://aws.amazon.com/blogs/opensource/getting-started-with-spring-boot-on-aws-part-2/)
+
+The [German AWS Podcast](https://german-aws-podcast.libsyn.com/33-von-null-auf-produktion-mit-spring-boot-und-aws) from Dennis Traub (AWS Developer Advocate) was also a great initiative to spread the word.
+
+After finishing the book, AWS even sponsored us $2500 on GitHub.
 
 ### Get an Email Address for Every Author
 
-Feedback channel, signup for shared account with an `info@yourbookname.com`.
+That's an optional recommendation, but we made good experience with having a dedicated email for each co-author and a basic catch-all email like `info@yourbookname.com`.
 
 We've registered our domain with Route 53, Amazon's DNS Service. We've built a simple self-made email forwarding with AWS SES, S3 and AWS Lambda. If you're curious about the implementation, check out the [source code on GitHub](https://github.com/stratospheric-dev/stratospheric/tree/main/utility/email).
 
 ### Work With Checklists
 
-We have checklist for the eBook release that the person in charge for creating a new eBook release can use to avoid missing important steps.
+Whenever there was something that we couldn't or didn't want to automate, we created a checklist for it.
 
-### Rotate the Responsibilites
+This way we didn't forget a step for tasks that we only occasionally performed.
 
-We also rotate various responsibilites
+As an example, this is our checklist for publishing a new eBook version:
 
-Everyone should do the release
-No silos
+![Stratospheric Sample Checklist](/img/stratospheric-ebook/stratospheric-sample-check-list-example.png#center "Stratospheric Sample Checklist")
 
-An "author of the week" to respond to GitHub issues, Slack notifications and emails.
+### Rotate the Responsibilities
+
+To avoid a single point of failure within the co-author team and to mix things up, we rotated the various responsibilities.
+
+Everyone should release a new eBook version every now and then.
+
+We also have an "author of the week" that keeps an eye on our feedback channels and is the first responder and coordinator for GitHub issues, Slack notifications and emails.
 
 ### Centralize the Feedback Channels
 
