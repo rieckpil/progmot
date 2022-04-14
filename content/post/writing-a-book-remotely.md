@@ -11,30 +11,27 @@ math: false
 toc: false
 ---
 
-Hints for the reviewer:
-- Correct tenses: I describe an event in the past but also sometimes relate to things in the present as we're still doing them.
-
-Titles:
-(more positive word for lessons learned)
+Ideas for the main title:
+(looking for a more positive word for lessons learned, Retrospective?)
 - Lessons Learned: Writing a Technical eBook Remotely Without Ever Meeting In Person Before
 - Lessons Learned: Writing a Technical eBook Remotely
 - Interconnected World: Writing a Technical eBook Remotely
 - How To Write a Technical eBook Remotely Without Every Meeting
 - How we managed to write a book about AWS remotely
 
-This article describes my one-year journey to write [Stratospheric - From Zero to Production with Spring Boot and AWS](https://stratospheric.dev/) as a co-author with two other co-authors that I met on Twitter. We never met in person before and while writing and still managed to successfully write a 450+ in-depth guide on AWS and Spring Boot.
+This article describes a one-year journey of writing [Stratospheric - From Zero to Production with Spring Boot and AWS](https://stratospheric.dev/) as a co-author with two other co-authors that I met on Twitter. We never met in person before and managed to successfully write a 450+ in-depth guide on developing and deploying Java Spring Boot applications on AWS (Amazon Web Services).
 
-We self-published this, promotion strategies, connecting to the readers, money side of things, how we organized ourselves, which processes we followed.
+In short, this article covers: ,
+- How we self-published this eBook while writing the manuscript in Markdown
+- How we promoted and sold the eBook
+- How we organized ourselves to write the eBook in an asynchronous fashion while having 8hour time span
+- General tips, recommendations and lessons learned
 
-Short intro about this article. What worked, how we organized ourselves.
+The whole project made (and still makes) a lot of fun. I learned a ton about AWS and got the chance to connect and work with knowledgeable and nice people.
 
-The book is all about AWS and Spring Boot. Getting your Spring Boot application into production.
+The three co-authors are: [Tom](https://twitter.com/TomHombergs/) (🇩🇪 living in 🇦🇺), [Björn](https://twitter.com/bwilmsmann/) (🇩🇪), [Philip](https://twitter.com/rieckpil) (🇩🇪 - that's me).
 
-Our journey to writing a technical book remotely together without having met each other in person before.
-
-Made a lot of fun, learned a ton about AWS, met and get to know great and knowledgeable people.
-
-Three co-authors: [Tom](https://twitter.com/TomHombergs/), [Björn](https://twitter.com/bwilmsmann/), [Philip](https://twitter.com/rieckpil) (that's me).
+Let's get started 🚀
 
 ## How We Got Together 👥
 
