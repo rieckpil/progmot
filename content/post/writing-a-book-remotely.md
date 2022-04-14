@@ -526,16 +526,27 @@ The rendered version of this template looks like the following:
 
 Whenever a reader now asks a question via any other channel, we redirect them to GitHub and ask them to submit their message there.
 
-### Define Rules for Typesetting and Structure
+### Define Rules for Typesetting and Structural Elements
 
-This would have helped us save some time for the final polishing and is one of the lessons learned.
+This would have helped us save some time for the final polishing and is one of our main lessons learned.
 
-Provide a one pager for your authors and some clear definitions on topics like:
-- when to use *bold*
-- When to use an infobox
-- header structure
-- How and which screenshot to take
-- max. number of links on a page
+Three different authors have three different opinions on when to use bold or italics. Sometimes there are even four opinions if you forget which rules you applied yesterday.
+
+Examples for this include:
+
+- When to use *bold*?
+- When to use _italics_?
+- When to use an infobox?
+- How to structure the headers?
+- How and which screenshot to take?
+- What is an acceptable number of links on a book page?
+- etc.
+
+During our early manuscript reviews we did not cover and align those rules in detail. Only during the final proofreading session we encountered that there's a mix and it's not consistent throughout the book.
+
+As a result, we now have some basic standards on when and how to highlight sections or single words.
+
+If you're starting from scratch, take some time with your authors to define clear definitions and create a one-pager for your typesetting rules.
 
 ### Have Fun
 
