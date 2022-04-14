@@ -11,14 +11,6 @@ math: false
 toc: false
 ---
 
-Remaining todos:
-- finalize tips
-- polish intro
-- find a title
-- proofread from top
-- Grammarly
-- Ask Björn and Elliott
-
 Hints for the reviewer:
 - Correct tenses: I describe an event in the past but also sometimes relate to things in the present as we're still doing them.
 
@@ -455,7 +447,7 @@ After finishing the book, AWS even sponsored us $2500 on GitHub.
 
 That's an optional recommendation, but we made good experience with having a dedicated email for each co-author and a basic catch-all email like `info@yourbookname.com`.
 
-We've registered our domain with Route 53, Amazon's DNS Service. We've built a simple self-made email forwarding with AWS SES, S3 and AWS Lambda. If you're curious about the implementation, check out the [source code on GitHub](https://github.com/stratospheric-dev/stratospheric/tree/main/utility/email).
+We've registered our domain within Amazon Route 53. We've built a simple self-made email forwarding with Amazon SES, S3 and AWS Lambda. If you're curious about the implementation, check out the [source code on GitHub](https://github.com/stratospheric-dev/stratospheric/tree/main/utility/email).
 
 ### Work With Checklists
 
@@ -477,16 +469,24 @@ We also have an "author of the week" that keeps an eye on our feedback channels 
 
 ### Centralize the Feedback Channels
 
-- private DMs
-- Emails to our eBook domain and/or private domain
+Righter after the first readers got their copy, we started to get an increasing amount of messages via various channels:
+
+- private DMs on Twitter
+- Emails to our eBook email address and/or private email address
 - Slack messages
 - Feedback via Leanpub
+- GitHub issues
+- etc.
 
-Had to keep track, coordinate and show transparently the status. We now route every feedback to an GitHub issue.
+The various channels made it hard for us to keep track of all inquiries. Coordinating the response among the co-author is difficult if someone gets a private Twitter DM.
 
-To make sure every issue/typo/feedback includes some minimal requirments like the eBook version to which this issue refers, we've created a GitHub issue template.
+Furthermore, many of these feedback channels lack transparency. If we wrote an answer to a specific question via email, no other reader would benefit from the response as the conversation only happens within two inboxes.
 
-We have two, both for feedback to the application itslef (more technical) and one for the eBook:
+Back then we decided to channel all feedback via public GitHub issues. Everyone can follow the status of the issue, can chime in and see a list of already answered technical questions or feedback.
+
+To streamline the feedback channel via GitHub issues and to ensure each issue contains some minimal required information (e.g. version of the eBook), we've created two GitHub issue templates: one for general feedback to the book and one for technical questions/issues with the sample application.
+
+The GitHub issue template is backed by a YAML file and describes the required input fields:
 
 `.github/ISSUE_TEMPLATE/BOOK-FEEDBACK.yml`
 
@@ -520,7 +520,11 @@ body:
       description: What would you suggest to change or what do you expect as a reader?
 ```
 
-Communication then happens on this public issue and everybody can follow the status.
+The rendered version of this template looks like the following:
+
+![Centralized Feedback via GitHub Issues](/img/stratospheric-ebook/stratospheric-ebook-create-github-issue.png#center "Centralized Feedback via GitHub Issues")
+
+Whenever a reader now asks a question via any other channel, we redirect them to GitHub and ask them to submit their message there.
 
 ### Define Rules for Typesetting and Structure
 
