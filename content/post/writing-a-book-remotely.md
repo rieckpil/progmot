@@ -1,7 +1,6 @@
 ---
 title: "Writing a Book Remotely Without Ever Meeting In Person Before"
 date: 2022-04-12T09:27:17+02:00
-slug: ""
 description: "TODO"
 keywords: []
 cover:
