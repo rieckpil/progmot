@@ -554,7 +554,7 @@ That's the most important takeaway. Find people that you enjoy working with and 
 
 It's a side project, enjoy the experience, learn as much as you can. It's your spare time. If it feels like a job, don't do it.
 
-Don't expect to become rich by writing a book but use this opportunity to establish a brand in your niche or use it as a form of basic credibility. I'm pretty sure that co-authoring a eBook weighs more than any basic certification for a topic.
+Don't expect to become rich by writing a book but use this opportunity to establish a brand in your niche or use it as a form of credibility. I'm pretty sure that co-authoring an eBook weighs more than any basic certification for a topic.
 
 ## About the eBook Authors 🙋‍♂️
 
