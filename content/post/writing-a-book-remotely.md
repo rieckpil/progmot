@@ -41,8 +41,6 @@ While scrolling through my Twitter feed I saw a fellow technical blogger reachin
 
 Small anecdote how it started with a simple Tweet by Tom.
 
-TODO: Include Tweet with Twitter Embed
-
 {{< tweet user="TomHombergs" id="1278635778722000902" >}}
 
 We next met with the intent to share experience as tech bloggers. During the second or third meeting of this kind, Tom asked for fellow bloggers that would be interested in taking a closer look at AWS and Spring Boot and may want to write about it.
@@ -135,7 +133,7 @@ Leanpub is also build around the concept: Publish Early, Publish Often. They fav
 
 Each [Leanpub eBook landing page](https://leanpub.com/stratospheric) provides information about the completeness and when the last changes were published:
 
-TODO: ADD completeness image
+![Stratospheric Completeness Bar](/img/stratospheric-ebook/leanpub-completness-bar-stratospheric-example.png#center "Stratospheric Completeness Bar")
 
 Leanpub even allows creating preview versions of the eBook that we heavily used to see a rendered version of our recent changes. This helped us quite a lot when preparing a new eBook version.
 
@@ -155,7 +153,7 @@ Every co-author would work on their own branch and push their chapters to their 
 
 What's great about this review process is that we could leverage the review features of GitHub. This allowed the reviewing person to directly make suggestions like fixing a typo or structuring the sentence. These suggestions could be then added automatically by the review owner:
 
-TODO: Image of PR comments
+![Providing Feedback via GitHub Pull Requests](/img/stratospheric-ebook/github-pull-request-suggestion-example.png#center "Providing Feedback via GitHub Pull Requests")
 
 This way of working felt way more convenient than using a PDF reader, making comments and annotations to the file and then sending it over to the owner of the changes.
 
