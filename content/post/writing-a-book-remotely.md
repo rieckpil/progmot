@@ -23,7 +23,7 @@ This article describes a one-year journey of writing [Stratospheric - From Zero 
 In short, this article covers: ,
 - How we self-published this eBook while writing the manuscript in Markdown
 - How we promoted and sold the eBook
-- How we organized ourselves to write the eBook in an asynchronous fashion while having 8hour time spans
+- How we organized ourselves to write the eBook in an asynchronous fashion while having a 8hour time lag
 - General tips, recommendations and lessons learned
 
 The whole project was (and still is) a lot of fun. I learned a ton about AWS and got the chance to connect and work with knowledgeable and nice people.
@@ -38,8 +38,6 @@ Let's get started 🚀
 
 While scrolling through my Twitter feed, I saw a fellow technical blogger reaching out to other bloggers to organize a small knowledge exchange.
 
-A small anecdote on how it started with a simple Tweet by Tom.
-
 {{< tweet user="TomHombergs" id="1278635778722000902" >}}
 
 We next met with the intention of sharing experience as tech bloggers. During the second or third meeting of this kind, Tom asked for fellow bloggers that would be interested in taking a closer look at AWS and Spring Boot and may want to write about it.
@@ -52,7 +50,7 @@ We organized a separate meeting to discuss more details and to get to know each 
 
 Before we started to work on this project we met several times to get to know each other and align our goals and expectations. While all three of us were working full-time for clients/an employer, we set the common understanding that this would be a fun side project.
 
-We all have had some experience with AWS and Java in the past but wanted to learn more about this cloud provider in depth. When developing features for clients or customers we usually never had the time to explore the variety of AWS services available. 
+We all have had some experience with AWS and Java in the past but wanted to learn more about this cloud provider in depth. When developing features for clients or customers we usually never had the time to explore the variety of AWS services available.
 
 One major goal of this remote writing project was to get better at developing Java applications on AWS. As Spring Boot was our default technology stack back then, the choice came naturally to write about this niche.
 
@@ -68,13 +66,13 @@ Personal goals:
 
 This included the current experience with AWS and what our plans with this project would be.
 
-Furthermore, the development journey doesn't stop when changing an implementation ticket to done and merging the code changes. Now, the fun part begins as our code runs in production.
+Furthermore, the development journey doesn't stop when merging the code changes and moving a Jira ticket to the done column. Now, the fun part begins as our code runs in production.
 
 If we are in the lucky position to maintain and operate our own service (DevOps done right), we will correspond with the following questions that arise sooner or later:
 
 - How do I know my service is healthy and operating as expected?
 - What's the current average response time for my most important API endpoint?
-- What happened with the application yesterday night? As one of our users was complaining about errors.
+- What happened with the application yesterday night? Our support team got a user complaint.
 - Where can I find and filter the logs from last Sunday?
 - etc.
 
@@ -92,7 +90,7 @@ Packed with these ideas, we then got started with the project.
 
 We then started to met constantly every two weeks via Zoom and created a Slack workspace for communication and coordination. We organized ourselves in a Scrum-like setup and planned our two week _sprints_ with a Trello board. These bi-weekly Zoom calls were a mix of a daily review, and a planning session.
 
-There wasn't any story point or product owner, we were all intrinsically motivated to get stuff done and used 
+There wasn't any story point or product owner, we were all intrinsically motivated to get stuff done and used
 positive peer pressure, as everyone was reporting what they achieved in the last two weeks.
 
 As a first step, we wanted to develop a small proof of concept application to explore which areas we could write about. We wanted our readers to complete the journey from knowing only a bit about AWS to having an automated CI/CD pipeline that deploys their application to production.
@@ -163,8 +161,6 @@ All that's left to do is click the release button inside Leanpub to build a new 
 
 ## Getting the First Readers aka. Early Feedback 📖
 
-(having something to show, i.e. a basic landing page, getting a cover, trouble with the naming, first versions on Leanpub)
-
 Given the fact that we had figured out how to sell the eBook and how to write it, we now had to start writing the eBook.
 
 We naturally found how to split the work and who would write what based on our own interests. While Björn and I were more focused on implementing features for the sample application and connecting various AWS services, Tom was more into the CI/CD and infrastructure setup.
@@ -220,7 +216,7 @@ As all three of us run a blog anyway, have an audience on Twitter and some of us
 
 To spread the news about our project, we tweeted about our current progress occasionally. To stay in contact with existing and potential readers, we tried to get as many of them on our landing page and signing up for our mailing list.
 
-We used both our social media channels and the mailing list to tease= and give constant updates about our progress. Whenever we released a new version, we wrote a mailing list update and slightly increased the price.
+We used both our social media channels and the mailing list to tease and give constant updates about our progress. Whenever we released a new version, we wrote a mailing list update and slightly increased the price.
 
 To mix up the person in charge of writing the mailing list update, we rotated among all co-authors.
 
@@ -339,7 +335,7 @@ We committed to deliver something every two weeks and had some high-level ideas 
 
 Especially if it's your first book, writing it alone might feel like a big pile of work. Together, you get there step-by-step and can use the momentum of the group.
 
-Furthermore, when co-authoring a book, you'll also improve your writing skills as you get constant feedback from other co-authors. 
+Furthermore, when co-authoring a book, you'll also improve your writing skills as you get constant feedback from other co-authors.
 
 We all had some background in writing technical content that helped us a lot. Starting such a project with three people that had never written any technical blog before might be a little burdensome.
 
