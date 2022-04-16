@@ -317,13 +317,13 @@ Whenever there's a new update for our eBook, we also send out a small release in
 
 On the monetary side of things: We don't get rich from selling this book. It's some additional pocket money for us in the range of $150-300 for every author each month.
 
-To increase the visibility of our eBook we listed it on Amazon Kindle. While Amazon's royalty rules are not that optimal compared to Leanpub, we primarily list on Amazon to get in front of more developers. Amazon is one of the biggest search interfaces after Google and YouTube.
+To increase the visibility of our eBook, we listed it on Amazon Kindle. While Amazon's royalty rules are not that generous compared to Leanpub, we primarily list on Amazon to get in front of more developers. Amazon is one of the biggest search interfaces after Google and YouTube.
 
-We thought about a printed eBook version but for now postponed this move as we think that our audience is anyway more interested to read technical books on their devices. However, (at least I) want to have a physical copy of this book in my bookshelf somewhere in the future.
+We thought about a printed eBook version, but for now postponed this move as we think that our audience is anyway more interested to read technical books on their devices. However, (at least I) want to have a physical copy of this book in my bookshelf somewhere in the future.
 
-Based on the feedback we got so far from our readers, we also decided to build an online course on top of the eBook to provide some more in-depth coverage of various areas. Given my [existing experience with creating and launching technical online courses](https://progmot.com/post/creating-and-selling-my-first-online-course/), this will be a great opportunity to apply my lessons learned from my first courses.
+Based on the feedback received so far, we also decided to build an online course on top of the eBook to provide some more in-depth coverage of various areas. Given my [existing experience with creating and launching technical online courses](https://progmot.com/post/creating-and-selling-my-first-online-course/), this will be a great opportunity to apply my lessons learned from my first courses.
 
-Getting to the end of the book, some publishers started to reach out to us. They wanted to publish Stratospheric from their publishing house and bring it to various marketplaces. We . The additional outreach may be great but the royalties are diminishing compared to Leanpub, especially if we have to split them into three equal parts. To stay independent we chose against a publisher and published the eBook ourselves on Amazon to have at least the big search traffic from this major ecommerce platform. We know that Leanpub is a niche site and not all developers are available of this great source of technical books. However, given our existing audience from our blog, newsletter, Twitter, etc. we make our potential readers aware via those channels.
+Getting to the end of the book, some publishers started to reach out to us. They wanted to publish Stratospheric from their publishing house and bring it to various marketplaces.  The additional outreach may be great, but the royalties are diminishing compared to Leanpub, especially if we have to split them into three equal parts. To stay independent we chose against a publisher and published the eBook ourselves on Amazon to have at least the big search traffic from this major e-commerce platform. We know that Leanpub is a niche site and not all developers are aware of this great source of technical books. However, given our existing audience from our blog, newsletter, Twitter, etc, we make our potential readers aware via those channels.
 
 At the time of writing this article, we have 800 readers, which is a great success 🥳
 
@@ -333,15 +333,15 @@ What follows is an unordered list of hints and tips about this journey. If you p
 
 ### Write Together, Not Alone
 
-Writing a book together has a lot of benefits. It motivates you to keep going when you would otherwise quite when working on your own.
+Writing a book together has a lot of benefits. It motivates you to keep going when you would otherwise have quit when working on your own.
 
-We committed to deliver something every two weeks and had some high-level ideas when the next release would be published. This goal-based work allowed us to not drift off and work towards the next milestone.
+We committed to deliver something every two weeks and had some high-level ideas regarding when the next release would be published. This goal-based work allowed us to not drift off and work towards the next milestone.
 
 Especially if it's your first book, writing it alone might feel like a big pile of work. Together, you get there step-by-step and can use the momentum of the group.
 
-Furthermore, when co-authoring a book, you'll also improve your writing skills as you get constant feedback the writing a lot by getting constant feedback.
+Furthermore, when co-authoring a book, you'll also improve your writing skills as you get constant feedback from other co-authors. 
 
-We all three had some background in writing technical content that helped us a lot. Starting such a project with three people that have never written any technical blog before, might be a little burdensome.
+We all had some background in writing technical content that helped us a lot. Starting such a project with three people that had never written any technical blog before might be a little burdensome.
 
 ### Use an Iterative Approach
 
@@ -349,15 +349,15 @@ With an iterative approach, you don't have to lock yourself for a year in a wood
 
 Start small. Deliver small increments, baby steps and get feedback early.
 
-We had a rough plan of what we want to cover but also adjusted a lot along the way.
+We had a rough plan of what we wanted to cover, but also adjusted a lot along the way.
 
 Leanpub is the perfect platform for this. Especially if you are a developer, you'll really enjoy writing your manuscript in Markdown. No annoying formatting issues inside Word when trying to center images or tables.
 
-Leanpub does the lay-outing and file generation job your. You just ship your manuscript.
+Leanpub does the lay-out and file generation jobs for your. All you have to do is ship the manuscript.
 
-If you don't want to go the self-publishing route, pick a publisher that supports early access programs.
+If you don't want to go towards the self-publishing route, pick a publisher that supports early access programs.
 
-You might be super convinced about your idea and think it's the most wanted book ever. However, this doesn't necessarily reflect the reality. Get some early feedback mechanisms in place that help you quantify the interest. A mailing list or a dedicated Twitter account can be such a tool.
+You might be super convinced about your idea and think it's the most genius book ever. However, this doesn't necessarily reflect the reality. Get some early feedback mechanisms in place that help you quantify the interest. A mailing list or a dedicated Twitter account can be such a tool.
 
 ### Use Simple Tools
 
@@ -365,7 +365,7 @@ Keep it simple. Use free plans and share the login with your co-authors if neces
 
 You can scale the tools and costs with your eBook's success.
 
-For our landing page we purchased a bootstrap HTML theme for some bucks and adjusted it to our needs. During the inception phase of the project and while the eBook was not at 100, we primarily used the landing page to attract potential readers. Our landing page had (and still has) a newsletter subscription form to keep potential readers around.
+For our landing page, we purchased a bootstrap HTML theme for some bucks and adjusted it to our needs. During the inception phase of the project and while the eBook was not at 100%, we primarily used the landing page to attract potential readers. Our landing page had (and still has) a newsletter subscription form to keep potential readers around.
 
 We started with the free plan of ConvertKit and recently migrated to MailLite. The MailerLite pricing and plan structure was better for our needs.
 
@@ -379,7 +379,7 @@ Some other tools/services that we used:
 
 ### Find a Schedule to Keep Momentum
 
-What helped us to keep the writing flow going was a fixed schedule. We met every two weeks for one hour and did a status updated and planned the next steps.
+What helped us to keep the writing flow going was a fixed schedule. We met every two weeks for one hour and did a status update before planning the next steps.
 
 What worked for us was:
 - A Trello board with four columns: backlog, in progress, to review, done
@@ -395,7 +395,7 @@ As we all had a software developer background, we tried to automate everything t
 
 GitHub Actions makes automations almost effortless.
 
-Adding links for further resources is both a curse and a blessing. It allows the interested reader to dive deeper into a topic. However, the links rotten over time and may no longer be accessible as the content might have moved or the site got shut down.
+Adding links for further resources is both a curse and a blessing. It allows the interested reader to dive deeper into a topic. However, the links disappear over time and may no longer be accessible as the content might have moved, or the site may have been shut down.
 
 We automated the hyperlink verification with a small GitHub Action and a npm package that checks all links (also internal manuscript links) on each commit:
 
@@ -456,7 +456,7 @@ As an example, this is our checklist for publishing a new eBook version:
 
 ### Rotate the Responsibilities
 
-To avoid a single point of failure within the co-author team and to mix things up, we rotated the various responsibilities.
+To avoid a single point of failure within the co-author team, and to mix things up, we rotated the various responsibilities.
 
 Everyone should release a new eBook version every now and then.
 
@@ -464,7 +464,7 @@ We also have an "author of the week" that keeps an eye on our feedback channels 
 
 ### Centralize the Feedback Channels
 
-Righter after the first readers got their copy, we started to get an increasing amount of messages via various channels:
+Right after the first readers got their copy, we started to get an increasing amount of messages via various channels:
 
 - private DMs on Twitter
 - Emails to our eBook email address and/or private email address
@@ -477,7 +477,7 @@ The various channels made it hard for us to keep track of all inquiries. Coordin
 
 Furthermore, many of these feedback channels lack transparency. If we wrote an answer to a specific question via email, no other reader would benefit from the response as the conversation only happens within two inboxes.
 
-Back then we decided to channel all feedback via public GitHub issues. Everyone can follow the status of the issue, can chime in and see a list of already answered technical questions or feedback.
+Back then, we decided to channel all feedback via public GitHub issues. Everyone can follow the status of the issue, can chime in and see a list of already answered technical questions or feedback.
 
 To streamline the feedback channel via GitHub issues and to ensure each issue contains some minimal required information (e.g. version of the eBook), we've created two GitHub issue templates: one for general feedback to the book and one for technical questions/issues with the sample application.
 
@@ -537,9 +537,9 @@ Examples for this include:
 - What is an acceptable number of links on a book page?
 - etc.
 
-During our early manuscript reviews we did not cover and align those rules in detail. Only during the final proofreading session we encountered that there's a mix and it's not consistent throughout the book.
+During our early manuscript reviews, we did not cover and align those rules in detail. Only during the final proofreading session did we encountered the issue of mixing, and this means it is not consistent throughout the book.
 
-As a result, we now have some basic standards on when and how to highlight sections or single words.
+As a result, we now have some basic standards on when and how to highlight sections, or single words.
 
 If you're starting from scratch, take some time with your authors to define clear definitions and create a one-pager for your typesetting rules.
 
@@ -549,7 +549,7 @@ That's the most important takeaway. Find people that you enjoy working with and 
 
 It's a side project, enjoy the experience, learn as much as you can. It's your spare time. If it feels like a job, don't do it.
 
-Don't expect to become rich by writing a book but use this opportunity to establish a brand in your niche or use it as a form of credibility. I'm pretty sure that co-authoring an eBook weighs more than any basic certification for a topic.
+Don't expect to become rich by writing a book but instead use this opportunity to establish a brand in your niche or use it as a form of credibility. I'm pretty sure that co-authoring an eBook weighs more than any basic certification for a specific topic.
 
 ## About the eBook Authors 🙋‍♂️
 
