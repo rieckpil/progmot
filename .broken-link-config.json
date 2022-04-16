@@ -7,6 +7,9 @@
       "pattern": "/img/*"
     },
     {
+      "pattern": "https://twitter.com/*"
+    },
+    {
       "pattern": "https://rieckpil.de/a/auna-mic"
     }
   ]
