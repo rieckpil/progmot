@@ -54,7 +54,7 @@ One primary goal of this remote writing project was to get better at developing 
 
 While there are many books on AWS in general, none talks about the full cycle of bringing a Java Spring Boot application to production on AWS.
 
-Showcasing shiny features and machine learning capabilities of AWS is great, but teams also struggle to design an automated CI/CD pipeline to push their changes automatically on AWS.
+Showcasing shiny features and machine learning capabilities of AWS is great, but many teams still struggle to design an automated CI/CD pipeline to push their changes automatically to AWS.
 
 Furthermore, the development journey doesn't stop when merging the code changes and moving a Jira ticket to the done column. Now, the fun part begins as our code runs in production.
 
@@ -68,7 +68,7 @@ If we are in the lucky position to maintain and operate our own service (DevOps 
 
 In short, this brought us to the following high-level goals for our readers that also influenced our manuscript:
 
-1. Educate about AWS and IaaC with the AWS CDK
+1. Educate about AWS and IaC (Infrastructure as Code) with the AWS CDK
 2. Develop Spring Boot with meaningful features (e.g., email notifications or OAuth2 login) while integrating as many AWS services as possible
 3. Educate about best practices for running Spring Boot applications in production on AWS: monitoring, alerting, observability, etc.
 
