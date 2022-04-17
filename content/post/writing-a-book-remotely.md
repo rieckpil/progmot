@@ -82,36 +82,34 @@ Packed with these ideas, we then got started with the project.
 
 ## How We Got Started 🛫
 
-(first Poc, outline chapters, start writing, some technical hints on the worklfow, why Leanpub)
-
-We then started to met constantly every two weeks via Zoom and created a Slack workspace for communication and coordination. We organized ourselves in a Scrum-like setup and planned our two week _sprints_ with a Trello board. These bi-weekly Zoom calls were a mix of a daily review, and a planning session.
+We then started to meet constantly every two weeks via Zoom and created a Slack workspace for communication and coordination. We organized ourselves in a Scrum-like setup and planned our two-week _sprints_ with a Trello board. These bi-weekly Zoom calls were a mix of a daily review and a planning session.
 
 There wasn't any story point or product owner, we were all intrinsically motivated to get stuff done and used
 positive peer pressure, as everyone was reporting what they achieved in the last two weeks.
 
 As a first step, we wanted to develop a small proof of concept application to explore which areas we could write about. We wanted our readers to complete the journey from knowing only a bit about AWS to having an automated CI/CD pipeline that deploys their application to production.
 
-For the tech-stack, we picked what we felt most comfortable with: Java and Spring Boot with Spring Cloud AWS.
+We picked what we felt most comfortable with for the tech stack: Java and Spring Boot with Spring Cloud AWS.
 
-Besides, exploring AWS services on the go, every one of us had stories and best practices for various AWS services to share that the other co-authors could learn from.
+Besides exploring AWS services on the go, we all had stories and best practices for various AWS services to share that the other co-authors could learn from.
 
 Once we had a working sample application running on AWS and we were confident that the topic we were about to write added value, we started writing the book. We first sketched out a table of contents and started working on the different chapters in parallel.
 
 We created a new AWS account for this project, and added three IAM users for us. Next, we created a GitHub organization that acted as an umbrella container for all related code repositories for this eBook project.
 
-We more or less split this PoC time into two areas: automating the infrastructure setup with CloudFormation and developing a sample application. Back then we started with `.yaml` CloudFormation templates but moved quickly to the promising AWS CDK project.
+We more or less split this PoC time into two areas: automating the infrastructure setup with CloudFormation and developing a sample application. Back then, we started with `.yaml` CloudFormation templates but moved quickly to the promising AWS CDK project.
 
-As soon as we had a container cluster (ECS) with an automated CI/CD pipeline and the sample application with some basic features likes login with AWS Cognito and storing data within RDS ready, we started to plan the next steps.
+As soon as we had a container cluster (ECS) with an automated CI/CD pipeline and the sample application with some basic features like login with AWS Cognito and storing data within RDS ready, we started to plan the next steps.
 
 This pilot area took about 2-3 months.
 
-Next we needed to decide how we would write this book. The main question we had to answer was: should we talk to a publisher and pitch our idea or self-publish the whole thing?
+Next, we had to decide how we would write this book. The main question we had to answer was: should we talk to a publisher and pitch our idea or self-publish the whole thing?
 
 As this project was a side-project for all three of us and not what we do full time, we all agreed that working with a formal publisher was not an option for us: working towards given deadlines and having to deliver a final piece on a fixed date was something we clearly wanted to avoid.
 
 Furthermore, Tom already self-published his first book and then got a technical publisher on board to offer a print version and more distribution channels. Based on his experience and the common understanding, that this project may also fail, we went for the self-publishing approach.
 
-When it comes to self-publishing book in the tech space, [Leanpub](https://leanpub.com/) is the de-facto choice.
+For self-publishing books in the tech space, [Leanpub](https://leanpub.com/) seemed to be the de-facto choice.
 
 Leanpub is really appealing for self-publishing tech authors as they offer the following:
 
@@ -135,15 +133,15 @@ We went for Leanpub because it's tech-friendly, easy-to-setup and offers fair ro
 
 Having signed up for Leanpub, it was now time to finalize the technical setup to then get our hands dirty and start writing.
 
-Working daily with GitHub, we choose a private GitHub repository for backing our manuscript markdown files. This allowed for a more seamless flow compared to uploading the files to a shared DropBox folder. With GitHub, we get versioning, automations with GitHub Actions, collaboration tools and a great feedback mechanism via pull requests.
+Working daily with GitHub, we choose a private GitHub repository for backing our manuscript markdown files. This allowed for a more seamless flow compared to uploading the files to a shared DropBox folder. We get versioning, automations with GitHub Actions, collaboration tools, and a great feedback mechanism via pull requests with GitHub.
 
 We used the following branching strategy for the eBook:
 
-- `main` -> generate eBook releases on Leanpub
-- `preview` -> generate previews on Leanpub
-- `personal-feature-branch` -> every co-author works in isolation on their next chapter
+- `main`: generate eBook releases on Leanpub
+- `preview`: generate previews on Leanpub
+- `personal-feature-branch`: every co-author works in isolation on their next chapter
 
-Every co-author would work on their own branch and push their chapters to their dedicated branch. Once completed, we created a pull request to merge into the `preview` branch. This triggered our review process where all other co-authors reviewed the new section one after the other.
+Every co-author would work on their own branch and push their chapters to their dedicated branch. Once completed, we created a pull request to merge into the `preview` branch. This triggered our review process, where all other co-authors reviewed the new section one after the other.
 
 What's great about this review process is that we could leverage the review features of GitHub. This allowed the reviewer to directly make suggestions like fixing a typo or structuring the sentence. These suggestions could be then added automatically by the review owner:
 
@@ -151,9 +149,9 @@ What's great about this review process is that we could leverage the review feat
 
 This way of working felt way more convenient than using a PDF reader, making comments and annotations to the file, and then sending it over to the owner of the changes.
 
-After the review is completed by both other co-authors (six eye principle), we integrated the change into the `preview` branch to collect multiple chapters for the next release. Once every two month or so we then created the next work in progress release by merging the changes to the `main` branch.
+After the review was completed by both co-authors (six eye principle), we integrated the change into the `preview` branch to collect multiple chapters for the next release. Once every two months or so, we created the next work in progress release by merging the changes to the `main` branch.
 
-All that's left to do is click the release button inside Leanpub to build a new digital version of our eBook. Theoretically, we can even automate this and publish a new release on each commit for the `main` branch.
+All that's left is to click the release button inside Leanpub to build a new digital version of our eBook. Theoretically, we can even automate this and publish a new release for the `main` branch on each commit.
 
 ## Getting the First Readers aka. Early Feedback 📖
 
