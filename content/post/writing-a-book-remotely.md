@@ -190,7 +190,7 @@ Before releasing the first version, we had to finalize our eBook title and find 
 
 As the book is all about getting ready for the cloud and effectively deploying applications to production in the cloud, the icon of a launching rocket seemed suitable. We started with the placeholder project name `aws101`. However, as this was clearly violating the trademarks of AWS, we had to find another name.
 
-After some brainstorming for possible names, we ended up with `Stratospheric`.
+After some brainstorming for possible names, we ended up with `Stratospheric`. Much like the rocket icon, that term is fits the "cloud" metaphor quite nicely.
 
 We ordered two design examples for the logo on Fiverr and picked the best one:
 
