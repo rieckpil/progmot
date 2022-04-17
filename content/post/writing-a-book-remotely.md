@@ -202,19 +202,19 @@ We started with a base price of $10, which we increased with each revision. Reme
 
 ## Iterate For 6-7 Month ✍🏻
 
-What followed were multiple months of meeting every two weeks, discussing the next steps and writing the book. This step-by-step approach gave us the ability to react to early reader feedback and stay motivated as we could release something out to the world.
+What followed were multiple months of meeting every two weeks, discussing the next steps, and writing the book. This step-by-step approach allowed us to react to early reader feedback and stay motivated as we could release something out to the world.
 
 I've used this same iterative approach with an [early bird audience for my first online course](https://progmot.com/post/creating-and-selling-my-first-online-course/).
 
-While you may have the best eBook or product, if your potential readers and customers are not getting in front of it then it may be a waste of time.
+While you may have the best eBook or product, if your potential readers and customers are not getting in front of it, it may be a waste of time.
 
-As all three of us run a blog anyway, have an audience on Twitter and some of us a mailing list, we started off with an existing target audience.
+As all three of us run a blog anyway, have an audience on Twitter, and some of us a mailing list, we started off with an existing target audience.
 
 To spread the news about our project, we tweeted about our current progress occasionally. To stay in contact with existing and potential readers, we tried to get as many of them on our landing page and signing up for our mailing list.
 
-We used both our social media channels and the mailing list to tease and give constant updates about our progress. Whenever we released a new version, we wrote a mailing list update and slightly increased the price.
+We used both our social media channels and the mailing list to tease and give constant updates about our progress. We wrote a mailing list update and slightly increased the price whenever we released a new version. This created scarcity for the existing audience to get the copy early while the manuscript was still in development.
 
-To mix up the person in charge of writing the mailing list update, we rotated among all co-authors.
+Furthermore, we rotated among all co-authors to mix up the person in charge of writing the mailing list update.
 
 Those that got their eBook early, got it for the lowest price which is fair as they trusted in our project from day one.
 
