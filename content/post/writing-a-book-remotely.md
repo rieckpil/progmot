@@ -21,7 +21,7 @@ This article describes a one-year journey of writing [Stratospheric - From Zero 
 In short, this article covers:
 - How we self-published this eBook while writing the manuscript in Markdown
 - How we promoted and sold the eBook
-- How we organized ourselves to write the eBook asynchronously while having an 8hour time lag
+- How we organized ourselves to write the eBook asynchronously while having an 8-hour time lag
 - General tips, recommendations, and lessons learned for co-authoring a technical eBook
 
 The whole project was (and still is) a lot of fun. I learned a ton about AWS and got the chance to connect and work with knowledgeable and nice people.
