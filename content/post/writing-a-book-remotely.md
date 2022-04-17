@@ -1,26 +1,24 @@
 ---
-title: "Writing a Book Remotely Without Ever Meeting In Person Before"
-date: 2022-04-12T09:27:17+02:00
-description: "TODO"
-keywords: []
+title: "Writing and Self-Publishing a Non-fiction Book With Strangers"
+date: 2021-10-22T10:09:00+02:00
+slug: "/writing-and-self-publishing-a-non-fiction-book-with-strangers"
+author: "Philip"
+summary: "A one-year retrospect after co-authoring and self-publishing a technical eBook about Spring Boot and AWS with co-authors I met on Twitter."
+description: "A one-year retrospect after co-authoring and self-publishing a technical eBook about Spring Boot and AWS with co-authors I met on Twitter."
 cover:
+  image: "/img/features-images/writing-a-book-remotely.png"
+  alt: "Writing and Self-Publishing a Non-fiction Book With Strangers"
+  caption: "Writing and Self-Publishing a Non-fiction Book With Strangers"
+  relative: false
+keywords: []
 draft: false
 tags: []
-math: false
-toc: false
+ShowToc: true
 ---
-
-Ideas for the main title:
-(looking for a more positive word for lessons learned, Retrospective?)
-- Lessons Learned: Writing a Technical eBook Remotely Without Ever Meeting In Person Before
-- Lessons Learned: Writing a Technical eBook Remotely
-- Interconnected World: Writing a Technical eBook Remotely
-- How To Write a Technical eBook Remotely Without Every Meeting
-- How we managed to write a book about AWS remotely
 
 This article describes a one-year journey of writing [Stratospheric - From Zero to Production with Spring Boot and AWS](https://stratospheric.dev/) as a co-author with two other co-authors that I met on Twitter. We have never met in person before and managed to successfully write a 450+ in-depth guide on developing and deploying Java Spring Boot applications on AWS (Amazon Web Services).
 
-In short, this article covers: ,
+In short, this article covers:
 - How we self-published this eBook while writing the manuscript in Markdown
 - How we promoted and sold the eBook
 - How we organized ourselves to write the eBook in an asynchronous fashion while having a 8hour time lag
