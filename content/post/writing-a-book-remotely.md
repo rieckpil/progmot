@@ -567,6 +567,8 @@ Björn Wilmsmann is an independent IT consultant who helps companies transform t
 
 Find out more about Björn on [bjoernkw.com](https://bjoernkw.com) and his [Twitter profile](https://twitter.com/bwilmsmann).
 
+Additional kudos belong to Björn, as he helped me finalize and proofread this article.
+
 ### Philip Riecks (That's Me)
 
 Under the slogan _Testing Java Applications Made Simple_ Philip provides recipes and tips & tricks to accelerate your testing success and make testing joyful (or at least less painful). Apart from blogging, he's a course instructor for various Java-related online courses and is active on YouTube.
