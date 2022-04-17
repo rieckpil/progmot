@@ -517,7 +517,7 @@ The rendered version of this template looks like the following:
 
 ![Centralized Feedback via GitHub Issues](/img/stratospheric-ebook/stratospheric-ebook-create-github-issue.png#center "Centralized Feedback via GitHub Issues")
 
-Whenever a reader now asks a question via any other channel, we redirect them to GitHub and ask them to submit their message there.
+Whenever a reader now asks a question via any other channel, we redirect them to [GitHub](https://github.com/stratospheric-dev/stratospheric/issues) and ask them to submit their message there.
 
 ### Define Rules for Typesetting and Structural Elements
 
