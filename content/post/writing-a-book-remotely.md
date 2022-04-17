@@ -337,29 +337,29 @@ What follows is an unordered list of hints and tips about this journey. If you p
 
 Writing a book together has a lot of benefits. It motivates you to keep going when you would otherwise have quit when working on your own.
 
-We committed to deliver something every two weeks and had some high-level ideas regarding when the next release would be published. This goal-based work allowed us to not drift off and work towards the next milestone.
+We committed to delivering something every two weeks and had some high-level ideas regarding when the next release would be published. This goal-based work allowed us not to drift off and work towards the next milestone.
 
-Especially if it's your first book, writing it alone might feel like a big pile of work. Together, you get there step-by-step and can use the momentum of the group.
+Especially if it's your first book, writing it alone might feel like a big pile of work. Together, you get there step-by-step and can use the group's momentum.
 
-Furthermore, when co-authoring a book, you'll also improve your writing skills as you get constant feedback from other co-authors.
+Furthermore, when co-authoring a book, you'll also improve your writing skills by getting constant feedback from other co-authors.
 
-We all had some background in writing technical content that helped us a lot. Starting such a project with three people that had never written any technical blog before might be a little burdensome.
+We all had some background in writing technical content, which helped us a lot. Starting such a project with three people who had never written any technical blog before might be burdensome.
 
 ### Use an Iterative Approach
 
 With an iterative approach, you don't have to lock yourself for a year in a wooden cabin in Norway and come back with a finished book.
 
-Start small. Deliver small increments, baby steps and get feedback early.
+Start small. Deliver small increments, do baby steps, and get feedback early.
 
-We had a rough plan of what we wanted to cover, but also adjusted a lot along the way.
+We had a rough plan of what we wanted to cover but also adjusted a lot along the way.
 
 Leanpub is the perfect platform for this. Especially if you are a developer, you'll really enjoy writing your manuscript in Markdown. No annoying formatting issues inside Word when trying to center images or tables.
 
-Leanpub does the lay-out and file generation jobs for your. All you have to do is ship the manuscript.
+Leanpub does the layout and file generation jobs for you. All you have to do is ship the manuscript.
 
-If you don't want to go towards the self-publishing route, pick a publisher that supports early access programs.
+Pick a publisher that supports early access programs if you don't want to go towards the self-publishing route.
 
-You might be super convinced about your idea and think it's the most genius book ever. However, this doesn't necessarily reflect the reality. Get some early feedback mechanisms in place that help you quantify the interest. A mailing list or a dedicated Twitter account can be such a tool.
+You might be super convinced about your idea and think it's the most genius book ever. However, this doesn't necessarily reflect reality. Get some early feedback mechanisms in place that help you quantify the interest. A mailing list or a dedicated Twitter account can be such a tool.
 
 ### Use Simple Tools
 
@@ -367,14 +367,14 @@ Keep it simple. Use free plans and share the login with your co-authors if neces
 
 You can scale the tools and costs with your eBook's success.
 
-For our landing page, we purchased a bootstrap HTML theme for some bucks and adjusted it to our needs. During the inception phase of the project and while the eBook was not at 100%, we primarily used the landing page to attract potential readers. Our landing page had (and still has) a newsletter subscription form to keep potential readers around.
+We purchased a Bootstrap-based HTML theme for our landing page for some bucks and adjusted it to our needs. During the project's inception phase, and while the eBook was not at 100%, we primarily used the landing page to attract potential readers. Our landing page had (and still has) a newsletter subscription form to keep potential readers around.
 
 We started with the free plan of ConvertKit and recently migrated to MailLite. The MailerLite pricing and plan structure was better for our needs.
 
 Some other tools/services that we used:
-- Grammarly for basic proofreading typos
-- Writing the eBook in their editor of choice. I personally used IntelliJ IDEA most of the time. I tweaked the editor setting to wrap the lines so that I can write more naturally without having to horizontally scroll endlessly or buy a curved monitor.
-- Fiverr for designing creatives, the logo and the eBook cover
+- Grammarly for fundamental proofreading and typos
+- Writing the eBook in their editor of choice. I personally used IntelliJ IDEA most of the time.  I tweaked the editor settings to wrap the lines so that I can write more naturally without having to scroll endlessly horizontally or buy a curved monitor.
+- Fiverr for designing creatives, the logo, and the eBook cover
 - GitHub for collaboration and review
 - Google Sheet to keep track of our costs
 - Slack for internal and external (with the community) communication
@@ -395,11 +395,11 @@ What personally worked for me was taking the first hour every morning to work on
 
 As we all had a software developer background, we tried to automate everything that we could. We could have also automated the eBook publishing using Leanpub's API.
 
-GitHub Actions makes automations almost effortless.
+GitHub Actions makes such automations almost effortless.
 
 Adding links for further resources is both a curse and a blessing. It allows the interested reader to dive deeper into a topic. However, the links disappear over time and may no longer be accessible as the content might have moved, or the site may have been shut down.
 
-We automated the hyperlink verification with a small GitHub Action and a npm package that checks all links (also internal manuscript links) on each commit:
+We automated the hyperlink verification with a small GitHub Action and an npm package that checks all links (also internal manuscript links) on each commit:
 
 ```
 name: Check for broken links
@@ -431,26 +431,26 @@ Start talking about your eBook on podcasts, conferences, and tweet about it as s
 
 We reached out to an AWS developer advocate during the inception phase to find possible ways of collaboration.
 
-AWS ha sponsored us some gift vouchers so that we could run the infrastructure (almost) for free. We could even sponsor a two-part article on the AWS Open Source blog to gain some traction for our project:
+AWS has sponsored us with some gift vouchers so that we could run the infrastructure (almost) for free. We could even sponsor a two-part article on the AWS Open Source blog to gain some traction for our project:
 
 - [Getting started with Spring Boot on AWS: Part 1](https://aws.amazon.com/blogs/opensource/getting-started-with-spring-boot-on-aws-part-1/)
 - [Getting started with Spring Boot on AWS: Part 2](https://aws.amazon.com/blogs/opensource/getting-started-with-spring-boot-on-aws-part-2/)
 
 The [German AWS Podcast](https://german-aws-podcast.libsyn.com/33-von-null-auf-produktion-mit-spring-boot-und-aws) from Dennis Traub (AWS Developer Advocate) was also a great initiative to spread the word.
 
-After finishing the book, AWS even sponsored us $2500 on GitHub.
+After finishing the book, AWS even sponsored us for $2500 on GitHub.
 
 ### Get an Email Address for Every Author
 
-That's an optional recommendation, but we made good experience with having a dedicated email for each co-author and a basic catch-all email like `info@yourbookname.com`.
+That's an optional recommendation, but we had a good experience with having a dedicated email for each co-author and a basic catch-all email like `info@yourbookname.com`.
 
-We've registered our domain within Amazon Route 53. We've built a simple self-made email forwarding with Amazon SES, S3 and AWS Lambda. If you're curious about the implementation, check out the [source code on GitHub](https://github.com/stratospheric-dev/stratospheric/tree/main/utility/email).
+We've registered our domain within Amazon Route 53. We've built a simple self-made email forwarding with Amazon SES, S3, and AWS Lambda. If you're curious about the implementation, check out the [source code on GitHub](https://github.com/stratospheric-dev/stratospheric/tree/main/utility/email).
 
 ### Work With Checklists
 
 Whenever there was something that we couldn't or didn't want to automate, we created a checklist for it.
 
-This way we didn't forget a step for tasks that we only occasionally performed.
+This way, we didn't forget a step for tasks that we only occasionally performed.
 
 As an example, this is our checklist for publishing a new eBook version:
 
@@ -458,11 +458,11 @@ As an example, this is our checklist for publishing a new eBook version:
 
 ### Rotate the Responsibilities
 
-To avoid a single point of failure within the co-author team, and to mix things up, we rotated the various responsibilities.
+To avoid a single point of failure within the co-author team and mix things up, we rotated the various responsibilities.
 
 Everyone should release a new eBook version every now and then.
 
-We also have an "author of the week" that keeps an eye on our feedback channels and is the first responder and coordinator for GitHub issues, Slack notifications and emails.
+We also have an "author of the week" that keeps an eye on our feedback channels and is the first responder and coordinator for GitHub issues, Slack notifications, and emails.
 
 ### Centralize the Feedback Channels
 
@@ -479,9 +479,9 @@ The various channels made it hard for us to keep track of all inquiries. Coordin
 
 Furthermore, many of these feedback channels lack transparency. If we wrote an answer to a specific question via email, no other reader would benefit from the response as the conversation only happens within two inboxes.
 
-Back then, we decided to channel all feedback via public GitHub issues. Everyone can follow the status of the issue, can chime in and see a list of already answered technical questions or feedback.
+Back then, we decided to channel all feedback via public GitHub issues. Everyone can follow the status of the issue, can chime in, and see a list of already answered technical questions or feedback.
 
-To streamline the feedback channel via GitHub issues and to ensure each issue contains some minimal required information (e.g. version of the eBook), we've created two GitHub issue templates: one for general feedback to the book and one for technical questions/issues with the sample application.
+To streamline the feedback channel via GitHub issues and to ensure each issue contains some minimal required information (e.g., version of the eBook), we've created two GitHub issue templates: one for general feedback on the book and one for technical questions/issues with the sample application.
 
 The GitHub issue template is backed by a YAML file and describes the required input fields:
 
@@ -529,7 +529,7 @@ This would have helped us save some time for the final polishing and is one of o
 
 Three different authors have three different opinions on when to use bold or italics. Sometimes there are even four opinions if you forget which rules you applied yesterday.
 
-Examples for this include:
+Examples of this include:
 
 - When to use *bold*?
 - When to use _italics_?
@@ -539,9 +539,9 @@ Examples for this include:
 - What is an acceptable number of links on a book page?
 - etc.
 
-During our early manuscript reviews, we did not cover and align those rules in detail. Only during the final proofreading session did we encountered the issue of mixing, and this means it is not consistent throughout the book.
+We did not cover and align those rules in detail during our early manuscript reviews. During the final proofreading session, we encountered the issue of non-consistent sentence highlighting.
 
-As a result, we now have some basic standards on when and how to highlight sections, or single words.
+As a result, we now have some basic standards on when and how to highlight sections or single words.
 
 If you're starting from scratch, take some time with your authors to define clear definitions and create a one-pager for your typesetting rules.
 
@@ -549,9 +549,9 @@ If you're starting from scratch, take some time with your authors to define clea
 
 That's the most important takeaway. Find people that you enjoy working with and that you can learn from.
 
-It's a side project, enjoy the experience, learn as much as you can. It's your spare time. If it feels like a job, don't do it.
+It's a side project, enjoy the experience, and learn as much as you can. It's your spare time. If it feels like a job, don't do it.
 
-Don't expect to become rich by writing a book but instead use this opportunity to establish a brand in your niche or use it as a form of credibility. I'm pretty sure that co-authoring an eBook weighs more than any basic certification for a specific topic.
+Don't expect to become rich by writing a book but instead, use this opportunity to establish a brand in your niche or use it as a form of credibility. I'm pretty sure that co-authoring an eBook weighs more than any basic certification for a specific topic.
 
 ## About the eBook Authors 🙋‍♂️
 
@@ -569,7 +569,7 @@ Find out more about Björn on [bjoernkw.com](https://bjoernkw.com) and his [Twit
 
 ### Philip Riecks (That's Me)
 
-Under the slogan _Testing Java Applications Made Simple_ Philip provides recipes and tips & tricks to accelerate your testing success and make testing joyful (or at least less painful). Apart from blogging, he's a course instructor for various Java-related online courses and active on YouTube.
+Under the slogan _Testing Java Applications Made Simple_ Philip provides recipes and tips & tricks to accelerate your testing success and make testing joyful (or at least less painful). Apart from blogging, he's a course instructor for various Java-related online courses and is active on YouTube.
 
 Find out more about Philip on [rieckpil.de](https://rieckpil.de) and his [Twitter profile](https://twitter.com/rieckpil).
 
