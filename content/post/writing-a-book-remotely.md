@@ -48,7 +48,7 @@ We organized a separate meeting to discuss more details and to get to know each 
 
 Before we started to work on this project, we met several times to get to know each other and align our goals and expectations. While all three of us were working full-time for clients/an employer, we set the common understanding that this would be a fun side project.
 
-We all have had some experience with AWS but wanted to learn more about this cloud provider in depth. When developing features for clients or customers, we usually never had the time to explore the variety of AWS services available.
+We all have had some experience with AWS but wanted to learn more about this particular cloud provider in depth. When developing features for clients or customers, we usually never had the time to explore the variety of AWS services available.
 
 One primary goal of this remote writing project was to get better at developing Java applications on AWS. As Spring Boot was our default technology stack back then, the choice came naturally to write about this niche.
 
