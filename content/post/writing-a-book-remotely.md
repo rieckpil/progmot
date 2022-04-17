@@ -1,6 +1,6 @@
 ---
 title: "Writing and Self-Publishing a Non-fiction Book With Strangers"
-date: 2022-04-19T10:00:00+02:00
+date: 2022-04-18T10:00:00+02:00
 slug: "/writing-and-self-publishing-a-non-fiction-book-with-strangers"
 author: "Philip"
 summary: "A one-year retrospect after co-authoring and self-publishing a technical ebook about Spring Boot and AWS with co-authors I met on Twitter."
@@ -34,7 +34,7 @@ Let's get started 🚀
 
 > Luck is what happens when preparation meets opportunity.
 
-While scrolling through my Twitter feed, I saw a fellow technical blogger reaching out to other bloggers to exchange knowledge and ideas.
+While scrolling through my Twitter feed, I saw a fellow technical blogger reaching out to other bloggers to exchange knowledge and ideas:
 
 {{< tweet user="TomHombergs" id="1278635778722000902" >}}
 

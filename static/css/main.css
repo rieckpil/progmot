@@ -2,3 +2,9 @@ img[src$='#center'] {
   display: block;
   margin: 0.7rem auto;
 }
+
+.twitter-tweet-rendered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
