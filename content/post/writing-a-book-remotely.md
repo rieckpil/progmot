@@ -40,7 +40,7 @@ While scrolling through my Twitter feed, I saw a fellow technical blogger reachi
 
 We next met with the intention of sharing our experience as tech bloggers. During the second or third meeting of this kind, Tom asked for fellow bloggers who'd interested in taking a closer look at AWS and Spring Boot and who may want to write about it.
 
-Björn and I, participating in this meeting, raised our hands. We've never met each other before. We partially knew each other from reading our blogs and Tweets.
+Björn and I, participating in this meeting, raised our hands. We've never met each other before and only partially knew each other from reading each other's blogs and Tweets.
 
 We organized a separate meeting to discuss more details and to get to know each other.
 
