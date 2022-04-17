@@ -11,6 +11,9 @@
     },
     {
       "pattern": "https://rieckpil.de/a/auna-mic"
+    },
+    {
+      "pattern": "https://www.amazon.de/gp/help/customer/*"
     }
   ]
 }
