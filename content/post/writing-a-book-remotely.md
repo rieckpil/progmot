@@ -38,8 +38,6 @@ While scrolling through my Twitter feed, I saw a fellow technical blogger reachi
 
 {{< tweet user="TomHombergs" id="1278635778722000902" >}}
 
-{{ < tweet-single 1278635778722000902>}}
-
 We next met with the intention of sharing our experience as tech bloggers. During the second or third meeting of this kind, Tom asked for fellow bloggers who'd interested in taking a closer look at AWS and Spring Boot and who may want to write about it.
 
 Björn and I, participating in this meeting, raised our hands. We've never met each other before and only partially knew each other from reading each other's blogs and Tweets.
@@ -292,8 +290,6 @@ From the ~50 accepted invitations, twenty people showed up on a Sunday afternoon
 After this 50 minutes of content, we released the final version of Stratospheric together with the audience by hitting the "Publish Now" button in Leanpub _together_ live during the video call.
 
 {{< tweet user="rieckpil" id="1421811091152191488" >}}
-
-{{ < tweet-single 1421811091152191488 >}}
 
 We recorded this release party for those that couldn't make it to the live event on the 1st of August 2021 and [uploaded the video on YouTube](https://www.youtube.com/watch?v=oaWEKvVXucU):
 
