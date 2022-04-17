@@ -216,23 +216,31 @@ We used both our social media channels and the mailing list to tease and give co
 
 Furthermore, we rotated among all co-authors to mix up the person in charge of writing the mailing list update.
 
-Those that got their eBook early, got it for the lowest price which is fair as they trusted in our project from day one.
+Those who got their eBook early got it for the lowest price, which is fair as they trusted our project from day one.
 
-While we originally planned to use AWS CloudFormation templates for our infrastructure setup, we decided to rework the existing setup and use the AWS Cloud Development Kit (CDK). The AWS CDK was getting more and more traction and this would also be a big USP as not many literatures uses the CDK already.
+While we originally planned to use AWS CloudFormation templates for our infrastructure setup, we decided to rework the existing setup and use the AWS Cloud Development Kit (CDK). The AWS CDK was getting more and more traction, and this would also be a big USP as not much literature uses the CDK already.
 
 On a high level, we ended up with these main modules for the eBook:
 
 1. Getting Started with AWS
 
-Getting used to AWS, its interfaces, its services, the management console and how to automate the infrastructure deployment. This includes an introduction to the AWS CDK, our [custom CDK constructs Java library](https://github.com/stratospheric-dev/cdk-constructs) and some design decision for building a CI/CD pipeline with GitHub Actions.
+Getting used to AWS, its interfaces, its services, the management console, and how to automate the infrastructure deployment. This includes an introduction to the AWS CDK, our [custom CDK constructs Java library](https://github.com/stratospheric-dev/cdk-constructs), and some design decisions for building a CI/CD pipeline with GitHub Actions.
 
 2. Building the Sample Application
 
-Next, we dive into the actual application development and how to build many must-have features of today's application while connecting to various AWS services: OAuth2 Login and user management with AWS Cognito, email delivery with SES, websockets for live updates, asynchronous workload operation with AWS SQS, storing data in a relational database with RDS. We showcase the integration with AWS and Spring Boot based on meaningful feature implementations and enrich our sample Todo application with every chapter.
+Next, we dive into the actual application development. We showcase building must-have features while connecting to various AWS services:
+
+- OAuth2 Login and user management with AWS Cognito
+- email delivery with SES
+- real-time browser notifications with WebSockets and Amazon MQ
+- asynchronous workload operations with AWS SQS
+- storing data in a relational database with RDS
+
+We showcase the integration with AWS and Spring Boot based on meaningful feature implementations and enrich our sample Todo application with every chapter.
 
 3. Operating and Monitoring and Applications in Production on AWS
 
-Production is where the fun begins. We don't stop after developing the last feature and also cover monitoring and operating our Spring Boot application in production. This includes topics like structured logging, Amazon CloudWatch alerts, emitting metrics, creating operational dashboard, etc.
+Production is where the fun begins. We don't stop after developing the last feature and also cover monitoring and operating our Spring Boot application in production. This includes topics like structured logging, Amazon CloudWatch alerts, emitting metrics, creating operational dashboards, etc.
 
 Looking back, these were the times we released a new _work in progress_ eBook version:
 
@@ -253,11 +261,11 @@ The last release was the one that took the longest. Like you always hear, the re
 
 ... this was also true for us.
 
-We had some final content to write but our biggest effort went into final proofreading and alignment of the manuscript.
+We had some final content to write, but our most considerable effort went into final proofreading and alignment of the manuscript.
 
-With three people on the team, everyone was doing their screenshots, custom diagrams, header structure, etc. slightly different, and we wanted to have a common style through the book.
+With three people on the team, everyone was doing their screenshots, custom diagrams, header structure, etc., slightly different, and we wanted to have a common style throughout the book.
 
-Furthermore, everyone had a different understanding on when to use a *bold*, _italic_ statement or when to use an info box. This was something we wanted to unify across the book.
+Furthermore, everyone had a different understanding on when to use a *bold*, _italic_ statement, or when to use an infobox. This was something we wanted to unify across the book.
 
 Next, we also replaced some of our architecture and information diagrams with nice-looking [Excalidraw](https://excalidraw.com/) diagrams:
 
@@ -267,15 +275,15 @@ These finalization parts took almost two months as we also read the eBook from s
 
 In total, we ended up with 450 pages of high-value content about Spring Boot and AWS.
 
-The version `1.0` should be both feature complete as well as polished. We knew that our eBook journey didn't stop there, but wanted to finally move the completion needle on Leanpub to 100%.
+The version 1.0 should be both feature-complete as well as polished. We knew that our eBook journey didn't stop there but wanted to move the completion needle on Leanpub to 100%.
 
 As the finalization of the manuscript went closer, we thought about the best possible way to announce and release version 1.0.
 
 We were invited to the [German AWS Podcast](https://german-aws-podcast.libsyn.com/33-von-null-auf-produktion-mit-spring-boot-und-aws) from Dennis Traub (AWS Developer Advocate) and could talk about our own AWS cloud journey and advertise the eBook a bit.
 
-On top of this podcast, we decided to organize a release party and invited both the existing eBook readers and other interested persons from our audience.
+On top of this podcast, we decided to organize a release party and invited both our audience's existing eBook readers and other interested persons.
 
-For this release party we prepared a one-hour agenda where we talked about the content of the book, showcased the sample application and the CI/CD workflow and had some time left for a Q&A session.
+We prepared a one-hour agenda for this release party where we talked about the book's content, showcased the sample application and the CI/CD workflow, and had some time left for a Q&A session.
 
 From the ~50 accepted invitations, twenty people showed up on a Sunday afternoon to celebrate the release with us.
 
@@ -287,7 +295,7 @@ We recorded this release party for those that couldn't make it to the live event
 
 {{< youtube oaWEKvVXucU >}}
 
-We were all super happy with the outcome of the release party and with our progress. At that time, we already had 500 readers and were getting more and more attention.
+We were all super happy with the outcome of the release party and with our progress. At that time, we already had 500 readers and got more and more attention.
 
 ## Life After the 1.0 Release 🏗
 
@@ -295,11 +303,11 @@ We were all super happy with the outcome of the release party and with our progr
 
 While still being euphoric about releasing finish the first version of this book within one year, we knew that our journey wouldn't stop here. Right after the release party, we all took some time off and focused more on spreading the news about the release rather than planning what was next.
 
-Ever since the release of version 1.0 in August 2021, we see great adoption based on readers' feedback, and also created a Slack channel for the community of the eBook for Q&A and general communication.
+Since the release of version 1.0 in August 2021, we have seen tremendous adoption. The feedback from the readers is also excellent. We also created a Slack channel for Q&A and general communication for the ebook community.
 
 Both Spring Boot and AWS are more or less mature, at least in the areas that we talk about: SQS, SES, RDS, web development, etc. Still, there's much going on for the library that we're using for integrating AWS services ([Spring Cloud AWS](https://awspring.io/)). Furthermore, we also learn even better best practices or different ways of doing things.
 
-Thanks to the agile nature of Leanpub and given the fact that we didn't have to ship a physical book to our readers, we are still able to update the eBook post delivery. Leanpub has a feature to notify the readers about a new version that they can then download for free.
+Thanks to the agile nature of Leanpub and given the fact that we didn't have to ship a physical book to our readers, we are still able to update the eBook post-delivery. Leanpub has a feature to notify the readers about a new version that they can then download for free.
 
 While we had no strict roadmap in mind, we all agreed to keep this book up-to-date to avoid a stale book.
 
@@ -307,15 +315,17 @@ Whenever there's a new update for our eBook, we also send out a small release in
 
 ![Stratospheric Post Release Mailing List Update](/img/stratospheric-ebook/stratospheric-post-release-mailing-list-update.png#center "Stratospheric Post Release Mailing List Update")
 
-On the monetary side of things: We don't get rich from selling this book. It's some additional pocket money for us in the range of $150-300 for every author each month.
+On the monetary side, we don't get rich from selling this book. It's some additional pocket money for us in the range of $150-300 for every author each month.
 
-To increase the visibility of our eBook, we listed it on Amazon Kindle. While Amazon's royalty rules are not that generous compared to Leanpub, we primarily list on Amazon to get in front of more developers. Amazon is one of the biggest search interfaces after Google and YouTube.
+To increase the visibility of our eBook, we listed it on Amazon Kindle. While Amazon's royalty rules are not that generous compared to Leanpub, we primarily list on Amazon to get in front of more developers. Amazon is one of the most significant search interfaces after Google and YouTube.
 
-We thought about a printed eBook version, but for now postponed this move as we think that our audience is anyway more interested to read technical books on their devices. However, (at least I) want to have a physical copy of this book in my bookshelf somewhere in the future.
+We thought about a printed eBook version, but for now, we postponed this move as we believe our audience is more interested in reading technical books on their devices anyway. However, (at least I) want to have a physical copy of this book on my bookshelf somewhere in the future.
 
 Based on the feedback received so far, we also decided to build an online course on top of the eBook to provide some more in-depth coverage of various areas. Given my [existing experience with creating and launching technical online courses](https://progmot.com/post/creating-and-selling-my-first-online-course/), this will be a great opportunity to apply my lessons learned from my first courses.
 
-Getting to the end of the book, some publishers started to reach out to us. They wanted to publish Stratospheric from their publishing house and bring it to various marketplaces.  The additional outreach may be great, but the royalties are diminishing compared to Leanpub, especially if we have to split them into three equal parts. To stay independent we chose against a publisher and published the eBook ourselves on Amazon to have at least the big search traffic from this major e-commerce platform. We know that Leanpub is a niche site and not all developers are aware of this great source of technical books. However, given our existing audience from our blog, newsletter, Twitter, etc, we make our potential readers aware via those channels.
+Getting to the end of the book, some publishers started to reach out to us. They wanted to publish Stratospheric from their publishing house and bring it to various marketplaces.  The additional outreach may be significant, but the royalties are diminishing compared to Leanpub, especially if we have to split them into three equal parts.
+
+To stay independent, we chose against a publisher and published the eBook ourselves on Amazon to have at least the big search traffic from this major e-commerce platform. We know that Leanpub is a niche site, and not all developers are aware of this great source of technical books. However, given our existing audience from our blog, newsletter, Twitter, etc., we make our potential readers aware via those channels.
 
 At the time of writing this article, we have 800 readers, which is a great success 🥳
 
