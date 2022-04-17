@@ -16,7 +16,7 @@ tags: []
 ShowToc: true
 ---
 
-This article describes a one-year journey of writing [Stratospheric - From Zero to Production with Spring Boot and AWS](https://stratospheric.dev/) as a co-author with two other co-authors that I met on Twitter. We had never met in person before and managed to successfully write a 450+ in-depth guide on developing and deploying Java Spring Boot applications on AWS (Amazon Web Services).
+This article describes a one-year journey of writing [Stratospheric - From Zero to Production with Spring Boot and AWS](https://stratospheric.dev/) as a co-author with two other co-authors that I met on Twitter. We've never met in person before and managed to successfully write a 450+ pages in-depth guide on developing and deploying Java Spring Boot applications on AWS (Amazon Web Services).
 
 In short, this article covers:
 - How we self-published this eBook while writing the manuscript in Markdown
