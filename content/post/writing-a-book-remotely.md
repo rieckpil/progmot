@@ -184,7 +184,7 @@ Everybody was working on a dedicated chapter so there wasn't any conflict or idl
 
 As were incrementally releasing new version of the eBook, we tried to work on the modules and chapters in sequence. It should be more or less an append-only of chapters and no inline adding of chapters so that the readers that get a copy early, and can continue reading the book where they left off, if there's a new version available.
 
-In parallel to our first release preparation, we create a basic [landing page](https://stratospheric.dev) and signed up for a mailing list provider (Convertkit back then). To keep things simple, we bought an HTML Bootstrap theme and used GitHub pages to quickly launch this landing page and add the mailing list signup form to allow potential readers to get more information about our progress:
+In parallel to our first release preparation, we create a basic [landing page](https://stratospheric.dev/) and signed up for a mailing list provider (Convertkit back then). To keep things simple, we bought an HTML Bootstrap theme and used GitHub pages to quickly launch this landing page and add the mailing list signup form to allow potential readers to get more information about our progress:
 
 ![Stratospheric Landing Page](/img/stratospheric-ebook/stratospheric-landing-page-scroll-through.gif#center "Stratospheric Landing Page")
 
@@ -569,7 +569,9 @@ Under the slogan _Testing Java Applications Made Simple_ Philip provides recipes
 
 Find out more about Philip on [rieckpil.de](https://rieckpil.de) and his [Twitter profile](https://twitter.com/rieckpil).
 
-PS: If you have further questions or want some more details about a specific topic, let me know in the comments 👇🏻
+If you have further questions or want some more details about a specific topic, let me know in the comments 👇🏻
+
+PS: You can get a reduced copy of the Stratospheric eBook [here](https://stratospheric.dev/).
 
 Have fun writing your own book,\
 Philip
