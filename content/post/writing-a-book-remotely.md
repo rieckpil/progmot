@@ -222,11 +222,11 @@ While we originally planned to use AWS CloudFormation templates for our infrastr
 
 On a high level, we ended up with these main modules for the eBook:
 
-1. Getting Started with AWS
+**1. Getting Started with AWS**
 
 Getting used to AWS, its interfaces, its services, the management console, and how to automate the infrastructure deployment. This includes an introduction to the AWS CDK, our [custom CDK constructs Java library](https://github.com/stratospheric-dev/cdk-constructs), and some design decisions for building a CI/CD pipeline with GitHub Actions.
 
-2. Building the Sample Application
+**2. Building the Sample Application**
 
 Next, we dive into the actual application development. We showcase building must-have features while connecting to various AWS services:
 
@@ -238,7 +238,7 @@ Next, we dive into the actual application development. We showcase building must
 
 We showcase the integration with AWS and Spring Boot based on meaningful feature implementations and enrich our sample Todo application with every chapter.
 
-3. Operating and Monitoring and Applications in Production on AWS
+**3. Operating and Monitoring and Applications in Production on AWS**
 
 Production is where the fun begins. We don't stop after developing the last feature and also cover monitoring and operating our Spring Boot application in production. This includes topics like structured logging, Amazon CloudWatch alerts, emitting metrics, creating operational dashboards, etc.
 
