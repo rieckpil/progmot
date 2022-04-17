@@ -22,7 +22,7 @@ In short, this article covers:
 - How we self-published this eBook while writing the manuscript in Markdown
 - How we promoted and sold the eBook
 - How we organized ourselves to write the eBook in an asynchronous fashion while having a 8hour time lag
-- General tips, recommendations and lessons learned
+- General tips, recommendations and lessons learned for co-authoring a technical eBook
 
 The whole project was (and still is) a lot of fun. I learned a ton about AWS and got the chance to connect and work with knowledgeable and nice people.
 
