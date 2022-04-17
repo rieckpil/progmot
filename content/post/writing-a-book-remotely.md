@@ -1,6 +1,6 @@
 ---
 title: "Writing and Self-Publishing a Non-fiction Book With Strangers"
-date: 2021-10-22T10:09:00+02:00
+date: 2022-04-19T10:00:00+02:00
 slug: "/writing-and-self-publishing-a-non-fiction-book-with-strangers"
 author: "Philip"
 summary: "A one-year retrospect after co-authoring and self-publishing a technical eBook about Spring Boot and AWS with co-authors I met on Twitter."
