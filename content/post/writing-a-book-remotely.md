@@ -145,7 +145,7 @@ We used the following branching strategy for the eBook:
 
 - `main` -> generate eBook releases on Leanpub
 - `preview` -> generate previews on Leanpub
-- `personal-feature-branch`
+- `personal-feature-branch` -> every co-author works in isolation on their next chapter
 
 Every co-author would work on their own branch and push their chapters to their dedicated branch. Once completed, we created a pull request to merge into the `preview` branch. This triggered our review process where all other co-authors reviewed the new section one after the other.
 
