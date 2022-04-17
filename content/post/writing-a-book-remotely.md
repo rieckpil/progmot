@@ -279,7 +279,7 @@ The version 1.0 was to be both feature-complete as well as polished. We knew tha
 
 As the finalization of the manuscript went closer, we thought about the best possible way to announce and release version 1.0.
 
-We were invited to the [German AWS Podcast](https://german-aws-podcast.libsyn.com/33-von-null-auf-produktion-mit-spring-boot-und-aws) by Dennis Traub (AWS Developer Advocate) and could talk about our own AWS cloud journey and advertise the eBook a bit.
+We were invited to the [German AWS Podcast](https://german-aws-podcast.libsyn.com/33-von-null-auf-produktion-mit-spring-boot-und-aws) by [Dennis Traub](https://twitter.com/dtraub) (AWS Developer Advocate) and could talk about our own AWS cloud journey and advertise the eBook a bit.
 
 On top of this podcast, we decided to organize an online release party and invited both the existing eBook readers from our audience and other interested people.
 
@@ -436,7 +436,7 @@ AWS has sponsored us with some gift vouchers so that we could run the infrastruc
 - [Getting started with Spring Boot on AWS: Part 1](https://aws.amazon.com/blogs/opensource/getting-started-with-spring-boot-on-aws-part-1/)
 - [Getting started with Spring Boot on AWS: Part 2](https://aws.amazon.com/blogs/opensource/getting-started-with-spring-boot-on-aws-part-2/)
 
-The [German AWS Podcast](https://german-aws-podcast.libsyn.com/33-von-null-auf-produktion-mit-spring-boot-und-aws) by Dennis Traub (AWS Developer Advocate) was a fantastic way of spread the word, too.
+The [German AWS Podcast](https://german-aws-podcast.libsyn.com/33-von-null-auf-produktion-mit-spring-boot-und-aws) by [Dennis Traub](https://twitter.com/dtraub) (AWS Developer Advocate) was a fantastic way of spreading the word, too.
 
 After finishing the book, AWS even sponsored us for $2500 on GitHub.
 
