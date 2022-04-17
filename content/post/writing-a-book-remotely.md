@@ -161,7 +161,7 @@ We naturally found how to split the work and who would write what based on our o
 
 While we had a rough idea and an early draft for our planned table of contents, we adjusted our plans along the way.
 
-Working on a new chapter/feature usually involved some background fact checking, consulting the AWS documentation and other blogs, developing the code changes and then writing the chapter.
+Working on a new chapter/feature usually involved some background fact-checking, consulting the AWS documentation and other blogs, developing the code changes, and then writing the chapter.
 
 For some concrete examples, these are chapters we worked on:
 - Getting Started with the AWS CDK
@@ -170,35 +170,35 @@ For some concrete examples, these are chapters we worked on:
 - Structured Logging with Amazon CloudWatch
 - etc.
 
-While we had implemented similar features in the past, we still spent a good amount of time reading the AWS documentation and related blog posts to ensure our previous assumptions were correct.
+While we had implemented similar features in the past, we still spent a reasonable amount of time reading the AWS documentation and related blog posts to ensure our previous assumptions were correct.
 
-We also made sure every co-author worked independently on their own area (like OAuth2 login or RDS setup) to avoid any misunderstandings.
+We also ensured every co-author worked independently on their own topic (like OAuth2 login or RDS setup) to avoid any misunderstandings.
 
-Everybody was working on a dedicated chapter so there wasn't any conflict or idle time due to waiting on someone else's input. Writing the new chapter consisted both of doing research, adjusting the sample application and writing the manuscript.
+Everybody was working on a dedicated chapter, so there wasn't any conflict or idle time due to waiting on someone else's input. Writing the new chapter consisted both of doing research, adjusting the sample application, and writing the manuscript.
 
-As were incrementally releasing new version of the eBook, we tried to work on the modules and chapters in sequence. It should be more or less an append-only of chapters and no inline adding of chapters so that the readers that get a copy early, and can continue reading the book where they left off, if there's a new version available.
+As we were incrementally releasing a new version of the eBook, we tried to work on the modules and chapters in sequence. It should be more or less an append-only of chapters and no inline adding of chapters so that the readers that get a copy early, and can continue reading the book where they left off, if there's a new version available.
 
-In parallel to our first release preparation, we create a basic [landing page](https://stratospheric.dev/) and signed up for a mailing list provider (Convertkit back then). To keep things simple, we bought an HTML Bootstrap theme and used GitHub pages to quickly launch this landing page and add the mailing list signup form to allow potential readers to get more information about our progress:
+In parallel to our first release preparation, we created a basic [landing page](https://stratospheric.dev/) and signed up for a mailing list provider (Convertkit back then). To keep things simple, we bought an HTML Bootstrap theme and used GitHub pages to quickly launch this landing page and add the mailing list signup form to allow potential readers to get more information about our progress:
 
 ![Stratospheric Landing Page](/img/stratospheric-ebook/stratospheric-landing-page-scroll-through.gif#center "Stratospheric Landing Page")
 
-As there wasn't any earnings, we kept the costs low to only invest more $ once we see an adoption of our materials.
+As there weren't any earnings, we kept the costs low to only invest more $ once we saw an adoption of our book.
 
-This signup form also acted as a preliminary litmus test for us to see how many developers are interested in bringing this book over the finish line.
+This signup form also acted as a preliminary litmus test to see how many developers are interested in bringing this book over the finish line.
 
-Before we could release a first version, we had to finalize our eBook title, find a logo and a cover.
+Before releasing the first version, we had to finalize our eBook title and find a logo and a cover.
 
-We started with the placeholder project name `aws101`. However, as this was clearly violating trademarks of AWS, we had to find another name. As the book is all about getting ready for the cloud and effectively deploy applications to production in the cloud, the symbol of a launching rocket seemed suitable.
+We started with the placeholder project name `aws101`. However, as this was clearly violating the trademarks of AWS, we had to find another name. As the book is all about getting ready for the cloud and effectively deploying applications to production in the cloud, the symbol of a launching rocket seemed suitable.
 
-After some brainstorming for possible names, we ended up with: `Stratospheric`.
+After some brainstorming for possible names, we ended up with `Stratospheric`.
 
 We ordered two design examples for the logo on Fiverr and picked the best one:
 
 ![Stratospheric eBook Cover](/img/stratospheric-ebook/stratospheric-ebook-cover.png#center "Stratospheric eBook Cover")
 
-On the 8th of November 2020, we released the first manuscript. From this day forward it took us approximately two months for the next revision to be published.
+On the 8th of November 2020, we released the first manuscript. It took us approximately two months to publish the next revision from this day forward.
 
-We started with a base price of $X. Keep in mind that we get 80% royalties but have to split those equally among all authors.
+We started with a base price of $10, which we increased with each revision. Remember that we get 80% royalties but have to split those equally among all authors.
 
 ## Iterate For 6-7 Month ✍🏻
 
