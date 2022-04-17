@@ -429,7 +429,7 @@ jobs:
 
 Start talking about your ebook on podcasts, conferences, and tweet about it as soon as possible.
 
-We reached out to an AWS developer advocate during the inception phase to find possible ways of collaborating.
+We reached out to an AWS developer advocate ([Ricardo Sueiras](https://twitter.com/094459)) during the inception phase to find possible ways of collaborating.
 
 AWS has sponsored us with some gift vouchers so that we could run the infrastructure (almost) for free. We even were able to contribute a two-part article on the AWS Open Source blog to gain some traction for our project:
 
