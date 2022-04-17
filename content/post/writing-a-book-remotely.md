@@ -34,7 +34,7 @@ Let's get started 🚀
 
 > Luck is what happens when preparation meets opportunity.
 
-While scrolling through my Twitter feed, I saw a fellow technical blogger reaching out to other bloggers to organize a small knowledge exchange.
+While scrolling through my Twitter feed, I saw a fellow technical blogger reaching out to other bloggers to exchange knowledge and ideas.
 
 {{< tweet user="TomHombergs" id="1278635778722000902" >}}
 
@@ -58,7 +58,7 @@ Showcasing shiny features and machine learning capabilities of AWS is great, but
 
 Furthermore, the development journey doesn't stop when merging the code changes and moving a Jira ticket to the done column. Now, the fun part begins as our code runs in production.
 
-If we are in the lucky position to maintain and operate our own service (DevOps done right), we will correspond with the following questions that arise sooner or later:
+If we are in the lucky position to maintain and operate our own services (DevOps done right), we will have to deal with the following questions, which will arise sooner or later:
 
 - How do I know my service is healthy and operating as expected?
 - What's the current average response time for my most important API endpoint?
@@ -68,9 +68,9 @@ If we are in the lucky position to maintain and operate our own service (DevOps 
 
 In short, this brought us to the following high-level goals for our readers that also influenced our manuscript:
 
-1. Educate about AWS and IaC (Infrastructure as Code) with the AWS CDK
-2. Develop Spring Boot with meaningful features (e.g., email notifications or OAuth2 login) while integrating as many AWS services as possible
-3. Educate about best practices for running Spring Boot applications in production on AWS: monitoring, alerting, observability, etc.
+1. Learn about AWS and IaC (Infrastructure as Code) with the AWS CDK.
+2. Develop a Spring Boot application with meaningful features (e.g., email notifications or OAuth2 login) while integrating as many AWS services as possible.
+3. Becoming familiar with best practices for running Spring Boot applications in production on AWS: monitoring, alerting, observability, etc.
 
 Apart from these project goals, I had the following personal goals:
 
@@ -99,19 +99,19 @@ We created a new AWS account for this project, and added three IAM users for us.
 
 We more or less split this PoC time into two areas: automating the infrastructure setup with CloudFormation and developing a sample application. Back then, we started with `.yaml` CloudFormation templates but moved quickly to the promising AWS CDK project.
 
-As soon as we had a container cluster (ECS) with an automated CI/CD pipeline and the sample application with some basic features like login with AWS Cognito and storing data within RDS ready, we started to plan the next steps.
+As soon as we had a container cluster (ECS) with an automated CI/CD pipeline and the sample application with some basic features ready, such as a login with AWS Cognito and storing data within RDS, we started to plan the next steps.
 
-This pilot area took about 2-3 months.
+This pilot phase took about two to three months.
 
-Next, we had to decide how we would write this book. The main question we had to answer was: should we talk to a publisher and pitch our idea or self-publish the whole thing?
+Next, we had to decide how we would write this book. The main question we had to answer was: Should we talk to a publisher and pitch our idea or self-publish the whole thing?
 
-As this project was a side-project for all three of us and not what we do full time, we all agreed that working with a formal publisher was not an option for us: working towards given deadlines and having to deliver a final piece on a fixed date was something we clearly wanted to avoid.
+As this project was a side-project for all three of us and not what we do full time, we all agreed that working with a formal publisher was not an option for us: Working towards given deadlines and having to deliver a final piece on a fixed date was something we clearly wanted to avoid.
 
 Furthermore, Tom already self-published his first book and then got a technical publisher on board to offer a print version and more distribution channels. Based on his experience and the common understanding, that this project may also fail, we went for the self-publishing approach.
 
-For self-publishing books in the tech space, [Leanpub](https://leanpub.com/) seemed to be the de-facto choice.
+For self-publishing books in the tech space, [Leanpub](https://leanpub.com/) seemed to be the de-facto default choice.
 
-Leanpub is really appealing for self-publishing tech authors as they offer the following:
+Leanpub is highly appealing to self-publishing tech authors as they offer the following:
 
 - writing the manuscript in Markdown or bringing your own PDF
 - automatic formatting/layout for Markdown manuscripts
@@ -121,19 +121,19 @@ Leanpub is really appealing for self-publishing tech authors as they offer the f
 - payout via PayPal and support for multiple authors
 - no payment/tax implications for the author: Leanpub acts as the merchant of record and takes ownership for the payment and tax handling (something I should have also favored for [my first online course](https://progmot.com/post/creating-and-selling-my-first-online-course/))
 
-Leanpub is also built around the concept: Publish Early, Publish Often. They favor the approach of giving access to a book early while it's still in development and continuously adding new chapters to it.
+Leanpub is also built around the "Publish Early, Publish Often" concept. They favor the approach of giving access to a book early while it's still in development and continuously adding new chapters to it.
 
 Each [Leanpub eBook landing page](https://leanpub.com/stratospheric) provides information about the completeness and when the last changes were published:
 
 ![Stratospheric Completeness Bar](/img/stratospheric-ebook/leanpub-completness-bar-stratospheric-example.png#center "Stratospheric Completeness Bar")
 
-Leanpub even allows creating preview versions of the eBook that we heavily used to see a rendered version of our recent changes. This helped us quite a lot when preparing a new eBook version.
+Leanpub even allows creating preview versions of the eBook, a feature we heavily used to see a rendered version of our recent changes. This helped us quite a lot when preparing a new eBook version.
 
 We went for Leanpub because it's tech-friendly, easy-to-setup and offers fair royalties that the platform can automatically split between co-authors.
 
 Having signed up for Leanpub, it was now time to finalize the technical setup to then get our hands dirty and start writing.
 
-Working daily with GitHub, we choose a private GitHub repository for backing our manuscript markdown files. This allowed for a more seamless flow compared to uploading the files to a shared DropBox folder. We get versioning, automations with GitHub Actions, collaboration tools, and a great feedback mechanism via pull requests with GitHub.
+Working daily with GitHub, we chose a private GitHub repository for backing our manuscript markdown files. This allowed for a more seamless flow compared to uploading the files to a shared DropBox folder. We get versioning, automations with GitHub Actions, collaboration tools, and a great feedback mechanism via pull requests with GitHub.
 
 We used the following branching strategy for the eBook:
 
@@ -149,15 +149,15 @@ What's great about this review process is that we could leverage the review feat
 
 This way of working felt way more convenient than using a PDF reader, making comments and annotations to the file, and then sending it over to the owner of the changes.
 
-After the review was completed by both co-authors (six eye principle), we integrated the change into the `preview` branch to collect multiple chapters for the next release. Once every two months or so, we created the next work in progress release by merging the changes to the `main` branch.
+After the review had been completed by both co-authors (six-eyes principle), we integrated the change into the `preview` branch to collect multiple chapters for the next release. Once every two months or so, we created the next work-in-progress release by merging the changes to the `main` branch.
 
-All that's left is to click the release button inside Leanpub to build a new digital version of our eBook. Theoretically, we can even automate this and publish a new release for the `main` branch on each commit.
+All that's left to do then is to click the release button inside Leanpub to build a new digital version of our eBook. Theoretically, we could even automate this and publish a new release for the `main` branch on each commit.
 
 ## Getting the First Readers aka. Early Feedback 📖
 
-Given the fact that we had figured out how to sell the eBook and how to write it, we now had to start writing the eBook.
+Given the fact that we had figured out how to sell the eBook and how to write it, we now had to start, well, actually writing the eBook.
 
-We naturally found how to split the work and who would write what based on our own interests. While Björn and I were more focused on implementing features for the sample application and connecting various AWS services, Tom was more into the CI/CD and infrastructure setup.
+We found how to split the work and who would write what based on our own interests naturally. While Björn and I were more focused on implementing features for the sample application and connecting various AWS services, Tom was more into the CI/CD and infrastructure setup.
 
 While we had a rough idea and an early draft for our planned table of contents, we adjusted our plans along the way.
 
@@ -176,19 +176,19 @@ We also ensured every co-author worked independently on their own topic (like OA
 
 Everybody was working on a dedicated chapter, so there wasn't any conflict or idle time due to waiting on someone else's input. Writing the new chapter consisted both of doing research, adjusting the sample application, and writing the manuscript.
 
-As we were incrementally releasing a new version of the eBook, we tried to work on the modules and chapters in sequence. It should be more or less an append-only of chapters and no inline adding of chapters so that the readers that get a copy early, and can continue reading the book where they left off, if there's a new version available.
+As we were incrementally releasing a new version of the eBook, we tried to work on the modules and chapters in sequence. It should be more or less an append-only of chapters and no inline adding of chapters so that the readers who get a copy early on can continue reading the book where they left off once there's a new version available.
 
-In parallel to our first release preparation, we created a basic [landing page](https://stratospheric.dev/) and signed up for a mailing list provider (Convertkit back then). To keep things simple, we bought an HTML Bootstrap theme and used GitHub pages to quickly launch this landing page and add the mailing list signup form to allow potential readers to get more information about our progress:
+In parallel to our first release preparation, we created a basic [landing page](https://stratospheric.dev/) and signed up for a mailing list provider (ConvertKit back then). To keep things simple, we bought an HTML Bootstrap theme and used GitHub pages to quickly launch this landing page and add the mailing list signup form to allow potential readers to get more information about our progress:
 
 ![Stratospheric Landing Page](/img/stratospheric-ebook/stratospheric-landing-page-scroll-through.gif#center "Stratospheric Landing Page")
 
-As there weren't any earnings, we kept the costs low to only invest more $ once we saw an adoption of our book.
+As there weren't any earnings, we kept the costs low to only invest more $$$ once we saw adoption of our book.
 
-This signup form also acted as a preliminary litmus test to see how many developers are interested in bringing this book over the finish line.
+In a true Lean Startup / MVP fashion, this signup form also acted as a preliminary litmus test to see how many developers are interested in bringing this book over the finish line.
 
 Before releasing the first version, we had to finalize our eBook title and find a logo and a cover.
 
-We started with the placeholder project name `aws101`. However, as this was clearly violating the trademarks of AWS, we had to find another name. As the book is all about getting ready for the cloud and effectively deploying applications to production in the cloud, the symbol of a launching rocket seemed suitable.
+As the book is all about getting ready for the cloud and effectively deploying applications to production in the cloud, the icon of a launching rocket seemed suitable. We started with the placeholder project name `aws101`. However, as this was clearly violating the trademarks of AWS, we had to find another name.
 
 After some brainstorming for possible names, we ended up with `Stratospheric`.
 
@@ -198,7 +198,7 @@ We ordered two design examples for the logo on Fiverr and picked the best one:
 
 On the 8th of November 2020, we released the first manuscript. It took us approximately two months to publish the next revision from this day forward.
 
-We started with a base price of $10, which we increased with each revision. Remember that we get 80% royalties but have to split those equally among all authors.
+We started with a base price of $10, which we increased with each revision. Remember, that we get 80% royalties to be split equally among all authors.
 
 ## Iterate For 6-7 Month ✍🏻
 
@@ -210,15 +210,15 @@ While you may have the best eBook or product, if your potential readers and cust
 
 As all three of us run a blog anyway, have an audience on Twitter, and some of us a mailing list, we started off with an existing target audience.
 
-To spread the news about our project, we tweeted about our current progress occasionally. To stay in contact with existing and potential readers, we tried to get as many of them on our landing page and signing up for our mailing list.
+To spread the news about our project, we tweeted about our current progress occasionally. To stay in touch with existing and potential readers, we tried to get as many of them on our landing page to sign up for our mailing list.
 
-We used both our social media channels and the mailing list to tease and give constant updates about our progress. We wrote a mailing list update and slightly increased the price whenever we released a new version. This created scarcity for the existing audience to get the copy early while the manuscript was still in development.
+We used both our social media channels and the mailing list to provide teasers and give constant updates about our progress. We wrote a mailing list update and slightly increased the price whenever we released a new version. This created scarcity for the existing audience to get the copy early while the manuscript was still in development.
 
 Furthermore, we rotated among all co-authors to mix up the person in charge of writing the mailing list update.
 
-Those who got their eBook early got it for the lowest price, which is fair as they trusted our project from day one.
+Those who got their eBook early got it for the lowest price, which is fair as they trusted our project from day 1.
 
-While we originally planned to use AWS CloudFormation templates for our infrastructure setup, we decided to rework the existing setup and use the AWS Cloud Development Kit (CDK). The AWS CDK was getting more and more traction, and this would also be a big USP as not much literature uses the CDK already.
+While we originally planned to use AWS CloudFormation templates for our infrastructure setup, we decided to rework the existing setup and use the AWS Cloud Development Kit (CDK). The AWS CDK was already getting more and more traction at the time, and this would also be a huge USP as not much of the available literature is already using the CDK.
 
 On a high level, we ended up with these main modules for the eBook:
 
@@ -253,41 +253,41 @@ Looking back, these were the times we released a new _work in progress_ eBook ve
 
 Revision 0.4 was our last pre-release, and we got our book to 80% at that time.
 
-While we almost constantly released a new version every two months, the remaining 20% was the hardest part and took the longest...
+While we almost constantly released a new version every two months, the remaining 20% was the hardest part and took the longest (as usual, Pareto principle applies) ...
 
 ## Publishing Version 1.0 🥳
 
-The last release was the one that took the longest. Like you always hear, the remaining 20% of a project is where the most time is spent...
+The last release was the one that took the longest. As is well-known, not only in project management, the remaining 20% of a project is where the most time is spent...
 
 ... this was also true for us.
 
 We had some final content to write, but our most considerable effort went into final proofreading and alignment of the manuscript.
 
-With three people on the team, everyone was doing their screenshots, custom diagrams, header structure, etc., slightly different, and we wanted to have a common style throughout the book.
+With three people on the team, everyone was doing their screenshots, custom diagrams, header structure, etc., slightly differently. However, we wanted to have a common, consistent style throughout the book.
 
-Furthermore, everyone had a different understanding on when to use a *bold*, _italic_ statement, or when to use an infobox. This was something we wanted to unify across the book.
+Furthermore, everyone had a different understanding on when to use a *bold*, _italic_ statement, or when to use an info box, for example. This was something we wanted to unify across the book.
 
 Next, we also replaced some of our architecture and information diagrams with nice-looking [Excalidraw](https://excalidraw.com/) diagrams:
 
 ![Stratospheric Excalidraw Image Example](/img/stratospheric-ebook/stratospheric-excalidraw-example.png#center "Stratospheric Excalidraw Image Example")
 
-These finalization parts took almost two months as we also read the eBook from start to finish several times. We took over the proofreading and did not hire someone to do this.
+These finalization parts took almost two months as we also read the eBook from start to finish several times. We took the task of proofreading ourselves and did not hire someone to do this.
 
 In total, we ended up with 450 pages of high-value content about Spring Boot and AWS.
 
-The version 1.0 should be both feature-complete as well as polished. We knew that our eBook journey didn't stop there but wanted to move the completion needle on Leanpub to 100%.
+The version 1.0 was to be both feature-complete as well as polished. We knew that our eBook journey didn't stop there but wanted to move the completion needle on Leanpub to 100%.
 
 As the finalization of the manuscript went closer, we thought about the best possible way to announce and release version 1.0.
 
-We were invited to the [German AWS Podcast](https://german-aws-podcast.libsyn.com/33-von-null-auf-produktion-mit-spring-boot-und-aws) from Dennis Traub (AWS Developer Advocate) and could talk about our own AWS cloud journey and advertise the eBook a bit.
+We were invited to the [German AWS Podcast](https://german-aws-podcast.libsyn.com/33-von-null-auf-produktion-mit-spring-boot-und-aws) by Dennis Traub (AWS Developer Advocate) and could talk about our own AWS cloud journey and advertise the eBook a bit.
 
-On top of this podcast, we decided to organize a release party and invited both our audience's existing eBook readers and other interested persons.
+On top of this podcast, we decided to organize an online release party and invited both the existing eBook readers from our audience and other interested people.
 
-We prepared a one-hour agenda for this release party where we talked about the book's content, showcased the sample application and the CI/CD workflow, and had some time left for a Q&A session.
+We prepared a one-hour agenda for this release party, where we talked about the book's content, showcased the sample application, and the CI/CD workflow. We also had some time left for a Q&A session.
 
 From the ~50 accepted invitations, twenty people showed up on a Sunday afternoon to celebrate the release with us.
 
-After this 50 minutes of content, we released the final version of Stratospheric together with the audience by hitting the "Publish Now" button in Leanpub _together_ live in the call.
+After this 50 minutes of content, we released the final version of Stratospheric together with the audience by hitting the "Publish Now" button in Leanpub _together_ live during the video call.
 
 {{< tweet user="rieckpil" id="1421811091152191488" >}}
 
@@ -305,7 +305,7 @@ While still being euphoric about releasing finish the first version of this book
 
 Since the release of version 1.0 in August 2021, we have seen tremendous adoption. The feedback from the readers is also excellent. We also created a Slack channel for Q&A and general communication for the ebook community.
 
-Both Spring Boot and AWS are more or less mature, at least in the areas that we talk about: SQS, SES, RDS, web development, etc. Still, there's much going on for the library that we're using for integrating AWS services ([Spring Cloud AWS](https://awspring.io/)). Furthermore, we also learn even better best practices or different ways of doing things.
+Both Spring Boot and AWS are more or less mature, at least in the areas that we talk about: SQS, SES, RDS, web development, etc. Still, there's much going on for the library that we're using for integrating AWS services ([Spring Cloud AWS](https://awspring.io/)). Furthermore, we also learn even better practices or different ways of doing things.
 
 Thanks to the agile nature of Leanpub and given the fact that we didn't have to ship a physical book to our readers, we are still able to update the eBook post-delivery. Leanpub has a feature to notify the readers about a new version that they can then download for free.
 
@@ -315,17 +315,17 @@ Whenever there's a new update for our eBook, we also send out a small release in
 
 ![Stratospheric Post Release Mailing List Update](/img/stratospheric-ebook/stratospheric-post-release-mailing-list-update.png#center "Stratospheric Post Release Mailing List Update")
 
-On the monetary side, we don't get rich from selling this book. It's some additional pocket money for us in the range of $150-300 for every author each month.
+On the financial side, we don't get rich from selling this book. It's some additional pocket money for us in the range of $150-300 for every author each month.
 
-To increase the visibility of our eBook, we listed it on Amazon Kindle. While Amazon's royalty rules are not that generous compared to Leanpub, we primarily list on Amazon to get in front of more developers. Amazon is one of the most significant search interfaces after Google and YouTube.
+To increase the visibility of our eBook, we listed it on Amazon Kindle. While Amazon's royalty rules are not that generous compared to Leanpub, we primarily publish on Amazon as well to get in front of more developers. Amazon is one of the most significant search interfaces after Google and YouTube.
 
-We thought about a printed eBook version, but for now, we postponed this move as we believe our audience is more interested in reading technical books on their devices anyway. However, (at least I) want to have a physical copy of this book on my bookshelf somewhere in the future.
+We thought about a printed eBook version, but for now, we postponed this move as we believe our audience is more interested in reading technical books on their devices anyway. However, at least I'd like to have a physical copy of this book on my bookshelf sometime in the future.
 
 Based on the feedback received so far, we also decided to build an online course on top of the eBook to provide some more in-depth coverage of various areas. Given my [existing experience with creating and launching technical online courses](https://progmot.com/post/creating-and-selling-my-first-online-course/), this will be a great opportunity to apply my lessons learned from my first courses.
 
-Getting to the end of the book, some publishers started to reach out to us. They wanted to publish Stratospheric from their publishing house and bring it to various marketplaces.  The additional outreach may be significant, but the royalties are diminishing compared to Leanpub, especially if we have to split them into three equal parts.
+Getting to the end of the book, some publishers started to reach out to us. They wanted to publish Stratospheric from their publishing house and bring it to various marketplaces.  The additional outreach may be significant, but the royalties are fairly small compared to Leanpub, especially when split into three equal parts.
 
-To stay independent, we chose against a publisher and published the eBook ourselves on Amazon to have at least the big search traffic from this major e-commerce platform. We know that Leanpub is a niche site, and not all developers are aware of this great source of technical books. However, given our existing audience from our blog, newsletter, Twitter, etc., we make our potential readers aware via those channels.
+To stay independent, we opted against a publisher and published the eBook ourselves on Amazon to at least have  the enormous search traffic coming from this major e-commerce platform. We know that Leanpub is a niche site, and not all developers are aware of this great source of technical books. However, given our existing audience from our blog, newsletter, Twitter, etc. we can easily make our potential readers aware via those channels.
 
 At the time of writing this article, we have 800 readers, which is a great success 🥳
 
@@ -337,13 +337,13 @@ What follows is an unordered list of hints and tips about this journey. If you p
 
 Writing a book together has a lot of benefits. It motivates you to keep going when you would otherwise have quit when working on your own.
 
-We committed to delivering something every two weeks and had some high-level ideas regarding when the next release would be published. This goal-based work allowed us not to drift off and work towards the next milestone.
+We committed to delivering something every two weeks and had some high-level ideas regarding when the next release would be published. This goal-based approach allowed us not to veer off, but work towards the next milestone.
 
-Especially if it's your first book, writing it alone might feel like a big pile of work. Together, you get there step-by-step and can use the group's momentum.
+Especially if you're writing your first book, going it alone might feel like an insurmountable pile of work. Together, you get there step-by-step and can use the group's momentum.
 
 Furthermore, when co-authoring a book, you'll also improve your writing skills by getting constant feedback from other co-authors.
 
-We all had some background in writing technical content, which helped us a lot. Starting such a project with three people who had never written any technical blog before might be burdensome.
+We all had some background in writing technical content, which helped us a lot. Starting such a project with three people who have never written any technical blog before might be burdensome.
 
 ### Use an Iterative Approach
 
@@ -355,9 +355,9 @@ We had a rough plan of what we wanted to cover but also adjusted a lot along the
 
 Leanpub is the perfect platform for this. Especially if you are a developer, you'll really enjoy writing your manuscript in Markdown. No annoying formatting issues inside Word when trying to center images or tables.
 
-Leanpub does the layout and file generation jobs for you. All you have to do is ship the manuscript.
+Leanpub does the layouting and file generation jobs for you. All you have to do is ship the manuscript.
 
-Pick a publisher that supports early access programs if you don't want to go towards the self-publishing route.
+Pick a publisher that supports early-access programs if you don't want to go down the self-publishing route.
 
 You might be super convinced about your idea and think it's the most genius book ever. However, this doesn't necessarily reflect reality. Get some early feedback mechanisms in place that help you quantify the interest. A mailing list or a dedicated Twitter account can be such a tool.
 
@@ -367,13 +367,13 @@ Keep it simple. Use free plans and share the login with your co-authors if neces
 
 You can scale the tools and costs with your eBook's success.
 
-We purchased a Bootstrap-based HTML theme for our landing page for some bucks and adjusted it to our needs. During the project's inception phase, and while the eBook was not at 100%, we primarily used the landing page to attract potential readers. Our landing page had (and still has) a newsletter subscription form to keep potential readers around.
+We purchased a Bootstrap-based HTML theme for our landing page for some bucks and adjusted it to our needs. During the project's inception phase, and while the eBook still wasn't at 100% completion, we primarily used the landing page to attract potential readers. Our landing page had (and still has) a newsletter subscription form to keep potential readers around.
 
-We started with the free plan of ConvertKit and recently migrated to MailLite. The MailerLite pricing and plan structure was better for our needs.
+We started with the free plan of ConvertKit and recently migrated to MailerLite. The MailerLite pricing and plan structure was better for our needs.
 
 Some other tools/services that we used:
 - Grammarly for fundamental proofreading and typos
-- Writing the eBook in their editor of choice. I personally used IntelliJ IDEA most of the time.  I tweaked the editor settings to wrap the lines so that I can write more naturally without having to scroll endlessly horizontally or buy a curved monitor.
+- Writing the eBook in our editor of choice. I personally used IntelliJ IDEA most of the time. I tweaked the editor settings to wrap the lines so that I can write more naturally without having to scroll endlessly horizontally or buy a curved monitor.
 - Fiverr for designing creatives, the logo, and the eBook cover
 - GitHub for collaboration and review
 - Google Sheet to keep track of our costs
@@ -393,7 +393,7 @@ What personally worked for me was taking the first hour every morning to work on
 
 ### Automate What Can Be Automated
 
-As we all had a software developer background, we tried to automate everything that we could. We could have also automated the eBook publishing using Leanpub's API.
+As we all had a software developer background and mindset, we tried to automate everything that we could. We could even have automated the eBook publishing process using Leanpub's API.
 
 GitHub Actions makes such automations almost effortless.
 
@@ -429,14 +429,14 @@ jobs:
 
 Start talking about your eBook on podcasts, conferences, and tweet about it as soon as possible.
 
-We reached out to an AWS developer advocate during the inception phase to find possible ways of collaboration.
+We reached out to an AWS developer advocate during the inception phase to find possible ways of collaborating.
 
-AWS has sponsored us with some gift vouchers so that we could run the infrastructure (almost) for free. We could even sponsor a two-part article on the AWS Open Source blog to gain some traction for our project:
+AWS has sponsored us with some gift vouchers so that we could run the infrastructure (almost) for free. We even were able to contribute a two-part article on the AWS Open Source blog to gain some traction for our project:
 
 - [Getting started with Spring Boot on AWS: Part 1](https://aws.amazon.com/blogs/opensource/getting-started-with-spring-boot-on-aws-part-1/)
 - [Getting started with Spring Boot on AWS: Part 2](https://aws.amazon.com/blogs/opensource/getting-started-with-spring-boot-on-aws-part-2/)
 
-The [German AWS Podcast](https://german-aws-podcast.libsyn.com/33-von-null-auf-produktion-mit-spring-boot-und-aws) from Dennis Traub (AWS Developer Advocate) was also a great initiative to spread the word.
+The [German AWS Podcast](https://german-aws-podcast.libsyn.com/33-von-null-auf-produktion-mit-spring-boot-und-aws) by Dennis Traub (AWS Developer Advocate) was a fantastic way of spread the word, too.
 
 After finishing the book, AWS even sponsored us for $2500 on GitHub.
 
@@ -450,7 +450,7 @@ We've registered our domain within Amazon Route 53. We've built a simple self-ma
 
 Whenever there was something that we couldn't or didn't want to automate, we created a checklist for it.
 
-This way, we didn't forget a step for tasks that we only occasionally performed.
+This way, we didn't forget a step for tasks we only performed occasionally.
 
 As an example, this is our checklist for publishing a new eBook version:
 
@@ -462,7 +462,7 @@ To avoid a single point of failure within the co-author team and mix things up, 
 
 Everyone should release a new eBook version every now and then.
 
-We also have an "author of the week" that keeps an eye on our feedback channels and is the first responder and coordinator for GitHub issues, Slack notifications, and emails.
+We also have an "author of the week" keeping an eye on our feedback channels. That person also is the first responder and coordinator for GitHub issues, Slack notifications, and emails.
 
 ### Centralize the Feedback Channels
 
@@ -475,7 +475,7 @@ Right after the first readers got their copy, we started to get an increasing am
 - GitHub issues
 - etc.
 
-The various channels made it hard for us to keep track of all inquiries. Coordinating the response among the co-author is difficult if someone gets a private Twitter DM.
+The various channels made it hard for us to keep track of all inquiries. Coordinating the response amongst the co-authors is difficult if someone gets a private Twitter DM.
 
 Furthermore, many of these feedback channels lack transparency. If we wrote an answer to a specific question via email, no other reader would benefit from the response as the conversation only happens within two inboxes.
 
@@ -527,15 +527,15 @@ Whenever a reader now asks a question via any other channel, we redirect them to
 
 This would have helped us save some time for the final polishing and is one of our main lessons learned.
 
-Three different authors have three different opinions on when to use bold or italics. Sometimes there are even four opinions if you forget which rules you applied yesterday.
+Three different authors have three different opinions on when to use bold or italic script. Sometimes there are even four opinions if you forget which rules you applied yesterday.
 
 Examples of this include:
 
 - When to use *bold*?
 - When to use _italics_?
-- When to use an infobox?
+- When to use an info box?
 - How to structure the headers?
-- How and which screenshot to take?
+- How to take a screenshot and which screenshot to take?
 - What is an acceptable number of links on a book page?
 - etc.
 
@@ -543,15 +543,15 @@ We did not cover and align those rules in detail during our early manuscript rev
 
 As a result, we now have some basic standards on when and how to highlight sections or single words.
 
-If you're starting from scratch, take some time with your authors to define clear definitions and create a one-pager for your typesetting rules.
+If you're starting from scratch, take some time with your co-authors to set clear definitions and create a one-pager for your typesetting rules.
 
 ### Have Fun
 
-That's the most important takeaway. Find people that you enjoy working with and that you can learn from.
+That's the most important takeaway. Find people you enjoy working with and from whom you can learn.
 
 It's a side project, enjoy the experience, and learn as much as you can. It's your spare time. If it feels like a job, don't do it.
 
-Don't expect to become rich by writing a book but instead, use this opportunity to establish a brand in your niche or use it as a form of credibility. I'm pretty sure that co-authoring an eBook weighs more than any basic certification for a specific topic.
+Don't expect to become rich by writing a book but instead, use this opportunity to establish a brand in your niche or use it as a way of establishing credibility and authority. I'm fairly certain co-authoring an eBook is more relevant than any basic certification for a specific topic.
 
 ## About the eBook Authors 🙋‍♂️
 
@@ -575,7 +575,7 @@ Find out more about Philip on [rieckpil.de](https://rieckpil.de) and his [Twitte
 
 If you have further questions or want some more details about a specific topic, let me know in the comments 👇🏻
 
-PS: You can get a reduced copy of the Stratospheric eBook [here](https://stratospheric.dev/).
+PS: You can get a copy of the Stratospheric eBook at a discount [here](https://stratospheric.dev/).
 
 Have fun writing your own book,\
 Philip
