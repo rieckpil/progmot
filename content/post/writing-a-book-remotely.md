@@ -74,9 +74,9 @@ In short, this brought us to the following high-level goals for our readers that
 
 Apart from these project goals, I had the following personal goals:
 
-1. Learn more about AWS
-2. Improve writing skills and tick off 'writing a book' from our bucket list
-3. Create awareness of myself to attract potential clients as a freelancer
+1. Learn more about AWS.
+2. Improve writing skills and tick off 'writing a book' from our bucket list.
+3. Create awareness of myself to attract potential clients as a freelancer.
 
 Packed with these ideas, we then got started with the project.
 
