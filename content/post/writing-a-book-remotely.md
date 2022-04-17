@@ -38,7 +38,7 @@ While scrolling through my Twitter feed, I saw a fellow technical blogger reachi
 
 {{< tweet user="TomHombergs" id="1278635778722000902" >}}
 
-We next met with the intention of sharing our experience as tech bloggers. During the second or third meeting of this kind, Tom asked for fellow bloggers that would be interested in taking a closer look at AWS and Spring Boot and may want to write about it.
+We next met with the intention of sharing our experience as tech bloggers. During the second or third meeting of this kind, Tom asked for fellow bloggers who'd interested in taking a closer look at AWS and Spring Boot and who may want to write about it.
 
 Björn and I, participating in this meeting, raised our hands. We've never met each other before. We partially knew each other from reading our blogs and Tweets.
 
