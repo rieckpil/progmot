@@ -6,7 +6,7 @@ author: "Philip"
 summary: "A one-year retrospect after co-authoring and self-publishing a technical ebook about Spring Boot and AWS with co-authors I met on Twitter."
 description: "A one-year retrospect after co-authoring and self-publishing a technical ebook about Spring Boot and AWS with co-authors I met on Twitter."
 cover:
-  image: "/img/features-images/writing-a-book-remotely.png"
+  image: "/img/featured-images/writing-a-book-remotely.png"
   alt: "Writing and Self-Publishing a Non-fiction Book With Strangers"
   caption: "Writing and Self-Publishing a Non-fiction Book With Strangers"
   relative: false
