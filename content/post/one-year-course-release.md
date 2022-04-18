@@ -94,7 +94,7 @@ As the goal of the online course was all about testing applications, I did not r
 
 Here's a short excerpt of the course application's primary use case: Creating book reviews:
 
-![Recorded E2E test of the main user journey](/img/main-user-journey-e2e-test-recording.gif "Recorded E2E test of the main user journey")
+![Recorded E2E test of the main user journey](/img/main-user-journey-e2e-test-recording.gif#center "Recorded E2E test of the main user journey")
 
 (The GIF above is an automatically recorded outcome of an end-to-end test)
 
