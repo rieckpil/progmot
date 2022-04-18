@@ -1,6 +1,6 @@
 ---
 title: "Self-Publishing a Book With People I Met on Twitter"
-date: 2022-04-18T10:00:00+02:00
+date: 2022-04-18T09:00:00+02:00
 slug: "/self-publishing-a-book-with-people-i-met-on-twitter"
 author: "Philip"
 summary: "A two-year retrospect after co-authoring and self-publishing a technical ebook on Leanpub about Java, Spring Boot, and AWS with co-authors I met on Twitter."
