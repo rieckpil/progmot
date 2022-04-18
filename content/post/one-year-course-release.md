@@ -82,7 +82,7 @@ For the application's tech stack, I picked React with TypeScript and a Spring Bo
 
 To make the setup more advanced, I added Keycloak (an open source identity provider), PostgreSQL to store data, a remote REST API, and an AWS service for messaging to the mix:
 
-![Technical Architecture of the Masterclass](/img/tbsam-technical-architecture.png "Technical Architecture of the Masterclass")
+![Technical Architecture of the Masterclass](/img/tbsam-technical-architecture.png#center "Technical Architecture of the Masterclass")
 
 In parallel, I sketched out the different course modules (module -> chapter -> lesson). Throughout the course, I wanted to tackle unit, integration, and end-to-end testing. This gave me the natural course structure of starting at the bottom of the testing pyramid with unit testing, and then working upwards until we finally write end-to-end tests in the last module.
 
@@ -193,7 +193,7 @@ The integration to my main mailing list also helps to segment my audience. I can
 
 This helps to send marketing campaigns more efficiently to the right subscribers by using tags:
 
-![Mailchimp SendOwl Integration Example](/img/mailchimp-order-information-from-sendowl.png "Mailchimp SendOwl Integration Example")
+![Mailchimp SendOwl Integration Example](/img/mailchimp-order-information-from-sendowl.png#center "Mailchimp SendOwl Integration Example")
 
 ## Selling the Content
 
@@ -211,7 +211,7 @@ For the [landing page](https://rieckpil.de/testing-spring-boot-applications-mast
 
 While I haven't any screenshots of this early version anymore, here's an overview of the final page:
 
-![Landing Page of the Masterclass](/img/tsbam-landing-page-overview.gif "Landing Page of the Masterclass")
+![Landing Page of the Masterclass](/img/tsbam-landing-page-overview.gif#center "Landing Page of the Masterclass")
 
 As this was my first landing page for a paid product, I tried my best to write engaging sales copy. I added social proof via testimonials about myself from well-known content creators in the Java space as I didn't have any course testimonials yet.
 
@@ -287,7 +287,7 @@ Someone from somewhere around the globe just bought my course at this early stag
 
 At the end of the release day, there were nine paying customers:
 
-![Incoming Sales on the Course Launch Day](/img/tsbam-first-day-course-launch-sales.png "Incoming Sales on the Course Launch Day")
+![Incoming Sales on the Course Launch Day](/img/tsbam-first-day-course-launch-sales.png#center "Incoming Sales on the Course Launch Day")
 
 I never thought that many people would enroll in the course at this stage. I was expecting 20 customers in the first month.
 
@@ -385,7 +385,7 @@ I guess most of you are eagerly waiting for the raw numbers :moneybag:
 
 I've made $35.369,44 in revenue after one year:
 
-![Sales report overview after one year](/img/tsbam-earnings-after-one-year.png)
+![Sales report overview after one year](/img/tsbam-earnings-after-one-year.png#center)
 
 The margin is high as my only expenses are hosting fees, marketing costs, and affiliate commissions.
 
