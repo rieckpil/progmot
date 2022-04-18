@@ -578,6 +578,11 @@ Under the slogan _Testing Java Applications Made Simple_ Philip provides recipes
 
 Find out more about Philip on [rieckpil.de](https://rieckpil.de) and his [Twitter profile](https://twitter.com/rieckpil).
 
+Quick links:
+- [Stratospheric ebook landing page](https://stratospheric.dev)
+- [Leanpub ebook landing page](https://leanpub.com/stratospheric)
+- Source code for the sample application [on GitHub](https://github.com/stratospheric-dev/stratospheric)
+
 If you have further questions or want some more details about a specific topic, let me know in the comments 👇🏻
 
 PS: You can get a copy of the Stratospheric ebook at a discount [here](https://stratospheric.dev/).
