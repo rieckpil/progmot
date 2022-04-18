@@ -16,6 +16,9 @@ tags: []
 ShowToc: true
 ---
 
+Writing and Self-Publishing a Non-fiction Book With Strangers
+Self-Publishing a Non-fiction Book With People I Met on Twitter
+
 This article describes a one-year journey of writing [Stratospheric - From Zero to Production with Spring Boot and AWS](https://stratospheric.dev/) as a co-author with two other co-authors that I met on Twitter. We've never met in person before and managed to successfully write a 450+ pages in-depth guide on developing and deploying Java Spring Boot applications on AWS (Amazon Web Services).
 
 In short, this article covers:
@@ -196,7 +199,7 @@ We ordered two design examples for the logo on Fiverr and picked the best one:
 
 ![Stratospheric ebook Cover](/img/stratospheric-ebook/stratospheric-ebook-cover.png#center "Stratospheric ebook Cover")
 
-On the 8th of November 2020, the time had finally come. We released the first manuscript with roughly 30% of the final content.
+On the 8th of November 2020, the time had finally come. We released the first manuscript with roughly 20% of the final content.
 
 We started with a base price of $10, which we increased with each revision. Remember, that we get 80% royalties to be split equally among all authors.
 
@@ -244,10 +247,10 @@ Production is where the fun begins. We don't stop after developing the last feat
 
 Looking back, these were the times we released a new _work in progress_ ebook version:
 
-- Revision 0.1: 2020-11-08 (first release)
-- Revision 0.2: 2020-12-20
-- Revision 0.3: 2021-02-14
-- Revision 0.4: 2021-04-10
+- Revision 0.1 (20% complete): 2020-11-08
+- Revision 0.2 (35% complete): 2020-12-20
+- Revision 0.3 (50% complete: 2021-02-14
+- Revision 0.4 (80% complete): 2021-04-10
 
 ![Stratospheric ebook Cover](/img/stratospheric-ebook/stratospheric-pre-release-version-overview.png#center "Stratospheric Pre Releases")
 
@@ -265,7 +268,7 @@ We had some final content to write, but our most considerable effort went into f
 
 With three people on the team, everyone was doing their screenshots, custom diagrams, header structure, etc., slightly differently. However, we wanted to have a common, consistent style throughout the book.
 
-Furthermore, everyone had a different understanding on when to use a *bold*, _italic_ statement, or when to use an info box, for example. This was something we wanted to unify across the book.
+Furthermore, everyone had a different understanding on when to use a **bold**, _italic_ statement, or when to use an info box, for example. This was something we wanted to unify across the book.
 
 Next, we also replaced some of our architecture and information diagrams with nice-looking [Excalidraw](https://excalidraw.com/) diagrams:
 
@@ -273,7 +276,7 @@ Next, we also replaced some of our architecture and information diagrams with ni
 
 These finalization parts took almost two months as we also read the ebook from start to finish several times. We took the task of proofreading ourselves and did not hire someone to do this.
 
-In total, we ended up with 450 pages of high-value content about Spring Boot and AWS.
+In total, we ended up with 450+ pages of high-value content about Spring Boot and AWS.
 
 The version 1.0 was to be both feature-complete as well as polished. We knew that our ebook journey didn't stop there but wanted to move the completion needle on Leanpub to 100%.
 
@@ -285,9 +288,9 @@ On top of this podcast, we decided to organize an online release party and invit
 
 We prepared a one-hour agenda for this release party, where we talked about the book's content, showcased the sample application, and the CI/CD workflow. We also had some time left for a Q&A session.
 
-From the ~50 accepted invitations, twenty people showed up on a Sunday afternoon to celebrate the release with us.
+From the ~50 accepted invitations, twenty people showed up on a Sunday afternoon (1st of August 2021) to celebrate the release with us.
 
-After this 50 minutes of content, we released the final version of Stratospheric together with the audience by hitting the "Publish Now" button in Leanpub _together_ live during the video call.
+After fifty minutes into the call, we released the final version of Stratospheric together with the audience by hitting the "Publish Now" button in Leanpub _together_ live during the video call.
 
 {{< tweet user="rieckpil" id="1421811091152191488" >}}
 
@@ -295,7 +298,9 @@ We recorded this release party for those that couldn't make it to the live event
 
 {{< youtube oaWEKvVXucU >}}
 
-We were all super happy with the outcome of the release party and with our progress. At that time, we already had 500 readers and got more and more attention.
+We were all super happy with the outcome of the release party and with our progress.
+
+At that time, we already had 500 readers and got more and more attention.
 
 ## Life After the 1.0 Release 🏗
 
@@ -311,7 +316,7 @@ Thanks to the agile nature of Leanpub and given the fact that we didn't have to 
 
 While we had no strict roadmap in mind, we all agreed to keep this book up-to-date to avoid a stale book.
 
-Whenever there's a new update for our ebook, we also send out a small release information email to our newsletter to give a short overview of the changes:
+Whenever there's a new update for our ebook, we send out a small release information email to our newsletter to give a short overview of the changes:
 
 ![Stratospheric Post Release Mailing List Update](/img/stratospheric-ebook/stratospheric-post-release-mailing-list-update.png#center "Stratospheric Post Release Mailing List Update")
 
@@ -387,7 +392,7 @@ What worked for us was:
 - A Trello board with four columns: backlog, in progress, to review, done
 - Meetings via Zoom
 - Document writing standards within the repository
-- Use GitHub Actions for basic automation
+- Use GitHub Actions for basic automations
 
 What personally worked for me was taking the first hour every morning to work on this project.
 
@@ -401,7 +406,7 @@ Adding links for further resources is both a curse and a blessing. It allows the
 
 We automated the hyperlink verification with a small GitHub Action and an npm package that checks all links (also internal manuscript links) on each commit:
 
-```
+```yaml
 name: Check for broken links
 on: [push, pull_request]
 jobs:
@@ -468,7 +473,7 @@ We also have an "author of the week" keeping an eye on our feedback channels. Th
 
 Right after the first readers got their copy, we started to get an increasing amount of messages via various channels:
 
-- private DMs on Twitter
+- Private DMs on Twitter
 - Emails to our ebook email address and/or private email address
 - Slack messages
 - Feedback via Leanpub
