@@ -1,14 +1,14 @@
 ---
-title: "Self-Publishing a Non-fiction Book With People I Met on Twitter"
+title: "Self-Publishing a Book With People I Met on Twitter"
 date: 2022-04-18T10:00:00+02:00
-slug: "/self-publishing-a-non-fiction-book-with-people-i-met-on-twitter"
+slug: "/self-publishing-a-book-with-people-i-met-on-twitter"
 author: "Philip"
 summary: "A two-year retrospect after co-authoring and self-publishing a technical ebook about Spring Boot and AWS with co-authors I met on Twitter."
 description: "A two-year retrospect after co-authoring and self-publishing a technical ebook about Spring Boot and AWS with co-authors I met on Twitter."
 cover:
   image: "/img/featured-images/writing-a-book-remotely.png"
-  alt: "Self-Publishing a Non-fiction Book With People I Met on Twitter"
-  caption: "Self-Publishing a Non-fiction Book With People I Met on Twitter"
+  alt: "Self-Publishing a Book With People I Met on Twitter"
+  caption: "Self-Publishing a Book With People I Met on Twitter"
   relative: false
 keywords: []
 draft: false
