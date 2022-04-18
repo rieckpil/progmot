@@ -172,7 +172,7 @@ For some concrete examples, these are chapters we worked on:
 
 While we had implemented similar features in the past, we still spent a reasonable amount of time reading the AWS documentation and related blog posts to ensure our previous assumptions were correct.
 
-We also ensured every co-author worked independently on their own topic (like OAuth2 login or RDS setup) to avoid any misunderstandings.
+We also ensured every co-author worked independently on their own topic (like OAuth2 login or RDS setup) to avoid any misunderstandings or coordination overhead.
 
 Everybody was working on a dedicated chapter, so there wasn't any conflict or idle time due to waiting on someone else's input. Writing the new chapter consisted both of doing research, adjusting the sample application, and writing the manuscript.
 
@@ -184,19 +184,19 @@ In parallel to our first release preparation, we created a basic [landing page](
 
 As there weren't any earnings, we kept the costs low to only invest more $$$ once we saw adoption of our book.
 
-In a true Lean Startup / MVP fashion, this signup form also acted as a preliminary litmus test to see how many developers are interested in bringing this book over the finish line.
+In a true MVP fashion, the signup form on our landing page also acted as a preliminary litmus test. We could see how many developers are interested in bringing this book over the finish line.
 
 Before releasing the first version, we had to finalize our ebook title and find a logo and a cover.
 
 As the book is all about getting ready for the cloud and effectively deploying applications to production in the cloud, the icon of a launching rocket seemed suitable. We started with the placeholder project name `aws101`. However, as this was clearly violating the trademarks of AWS, we had to find another name.
 
-After some brainstorming for possible names, we ended up with `Stratospheric`. Much like the rocket icon, that term is fits the "cloud" metaphor quite nicely.
+After some brainstorming for possible names, we ended up with `Stratospheric`. Much like the rocket icon, that term fits the _cloud_ metaphor quite nicely.
 
 We ordered two design examples for the logo on Fiverr and picked the best one:
 
 ![Stratospheric ebook Cover](/img/stratospheric-ebook/stratospheric-ebook-cover.png#center "Stratospheric ebook Cover")
 
-On the 8th of November 2020, we released the first manuscript. It took us approximately two months to publish the next revision from this day forward.
+On the 8th of November 2020, the time had finally come. We released the first manuscript with roughly 30% of the final content.
 
 We started with a base price of $10, which we increased with each revision. Remember, that we get 80% royalties to be split equally among all authors.
 
