@@ -488,9 +488,7 @@ Back then, we decided to channel all feedback via public GitHub issues. Everyone
 
 To streamline the feedback channel via GitHub issues and to ensure each issue contains some minimal required information (e.g., version of the ebook), we've created two GitHub issue templates: one for general feedback on the book and one for technical questions/issues with the sample application.
 
-The GitHub issue template is backed by a YAML file and describes the required input fields:
-
-`.github/ISSUE_TEMPLATE/BOOK-FEEDBACK.yml`
+The GitHub issue template is backed by a [YAML file](https://github.com/stratospheric-dev/stratospheric/tree/main/.github/ISSUE_TEMPLATE) and describes the required input fields:
 
 ```yaml
 name: Feedback for the ebook
