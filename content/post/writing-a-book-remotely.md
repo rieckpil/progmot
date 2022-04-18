@@ -116,13 +116,13 @@ Furthermore, Tom already self-published his first book and then got a technical 
 
 For self-publishing books in the tech space, [Leanpub](https://leanpub.com/) seemed to be the de-facto default choice. Leanpub is highly appealing to self-publishing tech authors as they offer the following:
 
-- writing the manuscript in Markdown or bringing your own PDF
-- automatic formatting/layout for Markdown manuscripts
-- automatic file generation for other ebook formats like Mobi and ePub
-- integration with GitHub/Dropbox for the manuscript
-- fair pricing with 80% royalties for the authors
-- payout via PayPal and support for multiple authors
-- no payment/tax implications for the authors: Leanpub acts as the merchant of record and takes ownership for the payment and tax handling (something I should have also favored for [my first online course](https://progmot.com/post/creating-and-selling-my-first-online-course/))
+- Writing the manuscript in Markdown or bringing your own PDF
+- Automatic formatting/layout for Markdown manuscripts
+- Integration with GitHub/Dropbox for the manuscript
+- Fair pricing with 80% royalties for the authors
+- Automatic file generation for other ebook formats like Mobi and ePub
+- Payout via PayPal and support for multiple authors
+- No payment/tax implications for the authors: Leanpub acts as the merchant of record and takes ownership for the payment and tax handling (something I should have also favored for [my first online course](https://progmot.com/post/creating-and-selling-my-first-online-course/))
 
 Leanpub is also built around the "Publish Early, Publish Often" concept. They favor the approach of giving access to a book early while it's still in development and continuously adding new chapters to it.
 
@@ -234,10 +234,10 @@ Getting used to AWS, its interfaces, its services, the management console, and h
 Next, we dive into the actual application development. We showcase building must-have features while connecting to various AWS services:
 
 - OAuth2 Login and user management with AWS Cognito
-- email delivery with SES
-- real-time browser notifications with WebSockets and Amazon MQ
-- asynchronous workload operations with AWS SQS
-- storing data in a relational database with RDS
+- Email delivery with SES
+- Real-time browser notifications with WebSockets and Amazon MQ
+- Asynchronous workload operations with AWS SQS
+- Storing data in a relational database with RDS
 
 We showcase the integration with AWS and Spring Boot based on meaningful feature implementations and enrich our sample Todo application with every chapter.
 
