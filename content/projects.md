@@ -6,4 +6,12 @@ author: "Philip"
 HideCommentBox: true
 ---
 
-... upcoming list of projects
+Excerpt of the projects I'm currently working on:
+
+- [Stratospheric - From Zero to Production with Spring Boot and AWS](https://stratospheric.dev/) (ebook)
+- [Technical Blog about Java, Spring Boot, Testing and AWS](https://rieckpil.de) (blog)
+- [Testing Spring Boot Applications Masterclass](https://rieckpil.de/testing-spring-boot-applications-masterclass/) (online course)
+- [30 Testing Tools and Libraries Every Java Developer Must Know](https://rieckpil.de/testing-tools-and-libraries-every-java-developer-must-know/) (ebook)
+- [YouTube channel](https://www.youtube.com/c/rieckpil) (hands-on videos)
+- [Learn Testing Java Applications in 30 Days](https://rieckpil.de/getting-started-with-testing-java-applications-email-course/) (email course)
+
