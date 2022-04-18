@@ -68,7 +68,7 @@ params:
 
       - &nbsp;
 
-      - On my main blog [rieckpil.de](https://rieckpil.de), I’m creating content under the slogan _Testing Java Applications Made Simple_ with a focus on Java, Kotlin, Spring Boot, and AWS 🍃
+      - On my main blog [rieckpil.de](https://rieckpil.de), I create content under the slogan _Testing Java Applications Made Simple_ with a focus on Java, Kotlin, Spring Boot, and AWS 🍃
 
       - &nbsp;
 
@@ -81,10 +81,6 @@ params:
       url: "https://stackoverflow.com/users/9085273/rieckpil"
     - name: github
       url: "https://github.com/rieckpil"
-
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -135,7 +131,7 @@ privacy:
   twitter:
     disabled: false
     enableDNT: true
-    simple: true
+    simple: false
 
   instagram:
     disabled: false
