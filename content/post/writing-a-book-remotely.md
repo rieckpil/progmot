@@ -24,7 +24,7 @@ In short, this article covers:
 - How we organized ourselves to write the ebook asynchronously while having an 8-hour time lag
 - General tips, recommendations, and lessons learned for co-authoring a technical ebook
 
-The whole project was (and still is) a lot of fun. I learned a ton about AWS and got the chance to connect and work with knowledgeable and nice people.
+The whole project was (and still is) a lot of fun. I learned a ton about AWS and got the chance to connect and work with knowledgeable and smart people.
 
 The three co-authors are: [Tom](https://twitter.com/TomHombergs/) (🇩🇪 living in 🇦🇺), [Björn](https://twitter.com/bwilmsmann/) (🇩🇪), [Philip](https://twitter.com/rieckpil) (🇩🇪 - that's me).
 
@@ -38,15 +38,17 @@ While scrolling through my Twitter feed, I saw a fellow technical blogger reachi
 
 {{< tweet user="TomHombergs" id="1278635778722000902" >}}
 
-We next met with the intention of sharing our experience as tech bloggers. During the second or third meeting of this kind, Tom asked for fellow bloggers who'd interested in taking a closer look at AWS and Spring Boot and who may want to write about it.
+I immediately wrote Tom a DM and said I was in.
+
+Next, we met as a group of six tech bloggers to share our experience and lessons learned. During the second or third meeting of this kind, Tom asked for fellow bloggers who'd interested in taking a closer look at AWS and Spring Boot and who may want to write about it.
 
 Björn and I, participating in this meeting, raised our hands. We've never met each other before and only partially knew each other from reading each other's blogs and Tweets.
 
-We organized a separate meeting to discuss more details and to get to know each other.
+We organized a separate meeting for this potential AWS project to discuss more details.
 
 ## Our Goals For This Project ⭐️
 
-Before we started to work on this project, we met several times to get to know each other and align our goals and expectations. While all three of us were working full-time for clients/an employer, we set the common understanding that this would be a fun side project.
+Before we started to work on this project, we met several times to get to know each other and align our goals and expectations. While all three of us were working full-time for clients/an employer, we set the common understanding that this would be a fun side-project.
 
 We all have had some experience with AWS but wanted to learn more about this particular cloud provider in depth. When developing features for clients or customers, we usually never had the time to explore the variety of AWS services available.
 
@@ -75,7 +77,7 @@ In short, this brought us to the following high-level goals for our readers that
 Apart from these project goals, I had the following personal goals:
 
 1. Learn more about AWS.
-2. Improve writing skills and tick off 'writing a book' from our bucket list.
+2. Improve writing skills and tick off 'writing a book' from my bucket list.
 3. Create awareness of myself to attract potential clients as a freelancer.
 
 Packed with these ideas, we then got started with the project.
@@ -93,11 +95,11 @@ We picked what we felt most comfortable with for the tech stack: Java and Spring
 
 Besides exploring AWS services on the go, we all had stories and best practices for various AWS services to share that the other co-authors could learn from.
 
-Once we had a working sample application running on AWS and we were confident that the topic we were about to write added value, we started writing the book. We first sketched out a table of contents and started working on the different chapters in parallel.
+Once we had a working sample application running on AWS and we were confident that the topic we were about to write added value, we started writing the book. We first sketched out a table of contents and added bullet points to the different chapters in parallel.
 
 We created a new AWS account for this project, and added three IAM users for us. Next, we created a GitHub organization that acted as an umbrella container for all related code repositories for this ebook project.
 
-We more or less split this PoC time into two areas: automating the infrastructure setup with CloudFormation and developing a sample application. Back then, we started with `.yaml` CloudFormation templates but moved quickly to the promising AWS CDK project.
+We more or less split this proof of concept time into two areas: automating the infrastructure setup with CloudFormation and developing a sample application. Back then, we started with `.yaml` CloudFormation templates but moved quickly to the promising AWS CDK project.
 
 As soon as we had a container cluster (ECS) with an automated CI/CD pipeline and the sample application with some basic features ready, such as a login with AWS Cognito and storing data within RDS, we started to plan the next steps.
 
@@ -107,11 +109,9 @@ Next, we had to decide how we would write this book. The main question we had to
 
 As this project was a side-project for all three of us and not what we do full time, we all agreed that working with a formal publisher was not an option for us: Working towards given deadlines and having to deliver a final piece on a fixed date was something we clearly wanted to avoid.
 
-Furthermore, Tom already self-published his first book and then got a technical publisher on board to offer a print version and more distribution channels. Based on his experience and the common understanding, that this project may also fail, we went for the self-publishing approach.
+Furthermore, Tom already self-published his first book and then got a technical publisher on board to offer a print version and more distribution channels. Based on his experience and our common understanding, that this project may also fail, we went for the self-publishing route.
 
-For self-publishing books in the tech space, [Leanpub](https://leanpub.com/) seemed to be the de-facto default choice.
-
-Leanpub is highly appealing to self-publishing tech authors as they offer the following:
+For self-publishing books in the tech space, [Leanpub](https://leanpub.com/) seemed to be the de-facto default choice. Leanpub is highly appealing to self-publishing tech authors as they offer the following:
 
 - writing the manuscript in Markdown or bringing your own PDF
 - automatic formatting/layout for Markdown manuscripts
@@ -119,11 +119,11 @@ Leanpub is highly appealing to self-publishing tech authors as they offer the fo
 - integration with GitHub/Dropbox for the manuscript
 - fair pricing with 80% royalties for the authors
 - payout via PayPal and support for multiple authors
-- no payment/tax implications for the author: Leanpub acts as the merchant of record and takes ownership for the payment and tax handling (something I should have also favored for [my first online course](https://progmot.com/post/creating-and-selling-my-first-online-course/))
+- no payment/tax implications for the authors: Leanpub acts as the merchant of record and takes ownership for the payment and tax handling (something I should have also favored for [my first online course](https://progmot.com/post/creating-and-selling-my-first-online-course/))
 
 Leanpub is also built around the "Publish Early, Publish Often" concept. They favor the approach of giving access to a book early while it's still in development and continuously adding new chapters to it.
 
-Each [Leanpub ebook landing page](https://leanpub.com/stratospheric) provides information about the completeness and when the last changes were published:
+Each [Leanpub ebook has its own landing page](https://leanpub.com/stratospheric) with basic information about the book and information about its completeness:
 
 ![Stratospheric Completeness Bar](/img/stratospheric-ebook/leanpub-completness-bar-stratospheric-example.png#center "Stratospheric Completeness Bar")
 
@@ -133,7 +133,7 @@ We went for Leanpub because it's tech-friendly, easy-to-setup and offers fair ro
 
 Having signed up for Leanpub, it was now time to finalize the technical setup to then get our hands dirty and start writing.
 
-Working daily with GitHub, we chose a private GitHub repository for backing our manuscript markdown files. This allowed for a more seamless flow compared to uploading the files to a shared DropBox folder. We get versioning, automations with GitHub Actions, collaboration tools, and a great feedback mechanism via pull requests with GitHub.
+Working daily with GitHub, we chose a private GitHub repository for backing our manuscript Markdown files. This allowed for a more seamless flow compared to uploading the files to a shared DropBox folder. We get versioning, automations with GitHub Actions, collaboration tools, and a great feedback mechanism via pull requests with GitHub.
 
 We used the following branching strategy for the ebook:
 
@@ -549,7 +549,7 @@ If you're starting from scratch, take some time with your co-authors to set clea
 
 That's the most important takeaway. Find people you enjoy working with and from whom you can learn.
 
-It's a side project, enjoy the experience, and learn as much as you can. It's your spare time. If it feels like a job, don't do it.
+It's a side-project, enjoy the experience, and learn as much as you can. It's your spare time. If it feels like a job, don't do it.
 
 Don't expect to become rich by writing a book but instead, use this opportunity to establish a brand in your niche or use it as a way of establishing credibility and authority. I'm fairly certain co-authoring an ebook is more relevant than any basic certification for a specific topic.
 
