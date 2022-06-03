@@ -109,7 +109,8 @@ In summary, these are the tips and recommendations:
 - trial run
 - try presentations in-house
 - get a mentor or buddy to help out with the slide deck and talk preparation (I didn't had one but advice for it if you've done not many other public speaking session inside your company)
-- record yourself
+- record yourself (I use ScreenFlow for this, the QuickTimePlayer of MacOS also works here)
+- cut the recording to have a plan B if everything goes south. Imagine a positive COVID test right before the conference. This way, you can at least send the recording to the organizers and they can play it inside the room.
 - check the hardware before and have backup options
 - have fun
 - don't do live coding on your first talk
