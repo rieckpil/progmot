@@ -7,7 +7,7 @@ author: "Philip"
 summary: "TODO"
 description: "TODO"
 cover:
-  image: "/img/featured-images/writing-a-book-remotely.png"
+  image: "/img/featured-images/IMAGE_OF_ME_AT_CONFERENCE.png"
   alt: "TODO"
   caption: "TODO"
   relative: false
@@ -19,7 +19,9 @@ ShowToc: true
 
 Giving my first talk at a conference, lessons learned and my preparation.
 
-## Decision ot give a talk
+Background: Back at the 26/26th of May 2022, I gave my first talk: "How fixing a broken window cut down our build time by 50%" at the [Spring I/O](https://springio.net) in Barcelona. The conference had 1200 attendees, around 60 speaker and more than 150 attendees came to my talk.
+
+## Deciding ot Give a Talk
 
 For two years already, always moving this yearly goal of mine to the next year. When the whole work from home period started, I first tought a remote conference might be easy to get started. However, I wanted to experience standing in front of a real audience and not stare into a screen.
 
@@ -35,7 +37,7 @@ I didn't thought that this may be too big of an audience for an unknown speaker 
 
 I thought "Let's submit the talk and see what happens"
 
-## Getting Accepted
+## Getting Accepted for the Conference
 
 On XYZ, I got my positive COVID test result and was feeling ill and both sad. I enjoyed the entire day on my couch and surfed on the web and watched YouTube videos.
 
@@ -46,7 +48,7 @@ I WAS ACCEPTED!
 What a feeling achterbahn this day. In the morning, the proof that I had a COVID infecation (I thought the day is over) and in the afternoon the confirmation email that I'm a speaker at the conference. I couldn't be more happy that day.
 
 
-## Preparing
+## Preparing the Talk
 
 The goal: 40-45 min talk in English
 
@@ -73,20 +75,58 @@ The mental pressure, watching talks for two days while knowning you have to give
 But it actually wasn't that. I could really enjoy the time before my talk. Maybe not the last talk before mine, but that's okay.
 
 
-## Giving the talk
+## Giving the Talk
 
+Fortunately, there was a 30-minute coffee break before my talk. Hence, I was in no rush and could prepare the setup and get used to the stage and atmosphere. I arrived 20 minutes before the talk started, set up my machine, connected ot the beamer.
 
-## After:
+10 minutes before the talk started, I got the mobile microphone from the sound team.
 
-Feeling of joy that I got out of my comfort zone.
+I greeted the audience and thank them that they came to my talk on a Friday afternoon 5pm while it's perfect weather outside in Barcelona.
 
-Tips:
+After the first 4-5 sentences, the initial excitement faded away, and I really enjoyed talking about a topic I really like.
+
+There was no major problem during the talk as I didn't live code and had all code examples stripped down to their minimum and included as a screenshot.
+
+After 48 minutes, I finished my last "Conclusion & FAQ" slide and the talk was over.
+
+What a feeling at this point in time!
+
+The final slide deck is [available on Speaker Deck](https://speakerdeck.com/rieckpil/how-fixing-a-broken-window-cut-down-our-build-time-by-50-percent).
+
+## Afterthoughts
+
+Feeling of joy that I got out of my comfort zone. In total, more than 10 attendees came to me after the talk and wanted to both congrats me for the talk and ask further questions. I guess that's a good sign if there's interest after your talk.
+
+Timing-wise I could have done a bit better. While my session was planned for 50 minutes, I finished my talk within 48 minutes and hence had no time to answer questions directly from the audience. Nevertheless, I tried to help everyone that came to me after the talk and we took a standing desk outside to discuss details or specific problems.
+
+> Life happens outside your comfort zone, the rest is just repetition.
+
+After giving the talk, I was both super happy and releaxed that I did it. I immediately thought about what talks I can prepare next as I enjoyed the entire experience of being a speaker at a conference.
+
+Kudos belong to Sergi Almar and his entire team for the amazing organization of this event!
+
+In summary, these are the tips and recommendations:
 - trial run
 - try presentations in-house
-- get a mentor or buddy to help out
+- get a mentor or buddy to help out with the slide deck and talk preparation (I didn't had one but advice for it if you've done not many other public speaking session inside your company)
 - record yourself
 - check the hardware before and have backup options
 - have fun
+- don't do live coding on your first talk
+- have fallbacks for everything
+- Use big font sizes
+- Don't overuse bullet points that make your audience tired, fresh up things with graphics, images and short summaries
+- Upload your slide deck to Speaker Deck afterward
+- Don't use dark themes when screenshotting your code examples (I use the distrction free mode of IntelliJ IDEA for my screenshots)
+- Talk water and maybe some halsbonbons to the stage
+- Wear cloths that you feel comfortable
 
 Have fun preparing your first talk,\
 Philip
+
+
+To many more talks 🚀
+
+Have fun preparing your first talk and see you (maybe) at a conference,\
+Philip
+
