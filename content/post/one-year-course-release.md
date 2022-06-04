@@ -247,6 +247,8 @@ In the end, I had nine of these early-bird batches:
 
 At each stage, new course users could join for a reduced price and get all upcoming course lessons for free. This early-bird program also reduced the feedback cycle as I got important feedback early on and could improve the upcoming lessons.
 
+{{< newsletter-signup >}}
+
 ## Going Live With the First Lessons
 
 Selling something to an audience of zero people is hard.
