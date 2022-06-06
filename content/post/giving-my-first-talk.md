@@ -33,29 +33,57 @@ I submitted a talk, the idea for this talk was in my head for quite some time. I
 
 Submitted for the Spring I/O 2022 in Barcelona. The Spring framewrok is the defacto standard Java framwework (next to Jakarta EE and Quarkus) for developing Java applicaitons. The main open source effort comes from employees at VMWare (now Broadcom). The Sprig I/O conference is a community organized conference and has no affiliation with VMWare. It was the 9th iteration of this conference and in the past, more than 1000 participated.
 
-I didn't thought that this may be too big of an audience for an unknown speaker with zero experience on the stage. I do have held various talks and presentation in-house, but never in front of a public audience.
+I didn't think that this may be too big of an audience for an unknown speaker with zero experience on the stage. I do have held various talks and presentation in-house, but never in front of a public audience.
 
-I thought "Let's submit the talk and see what happens"
+I thought "Let's submit the talk and see what happens" ...
 
 ## Getting Accepted for the Conference
 
-On XYZ, I got my positive COVID test result and was feeling ill and both sad. I enjoyed the entire day on my couch and surfed on the web and watched YouTube videos.
+On the XY of March 2022 I got my positive COVID test result. To recover and relax, I enjoyed the entire day on my couch and surfed on the web and watched YouTube videos.
 
 Somewhere around 3pm that day, I checked my emails and found an email from the Spring I/O conference.
 
 I WAS ACCEPTED!
 
-What a feeling achterbahn this day. In the morning, the proof that I had a COVID infecation (I thought the day is over) and in the afternoon the confirmation email that I'm a speaker at the conference. I couldn't be more happy that day.
+What a feeling achterbahn this day. In the morning, the proof that I had a COVID infection (I thought the day is over) and in the afternoon the confirmation email that I'm a speaker at the conference. I couldn't be more happy that day.
 
+While I had submitted various papers before COVID, somehow by none of them I was feeling that I really want to give this talk. It was mare a self obligated duty to just submit something so that I can tell myself I tried it this.
+
+For the Spring I/O talk submission, this was completely different. I had a talk in mind that both aligend to my current content creation niche and edcuates about a topic not many other speaker talk about.
+
+It was a lessons learned from a project where we optimized our integration test setup and could reduce the overall build time by 50% from 26 to 12 minutes.
+
+Looking back, it seems that I was quite lucky being selected while having just one talk submitted. While many call for papers allow you to submit multiple (different) talks, I went all in with this one. The main reasons was that only for this particular talk I was feeling confident enough to present it as my first talk on a public conference.
+
+With the talk being accepted, the countdown started to prepare the talk and train for the day. I only had the title, elevator pitch and a description. There was no single slide yet ...
 
 ## Preparing the Talk
 
-The goal: 40-45 min talk in English
+The requirements for this talk were crystal clear: I got 50 minutes to present the talk and answer slides. The language has to be English as it's an international audience. As a high-level ballpark figure, I was expecting 150-250 attendees for my talk as the overall conference had 1200 attendees and four parallel tracks.
 
-TODO: Find the images where I gradually created the slide deck
+While I had some basic bullet points and ideas for the talk in mind, I did not start with the actual preparation 60 days before the conference.
 
-Almost 60 days before the conference started. I didn't to it all at once and rather invested 1-2h every day to fine tune and polish the talk. I already had the rough roten faden in my head and just needed to put my outline _on paper_.
+I didn't want to prepare my slides all at once and decided to rather invest 1-2h every day to work on the talk. I already had the rough roten faden in my head and just needed to put my outline _on paper_.
 
+This continuous talk creation helped me stay creative and not work under pressure one week before the talk.
+
+I frequently switched places for this kind of work and primarily prepared the talk in cafes or in cozy co-working places in Berlin:
+
+TODO: Find the images where I gradually created the slide deck in the cafe
+
+While I hadn't done any major presentation recently, I picked Google Slides as this was the presentation software I was most familiar with. I picked a slide theme and adjusted it to my _brand colors_:
+
+TODO: Screenshot of slides from Google
+
+It was clear that I didn't want to perform any live coding on stage for my first talk. That's why I included all code examples as screenshots.
+
+For the slide design, I tried to balance text-only and graphical slides (including memes) to keep the talk exciting.
+
+The common thread throughout my talk was about the "Broken Windows Theory" (link wikipedia). While this theory comes from the criminological area, it can be applied to almost everything. In short, this theory describes that rural areas where there's much litter on the ground, damaged cars, rundown houses, the likelihood that similar _crime_ happens is more likely than in a neighbourhood where everything is spotless.
+
+We can transfer this analogy to software projects. As soon as a team member introduces a not so optimal workaround to our code base, the more likely other developers will follow. This can drain our overal project health as the first _broken window_ entails potentially more broken windows.
+
+Back in 2019 I was working in a project where we had such a broken window inside our codebase. It resulted in ever increasing build times and the overall team motivation started to decline. After some initial hurdles, we could fix this broken window and bring our project health back to a clean state.
 
 I gave the talk a week before the conference started to myself and recorded the screen and my camera. This acted both as a trial run as well as a backup plan. Given the unclear Corona situiation, I might get positive and may not be able to hold the talk. I thought that if I preapre the talk I can send it to the organizers and they can at least play the video for the attendees. Fortunately, that backup option was never used.
 
