@@ -158,7 +158,7 @@ After giving the talk, I was both super happy and releaxed that I did it. I imme
 
 The final slide deck is [available on Speaker Deck](https://speakerdeck.com/rieckpil/how-fixing-a-broken-window-cut-down-our-build-time-by-50-percent).
 
-Kudos belong to [Sergi Almar](TODO_SERGI_TWITTER) and his entire team for the amazing organization of this event!
+Kudos belong to [Sergi Almar](https://twitter.com/sergialmar/) and his entire team for the amazing organization of this event!
 
 In summary, these are the tips and recommendations:
 - trial run
