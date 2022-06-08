@@ -24,7 +24,7 @@ Images to include:
 - Selfie before the talk
 - Selfie after the talk
 
-> Life happens outside your comfort zone, the rest is just repetition.
+> Life happens outside your comfort zone - the rest is just repetition.
 
 For a long time, I've been thinking to give a talk at a public conference. While I've already gave technical sessions and smaller talks internally for colleagues or clients, I never stood on stage.
 
@@ -102,9 +102,9 @@ The talk was about a journey and our lessons learned from optimizing our integra
 
 The common thread throughout my talk was about the "Broken Windows Theory" (link wikipedia). While this theory comes from the criminological area, it can be applied to almost everything. In short, this theory describes that rural areas where there's much litter on the ground, damaged cars, rundown houses, the likelihood that similar _crime_ happens is more likely than in a neighbourhood where everything is spotless.
 
-We can transfer this analogy to software projects. As soon as a team member introduces a not so optimal workaround to our code base, the more likely other developers will follow. This can drain our overal project health as the first _broken window_ entails potentially more broken windows.
+We can transfer this analogy to software projects. As soon as a team member introduces a not so optimal workaround to our code base, the more likely other developers will follow. This can drain our overall project health as the first _broken window_ entails potentially more broken windows.
 
-Back in 2019 I was working in a project where we had such a broken window inside our codebase. It resulted in ever increasing build times and the overall team motivation started to decline. After some initial hurdles, we could fix this broken window and bring our project health back to a clean state.
+Back in 2019 I was working in a project where we had such a broken window inside our codebase. It resulted in ever-increasing build times and the overall team motivation started to decline. After some initial hurdles, we could fix this broken window and bring our project health back to a clean state.
 
 After finalizing the slides, I started with the training.
 
@@ -120,11 +120,11 @@ One or two sentences for the speaker dinner before the first conference day.
 
 First day with a picture of all speakers, Crazy feeling. All other conferences I was just an attendee
 
-Felt so grateful, a little bit like a star to join the conference as a speaker and not as an attendee. I got the chance to meet many other speaker, many of which I'm following on Twitter and aspire, at the speaker dinner.
+Felt so grateful, a little like a star to join the conference as a speaker and not as an attendee. I got the chance to meet many other speaker, many of which I'm following on Twitter and aspire, at the speaker dinner.
 
 My talk was the second last on the last conference day. 5 PM when it's super nice in Barcelona.
 
-The mental pressure, watching talks for two days while knowning you have to give your talk almost at the end. Almost like in school when it was time to hold presentations and you were the last. Sitting in the class room, getting more neverous, the more your friends finish theirs.
+The mental pressure, watching talks for two days while knowing you have to give your talk almost at the end. Almost like in school when it was time to hold presentations and you were the last. Sitting in the classroom, getting more nervous, the more your friends finish theirs.
 
 But it actually wasn't that. I could really enjoy the time before my talk. Maybe not the last talk before mine, but that's okay.
 
