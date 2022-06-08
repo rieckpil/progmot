@@ -26,7 +26,7 @@ Images to include:
 
 > Life happens outside your comfort zone, the rest is just repetition.
 
-For a long time, I've been thinking to give a talk at a public conference. While I already gave technical sessions and smaller talks internally (for colleagues or clients), I never stood on stage.
+For a long time, I've been thinking to give a talk at a public conference. While I've already gave technical sessions and smaller talks internally for colleagues or clients, I never stood on stage.
 
 Back at the 27th of May 2022, I could tick off this item from my bucket list as I gave my first talk: "How fixing a broken window cut down our build time by 50%" at the [Spring I/O](https://springio.net) in Barcelona. The conference had 1200 attendees, around 60 speaker and more than 150 attendees came to my talk.
 
@@ -34,7 +34,7 @@ This article describes my journey to giving my first talk including my lessons l
 
 ## Deciding to Give a Talk
 
-There was this one item on my yearly goal list that I kept moving to my next year's goal list. I was procrastination a lot on giving my first public talk and always wanted to find the right moment. While I submitted some talk ideas to three different conferences, back in 2019, none of them got accepted.
+There was this one item on my yearly goal list that I kept moving to my next year's goal list. I was procrastination a lot on giving my first public talk and always wanted to find the right moment. While I submitted some talk ideas to three different conferences, back in 2019, none of them got accepted.  Somehow by none of these submissions I was feeling that I really want to give this talk. It was a more self obligated duty to just submit something so that I can tell myself I tried it.
 
 When the whole work from home period started, I first thought a remote conference might be easy to get started. However, I wanted to experience standing in front of a real audience and not stare into a screen.
 
@@ -42,35 +42,39 @@ Actually, I have seen many speakers complain that the online conference are some
 
 That's why I decided to pause this goal and wait until in-person conferences are happening again.
 
-I submitted a talk, the idea for this talk was in my head for quite some time. It was a project experience with a nice analogy and background. It was both full of actionable takeaways, as well as lessons learned, practical advice based on a real project on software development.
+Then somewhere around the beginning of 2022 I saw on Twitter that the CFP (call for papers) for the Spring I/O 2022 started. The Spring I/O is a community organized (mainly by Sergi Almar) conference in Barcelona, Spain. Its focus is the Spring framework which is the de facto standard framework (next to Jakarta EE and Quarkus) for developing Java applications. The Sprig I/O conference is a community organized conference and has no affiliation with VMWare. It was the 9th iteration of this conference and in the past, more than 1000 participated.
 
-Submitted for the Spring I/O 2022 in Barcelona. The Spring framework is the de facto standard Java framework (next to Jakarta EE and Quarkus) for developing Java applications. The main open source effort comes from employees at VMWare (now Broadcom). The Sprig I/O conference is a community organized conference and has no affiliation with VMWare. It was the 9th iteration of this conference and in the past, more than 1000 participated.
+During the pandemic, they switched to a remote conference and the conference in 2022 should be the first in-person conference after this break.
 
-I didn't think that this may be too big of an audience for an unknown speaker with zero experience on the stage. I do have held various talks and presentation in-house, but never in front of a public audience.
+I somehow felt that this is the right conference for me as it's fit 100% my blogging niche, and I know various previous speakers that I could ask for help and insights.
 
-I thought "Let's submit the talk and see what happens" ...
+For a long time I've always had a talk idea in my head. It was a project experience with a great learning analogy and background information. It was both full of actionable takeaways, lessons learned, and practical advice based on a real project on software development.
+
+After spending 30 minutes on finalizing the talk title, elevator pitch and description, I submitted the talk.
+
+I didn't think that this may be too big of an audience for an unknown speaker with zero experience on a public stage. I thought "Let's submit the talk and see what happens" ...
 
 ## Getting Accepted for the Conference
 
-On the XY of March 2022 I got my positive COVID test result. To recover and relax, I enjoyed the entire day on my couch and surfed on the web and watched YouTube videos.
+On the XY of March 2022 I got a positive CoVID test result after feeling sick for almost two days 😣
 
-Somewhere around 3pm that day, I checked my emails and found an email from the Spring I/O conference.
+To recover and relax, I enjoyed the entire day on my couch and surfed on the web and watched YouTube videos.
+
+Somewhere around 3pm that day, I checked my emails and found an email from the Spring I/O conference...
 
 I WAS ACCEPTED!
 
 TODO: Screenshot of accepting email from Sergi.
 
-What an emotional roller coaster this day. In the morning, the proof that I had a COVID infection (I thought the day is over) and in the afternoon the confirmation email that I'm a speaker at the conference. I couldn't be more happy that day. The sickness was secondary that day.
+As there is quite some gap between the deadline for the CFP and the day the organizers announce the lucky speakers, I almost had already forgotten that I submitted a talk.
 
-While I had submitted various papers before COVID, somehow by none of them I was feeling that I really want to give this talk. It was mare a self obligated duty to just submit something so that I can tell myself I tried it this.
+What a feeling of joy at this point sitting in my apartment while having COVID and being sick.
 
-For the Spring I/O talk submission, this was completely different. I had a talk in mind that both aligned to my current content creation niche and educates about a topic not many other speaker talk about.
+It was an entire emotional roller coaster this day. In the morning, the proof that I had a COVID infection (I thought the day is over) and in the afternoon the confirmation email that I'm a speaker at the conference. I couldn't be more happy that day. The sickness was secondary that day.
 
-It was a lessons learned from a project where we optimized our integration test setup and could reduce the overall build time by 50% from 26 to 12 minutes.
+Looking back, it seems that I was quite lucky being selected while having just one talk submitted. While many call for papers allow you to submit multiple different talks, I went all in with this one. The main reasons was that only for this particular talk I was feeling confident enough to present it as my first talk on a public conference.
 
-Looking back, it seems that I was quite lucky being selected while having just one talk submitted. While many call for papers allow you to submit multiple (different) talks, I went all in with this one. The main reasons was that only for this particular talk I was feeling confident enough to present it as my first talk on a public conference.
-
-With the talk being accepted, the countdown started to prepare the talk and train for the day. I only had the title, elevator pitch and a description. There was no single slide yet ...
+With the talk being accepted, the countdown started to prepare the talk and train for the conference day. I only had the title, elevator pitch and a description. There was no single slide yet ...
 
 ## Preparing the Talk
 
@@ -81,6 +85,8 @@ While I had some basic bullet points and ideas for the talk in mind, I did not s
 I didn't want to prepare my slides all at once and decided to rather invest 1-2h every day to work on the talk. I already had the rough roten faden in my head and just needed to put my outline _on paper_.
 
 This continuous talk creation helped me stay creative and not work under pressure one week before the talk.
+
+It was a lessons learned from a project where we optimized our integration test setup and could reduce the overall build time by 50% from 26 to 12 minutes.
 
 I frequently switched places for this kind of work and primarily prepared the talk in cafes or in cozy co-working places in Berlin:
 
