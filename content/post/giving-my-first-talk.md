@@ -62,7 +62,7 @@ To recover and relax, I enjoyed the entire day on my couch and surfed on the web
 
 Somewhere around 3pm that day, I checked my emails and found an email from the Spring I/O conference...
 
-I WAS ACCEPTED!
+I GOT ACCEPTED 🥳!
 
 TODO: Screenshot of accepting email from Sergi.
 
@@ -78,15 +78,13 @@ With the talk being accepted, the countdown started to prepare the talk and trai
 
 ## Preparing the Talk
 
-The requirements for this talk were crystal clear: I got 50 minutes to present the talk and answer slides. The language has to be English as it's an international audience. As a high-level ballpark figure, I was expecting 150-250 attendees for my talk as the overall conference had 1200 attendees and four parallel tracks.
+The requirements for this talk were crystal clear: I got 50 minutes to present the talk and answer question. The language has to be English as it's an international audience. As a rough ballpark figure, I was expecting 150-250 attendees for my talk as the overall conference had 1200 attendees and four parallel tracks.
 
 While I had some basic bullet points and ideas for the talk in mind, I did not start with the actual preparation 60 days before the conference.
 
-I didn't want to prepare my slides all at once and decided to rather invest 1-2h every day to work on the talk. I already had the rough roten faden in my head and just needed to put my outline _on paper_.
+I didn't want to prepare my slides all at once and decided to rather invest 1-2h every day to work on the talk. I already had the main common thread for the talk in my head and just needed to put my outline _on paper_.
 
-This continuous talk creation helped me stay creative and not work under pressure one week before the talk.
-
-It was a lessons learned from a project where we optimized our integration test setup and could reduce the overall build time by 50% from 26 to 12 minutes.
+Most of the time, I worked on the talk in the morning so that I can tick off this essential item on my daily task list rather soon. This continuous talk creation helped me stay creative and not work under pressure one week before the talk.
 
 I frequently switched places for this kind of work and primarily prepared the talk in cafes or in cozy co-working places in Berlin:
 
@@ -98,7 +96,9 @@ TODO: Screenshot of slides from Google
 
 It was clear that I didn't want to perform any live coding on stage for my first talk. That's why I included all code examples as screenshots.
 
-For the slide design, I tried to balance text-only and graphical slides (including memes) to keep the talk exciting.
+For the slide design, I tried to balance text-only and graphical slides (including memes) to keep the talk exciting as I already knew I'll be the second last speaker on Friday.
+
+The talk was about a journey and our lessons learned from optimizing our integration test setup and reducing the overall build time by 50% from 26 to 12 minutes.
 
 The common thread throughout my talk was about the "Broken Windows Theory" (link wikipedia). While this theory comes from the criminological area, it can be applied to almost everything. In short, this theory describes that rural areas where there's much litter on the ground, damaged cars, rundown houses, the likelihood that similar _crime_ happens is more likely than in a neighbourhood where everything is spotless.
 
@@ -106,11 +106,13 @@ We can transfer this analogy to software projects. As soon as a team member intr
 
 Back in 2019 I was working in a project where we had such a broken window inside our codebase. It resulted in ever increasing build times and the overall team motivation started to decline. After some initial hurdles, we could fix this broken window and bring our project health back to a clean state.
 
-I gave the talk a week before the conference started to myself and recorded the screen and my camera. This acted both as a trial run as well as a backup plan. Given the unclear Corona situiation, I might get positive and may not be able to hold the talk. I thought that if I preapre the talk I can send it to the organizers, and they can at least play the video for the attendees. Fortunately, that backup option was never used.
+After finalizing the slides, I started with the training.
 
-I tried this trial run to be as close to later. I used my standing desk and the presenter to get, as we would say in software development, close to production as possible.
+I gave the talk a week before the conference to myself and recorded the screen and my camera. This acted both as a trial run as well as a backup plan. Given the unclear Corona situation, I might get positive and may not be able to hold the talk. I thought that if I prepare the talk I can send it to the organizers, and they can at least play the video for the attendees. Fortunately, that backup option was never used.
 
-Second trial run two days before. As I'm a bit superstitious, I thought the final must be my third attempt aka. all good things are three.
+I tried this trial run to be as close to the conference day. I used my standing desk and the presenter to get, as we would say in software development, close to production as possible. This first run went already fantastic, and I was just in time.
+
+The second and final trial was done two days before the conference in a WeWork conference room in Barcelona. As I'm a bit superstitious, I thought the final talk run must be my third attempt aka. all good things are three.
 
 ## The Conference Day
 
