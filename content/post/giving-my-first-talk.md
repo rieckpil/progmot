@@ -1,11 +1,11 @@
 ---
-title: "TODO"
-date: 2022-06-15T12:00:00+02:00
-slug: "/TODO"
-aliases: ["/post/TODO"]
+title: "Giving My First Talk at a Public Conference"
+date: 2022-06-13T12:00:00+02:00
+slug: "/giving-my-first-talk-at-a-public-conference"
+aliases: ["/post/giving-my-first-talk-at-a-public-conference"]
 author: "Philip"
-summary: "TODO"
-description: "TODO"
+summary: "Giving My First Talk at a Public Conference"
+description: "Giving My First Talk at a Public Conference"
 cover:
   image: "/img/featured-images/IMAGE_OF_ME_AT_CONFERENCE.png"
   alt: "TODO"
@@ -155,6 +155,8 @@ Unfortunately the 2 minutes left weren't enough to answer questions as the next 
 Nevertheless, more than 10 attendees came to me right after the talk to ask their questions and to thank me for giving this talk. We went outside the room to avoid any disturbance for the next speaker and discussed their questions with no rush.
 
 I guess that's a good sign if there's interest after your talk.
+
+{{< youtube c-GV2PxymoY >}}
 
 ## Afterthoughts
 
