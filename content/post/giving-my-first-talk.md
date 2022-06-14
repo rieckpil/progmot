@@ -4,8 +4,8 @@ date: 2022-06-13T12:00:00+02:00
 slug: "/giving-my-first-talk-at-a-public-conference"
 aliases: ["/post/giving-my-first-talk-at-a-public-conference"]
 author: "Philip"
-summary: "Giving My First Talk at a Public Conference"
-description: "Giving My First Talk at a Public Conference"
+summary: "Journey & Lessons Learned - Stepping out of my comfort zone to give a technical talk at a public conference in front of more than 150 developers."
+description: "Journey & Lessons Learned - Stepping out of my comfort zone to give a technical talk at a public conference in front of more than 150 developers."
 cover:
   image: "/img/featured-images/IMAGE_OF_ME_AT_CONFERENCE.png"
   alt: "TODO"
@@ -17,24 +17,27 @@ tags: []
 ShowToc: true
 ---
 
-Images to include:
-- Speaker dinner
-- Conference venue
-- Speaker line-up image
-- Selfie before the talk
-- Selfie after the talk
-
 > Life happens outside your comfort zone - the rest is just repetition.
 
-For a long time, I've been thinking to give a talk at a public conference. While I've already gave technical sessions and smaller talks internally for colleagues or clients, I never stood on stage.
+For a long time, I've been thinking to give a talk at a public conference. While I've already held technical knowledge sharing sessions internally for colleagues or clients, I never stood on stage _in public_.
 
 Back at the 27th of May 2022, I could tick off this item from my bucket list as I gave my first talk: "How fixing a broken window cut down our build time by 50%" at the [Spring I/O](https://springio.net) in Barcelona. The conference had 1200 attendees, around 60 speaker and more than 150 attendees came to my talk.
 
 This article describes my journey to giving my first talk including my lessons learned and how I prepared for this event.
 
+Images to include:
+- Speaker dinner
+- Conference venue
+- Speaker line-up image
+- Getting accepted email
+- Selfie before the talk
+- Selfie after the talk
+
 ## Deciding to Give a Talk
 
-There was this one item on my yearly goal list that I kept moving to my next year's goal list. I was procrastination a lot on giving my first public talk and always wanted to find the right moment. While I submitted some talk ideas to three different conferences, back in 2019, none of them got accepted.  Somehow by none of these submissions I was feeling that I really want to give this talk. It was a more self obligated duty to just submit something so that I can tell myself I tried it.
+There was this one item on my yearly goal list that I kept moving to my next year's goal list.
+
+I was procrastination a lot on giving my first public talk and always wanted to find the right moment. While I submitted some talk ideas to three different conferences, back in 2019, none of them got accepted.  Somehow by none of these submissions I was feeling that I really want to give this talk. It was a more self obligated duty to just submit something so that I can tell myself I tried it.
 
 When the whole work from home period started, I first thought a remote conference might be easy to get started. However, I wanted to experience standing in front of a real audience and not stare into a screen.
 
@@ -42,7 +45,9 @@ Actually, I have seen many speakers complain that the online conference are some
 
 That's why I decided to pause this goal and wait until in-person conferences are happening again.
 
-Then somewhere around the beginning of 2022 I saw on Twitter that the CFP (call for papers) for the Spring I/O 2022 started. The Spring I/O is a community organized (mainly by Sergi Almar) conference in Barcelona, Spain. Its focus is the Spring framework which is the de facto standard framework (next to Jakarta EE and Quarkus) for developing Java applications. The Sprig I/O conference is a community organized conference and has no affiliation with VMWare. It was the 9th iteration of this conference and in the past, more than 1000 participated.
+Then somewhere around the beginning of 2022 I saw on Twitter that the CFP (call for papers) for the Spring I/O 2022 started. The Spring I/O is a community organized (mainly by Sergi Almar) conference in Barcelona, Spain. Its focus is the Spring framework which is the de facto standard framework (next to Jakarta EE and Quarkus) for developing Java applications.
+
+The [Spring I/O conference](https://springio.net) is a community organized conference and has no (direct) affiliation with VMWare. It was the 9th iteration of this conference and in the past, more than 1000 participated.
 
 During the pandemic, they switched to a remote conference and the conference in 2022 should be the first in-person conference after this break.
 
@@ -156,9 +161,7 @@ Nevertheless, more than 10 attendees came to me right after the talk to ask thei
 
 I guess that's a good sign if there's interest after your talk.
 
-{{< youtube c-GV2PxymoY >}}
-
-## Afterthoughts
+## Afterthoughts & Tips
 
 Feeling of joy that I got out of my comfort zone.
 Timing-wise I could have done a bit better. While my session was planned for 50 minutes, I finished my talk within 48 minutes and hence had no time to answer questions directly from the audience. Nevertheless, I tried to help everyone that came to me after the talk and we took a standing desk outside to discuss details or specific problems.
@@ -171,21 +174,25 @@ The final slide deck is [available on Speaker Deck](https://speakerdeck.com/riec
 Kudos belong to [Sergi Almar](https://twitter.com/sergialmar/) and his entire team for the amazing organization of this event!
 
 In summary, these are the tips and recommendations:
-- trial run
+- do at least one trial run. If you've never presented in front of a bigger audience, use an internal event or a meetup to train
 - try presentations in-house
 - get a mentor or buddy to help out with the slide deck and talk preparation (I didn't had one but advice for it if you've done not many other public speaking session inside your company)
-- record yourself (I use ScreenFlow for this, the QuickTimePlayer of MacOS also works here)
+- record yourself while speaking. I know that's super akward if you're doing it for the first time. Just do it and use the result as a backup (I use ScreenFlow for this, the QuickTimePlayer of MacOS also works here)
 - cut the recording to have a plan B if everything goes south. Imagine a positive COVID test right before the conference. This way, you can at least send the recording to the organizers and they can play it inside the room.
 - check the hardware before and have backup options
 - have fun
 - don't do live coding on your first talk
-- have fallbacks for everything
-- Use big font sizes
+- have fallbacks for everything. Batteries for your presenter, maybe a second laptop, a USB with the final talk on it, mobile data if the conference WLAN is flaky
+- Use big font sizes - the attendees in the last rows will thank you
 - Don't overuse bullet points that make your audience tired, fresh up things with graphics, images and short summaries
 - Upload your slide deck to Speaker Deck afterward
 - Don't use dark themes when screenshotting your code examples (I use the distraction free mode of IntelliJ IDEA for my screenshots)
 - Talk water and maybe some throat candy to the stage if your voice starts cracking
 - Wear cloths that you feel comfortable
+
+... and finally, here's the recording of the talk:
+
+{{< youtube c-GV2PxymoY >}}
 
 To many more talks 🚀
 
