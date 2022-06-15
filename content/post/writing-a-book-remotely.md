@@ -351,7 +351,7 @@ Furthermore, when co-authoring a book, you'll also improve your writing skills b
 
 We all had some background in writing technical content, which helped us a lot. Starting such a project with three people who have never written any technical blog before might be burdensome.
 
-{{< newsletter-signup >}}
+{{< newsletter-advertisement >}}
 
 ### Use an Iterative Approach
 
