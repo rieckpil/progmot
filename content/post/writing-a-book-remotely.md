@@ -351,6 +351,8 @@ Furthermore, when co-authoring a book, you'll also improve your writing skills b
 
 We all had some background in writing technical content, which helped us a lot. Starting such a project with three people who have never written any technical blog before might be burdensome.
 
+{{< newsletter-advertisement >}}
+
 ### Use an Iterative Approach
 
 With an iterative approach, you don't have to lock yourself for a year in a wooden cabin in Norway and come back with a finished book.
