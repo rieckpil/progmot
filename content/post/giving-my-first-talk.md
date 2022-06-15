@@ -61,37 +61,56 @@ I didn't think that this may be too big of an audience for an unknown speaker wi
 
 ## Getting Accepted for the Conference
 
-On the XY of March 2022 I got a positive CoVID test result after feeling sick for almost two days 😣
+On the XY of March 2022 I got a positive COVID test result after feeling sick for almost two days 😣
 
 To recover and relax, I enjoyed the entire day on my couch and surfed on the web and watched YouTube videos.
 
-Somewhere around 3pm that day, I checked my emails and found an email from the Spring I/O conference...
+Somewhere around 3pm that day, I checked my emails and found an email from the Spring I/O conference organizer ...
 
 I GOT ACCEPTED 🥳!
 
 TODO: Screenshot of accepting email from Sergi.
 
-As there is quite some gap between the deadline for the CFP and the day the organizers announce the lucky speakers, I almost had already forgotten that I submitted a talk.
+As there is some gap time between the deadline for the call for papers (CFP) and the day the organizers announce the lucky speakers, I almost already forgot about this talk submission.
 
 What a feeling of joy at this point sitting in my apartment while having COVID and being sick.
 
-It was an entire emotional roller coaster this day. In the morning, the proof that I had a COVID infection (I thought the day is over) and in the afternoon the confirmation email that I'm a speaker at the conference. I couldn't be more happy that day. The sickness was secondary that day.
+It was an entire emotional roller coaster this day. In the morning, the COVID proof really made my day in a negative sense and I thought the day is over...
 
-Looking back, it seems that I was quite lucky being selected while having just one talk submitted. While many call for papers allow you to submit multiple different talks, I went all in with this one. The main reasons was that only for this particular talk I was feeling confident enough to present it as my first talk on a public conference.
+... and then in the afternoon the confirmation email that I'm a speaker at the conference. I couldn't be more happy that day. The sickness was secondary that day.
 
-With the talk being accepted, the countdown started to prepare the talk and train for the conference day. I only had the title, elevator pitch and a description. There was no single slide yet ...
+Looking back, it seems that I was quite lucky being selected while having just one talk submitted. While many conferences allow you to submit multiple talks, I went all-in with this one. The main reasons was that only for this particular talk I was feeling confident enough to present it as my first talk at a public conference.
+
+With the talk being accepted, the countdown started and it was time to prepare and train for the conference day. I only had the title, elevator pitch and a description.
+
+There was no single slide yet ...
+
+
+## Talk Idea
+
+The talk was about a journey and our lessons learned from optimizing our integration test setup and reducing the overall build time by 50% from 26 to 12 minutes.
+
+The common thread throughout my talk was about the [Broken Windows Theory](https://en.wikipedia.org/wiki/Broken_windows_theory). While this theory comes from the criminological area, it can be applied to almost everything.
+
+In short, this theory describes that rural areas where there's much litter on the ground, damaged cars, rundown houses, the likelihood that similar _crime_ happens is more likely than in a neighbourhood where everything is spotless.
+
+We can transfer this analogy to software projects. As soon as a team member introduces a not so optimal workaround to our code base, the more likely other developers will follow. This can drain our overall project health as the first _broken window_ entails potentially more broken windows.
+
+Back in 2019 I was working in a project where we had such a broken window inside our codebase. It resulted in ever-increasing build times and the overall team motivation started to decline. After some initial hurdles, we could fix this broken window and bring our project health back to a clean state.
 
 ## Preparing the Talk
 
-The requirements for this talk were crystal clear: I got 50 minutes to present the talk and answer question. The language has to be English as it's an international audience. As a rough ballpark figure, I was expecting 150-250 attendees for my talk as the overall conference had 1200 attendees and four parallel tracks.
+The requirements for this talk were crystal clear: I got 50 minutes. This includes the presentation and time for live Q&A. As the audience is from all around the world (mostly Europe), the language had to be English.
+
+As a rough ballpark figure, I was expecting 150-250 attendees for my talk as the overall conference had 1200 attendees and four parallel tracks.
 
 While I had some basic bullet points and ideas for the talk in mind, I did not start with the actual preparation 60 days before the conference.
 
-I didn't want to prepare my slides all at once and decided to rather invest 1-2h every day to work on the talk. I already had the main common thread for the talk in my head and just needed to put my outline _on paper_.
+I didn't want to prepare my slides all at once and rather decided to invest one to two hours every day to prepare the talk. I already had the main common thread for the talk in my head and just needed to put my outline _on paper_.
 
-Most of the time, I worked on the talk in the morning so that I can tick off this essential item on my daily task list rather soon. This continuous talk creation helped me stay creative and not work under pressure one week before the talk.
+Most of the time, I worked on the talk in the morning so that I could tick off this important item on my daily task list quite arly. This continuous talk creation helped me stay creative and not work under pressure one week before the talk.
 
-I frequently switched places for this kind of work and primarily prepared the talk in cafes or in cozy co-working places in Berlin:
+I frequently switched places for this kind of creative work and primarily prepared the talk in cozy cafés or in co-working places in Berlin:
 
 TODO: Find the images where I gradually created the slide deck in the cafe
 
@@ -99,21 +118,11 @@ While I hadn't done any major presentation recently, I picked Google Slides as t
 
 TODO: Screenshot of slides from Google
 
-It was clear that I didn't want to perform any live coding on stage for my first talk. That's why I included all code examples as screenshots.
+It was clear to me that I didn't want to perform any live coding on stage for my first talk. That's why I included all code examples as screenshots.
 
 For the slide design, I tried to balance text-only and graphical slides (including memes) to keep the talk exciting as I already knew I'll be the second last speaker on Friday.
 
-The talk was about a journey and our lessons learned from optimizing our integration test setup and reducing the overall build time by 50% from 26 to 12 minutes.
-
-The common thread throughout my talk was about the "Broken Windows Theory" (link wikipedia). While this theory comes from the criminological area, it can be applied to almost everything. In short, this theory describes that rural areas where there's much litter on the ground, damaged cars, rundown houses, the likelihood that similar _crime_ happens is more likely than in a neighbourhood where everything is spotless.
-
-We can transfer this analogy to software projects. As soon as a team member introduces a not so optimal workaround to our code base, the more likely other developers will follow. This can drain our overall project health as the first _broken window_ entails potentially more broken windows.
-
-Back in 2019 I was working in a project where we had such a broken window inside our codebase. It resulted in ever-increasing build times and the overall team motivation started to decline. After some initial hurdles, we could fix this broken window and bring our project health back to a clean state.
-
-After finalizing the slides, I started with the training.
-
-I gave the talk a week before the conference to myself and recorded the screen and my camera. This acted both as a trial run as well as a backup plan. Given the unclear Corona situation, I might get positive and may not be able to hold the talk. I thought that if I prepare the talk I can send it to the organizers, and they can at least play the video for the attendees. Fortunately, that backup option was never used.
+For training purposes, I gave the talk a week before the conference to myself and recorded the screen and my camera. This acted both as a trial run as well as a backup plan. Given the unclear COVID situation, I might get a positive test and may not be able to hold the talk. I thought that if I prepare the talk I can send it to the organizers, and they can at least play the video for the attendees. Fortunately, this backup was not needed at all.
 
 I tried this trial run to be as close to the conference day. I used my standing desk and the presenter to get, as we would say in software development, close to production as possible. This first run went already fantastic, and I was just in time.
 
@@ -121,11 +130,19 @@ The second and final trial was done two days before the conference in a WeWork c
 
 ## The Conference Day
 
-One or two sentences for the speaker dinner before the first conference day.
+As the conference was in Barcelona, I used this event for some pre- and post-vacation around the conference in Spain 🇪🇸. I spent four days in Valencia before the conference and then drove to Barcelona by bus.
 
-First day with a picture of all speakers, Crazy feeling. All other conferences I was just an attendee
+In the evening before the first conference, we had an amazing speaker dinner. There was even a shuttle that brought us to the dinner place. This speaker dinner was a great opportunity to meet the other speakers and connect people I already knew virtually from Twitter.
 
-Felt so grateful, a little like a star to join the conference as a speaker and not as an attendee. I got the chance to meet many other speaker, many of which I'm following on Twitter and aspire, at the speaker dinner.
+TODO: Picture of speaker dinner
+
+We even went for a post dinner beer on the rooftop bar of our hotel but got to bed around 1am as most of us had their talk right on the first conference day.
+
+As my talk was on the second day, I could enjoy the first day. I went to many great sessions, connected with other speakers and people in the Spring Boot community.
+
+It was a crazy feeling getting to the conference as a speaker. For all other conferences in the past, I was _only_ an attendee.
+
+I felt really grateful, even like a little like a star, that I was a speaker at this amazing conference.
 
 My talk was the second last on the last conference day. 5 PM when it's super nice in Barcelona.
 
