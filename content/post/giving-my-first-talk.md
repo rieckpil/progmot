@@ -128,7 +128,7 @@ I tried this trial run to be as close to the conference day. I used my standing 
 
 The second and final trial was done two days before the conference in a WeWork conference room in Barcelona. As I'm a bit superstitious, I thought the final talk run must be my third attempt aka. all good things are three.
 
-## The Conference Day
+## The First Conference Day: Relaxed Networking
 
 As the conference was in Barcelona, I used this event for some pre- and post-vacation around the conference in Spain 🇪🇸. I spent four days in Valencia before the conference and then drove to Barcelona by bus.
 
@@ -144,13 +144,19 @@ It was a crazy feeling getting to the conference as a speaker. For all other con
 
 I felt really grateful, even like a little like a star, that I was a speaker at this amazing conference.
 
-My talk was the second last on the last conference day. 5 PM when it's super nice in Barcelona.
+The first day ended with beer and networking on the conference venue. Around 9pm there was even a huge fountain animation next to the conference hall:
+
+TODO: Show picture of fountain
+
+After this show, I even got the chance to have dinner with the organizers and befriended speakers. As my talk was happening on the second day, I was hesitant to stay up late and hence we went straight to bed after dinner. Which was around 11pm as the people in Spain eat quite late compared to my used German dinner hours.
+
+
+## The Second Conference Day: Giving the Talk
+
 
 The mental pressure, watching talks for two days while knowing you have to give your talk almost at the end. Almost like in school when it was time to hold presentations and you were the last. Sitting in the classroom, getting more nervous, the more your friends finish theirs.
 
 But it actually wasn't that. I could really enjoy the time before my talk. Maybe not the last talk before mine, but that's okay.
-
-## Giving the Talk
 
 Fortunately, there was a 30-minute coffee break before my talk. Hence, there was no rush between two talks, and I could prepare the setup and get used to the stage and atmosphere. I arrived 20 minutes before the talk started, set up my machine, and connected to the beamer.
 
