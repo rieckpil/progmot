@@ -150,9 +150,7 @@ TODO: Show picture of fountain
 
 After this show, I even got the chance to have dinner with the organizers and befriended speakers. As my talk was happening on the second day, I was hesitant to stay up late and hence we went straight to bed after dinner. Which was around 11pm as the people in Spain eat quite late compared to my used German dinner hours.
 
-
 ## The Second Conference Day: Giving the Talk
-
 
 The mental pressure, watching talks for two days while knowing you have to give your talk almost at the end. Almost like in school when it was time to hold presentations and you were the last. Sitting in the classroom, getting more nervous, the more your friends finish theirs.
 
@@ -216,6 +214,10 @@ In summary, these are the tips and recommendations:
 ... and finally, here's the recording of the talk:
 
 {{< youtube c-GV2PxymoY >}}
+
+&nbsp;
+
+Let me know how your first public talk experience was in the comments. Also, feel free to provide any valuable feedback on the talk performance 🤓
 
 To many more talks 🚀
 
