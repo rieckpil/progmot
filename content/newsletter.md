@@ -1,5 +1,5 @@
 ---
-title: "Newsletter 📬"
+title: "Progmot Newsletter 📬"
 date: "2022-06-03"
 url: "/newsletter/"
 author: "Philip"
