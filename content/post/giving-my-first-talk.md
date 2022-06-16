@@ -61,7 +61,7 @@ Somewhere around 3pm that day, I checked my emails and found an email from the S
 
 I GOT ACCEPTED 🥳!
 
-TODO: Screenshot of accepting email from Sergi.
+![Talk Selection](/img/first-talk/talk-selection.png#center "Talk Selection")
 
 As there is some gap time between the deadline for the call for papers (CFP) and the day the organizers announce the lucky speakers, I almost already forgot about this talk submission.
 
