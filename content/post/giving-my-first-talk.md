@@ -7,9 +7,9 @@ author: "Philip"
 summary: "Journey & Lessons Learned - Stepping out of my comfort zone to give a technical talk at a public conference in front of more than 150 developers."
 description: "Journey & Lessons Learned - Stepping out of my comfort zone to give a technical talk at a public conference in front of more than 150 developers."
 cover:
-  image: "/img/featured-images/IMAGE_OF_ME_AT_CONFERENCE.png"
-  alt: "TODO"
-  caption: "TODO"
+  image: "/img/featured-images/conference-speaker-microphone.jpg"
+  alt: "Conference Speaker Microphone"
+  caption: "Conference Speaker Microphone"
   relative: false
 keywords: []
 draft: false
@@ -24,14 +24,6 @@ For a long time, I've been thinking to give a talk at a public conference. While
 Back at the 27th of May 2022, I could tick off this item from my bucket list as I gave my first talk: "How fixing a broken window cut down our build time by 50%" at the [Spring I/O](https://springio.net) in Barcelona. The conference had 1200 attendees, around 60 speaker and more than 150 attendees came to my talk.
 
 This article describes my journey to giving my first talk including my lessons learned and how I prepared for this event.
-
-Images to include:
-- Speaker dinner
-- Conference venue
-- Speaker line-up image
-- Getting accepted email
-- Selfie before the talk
-- Selfie after the talk
 
 ## Deciding to Give a Talk
 
@@ -85,7 +77,6 @@ With the talk being accepted, the countdown started and it was time to prepare a
 
 There was no single slide yet ...
 
-
 ## Talk Idea
 
 The talk was about a journey and our lessons learned from optimizing our integration test setup and reducing the overall build time by 50% from 26 to 12 minutes.
@@ -112,11 +103,13 @@ Most of the time, I worked on the talk in the morning so that I could tick off t
 
 I frequently switched places for this kind of creative work and primarily prepared the talk in cozy cafés or in co-working places in Berlin:
 
-TODO: Find the images where I gradually created the slide deck in the cafe
+![Talk Preparation in a Cafe](/img/first-talk/preparing-the-talk-cafe.jpg#center "Talk Preparation in a Cafe")
+
+![Talk Preparation in a Co-Working Place](/img/first-talk/preparing-the-talk-co-working.jpg#center "Talk Preparation in a Co-Working Place")
 
 While I hadn't done any major presentation recently, I picked Google Slides as this was the presentation software I was most familiar with. I picked a slide theme and adjusted it to my _brand colors_:
 
-TODO: Screenshot of slides from Google
+![Sample Slide](/img/first-talk/sample-slide.png#center "Sample Slide")
 
 It was clear to me that I didn't want to perform any live coding on stage for my first talk. That's why I included all code examples as screenshots.
 
@@ -134,45 +127,59 @@ As the conference was in Barcelona, I used this event for some pre- and post-vac
 
 In the evening before the first conference, we had an amazing speaker dinner. There was even a shuttle that brought us to the dinner place. This speaker dinner was a great opportunity to meet the other speakers and connect people I already knew virtually from Twitter.
 
-TODO: Picture of speaker dinner
+![Spring I/O 2022 Speaker Dinner](/img/first-talk/speaker-dinner-selfie.jpg#center "Spring I/O 2022 Speaker Dinner")
 
-We even went for a post dinner beer on the rooftop bar of our hotel but got to bed around 1am as most of us had their talk right on the first conference day.
+We even went for a post dinner beer on the rooftop bar of our hotel but got to bed around 1 am as most of us had their talk right on the first conference day.
 
 As my talk was on the second day, I could enjoy the first day. I went to many great sessions, connected with other speakers and people in the Spring Boot community.
 
 It was a crazy feeling getting to the conference as a speaker. For all other conferences in the past, I was _only_ an attendee.
 
-I felt really grateful, even like a little like a star, that I was a speaker at this amazing conference.
+![Spring I/O Conference Venue](/img/first-talk/spring-io-conference-venue.jpg#center "Spring I/O Conference Venue")
 
-The first day ended with beer and networking on the conference venue. Around 9pm there was even a huge fountain animation next to the conference hall:
+I felt really grateful, even like a little like a star, when I saw myself during the keynote as part of the speaker lineup.
 
-TODO: Show picture of fountain
+![Spring I/O Conference Speaker Line Up](/img/first-talk/conference-line-up.jpg#center "Spring I/O Conference Speaker Line Up")
 
-After this show, I even got the chance to have dinner with the organizers and befriended speakers. As my talk was happening on the second day, I was hesitant to stay up late and hence we went straight to bed after dinner. Which was around 11pm as the people in Spain eat quite late compared to my used German dinner hours.
+The first day ended with beer and networking on the conference venue.
+
+Around 9pm, there was even a huge fountain animation next to the conference hall:
+
+![Barcelona Magic Fountain of Montjuïcs](/img/first-talk/barcelona-fountain.jpg#center "Barcelona Magic Fountain of Montjuïc")
+
+After this show, I even got the chance to have dinner with the organizers and befriended speakers. As my talk was happening on the second day, I was hesitant to stay up late and hence went straight to bed after dinner. Which was around 11pm as the people in Spain eat quite late compared to my used German dinner hours.
 
 ## The Second Conference Day: Giving the Talk
 
-The mental pressure, watching talks for two days while knowing you have to give your talk almost at the end. Almost like in school when it was time to hold presentations and you were the last. Sitting in the classroom, getting more nervous, the more your friends finish theirs.
+Getting up in the morning on the conference days was both joyful and scary. I knew that by the end of the day I would have stepped out of my comfort zone and held my talk. However, I have to make it through an entire conference day as my talk was the second-last.
 
-But it actually wasn't that. I could really enjoy the time before my talk. Maybe not the last talk before mine, but that's okay.
+Watching other talks this day felt almost like school when it was time to hold presentations, and you were the last. You were sitting in the classroom, getting more nervous, the more your friends finish their presentation and yours is still to come.
+
+Given this slight mental pressure, I could still enjoy the entire conference day and only got really nervous and tired one hour before my talk was about to start.
 
 Fortunately, there was a 30-minute coffee break before my talk. Hence, there was no rush between two talks, and I could prepare the setup and get used to the stage and atmosphere. I arrived 20 minutes before the talk started, set up my machine, and connected to the beamer.
 
+![Speaker Setup](/img/first-talk/speaker-setup.jpg#center "Speaker Setup")
+
 While there were already some attendees sitting in the audience, most of them were enjoying their coffee break.
 
-I used this gap time to check some slights on the big projector and made sure to close all applications on my Mac that could disturb the talk.
+I used this gap time to check some slides on the big projector and made sure to close all applications on my Mac that could disturb the talk.
 
-10 minutes before the talk started, I got the mobile microphone from the sound team. Now it got serious.
+10 minutes before the talk started, I got the mobile microphone from the sound team. By then, almost fifty people where in the audience, some of which I met either on the speaker dinner or during the conference.
 
-Right on time at 5pm when the organizers closed the doors, I started my talk.
+![Pre-Talk Selfie](/img/first-talk/pre-talk.jpg#center "Pre-Talk Selfie")
+
+Right on time at 5pm when the organizers closed the doors, and I started my talk...
 
 First, I greeted the audience and thanked them that they came to my talk on a Friday afternoon 5pm while it's perfect weather outside in Barcelona.
 
-After the first 4-5 sentences, the initial peak excitement faded away, and I started to really enjoy talking about a topic I really care.
+After the first 4-5 sentences, the initial peak excitement faded away, and I started to really enjoy talking on stage.
 
-There was no major problem during the talk as I didn't live code and had all code examples stripped down to their minimum and included as a screenshot.
+Fortunately, there was no major technical problem during the talk. As I didn't live code and had all code examples stripped down to their minimum and included them as a screenshot.
 
 After 48 minutes, I finished my last "Conclusion & FAQ" slide and the talk was over.
+
+![Post Talk Selfie](/img/first-talk/post-talk.jpg#center "Post Talk Selfie")
 
 What a feeling at this point in time!
 
@@ -180,32 +187,33 @@ Unfortunately the 2 minutes left weren't enough to answer questions as the next 
 
 Nevertheless, more than 10 attendees came to me right after the talk to ask their questions and to thank me for giving this talk. We went outside the room to avoid any disturbance for the next speaker and discussed their questions with no rush.
 
-I guess that's a good sign if there's interest after your talk.
+I guess that's a good sign if there's interest after your talk and the attendees even miss the first minutes of the final talks as they want to talk with you.
 
 ## Afterthoughts & Tips
 
-Feeling of joy that I got out of my comfort zone.
-Timing-wise I could have done a bit better. While my session was planned for 50 minutes, I finished my talk within 48 minutes and hence had no time to answer questions directly from the audience. Nevertheless, I tried to help everyone that came to me after the talk and we took a standing desk outside to discuss details or specific problems.
+Overall, it was one of the best experiences I had in my professional career so far. The feeling of joy that I got out of my comfort zone really motivated me to tackle similar milestones from now on.
 
-After giving the talk, I was both super happy and releaxed that I did it. I immediately thought about what talks I can prepare next as I enjoyed the entire experience of being a speaker at a conference.
+Timing-wise I could have done a bit better. While my session was planned for 50 minutes, I finished my talk within 48 minutes and hence had no time to answer questions directly from the audience. Nevertheless, I tried to help everyone that came to me after the talk, and we took a standing desk outside to discuss details or specific problems.
 
+After giving the talk, I was both super happy and relaxed. I immediately thought about what talks I can prepare next as I enjoyed the entire experience of being a speaker at a conference.
 
 The final slide deck is [available on Speaker Deck](https://speakerdeck.com/rieckpil/how-fixing-a-broken-window-cut-down-our-build-time-by-50-percent).
 
 Kudos belong to [Sergi Almar](https://twitter.com/sergialmar/) and his entire team for the amazing organization of this event!
 
-In summary, these are the tips and recommendations:
-- do at least one trial run. If you've never presented in front of a bigger audience, use an internal event or a meetup to train
-- try presentations in-house
-- get a mentor or buddy to help out with the slide deck and talk preparation (I didn't had one but advice for it if you've done not many other public speaking session inside your company)
-- record yourself while speaking. I know that's super akward if you're doing it for the first time. Just do it and use the result as a backup (I use ScreenFlow for this, the QuickTimePlayer of MacOS also works here)
-- cut the recording to have a plan B if everything goes south. Imagine a positive COVID test right before the conference. This way, you can at least send the recording to the organizers and they can play it inside the room.
-- check the hardware before and have backup options
-- have fun
-- don't do live coding on your first talk
-- have fallbacks for everything. Batteries for your presenter, maybe a second laptop, a USB with the final talk on it, mobile data if the conference WLAN is flaky
+In summary, these are the tips and recommendations I can give as a first timer:
+
+- Do at least one trial run. If you've never presented in front of a bigger audience, use an internal event or a meetup to train your talk and presentation skills
+- Get a mentor or buddy to help out with the slide deck and talk preparation (I didn't had one but advice for it if you've done not many other public speaking session inside your company)
+- Record yourself during your trial run(s). I know that's super awkward if you're doing it for the first time.
+- Cut your best trial recording to have a plan B if everything goes south. Imagine a positive COVID test right before the conference. This way, you can at least send the recording to the organizers, and they can play it inside the room.
+- Check the hardware on stage in a coffee break some hours before your talk starts.
+- Have fun. You're there to talk about stuff that you care.
+- Don't do live coding on your first talk.
+- Hve fallback option for everything: Batteries for your presenter, maybe a second laptop, a USB with the final talk on it, mobile data if the conference WLAN is flaky, etc.
 - Use big font sizes - the attendees in the last rows will thank you
-- Don't overuse bullet points that make your audience tired, fresh up things with graphics, images and short summaries
+- Don't overuse bullet points that make your audience tired
+- Fresh up things with graphics, images and short summaries
 - Upload your slide deck to Speaker Deck afterward
 - Don't use dark themes when screenshotting your code examples (I use the distraction free mode of IntelliJ IDEA for my screenshots)
 - Talk water and maybe some throat candy to the stage if your voice starts cracking
