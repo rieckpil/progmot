@@ -89,6 +89,8 @@ We can transfer this analogy to software projects. As soon as a team member intr
 
 Back in 2019 I was working in a project where we had such a broken window inside our codebase. It resulted in ever-increasing build times and the overall team motivation started to decline. After some initial hurdles, we could fix this broken window and bring our project health back to a clean state.
 
+{{< newsletter-advertisement >}}
+
 ## Preparing the Talk
 
 The requirements for this talk were crystal clear: I got 50 minutes. This includes the presentation and time for live Q&A. As the audience is from all around the world (mostly Europe), the language had to be English.
@@ -103,9 +105,7 @@ Most of the time, I worked on the talk in the morning so that I could tick off t
 
 I frequently switched places for this kind of creative work and primarily prepared the talk in cozy cafés or in co-working places in Berlin:
 
-![Talk Preparation in a Cafe](/img/first-talk/preparing-the-talk-cafe.jpg#center "Talk Preparation in a Cafe")
-
-![Talk Preparation in a Co-Working Place](/img/first-talk/preparing-the-talk-co-working.jpg#center "Talk Preparation in a Co-Working Place")
+![Talk Preparation in a Cafe](/img/first-talk/co-working-talk-prep.jpg#center "Talk Preparation in a Cafe")
 
 While I hadn't done any major presentation recently, I picked Google Slides as this was the presentation software I was most familiar with. I picked a slide theme and adjusted it to my _brand colors_:
 
