@@ -51,7 +51,7 @@ For a long time, I've always had a talk idea in my head. It was regarding a proj
 
 After spending 30 minutes finalizing the talk title, elevator pitch, and description, I submitted the talk.
 
-I didn't think this was too big of an audience for an unknown speaker with zero experience on a public stage. I thought, "Let's submit the talk and see what happens" ...
+I didn't think this was too big of an audience for an unknown speaker with zero experience on a public stage. I thought, "Let's submit the talk and see what happens".
 
 ## Getting Accepted for the Conference
 
@@ -79,7 +79,7 @@ With the talk being accepted, the countdown started, and it was time to prepare 
 
 I didn't have a single slide yet ...
 
-## Talk Idea
+## The Talk Idea
 
 The talk was about a journey and our lessons learned from optimizing our integration test setup and reducing the overall build time by 50% from 26 to 12 minutes.
 
