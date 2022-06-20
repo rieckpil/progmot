@@ -19,9 +19,9 @@ ShowToc: true
 
 > Life happens outside of your comfort zone - the rest is just repetition.
 
-For a long time, I've been thinking about giving a talk at a public conference. While I've already held technical knowledge sharing sessions internally for colleagues or clients, I never stood on stage _in public_.
+For a long time, I've been thinking about giving a talk at a public conference. While I've already held technical knowledge-sharing sessions internally for colleagues or clients, I've never stood on stage _in public_.
 
-Back on the 27th of May 2022, I could tick off this item from my bucket list as I gave my first talk: 'How fixing a broken window cut down our build time by 50%' at the [Spring I/O](https://springio.net) in Barcelona. The conference had 1200 attendees, around 60 speakers. In total, more than 150 attendees came to my talk.
+Back on the 27th of May 2022, I could tick off this item from my bucket list as I gave my first talk: 'How fixing a broken window cut down our build time by 50%' at the [Spring I/O](https://springio.net) in Barcelona. The conference had 1200 attendees and around 60 speakers. In total, more than 150 attendees came to my talk.
 
 This article describes my journey to giving my first talk, including the lessons learned and how I prepared for this event.
 
@@ -29,27 +29,29 @@ This article describes my journey to giving my first talk, including the lessons
 
 There was this one item on my yearly goal list that I kept moving to my next year's goal list.
 
-I was procrastinating a lot on giving my first public talk and always wanted to find the right moment. While I submitted some talk ideas to three different conferences, back in 2019, none of them got accepted.  Somehow, though, through none of these submissions was I feeling that I really want to give a talk. It was a more self obligated duty to just submit something so that I can tell myself I tried it.
+I was procrastinating a lot on giving my first public talk and always wanted to find the right moment. While I submitted some talk ideas to three different conferences, back in 2019, none of them got accepted.
+
+Somehow, though, by none of these submissions was I feeling that I really wanted to give this talk. It was a more self-obligated duty just to submit something so that I could tell myself I tried it.
 
 When the whole work-from-home period started, I first thought a remote conference might be an easy way to get started. However, I wanted to experience standing in front of a real audience and not staring into a screen.
 
-Actually, I have seen many speakers complain that the online conference are sometimes even harder because you have no immediate feedback from the audience. Even worse, if every participant turns of their camera, you can't at all see how the talk is going.
+Actually, I have seen many speakers complain that online conferences are sometimes even harder because you have no immediate feedback from the audience. Even worse, if every participant turns off their camera, you can't see how the talk is going.
 
 That's why I decided to pause this goal and wait until in-person conferences were happening again.
 
-Then, somewhere around the beginning of 2022 I saw on Twitter that the CFP (call for papers) for the Spring I/O 2022 started. The Spring I/O is a community organized (mainly by Sergi Almar) conference in Barcelona, Spain. Its focus is the Spring framework which is the de facto standard framework (next to Jakarta EE and Quarkus) for developing Java applications.
+Then, somewhere around the beginning of 2022, I saw on Twitter that the CFP (call for papers) for the Spring I/O 2022 started. The Spring I/O is a community organized (mainly by Sergi Almar) conference in Barcelona, Spain. Its focus is on the Spring framework, the de facto standard framework (next to Jakarta EE and Quarkus) for developing Java applications.
 
 The [Spring I/O conference](https://springio.net) is a community organized conference and has no (direct) affiliation with VMWare. It was the 9th iteration of this conference and in the past, more than 1000 people participated.
 
-During the pandemic, they switched to a remote conference and the conference in 2022 would be the first in-person conference after this break.
+During the pandemic, they switched to a remote conference, and the conference in 2022 would be the first in-person conference after this break.
 
-I somehow felt that this was the right conference for me as it's fit 100% my blogging niche, and I knew various previous speakers that I could ask for help and insights.
+I somehow felt that this was the right conference for me as it fits 100% to my blogging niche, and I knew various previous speakers that I could ask for help and insights.
 
 For a long time, I've always had a talk idea in my head. It was regarding a project experience with a great learning analogy and background information. It was both full of actionable takeaways, lessons learned, and practical advice based on a real project on software development.
 
-After spending 30 minutes on finalizing the talk title, elevator pitch and description, I submitted the talk.
+After spending 30 minutes finalizing the talk title, elevator pitch, and description, I submitted the talk.
 
-I didn't think that this was too big of an audience for an unknown speaker with zero experience on a public stage. I thought "Let's submit the talk and see what happens" ...
+I didn't think this was too big of an audience for an unknown speaker with zero experience on a public stage. I thought, "Let's submit the talk and see what happens" ...
 
 ## Getting Accepted for the Conference
 
