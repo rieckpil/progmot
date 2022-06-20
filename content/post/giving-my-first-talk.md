@@ -17,11 +17,11 @@ tags: []
 ShowToc: true
 ---
 
-> Life happens outside your comfort zone - the rest is just repetition.
+> Life happens outside of your comfort zone - the rest is just repetition.
 
-For a long time, I've been thinking to give a talk at a public conference. While I've already held technical knowledge sharing sessions internally for colleagues or clients, I never stood on stage _in public_.
+For a long time, I've been thinking about giving a talk at a public conference. While I've already held technical knowledge sharing sessions internally for colleagues or clients, I never stood on stage _in public_.
 
-Back at the 27th of May 2022, I could tick off this item from my bucket list as I gave my first talk: "How fixing a broken window cut down our build time by 50%" at the [Spring I/O](https://springio.net) in Barcelona. The conference had 1200 attendees, around 60 speaker and more than 150 attendees came to my talk.
+Back on the 27th of May 2022, I could tick off this item from my bucket list as I gave my first talk: 'How fixing a broken window cut down our build time by 50%' at the [Spring I/O](https://springio.net) in Barcelona. The conference had 1200 attendees, around 60 speakers. In total, more than 150 attendees came to my talk.
 
 This article describes my journey to giving my first talk, including the lessons learned and how I prepared for this event.
 
@@ -147,7 +147,7 @@ Around 9pm, there was even a huge fountain animation next to the conference hall
 
 ![Barcelona Magic Fountain of Montjuïcs](/img/first-talk/barcelona-fountain.jpg#center "Barcelona Magic Fountain of Montjuïc")
 
-After this show, I even got the chance to have dinner with the organizers and befriended speakers. As my talk was happening on the second day, I was hesitant to stay up late and went straight to bed after dinner. This was at around 11pm as the people in Spain eat quite late compared to my usual German dinner hours.
+After this show, I even got the chance to have dinner with the organizers and befriended speakers. As my talk was happening on the second day, I was hesitant to stay up late and went straight to bed after dinner. This was at around 11pm as the people in Spain eat quite late compared to my usual German dining hours.
 
 ## The Second Conference Day: Giving the Talk
 
@@ -175,7 +175,7 @@ First, I greeted the audience and thanked them that they came to my talk on a Fr
 
 After the first 4-5 sentences, the initial peak excitement and nerves faded away, and I started to really enjoy talking on stage.
 
-Fortunately, there was no major technical problems during the talk as I didn't live code and had all code examples stripped down to their minimum and included them as screenshots. 
+Fortunately, there was no major technical problems during the talk as I didn't live code and had all code examples stripped down to their minimum and included them as screenshots.
 
 After 48 minutes, I finished my last 'Conclusion & FAQ' slide and the talk was over.
 
@@ -204,11 +204,11 @@ Kudos belong to [Sergi Almar](https://twitter.com/sergialmar/) and his entire te
 In summary, these are the tips and recommendations I can offer as a first timer:
 
 - Do at least one trial run. If you've never presented in front of a bigger audience, use an internal event or a meetup to train your talk and presentation skills
-- Get a mentor or buddy to help out with the slide deck and talk preparation (I didn't have one but advise you to do so if you've not done so many other public speaking sessions. 
+- Get a mentor or buddy to help out with the slide deck and talk preparation (I didn't have one but advise you to do so if you've not done so many other public speaking sessions.
 - Record yourself during your trial run(s). I know that it's super awkward if you're doing it for the first time.
 - Cut your best trial recording to have a plan B if everything goes south. Imagine a positive COVID test right before the conference. This way, you can at least send the recording to the organizers, and they can play it inside the room.
 - Check the hardware on stage in a coffee break a few hours before your talk starts.
-- Have fun. You're there to talk about stuff that you care about. 
+- Have fun. You're there to talk about stuff that you care about.
 - Don't do live coding during your first talk.
 - Have a fallback option for everything: Batteries for your presenter, maybe a second laptop, a USB with the final talk on it, mobile data if the conference WLAN is flaky, etc.
 - Use big font sizes - the attendees in the last rows will thank you!
