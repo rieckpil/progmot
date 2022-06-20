@@ -55,11 +55,11 @@ I didn't think this was too big of an audience for an unknown speaker with zero 
 
 ## Getting Accepted for the Conference
 
-On the XY of March 2022 I got a positive COVID test result after feeling sick for almost two days 😣
+On the 17h of March 2022, I got a positive COVID test result after feeling sick for almost two days 😣
 
-To recover and relax, I enjoyed the entire day on my couch and surfed on the web and watched YouTube videos.
+To recover and relax, I enjoyed the entire day on my couch, surfing the web and watching YouTube videos.
 
-Somewhere around 3pm that day, I checked my emails and found an email from the Spring I/O conference organizer ...
+Somewhere around 3 pm that day, I checked my emails and found an email from the Spring I/O conference organizer ...
 
 I GOT ACCEPTED 🥳!
 
@@ -67,15 +67,15 @@ I GOT ACCEPTED 🥳!
 
 As there is some gap time between the deadline for the call for papers (CFP) and the day the organizers announce the lucky speakers, I almost already forgot about the talk submission.
 
-What a feeling of joy at this point, sitting in my apartment while having COVID and being sick.
+What a feeling of joy at this point despite having COVID and being sick.
 
 That day was an entire emotional roller coaster. In the morning, the COVID test really shaped my day in a negative sense and I thought the day was over...
 
-... and then in the afternoon I received a confirmation email that I was going to be a speaker at the conference. I couldn't be more happy. The sickness became secondary.
+... and then in the afternoon, I received a confirmation email that I was going to be a speaker at the conference. I couldn't be happier. The sickness became secondary.
 
-Looking back, it seems that I was quite lucky being selected while having just one talk submitted. While many conferences allow you to submit multiple talks, I went all-in with this one. The main reasons was that only for this particular talk I was feeling confident enough to present this idea as my first talk at a public conference.
+Looking back, it seems that I was quite lucky being selected while having just one talk submitted. While many conferences allow you to submit multiple talks, I went all-in with this one. The main reason was that only for this particular talk I was feeling confident enough to present this idea as my first talk at a public conference.
 
-With the talk being accepted, the countdown started and it was time to prepare and train for the conference day. I only had the title, elevator pitch and a description.
+With the talk being accepted, the countdown started, and it was time to prepare and train for the conference day. I only had the title, elevator pitch, and a description.
 
 I didn't have a single slide yet ...
 
