@@ -1,6 +1,6 @@
 ---
 title: "Giving My First Talk at a Public Conference"
-date: 2022-06-13T12:00:00+02:00
+date: 2022-06-20T11:00:00+02:00
 slug: "/giving-my-first-talk-at-a-public-conference"
 aliases: ["/post/giving-my-first-talk-at-a-public-conference"]
 author: "Philip"
