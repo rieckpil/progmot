@@ -127,15 +127,15 @@ The second and final trial was done two days before the conference in a WeWork c
 
 As the conference was in Barcelona, I used this event for some pre- and post-vacation that fitted around the conference in Spain 🇪🇸. I spent four days in Valencia before the conference and then drove to Barcelona by bus.
 
-In the evening before the first conference, we had an amazing speaker dinner. There was even a shuttle that brought us to the dinner place. This speaker dinner was a great opportunity to meet the other speakers and connect people I already knew virtually from Twitter.
+In the evening before the first conference, we had an amazing speaker dinner. There was even a shuttle that brought us to the dinner place. This speaker dinner was a great opportunity to meet the other speakers and connect with people I already knew virtually from Twitter.
 
 ![Spring I/O 2022 Speaker Dinner](/img/first-talk/speaker-dinner-selfie.jpg#center "Spring I/O 2022 Speaker Dinner")
 
-We even went for a post dinner beer on the rooftop bar of our hotel but got to bed around 1 am as most of us had their talk right on the first conference day.
+We even went for a post-dinner beer on the rooftop bar of our hotel but got to bed around 1 am as most of us had their talk on the first conference day.
 
-As my talk was on the second day, I could enjoy the first day. I went to many great sessions, and connected with other speakers and people in the Spring Boot community.
+As my talk was on the second day, I could enjoy the first day. I went to many great sessions and connected with other speakers and people in the Spring Boot community.
 
-It was a crazy feeling getting to the conference as a speaker. For all other conferences in the past, I was _only_ an attendee.
+It was a crazy feeling getting to the conference as a speaker. I was _only_ an attendee at all past conferences.
 
 ![Spring I/O Conference Venue](/img/first-talk/spring-io-conference-venue.jpg#center "Spring I/O Conference Venue")
 
@@ -145,11 +145,13 @@ I felt really grateful, even feeling a little like a star, especially when I saw
 
 The first day ended with beer and networking at the conference venue.
 
-Around 9pm, there was even a huge fountain animation next to the conference hall:
+Around 9 pm, there was even a huge fountain animation (Barcelona Magic Fountain of Montjuïc) next to the conference hall:
 
-![Barcelona Magic Fountain of Montjuïcs](/img/first-talk/barcelona-fountain.jpg#center "Barcelona Magic Fountain of Montjuïc")
+![Barcelona Magic Fountain of Montjuïc](/img/first-talk/barcelona-fountain.jpg#center "Barcelona Magic Fountain of Montjuïc")
 
-After this show, I even got the chance to have dinner with the organizers and befriended speakers. As my talk was happening on the second day, I was hesitant to stay up late and went straight to bed after dinner. This was at around 11pm as the people in Spain eat quite late compared to my usual German dining hours.
+After this show, I even got the chance to have dinner with the organizers and other speakers.
+
+As my talk was happening on the second day, I was hesitant to stay up late and went straight to bed after dinner. This was at around 11 pm as the people in Spain eat quite late compared to my usual German dining hours.
 
 ## The Second Conference Day: Giving the Talk
 
