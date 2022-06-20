@@ -207,7 +207,7 @@ In summary, these are the tips and recommendations I can offer as a first timer:
 - Get a mentor or buddy to help out with the slide deck and talk preparation (I didn't have one but advise you to do so if you've not done so many other public speaking sessions. 
 - Record yourself during your trial run(s). I know that it's super awkward if you're doing it for the first time.
 - Cut your best trial recording to have a plan B if everything goes south. Imagine a positive COVID test right before the conference. This way, you can at least send the recording to the organizers, and they can play it inside the room.
-- Check the hardware on stage in a coffee break some hours before your talk starts.
+- Check the hardware on stage in a coffee break a few hours before your talk starts.
 - Have fun. You're there to talk about stuff that you care about. 
 - Don't do live coding during your first talk.
 - Have a fallback option for everything: Batteries for your presenter, maybe a second laptop, a USB with the final talk on it, mobile data if the conference WLAN is flaky, etc.
