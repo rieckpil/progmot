@@ -17,7 +17,7 @@ tags: []
 ShowToc: true
 ---
 
-> Life happens outside of your comfort zone - the rest is just repetition.
+> Life happens outside of your comfort zone - the rest is just repetition ⭐️
 
 For a long time, I've been thinking about giving a talk at a public conference. While I've already held technical knowledge-sharing sessions internally for colleagues or clients, I've never stood on stage _in public_.
 
