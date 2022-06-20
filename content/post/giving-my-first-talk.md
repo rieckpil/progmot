@@ -155,9 +155,9 @@ As my talk was happening on the second day, I was hesitant to stay up late and w
 
 ## The Second Conference Day: Giving the Talk
 
-Getting up in the morning on the day of the conference was both joyful and scary. I knew that by the end of the day I would have stepped out of my comfort zone and held my talk. However, I have to make it through an entire conference day as my talk was the second-last.
+Getting up in the morning on the day of my talk was both joyful and scary. I knew that by the end of the day, I would have stepped out of my comfort zone and held my talk. However, I had to make it through an entire conference day as my talk was the second-last.
 
-Watching other talks this day felt almost like being in school when it was time to hold presentations, and you were the last. You were sitting in the classroom, getting more nervous, more and more of your friends finish their presentation and yet yours is still to come.
+Watching other talks this day felt almost like being in school when it was time to hold presentations, and you were the last. You were sitting in the classroom, getting more nervous while more and more of your friends finished their presentations, and yet yours was still to come.
 
 Given this slight mental pressure, I could still enjoy the entire conference day and only got really nervous and tired about one hour before my talk was due to start.
 
@@ -169,29 +169,29 @@ While there were already some attendees sitting in the audience, most of them we
 
 I used this gap time to check some slides on the big projector and made sure to close all applications on my Mac that could disturb the talk.
 
-10 minutes before the talk started, I got the mobile microphone from the sound team. By then, almost fifty people where in the audience, some of which I met either during the speaker dinner or the conference.
+Ten minutes before the talk started, I got the mobile microphone from the sound team. By then, almost fifty people were in the audience, some of whom I met either during the speaker dinner or the conference.
 
 ![Pre-Talk Selfie](/img/first-talk/pre-talk.jpg#center "Pre-Talk Selfie")
 
-Right on time at 5pm, the organizers closed the doors, and I started my talk...
+Right on time, at 5 pm, the organizers closed the doors, and I started my talk...
 
-First, I greeted the audience and thanked them that they came to my talk on a Friday afternoon 5pm while the weather was perfect outside in Barcelona.
+First, I greeted the audience and thanked them that they came to my talk on a Friday afternoon at 5 pm while the weather was perfect outside in Barcelona.
 
-After the first 4-5 sentences, the initial peak excitement and nerves faded away, and I started to really enjoy talking on stage.
+After the first 4 to 5 sentences, the initial peak of excitement and nerves faded away, and I started to really enjoy talking on stage.
 
-Fortunately, there was no major technical problems during the talk as I didn't live code and had all code examples stripped down to their minimum and included them as screenshots.
+Fortunately, there were no major technical problems during the talk as I didn't live code and had all code examples stripped down to their minimum and included them as screenshots.
 
-After 48 minutes, I finished my last 'Conclusion & FAQ' slide and the talk was over.
+After 48 minutes, I finished my last 'Conclusion & FAQ' slide, and the talk was over.
 
 ![Post Talk Selfie](/img/first-talk/post-talk.jpg#center "Post Talk Selfie")
 
 What a feeling!
 
-Unfortunately the 2 minutes left weren't enough to answer questions as the next speaker was lining up to give his talk in just 12 minutes.
+Unfortunately, the 2 minutes left weren't enough to answer questions as the next speaker was lining up to give his talk in just 12 minutes.
 
-Nevertheless, more than 10 attendees came to me right after the talk to ask their questions and to thank me for giving this talk. We went outside the room to avoid any disturbance for the next speaker and discussed their questions with no rush.
+Nevertheless, more than ten attendees came to me right after the talk to ask their questions and to thank me for giving this talk. We went outside the room to avoid any disturbance for the next speaker and discussed their questions with no rush.
 
-I guess it's a good sign if there's interest after your talk and the attendees even miss the first minutes of the final talks as they want to talk with you.
+I guess it's a good sign if there's interest after your talk, and the attendees even miss the first minutes of the final talks as they want to talk with you.
 
 ## Afterthoughts & Tips
 
