@@ -195,15 +195,11 @@ I guess it's a good sign if there's interest after your talk, and the attendees 
 
 ## Afterthoughts & Tips
 
-Overall, it was one of the best experiences I had in my professional career so far. The feeling of joy that I had finally worked out of my comfort zone really motivated me to tackle similar milestones from now on.
+Overall, it was one of the best experiences I have had in my professional career so far. The feeling of joy that I had finally worked out of my comfort zone really motivated me to tackle similar milestones from now on.
 
 Timing-wise I could have done a bit better. While my session was planned for 50 minutes, I finished my talk within 48 minutes and hence had no time to answer questions directly from the audience. Nevertheless, I tried to help everyone that came to me after the talk, and we took a standing desk outside to discuss details or specific problems.
 
-After giving the talk, I was both super happy and relaxed. I immediately pondered about what talks I can prepare next, particularly as I enjoyed the entire experience of being a speaker at a conference.
-
-The final slide deck is [available on Speaker Deck](https://speakerdeck.com/rieckpil/how-fixing-a-broken-window-cut-down-our-build-time-by-50-percent).
-
-Kudos belong to [Sergi Almar](https://twitter.com/sergialmar/) and his entire team for the amazing organization of this event!
+After giving the talk, I was both super happy and relaxed. I immediately pondered what talks I could prepare next, particularly as I enjoyed the entire experience of being a speaker at a conference.
 
 In summary, these are the tips and recommendations I can offer as a first timer:
 
@@ -211,17 +207,21 @@ In summary, these are the tips and recommendations I can offer as a first timer:
 - Get a mentor or buddy to help out with the slide deck and talk preparation (I didn't have one but advise you to do so if you've not done so many other public speaking sessions.
 - Record yourself during your trial run(s). I know that it's super awkward if you're doing it for the first time.
 - Cut your best trial recording to have a plan B if everything goes south. Imagine a positive COVID test right before the conference. This way, you can at least send the recording to the organizers, and they can play it inside the room.
-- Check the hardware on stage in a coffee break a few hours before your talk starts.
+- Check the hardware on stage during a coffee break a few hours before your talk starts.
 - Have fun. You're there to talk about stuff that you care about.
 - Don't do live coding during your first talk.
 - Have a fallback option for everything: Batteries for your presenter, maybe a second laptop, a USB with the final talk on it, mobile data if the conference WLAN is flaky, etc.
 - Use big font sizes - the attendees in the last rows will thank you!
-- Don't overuse bullet points as they can make your audience tired
-- Freshen up things with graphics, images and short summaries
+- Don't overuse bullet points, as they can make your audience tired
+- Freshen up things with graphics, images, and short summaries
 - Upload your slide deck to Speaker Deck afterwards
-- Don't use dark themes when screenshotting your code examples (I use the distraction free mode of IntelliJ IDEA for my screenshots)
+- Don't use dark themes when screenshotting your code examples (I use the distraction-free mode of IntelliJ IDEA for my screenshots)
 - Bring some water and maybe some throat candy to the stage in case your voice starts cracking
-- Wear cloths that you feel comfortable in
+- Wear clothes that you feel comfortable in
+
+The final slide deck is [available on Speaker Deck](https://speakerdeck.com/rieckpil/how-fixing-a-broken-window-cut-down-our-build-time-by-50-percent).
+
+Kudos belong to [Sergi Almar](https://twitter.com/sergialmar/) and his entire team for the fantastic organization of this event!
 
 ... and finally, here's the recording of the talk:
 
