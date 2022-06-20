@@ -87,6 +87,8 @@ The common thread throughout my talk was about the [Broken Windows Theory](https
 
 In short, this theory describes that in rural areas where there's much litter on the ground, damaged cars, and rundown houses, the likelihood that similar _crime_ happens is more likely than in a neighbourhood where everything is spotless.
 
+![Broken Window](/img/first-talk/broken-window.jpg#center "Broken Window")
+
 We can transfer this analogy to software projects. As soon as a team member introduces a not-so-optimal workaround to our code base, the more likely it is that other developers will follow. This can drain our overall project health as the first _broken window_ entails potentially more broken windows.
 
 Back in 2019, I was working on a project where we had a broken window inside our codebase. It resulted in ever-increasing build times, and the overall team motivation started to decline. After some initial hurdles, we could fix this broken window and bring our project health back to a clean state.
