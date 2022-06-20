@@ -85,11 +85,11 @@ The talk was about a journey and our lessons learned from optimizing our integra
 
 The common thread throughout my talk was about the [Broken Windows Theory](https://en.wikipedia.org/wiki/Broken_windows_theory). While this theory comes from the criminological area, it can be applied to almost everything.
 
-In short, this theory describes that in rural areas where there's much litter on the ground, damaged cars, rundown houses, the likelihood that similar _crime_ happens is more likely than in a neighbourhood where everything is spotless.
+In short, this theory describes that in rural areas where there's much litter on the ground, damaged cars, and rundown houses, the likelihood that similar _crime_ happens is more likely than in a neighbourhood where everything is spotless.
 
-We can transfer this analogy to software projects. As soon as a team member introduces a not so optimal workaround to our code base, the more likely it is that other developers will follow. This can drain our overall project health as the first _broken window_ entails potentially more broken windows.
+We can transfer this analogy to software projects. As soon as a team member introduces a not-so-optimal workaround to our code base, the more likely it is that other developers will follow. This can drain our overall project health as the first _broken window_ entails potentially more broken windows.
 
-Back in 2019, I was working in a project where we had a broken window inside our codebase. It resulted in ever-increasing build times and the overall team motivation started to decline. After some initial hurdles, we could fix this broken window and bring our project health back to a clean state.
+Back in 2019, I was working on a project where we had a broken window inside our codebase. It resulted in ever-increasing build times, and the overall team motivation started to decline. After some initial hurdles, we could fix this broken window and bring our project health back to a clean state.
 
 {{< newsletter-advertisement >}}
 
@@ -101,11 +101,11 @@ As a rough ballpark figure, I was expecting 150-250 attendees for my talk as the
 
 While I had some basic bullet points and ideas for the talk in mind, I did not start with the actual preparation until 60 days before the conference.
 
-I didn't want to prepare my slides all at once and rather decided to invest one to two hours every day to preparing the talk. I already had the main topic for the talk in my head and just needed to put my outline _on paper_.
+I didn't want to prepare my slides all at once and instead invested one to two hours daily in preparing the talk. I already had the main topic for the talk in my head and just needed to put my outline _on paper_.
 
-Most of the time, I worked on the talk in the morning so that I could tick off this important item on my daily task list quite early. This continuous talk creation helped me stay creative and not work under pressure one week before the talk.
+Most of the time, I worked on the talk in the morning so I could tick off this important item on my daily task list quite early. This continuous talk creation helped me stay creative and not work under pressure one week before the talk.
 
-I frequently switched places for this kind of creative work and primarily prepared the talk in cozy cafés or in co-working places in Berlin:
+I frequently switched places for this kind of creative work and primarily prepared the talk in cozy cafés or co-working places in Berlin:
 
 ![Talk Preparation in a Cafe](/img/first-talk/co-working-talk-prep.jpg#center "Talk Preparation in a Cafe")
 
@@ -115,11 +115,11 @@ While I hadn't done any major presentations in recent years, I picked Google Sli
 
 It was clear to me that I didn't want to perform any live coding on stage for my first talk. That's why I included all code examples as screenshots.
 
-For the slide design, I tried to balance text-only and graphical slides (including memes) to keep the talk exciting as I already knew I'd be the second last speaker on the Friday.
+For the slide design, I tried to balance text-only and graphical slides (including memes) to keep the talk exciting, as I already knew I'd be the second last speaker on the Friday.
 
-For training purposes, I gave the talk a week before the conference to myself and recorded the screen and my camera. This acted both as a trial run as well as a backup plan. Given the unclear COVID situation, I might have received a positive test and not be able to hold the talk. I thought that if I prepared the talk, I could send it to the organizers, and they can at least play the video for the attendees. Fortunately, this backup was not needed at all.
+For training purposes, I gave the talk a week before the conference to myself and recorded the screen and my camera. This acted both as a trial run as well as a backup plan. Given the unclear COVID situation, I might have received a positive test and not be able to hold the talk. I thought that if I prepared the talk, I could send it to the organizers, and they could at least play the video for the attendees. Fortunately, this backup was not needed at all.
 
-I made this trial run to as close as possible to the conference day. I used my standing desk and the presenter to get, as we would say in software development, as close to production as possible. This first run went fantastic, and I was just under time.
+I made this trial run as close as possible to the conference day. I used my standing desk and the presenter to get, as we would say in software development, as close to production as possible. This first run went fantastic, and I was just under time.
 
 The second and final trial was done two days before the conference in a WeWork conference room in Barcelona. As I'm a bit superstitious, I thought that the final talk run had to be my third attempt, aka: all good things are in threes.
 
