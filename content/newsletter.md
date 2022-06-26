@@ -18,14 +18,14 @@ cover:
 
 I'm planning to launch a paid newsletter around topics like productivity, freelancing, mindset, selling digital products, digital nomading, and motivation, all from the lenses of a software developer.
 
-Over the past five years, I've read many books, tried many business ideas, failed at some startups, and now want to share my lessons learned and recommendations
+Over the past five years, I've read many books, tried many business ideas, failed at some startups, and now want to share my lessons learned and recommendations.
 
-Once the newsletter is live (and you've subscribed to it), you'll receive two updates every month. These updates are about 300 words long and tackle one specific topic.
+The plan is to send a new piece of content every two weeks. These updates are about 300 words long and tackle one specific topic.
 
 Here's an excerpt of my current backlog of topics I'll write about:
 
-- Getting Started with Digital Products (ebooks & online courses)
-- Why I Reduced My Working Hours
+- Getting Started with Selling Digital Products (ebooks & online courses)
+- Why I Reduced My Working Hours As an Employee
 - My Morning Routine (Established Three Years Ago)
 - How I Structure My Day As a Freelancer
 - How I Run My Main Site and Sell Digital Products
