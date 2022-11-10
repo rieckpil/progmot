@@ -104,22 +104,18 @@ menu:
       name: About
       url: /about/
       weight: 10
-    - identifier: newsletter
-      name: Newsletter
-      url: /newsletter/
-      weight: 20
     - identifier: archives
       name: Archives
       url: /archives/
-      weight: 30
+      weight: 20
     - identifier: projects
       name: Projects
       url: /projects/
-      weight: 40
+      weight: 30
     - identifier: search
       name: Search
       url: /search/
-      weight: 50
+      weight: 40
 
 taxonomies:
   category: categories

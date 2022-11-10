@@ -93,8 +93,6 @@ We can transfer this analogy to software projects. As soon as a team member intr
 
 Back in 2019, I was working on a project where we had a broken window inside our codebase. It resulted in ever-increasing build times, and the overall team motivation started to decline. After some initial hurdles, we could fix this broken window and bring our project health back to a clean state.
 
-{{< newsletter-advertisement >}}
-
 ## Preparing the Talk
 
 The requirements for this talk were crystal clear: I got 50 minutes. This includes the presentation and time for a live Q&A. As the audience is from all around the world (mostly Europe), the language had to be English.
