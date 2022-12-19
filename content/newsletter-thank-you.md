@@ -19,4 +19,4 @@ Make sure to also check your **Spam** and **Promotions** folder.
 
 ## Closely Follow Your Inbox
 
-I'll keep the initial waitling period open for some weeks. Once there's enough interest, you'll get information about the next steps.
+I'll keep the initial waiting period open for some weeks. Once there's enough interest, you'll get information about the next steps.

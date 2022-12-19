@@ -123,7 +123,7 @@ Recording & Editing:
 - [Kazam](https://wiki.ubuntuusers.de/Kazam/) for audio and screen recording
 - [Audacity](https://www.audacity.de/) for sound editing
 - [kdenlive](https://kdenlive.org/de/) for video editing and rendering
-- Microphone: [Auna Mic*](https://rieckpil.de/a/auna-mic)
+- Microphone: Auna Mic
 
 Application development:
 
@@ -167,11 +167,11 @@ With Thrive Apprentice, I could leverage the WordPress user management to have a
 
 For [Thrive Apprentice*](https://rieckpil.de/a/thrive-themes), you need both an eCommerce provider, and a video hosting solution.
 
-For the eCommerce provider, I chose [SendOwl*](https://rieckpil.de/a/sendowl), as their features and pricing (my current plan is $26/month) are reasonable.
+For the eCommerce provider, I chose SendOwl, as their features and pricing (my current plan is $26/month) are reasonable.
 
-Once I'd signed up for my [SendOwl*](https://rieckpil.de/a/sendowl) account, I connected my Stripe and PayPal accounts to have the most common payment options.
+Once I'd signed up for my SendOwl account, I connected my Stripe and PayPal accounts to have the most common payment options.
 
-Thrive Apprentice supports various video hosting platforms. I went for [Vimeo*](https://rieckpil.de/a/vimeo) and picked their paid plan for $6/month.
+Thrive Apprentice supports various video hosting platforms. I went for Vimeo and picked their paid plan for $6/month.
 
 Compared to YouTube, you can add more fine-grained security settings for your videos with Vimeo. This makes unintended downloads and sharing more complicated. The integration with Thrive Apprentice works by simply copying the video link.
 
@@ -179,15 +179,15 @@ Using these tools, the final workflow to access the Masterclass is as follows:
 
 1. The potential course participant visits the [landing page](https://rieckpil.de/testing-spring-boot-applications-masterclass/)
 2. Once they click on "Buy Now", they're redirected to a pre-checkout page (on my blog) and have to register a new course account
-3. They're redirected to a [SendOwl*](https://rieckpil.de/a/sendowl) checkout page and enter their payment information
+3. They're redirected to a SendOwl checkout page and enter their payment information
 4. SendOwl redirects the user to a "Thank You" page on my blog with further information on how to get started
-5. In the background (and if the user gave consent), they're added to my mailing list ([Mailchimp*](https://rieckpil.de/a/mailchimp)), including order information
+5. In the background (and if the user gave consent), they're added to my mailing list (Mailchimp), including order information
 6. Once the order is completed, SendOwl sends a webhook to my WordPress instance and Thrive Apprentice grants access to the purchased course
 7. The user can now work with the course and gets a "Welcome" email delivered to their inbox
 
 It took me some test purchases until I had the proper configuration for this setup, but since then, it's working fine.
 
-[SendOwl*](https://rieckpil.de/a/sendowl) even offers a deep integration with [Mailchimp*](https://rieckpil.de/a/mailchimp) to recover abandoned carts.
+SendOwl even offers a deep integration with Mailchimp to recover abandoned carts.
 
 The integration to my main mailing list also helps to segment my audience. I can see if a subscriber has enrolled for the course or got stuck in the checkout.
 
@@ -357,7 +357,7 @@ If the affiliate partner embeds their link into an article that talks about the 
 
 Those affiliate links will also add social proof, and more developers will get to know you.
 
-[SendOwl*](https://rieckpil.de/a/sendowl) comes with an easy-to-use affiliate setup. One of my affiliate partners is making $200+ almost every month.
+SendOwl comes with an easy-to-use affiliate setup. One of my affiliate partners is making $200+ almost every month.
 
 ### Attracting New Leads With Compelling Free Content
 
@@ -445,9 +445,9 @@ If you're selling to EU customers, pick a merchant of record to sell your digita
 
 I'm handling VAT for myself. The effort is manageable.
 
-When working with [SendOwl*](https://rieckpil.de/a/sendowl), I can highly recommend [Quaderno*](https://rieckpil.de/a/quaderno) to stay tax compliant, create nice-looking invoices and exports for your tax advisor.
+When working with SendOwl, I can highly recommend Quaderno to stay tax compliant, create nice-looking invoices and exports for your tax advisor.
 
-If I would start over again, I'd pick a provider that handles all tax implications.
+If I would start over again, I'd pick a provider that handles all tax implications. Possible providers are CopeCart or Digistore24.
 
 That's more time to focus on improving the course.
 
@@ -549,7 +549,7 @@ I'm still running display ads, but follow a different approach. I use the ads to
 
 While this is a slower sales process, it's more sustainable, and right now, I generate leads for one of my free testing courses for about $0.50.
 
-From this [excellent book*](https://rieckpil.de/a/traffic-secrets) I learned that there are more or less four types of leads:
+From the Traffic Secrets book I learned that there are more or less four types of leads:
 
 1. The potential course participant is not aware that they have a problem: a.k.a. - I don't write tests
 2. The potential course participant is aware that they have a problem: a.k.a. - I try to write tests but fail to get the setup correct, and I'm constantly frustrated

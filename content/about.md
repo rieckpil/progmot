@@ -14,7 +14,7 @@ On my main blog [rieckpil.de](https://rieckpil.de/) I'm creating content under t
 
 This site acts as a meta blog for topics that don't fit on a technical blog: freelancing, motivation, indie hacking, productivity, etc.
 
-I've co-authored [Stratospheric](https://stratospheric.dev/) - an eBook on getting started with Spring Boot on AWS (Amazon Web Services) and am the co-founder of [Blogtrack](https://www.blogtrack.io/).
+I've co-authored [Stratospheric](https://stratospheric.dev/) - an eBook on getting started with Spring Boot on AWS (Amazon Web Services).
 
 To demystify the name of this site:
 
