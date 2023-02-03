@@ -2,7 +2,7 @@ title: Thoughts About Programming & Motivation
 languageCode: en-us
 paginate: 5
 baseURL: 'https://progmot.com/'
-copyright: '© 2022'
+copyright: '© 2023'
 
 enableRobotsTXT: true
 buildDrafts: false
