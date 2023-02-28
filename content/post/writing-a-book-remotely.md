@@ -300,7 +300,7 @@ We were all super happy with the outcome of the release party and with our progr
 
 At that time, we already had 500 readers and got more and more attention.
 
-## Life After the 1.0 Release 🏗
+## Life After the 1.0 Release 📈
 
 > A book is never finished; it's abandoned. (Gene Fowler)
 
