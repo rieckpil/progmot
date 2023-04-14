@@ -14,6 +14,7 @@ keywords: []
 draft: false
 tags: []
 ShowToc: true
+trackingPixel: "e80f19774bbb4287ac0997f254da2828"
 ---
 
 _**TL;DR:** This 6500 word long article is a one-year retrospect after launching my first paid online course. Learn about my initial strategy, the actual journey, the mistakes I've made, and my recommendations._

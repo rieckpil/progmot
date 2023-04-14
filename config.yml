@@ -109,7 +109,7 @@ menu:
       url: /newsletter/
       weight: 20
     - identifier: archives
-      name: Archives
+      name: Posts
       url: /archives/
       weight: 30
     - identifier: projects

@@ -15,6 +15,7 @@ keywords: []
 draft: false
 tags: []
 ShowToc: true
+trackingPixel: "ac2fb3a53866406d947f5bfdb671d33e"
 ---
 
 This article describes a one-year journey of writing [Stratospheric - From Zero to Production with Spring Boot and AWS](https://stratospheric.dev/) as a co-author with two other co-authors that I met on Twitter. We've never met in person before and managed to successfully write a 450+ pages in-depth guide on developing and deploying Java Spring Boot applications on AWS (Amazon Web Services).
