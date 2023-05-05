@@ -13,5 +13,5 @@ Excerpt of the projects I'm currently working on:
 - [Testing Spring Boot Applications Masterclass](https://rieckpil.de/testing-spring-boot-applications-masterclass/) (online course)
 - [30 Testing Tools and Libraries Every Java Developer Must Know](https://rieckpil.de/testing-tools-and-libraries-every-java-developer-must-know/) (ebook)
 - [YouTube channel](https://www.youtube.com/c/rieckpil) (hands-on videos)
-- [Learn Testing Java Applications in 30 Days](https://rieckpil.de/getting-started-with-testing-java-applications-email-course/) (email course)
+- [Learn Testing Java Applications in 14 Days](https://rieckpil.de/getting-started-with-testing-java-applications-email-course/) (email course)
 
