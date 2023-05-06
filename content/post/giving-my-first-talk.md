@@ -7,7 +7,7 @@ author: "Philip"
 summary: "Journey & Lessons Learned - Stepping out of my comfort zone to give a technical talk at a public conference in front of more than 150 developers."
 description: "Journey & Lessons Learned - Stepping out of my comfort zone to give a technical talk at a public conference in front of more than 150 developers."
 cover:
-  image: "/img/featured-images/conference-speaker-microphone.jpg"
+  image: "/img/featured-images/conference-speaker-microphone-midjourney.png"
   alt: "Conference Speaker Microphone"
   caption: "Conference Speaker Microphone"
   relative: false
