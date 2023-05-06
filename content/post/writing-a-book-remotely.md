@@ -7,7 +7,7 @@ author: "Philip"
 summary: "A two-year retrospect after co-authoring and self-publishing a technical ebook on Leanpub about Java, Spring Boot, and AWS with co-authors I met on Twitter."
 description: "A two-year retrospect after co-authoring and self-publishing a technical ebook on Leanpub about Java, Spring Boot, and AWS with co-authors I met on Twitter."
 cover:
-  image: "/img/featured-images/writing-a-book-remotely.png"
+  image: "/img/featured-images/writing-a-book-remotely-midjourney.png"
   alt: "Self-Publishing a Book With (Almost) Complete Strangers"
   caption: "Self-Publishing a Book With (Almost) Complete Strangers"
   relative: false
