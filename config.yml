@@ -81,6 +81,10 @@ params:
       url: "https://stackoverflow.com/users/9085273/rieckpil"
     - name: github
       url: "https://github.com/rieckpil"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/rieckpil/"
+    - name: youtube
+      url: "https://www.youtube.com/rieckpil/"
 
   cover:
     hidden: true # hide everywhere but not in structured data
