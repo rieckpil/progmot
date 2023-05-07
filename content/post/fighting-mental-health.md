@@ -1,6 +1,6 @@
 ---
 title: "Fighting Mental Health: My Journey to a Healthier Life"
-date: 2023-05-09T08:00:00+02:00
+date: 2022-05-09T08:00:00+02:00
 slug: "/fighting-mental-health-my-journey-to-a-healthier-lifestyle"
 aliases: ["/post/fighting-mental-health-my-journey-to-a-healthier-lifestyle"]
 author: "Philip"
@@ -18,11 +18,13 @@ ShowToc: true
 trackingPixel: "5dd4199d00114c02aa63748432c0656f"
 ---
 
-Hardest to write article every.
+![](/img/mental-health/mental-health-men-sitting.png#center)
 
-Sharing intimae details. Showing myself vulnerable. I don't care now. All I care is to spread the word and potentially help someone out there to take the courage and get help.
+Hardest to write article ever.
 
-Disclaimer: I'm not a therapist. This was **my** journey and experience. It may help, it may give you some inspiration (It may make things worse?). In the end always reach out to a professional and get help.
+Sharing intimate details. Showing myself vulnerable. I don't care now. All I care is to spread the word and potentially help someone out there to take the courage and get help.
+
+Disclaimer: I'm not a therapist. This was _my journey and experience_. It may help, it may give you some inspiration (It may make things worse?). In the end always reach out to a professional and get help.
 
 ---
 
@@ -180,7 +182,7 @@ I've identitfied and defined three guiding principles for me: Freedom, Harmony a
 
 Dark days. Pretty dark ...
 
-Life's a positive sum game. Help each other and swallow your pride.
+Life's a positive-sum game. Help each other. Swallow your pride.
 
-Have a good one,
+Have a good one,\
 Phil
