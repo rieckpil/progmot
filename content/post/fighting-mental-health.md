@@ -1,6 +1,6 @@
 ---
 title: "Fighting Mental Health: My Journey to a Healthier Life"
-date: 2022-05-09T08:00:00+02:00
+date: 2023-05-07T15:00:00+02:00
 slug: "/fighting-mental-health-my-journey-to-a-healthier-lifestyle"
 aliases: ["/post/fighting-mental-health-my-journey-to-a-healthier-lifestyle"]
 author: "Philip"
@@ -12,7 +12,7 @@ cover:
   caption: "Fighting Mental Health: My Journey to a Healthier Life"
   relative: false
 keywords: []
-draft: false
+draft: true
 tags: []
 ShowToc: true
 trackingPixel: "5dd4199d00114c02aa63748432c0656f"
