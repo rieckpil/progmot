@@ -108,6 +108,8 @@ Constant questions filled my days:
 - Did I waste my 20ties?
 - Am I neglecting times with family and friends?
 
+![](/img/mental-health/lonely-road.png#center)
+
 
 ## Getting Help
 
@@ -166,6 +168,9 @@ What a game changer.
 
 ## My Path Forward
 
+![](/img/mental-health/new-beginning.png#center)
+
+
 I can happily say that each day is a blessing. I'm grateful each morning to wake up and have the opportunity to make the best out of the day.
 
 If this would be an AI model, my current fitness function is to optimize joy of life each day.
@@ -178,7 +183,7 @@ Balance
 
 I've identitfied and defined three guiding principles for me: Freedom, Harmony and Adventure. Anything that doesn't pay towards it, is not an option.
 
-
+Life is both sugar and stryhtcnine. There's ebb and flow. There's good and bad. There's joy and pain. There's light and darkness.
 
 Dark days. Pretty dark ...
 
