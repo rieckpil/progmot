@@ -36,25 +36,41 @@ Self-emplyoed, anxiety about future projects, accounting, tax (to all my German 
 
 Running two businesses, doing freelance projects for clients
 
-Overly ambitious, optimizing and sturcutring my day.
+ambitious (maybe overly ambitious)?, optimizing and restructuring my day. Very little alcohol, sport at least three times a week.
 
-Planning my week ahead using Pomodori technique wiht blocks. Finishing all the stuff on my list was prio one.
+Planning my week ahead using Pomodori technique with blocks. Finishing all the stuff on my list was prio one.
 
 Weekends?
 
+Obsessed with perfection.
+
+"God laid down this law, saying: if you want some good, get it from yourself." Epictetus.
+
+Here is how to _guarantee_ you have a good day: do good things. Any other source of joy is outside your control or is nonrenewable. But this one is all you, all the time, and unending. It is the ultimate form of self-reliance.
+
 Sure, but let me work on Saturday until lunch.
 
-As I alawys feeling joy while doing these things, it never felt too much. But it was.
-
+As I always feeling joy while doing these things, it never felt too much. But it was.
 
 
 ## How It Started
 
-Loose joy in everyday life
+Loose joy in every day life activities. Going out for dinner with friends? Didn't feel right.
+
+No progress.
+
+Plateau because I was projecting past _success_ linear to the future. But it wasn't coming. That was depressing.
+
+Am I doing to little? Did I do too much? Questions over questions.
+
+While it first felt like a week off, I wasn't talking much about it to anyone. I'm also a rather introvert person. Logic & order, analytic mind, the classic IT guy.
 
 Didn't want to see friends
 
-Wanted to lay in bed the whole day
+Wanted to lay in bed the whole day. It was hard to get up. Especially comparing to what I could get done before.
+
+Firewheel as I wasn't achieving much while it still got worse.
+
 
 Blurry mind, this was killing me the most. I couldn't think straight. I couldn't remember things. I couldn't focus on a task for more than 10 minutes.
 
@@ -94,9 +110,9 @@ New
 - take your time
 - I had all the mental models and quotes in my head to potentially help me, but they
 
-I was reading non-ficiton books about personal developemnt for ages. Watching talks of famous speakers like Jim Rohn, Jaes Brown, and Dieter Lange (German only content).
+I was reading non-ficiton books about personal development for ages. Watching talks of famous speakers like Jim Rohn, Les Brown, and Dieter Lange (German only content).
 
-While I knew that "The darkest hour, is the hour before dawn" or "we fail not because of the things but because of our expectations", ... in these particual days there weren't of any help.
+While I knew that "The darkest hour, is the hour before dawn" or "we fail not because of the things but because of our expectations", ... in these particular days there weren't of any help.
 
 What made a lot of fun, fell down like a house of cards.
 
@@ -108,8 +124,19 @@ Constant questions filled my days:
 - Did I waste my 20ties?
 - Am I neglecting times with family and friends?
 
-![](/img/mental-health/lonely-road.png#center)
+My brain was constantly throwing different reasons and potential solutions at me. That was hard. Every day I had thought I found the _root cause_ and the solution.
 
+- Throw everything away and do something good for the world like becoming a medic
+- Go away for a year and do nothing
+- Become a monk
+- Go back to one of my old jobs. There I know the team and what to expect
+- etc.
+
+Comparing myself with others. Comparison is the death of happiness
+
+Got inactive on social media, deleted the apps. Didn't care
+
+![](/img/mental-health/lonely-road.png#center)
 
 ## Getting Help
 
@@ -119,8 +146,13 @@ Talking openly about my situation.
 
 Get professional help. But how? Before Christmas on such a short notice? THat's not possible.
 
-Luckily I then found instahelp. GOt a session right the next day
+Luckily I then found Instahelp. This is a platform for matching clients with therapist. You'll answer some questions and the platform will suggest a list of therapist to contact. You can decide to chat with them, do audio only or go all-in with a video chat.
 
+Got a session right the next day
+
+After the initial 30 minutes getting to know each other call, we immediately scheduled a session on a weekly sessions. 50 minutes. I've never done something like this before and wasn't sure what I was up to.
+
+I was afraid. What can I tell this stranger? How will it work?
 
 ## Don't Expect a Quick Fix From Others
 
@@ -134,7 +166,7 @@ Because ...
 
 Nobody can and should dictate you what to do. You have to find your own way out of the situation.
 
-Speaking therpy helped. Indentify underlying issues.
+Speaking therapy helped. Identify underlying issues.
 
 It was also really benefical to talk to someone outside of my bubble.
 
@@ -162,14 +194,15 @@ I started to focus on my breath. I started to do breath work sessions...
 
 ... and it worked.
 
-Whenver something is coming up inside me or there's a conflict, I remain calm, take deep breathes and focus on breathing through the belly.
+Whenever something is coming up inside me or there's a conflict, I remain calm, take deep breathes and focus on breathing through the belly.
 
 What a game changer.
+
+It felt like running away something. But running towards what? I didn't know. More success? More money? More things?
 
 ## My Path Forward
 
 ![](/img/mental-health/new-beginning.png#center)
-
 
 I can happily say that each day is a blessing. I'm grateful each morning to wake up and have the opportunity to make the best out of the day.
 
@@ -179,11 +212,13 @@ What else is there to aim for?
 
 I say no way more often now. Without any bad feelings. If something doesn't work for me or does not increase my joy of life, I'm out. Period, no discussion.
 
-Balance
+Balance. My work setup allows for it. Work less for clients, do more that feels right in the current moment. I'm aware that this suggestion might not work for everyone.
 
-I've identitfied and defined three guiding principles for me: Freedom, Harmony and Adventure. Anything that doesn't pay towards it, is not an option.
+Listen closely to myself. I planned to achieve X today but feel more like doing Y? Go for Y and don't feel bad.
 
-Life is both sugar and stryhtcnine. There's ebb and flow. There's good and bad. There's joy and pain. There's light and darkness.
+I've identified and defined three guiding principles for me: Freedom, Harmony and Adventure. Anything that doesn't pay towards it, is not an option.
+
+Life is both sugar and strychnine (check this short from Jim Ron). There's ebb and flow. There's good and bad. There's joy and pain. There's light and darkness.
 
 Dark days. Pretty dark ...
 
