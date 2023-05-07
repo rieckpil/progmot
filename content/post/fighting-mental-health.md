@@ -126,7 +126,7 @@ Constant questions filled my days:
 
 My brain was constantly throwing different reasons and potential solutions at me. That was hard. Every day I had thought I found the _root cause_ and the solution.
 
-- Throw everything away and do something good for the world like becoming a medic
+- Throw everything away and do something good for society like becoming a medic
 - Go away for a year and do nothing
 - Become a monk
 - Go back to one of my old jobs. There I know the team and what to expect
