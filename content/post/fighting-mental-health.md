@@ -1,5 +1,5 @@
 ---
-title: "Fighting Mental Health: My Journey to a Healthier Lifestyle"
+title: "Fighting Mental Health: My Journey to a Healthier Life"
 date: 2023-05-09T08:00:00+02:00
 slug: "/fighting-mental-health-my-journey-to-a-healthier-lifestyle"
 aliases: ["/post/fighting-mental-health-my-journey-to-a-healthier-lifestyle"]
@@ -8,8 +8,8 @@ summary: "TODO"
 description: "TODO"
 cover:
   image: "/img/featured-images/fighting-mental-health-midjourney.png"
-  alt: "Fighting Mental Health: My Journey to a Healthier Lifestyle"
-  caption: "Fighting Mental Health: My Journey to a Healthier Lifestyle"
+  alt: "Fighting Mental Health: My Journey to a Healthier Life"
+  caption: "Fighting Mental Health: My Journey to a Healthier Life"
   relative: false
 keywords: []
 draft: false
@@ -64,7 +64,9 @@ I felt lonely. Working on your own as a lonley wolf. I was looking for a working
 
 (Search for unfog your mind on YouTube).
 
+Mid life ciris? Quater life ciris? Burnout? Depression? I don't know.
 
+In the end, to me it felt like a lot of things coming together with a quarter life crisis.
 
 Started in September 2022, "ended" beginning of 2023
 
@@ -92,7 +94,7 @@ New
 
 I was reading non-ficiton books about personal developemnt for ages. Watching talks of famous speakers like Jim Rohn, Jaes Brown, and Dieter Lange (German only content).
 
-While I knew that "The darkest hour is the hour before sunrise" or "we fail not because of the things but because of our expectations", ... in these particual days there weren't of any help.
+While I knew that "The darkest hour, is the hour before dawn" or "we fail not because of the things but because of our expectations", ... in these particual days there weren't of any help.
 
 What made a lot of fun, fell down like a house of cards.
 
@@ -172,8 +174,13 @@ I say no way more often now. Without any bad feelings. If something doesn't work
 
 Balance
 
+I've identitfied and defined three guiding principles for me: Freedom, Harmony and Adventure. Anything that doesn't pay towards it, is not an option.
+
+
 
 Dark days. Pretty dark ...
+
+Life's a positive sum game. Help each other and swallow your pride.
 
 Have a good one,
 Phil
