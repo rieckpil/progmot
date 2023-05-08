@@ -1,0 +1,4 @@
+{{ $linkText := .Get "text" }}
+{{ $affiliateProgram := .Get "program" }}
+{{ $affiliateProgramLink := index .Site.Data.links $affiliateProgram }}
+<a href='{{ $affiliateProgramLink }}'>{{ $linkText }}*</a>

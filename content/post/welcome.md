@@ -41,3 +41,6 @@ You might not always no the answer yet, but it makes you thinking again about it
 How to set the correct goals when starting with your own blog or online activities.
 
 ... and why being a Software Developer these days is the best thing you can be.
+
+Have a good one,
+Phil

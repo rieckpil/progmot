@@ -588,5 +588,5 @@ If you have further questions or want some more details about a specific topic, 
 
 PS: You can get a copy of the Stratospheric ebook at a discount [here](https://stratospheric.dev/).
 
-Have fun writing your own book,\
-Philip
+Have a good one,
+Phil

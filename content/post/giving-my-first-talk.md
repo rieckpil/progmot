@@ -236,6 +236,6 @@ Let me know how your first public talk experience was in the comments. Also, fee
 
 To many more talks 🚀
 
-Have fun preparing your first talk,\
-Philip
+Have a good one,
+Phil
 

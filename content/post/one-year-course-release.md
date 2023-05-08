@@ -162,19 +162,19 @@ While I've worked through several courses on Udemy and similar platforms myself,
 
 I wanted a lean technical setup that gives me full control over the course and audience.
 
-As my blog is running on WordPress, and I'm heavily using the [Thrive Suite*](https://rieckpil.de/a/thrive-themes), I investigated their online course plugin: Thrive Apprentice.
+As my blog is running on WordPress, and I'm heavily using the {{< affiliate-link text="Thrive Suite" program="thrive" >}}, I investigated their online course plugin: Thrive Apprentice.
 
 With Thrive Apprentice, I could leverage the WordPress user management to have a login area and control access to my course. The visitors also stay on my side, and I have full control over the content.
 
-For [Thrive Apprentice*](https://rieckpil.de/a/thrive-themes), you need both an eCommerce provider, and a video hosting solution.
+For {{< affiliate-link text="Thrive Apprentice" program="thrive" >}}, you need both an eCommerce provider, and a video hosting solution.
 
 For the eCommerce provider, I chose SendOwl, as their features and pricing (my current plan is $26/month) are reasonable.
 
 Once I'd signed up for my SendOwl account, I connected my Stripe and PayPal accounts to have the most common payment options.
 
-Thrive Apprentice supports various video hosting platforms. I went for Vimeo and picked their paid plan for $6/month.
+Thrive Apprentice supports various video hosting platforms. I went for {{< affiliate-link text="Vimeo" program="vimeo" >}} and picked their paid plan for $6/month.
 
-Compared to YouTube, you can add more fine-grained security settings for your videos with Vimeo. This makes unintended downloads and sharing more complicated. The integration with Thrive Apprentice works by simply copying the video link.
+Compared to YouTube, you can add more fine-grained security settings for your videos with {{< affiliate-link text="Vimeo" program="vimeo" >}}. This makes unintended downloads and sharing more complicated. The integration with Thrive Apprentice works by simply copying the video link.
 
 Using these tools, the final workflow to access the Masterclass is as follows:
 
@@ -182,13 +182,13 @@ Using these tools, the final workflow to access the Masterclass is as follows:
 2. Once they click on "Buy Now", they're redirected to a pre-checkout page (on my blog) and have to register a new course account
 3. They're redirected to a SendOwl checkout page and enter their payment information
 4. SendOwl redirects the user to a "Thank You" page on my blog with further information on how to get started
-5. In the background (and if the user gave consent), they're added to my mailing list (Mailchimp), including order information
+5. In the background (and if the user gave consent), they're added to my mailing list ({{< affiliate-link text="Mailchimp" program="mailchimp" >}}), including order information
 6. Once the order is completed, SendOwl sends a webhook to my WordPress instance and Thrive Apprentice grants access to the purchased course
 7. The user can now work with the course and gets a "Welcome" email delivered to their inbox
 
 It took me some test purchases until I had the proper configuration for this setup, but since then, it's working fine.
 
-SendOwl even offers a deep integration with Mailchimp to recover abandoned carts.
+SendOwl even offers a deep integration with {{< affiliate-link text="Mailchimp" program="mailchimp" >}} to recover abandoned carts.
 
 The integration to my main mailing list also helps to segment my audience. I can see if a subscriber has enrolled for the course or got stuck in the checkout.
 
@@ -198,7 +198,7 @@ This helps to send marketing campaigns more efficiently to the right subscribers
 
 ## Selling the Content
 
-Having the course idea and some early lessons uploaded to Vimeo, now it's time to sell the content, isn't it?
+Having the course idea and some early lessons uploaded to {{< affiliate-link text="Vimeo" program="vimeo" >}}, now it's time to sell the content, isn't it?
 
 From a timeline perspective, I first created a minimal version of the landing page, including basic sales copy.
 
@@ -208,7 +208,7 @@ The landing page at this time was the bare minimum (no checkout) and a static si
 
 This pre-landing page also acted as a basic market research opportunity. I used it to validate that the course idea arouses interest. Just because I thought the course topic was valuable, that didn't imply that someone out there was willing to pay for it.
 
-For the [landing page](https://rieckpil.de/testing-spring-boot-applications-masterclass/) I used Thrive Architect, a visual drag-and-drop page editor that is part of the [Thrive Suite*](https://rieckpil.de/a/thrive-themes). I picked one of their ready-to-use landing page templates to get started quickly.
+For the [landing page](https://rieckpil.de/testing-spring-boot-applications-masterclass/) I used Thrive Architect, a visual drag-and-drop page editor that is part of the {{< affiliate-link text="Thrive Suite" program="thrive" >}}. I picked one of their ready-to-use landing page templates to get started quickly.
 
 While I haven't any screenshots of this early version anymore, here's an overview of the final page:
 
@@ -226,7 +226,7 @@ This was enough evidence for me to get started.
 
 To come up with a final price, I used other courses in my niche as an orientation and wanted to stand out with a premium course on this topic. Nothing in the Udemy price level. The first target price that came to my mind and seemed reasonable was $159 for the entire course.
 
-Once the first video lessons were uploaded to Vimeo, I modified the landing page and activated the checkout process.
+Once the first video lessons were uploaded to {{< affiliate-link text="Vimeo" program="vimeo" >}}, I modified the landing page and activated the checkout process.
 
 Paying the full price for the course up front while getting access to a subset of the lessons wasn't a viable strategy. I came up with the idea of early-bird discounts similar to an early access program.
 
@@ -603,5 +603,5 @@ Now it's your turn - go for it and let me know how it worked out!
 
 PS: If you plan to mirror this setup and have further questions, feel free to [reach out](https://twitter.com/rieckpil).
 
-Happy creating,\
-Philip
+Happy a good one,\
+Phil
