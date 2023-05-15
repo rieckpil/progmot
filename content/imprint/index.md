@@ -11,7 +11,7 @@ HideCommentBox: true
 PragmaTech Digital Solutions Philip Riecks\
 c/o WeWork Berlin\
 Warschauer Pl. 11-13\
-10245 Berlin\
+10245 Berlin
 
 ## Contact
 
