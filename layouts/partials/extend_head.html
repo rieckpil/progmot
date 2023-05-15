@@ -5,8 +5,21 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet">
 
-<!-- Plausible -->
-<script defer data-domain="progmot.com" src="https://plausible.io/js/plausible.js"></script>
-<!-- End Plausible Code -->
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setExcludedQueryParams", ["mc_eid","mc_cid","tve_name","email","twclid","customer_email","rdt_cid"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.rieckpil.de/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
 
 <img src="https://vg04.met.vgwort.de/na/{{ .Params.trackingPixel }}" width="1" height="1" alt="">
