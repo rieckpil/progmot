@@ -67,9 +67,10 @@ We herewith advise you that the transmission of data via the Internet (i.e., thr
 
 The data processing controller on this website is:
 
-Philip Riecks\
-Fließstraße 17\
-12439 Berlin
+PragmaTech Digital Solutions Philip Riecks\
+c/o WeWork Berlin\
+Warschauer Pl. 11-13\
+10245 Berlin\
 
 E-mail: philip@progmot.com
 

@@ -8,9 +8,10 @@ HideCommentBox: true
 
 ## Information pursuant to Sect. 5 German Telemedia Act (TMG)
 
-Philip Riecks\
-Fließstraße 17\
-12439 Berlin
+PragmaTech Digital Solutions Philip Riecks\
+c/o WeWork Berlin\
+Warschauer Pl. 11-13\
+10245 Berlin\
 
 ## Contact
 
