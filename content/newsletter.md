@@ -35,4 +35,4 @@ This will be an exclusive newsletter, meaning that I won't publish these updates
 
 If you're interested, join the newsletter below 👇🏻
 
-{{< newsletter-signup >}}
+*this project is paused*
