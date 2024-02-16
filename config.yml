@@ -2,7 +2,7 @@ title: Thoughts About Programming & Motivation
 languageCode: en-us
 paginate: 5
 baseURL: 'https://progmot.com/'
-copyright: '© 2023'
+copyright: '© 2024'
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -64,7 +64,7 @@ params:
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     Content: >
-      I'm Philip, a freelance IT consultant and Indie Hacker from Berlin 🇩🇪
+      I'm Philip, a freelance IT consultant and Indie Hacker from 🇩🇪
 
       - &nbsp;
 
