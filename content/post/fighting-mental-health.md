@@ -224,5 +224,64 @@ Dark days. Pretty dark ...
 
 Life's a positive-sum game. Help each other. Swallow your pride.
 
+
+# it became worse.
+
+
+Trigger
+
+Suicidal thoughts
+
+Somethign that outstanding people might not understand.
+
+Hard to talk about, tell your family you want to end it?
+
+
+
+One quote that helped me a lot:
+
+- "Suicide is a permanent solution to a temporary problem."
+- "Sucide doesn't end the pain, it just transfers it to the person you love"
+- "The darkest hour is the hour before dawn"
+
+Does calender sprüche didn't help much in that situation
+
+You are numb.
+
+Exposing this may not make me more friends, people will put me in a schublade but I'd rather be ignored by many and help at least one person go through it than not
+
+In the end, we are all humans
+
+What helped me, closer to family, Ikigai, sturm und drang phase
+endless comparison
+social media
+
+Get help,
+ there is good help available, it takes time, trust
+therahpy, nothing wrong, our brains are not made for this
+
+Fallback may come, but now way more equipped
+
+
+Agenda:
+ Ausgangslage
+First downer
+Coming back
+Second downer
+Coming back
+Third downer?
+Somethign to adjust, iterate
+
+
+numbness, meaningelss, i was searching for a solution in comments on YouTube
+I wanted to get the answer to this problem from the outside
+But that was a einbahnstraße
+three weeks in tagesklinik
+
+Help by family, friends, therapist, and myself
+While that help sometimes didn't feel like help, it was the best thing that could happen to me
+
+Talk to someone, they will listen and get help!
+
 Have a good one,\
 Phil
