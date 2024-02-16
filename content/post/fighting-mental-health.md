@@ -283,5 +283,9 @@ While that help sometimes didn't feel like help, it was the best thing that coul
 
 Talk to someone, they will listen and get help!
 
+Brain fog, memory loss, no joy in life, no joy in activities, no joy in work, no joy in anything
+Nothing felt right, nothing felt good, nothing felt like it used to be
+No confidence, no self-esteem, no self-wort
+
 Have a good one,\
 Phil
