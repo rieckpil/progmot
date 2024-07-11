@@ -2,7 +2,7 @@
 title: "Making First Place at my Second Hackathon"
 description: "Read about how I made first place at my second Hackathon Digital Tech Summit. For Siemens Healthineers we developed a solution to track medical packages"
 slug: "/making-first-place-at-my-second-hackathon"
-aliases: ["/posts/making-first-place-at-my-second-hackathon"]
+aliases: ["/post/making-first-place-at-my-second-hackathon"]
 author: philip
 date: 2018-10-28T11:00:00+02:00
 ---

@@ -2,7 +2,7 @@
 title: "My First Hackathon - HACK|BAY by ZOLLHOF"
 description: "Read about my first Hackathon: HACK|BAY 2018 in Nuremberg hosted by ZOLLHOF with a InsurTech solution for vehicle registration documents"
 slug: "/my-first-hackathon"
-aliases: ["/posts/my-first-hackathon"]
+aliases: ["/post/my-first-hackathon"]
 author: philip
 date: 2018-07-15T12:51:26+00:00
 ---
